@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "irons_spells_and_spellbooks"
@@ -12,17 +11,3589 @@
 		}
 	}
 	id: "40F9E477CEC77C75"
+	images: [
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "irons_spellbooks:block/arcane_debris_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/deepslate/rough_deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/energized_core_energy"
+			rotation: 60.0d
+			width: 0.16666666666666666d
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			height: 1.2d
+			image: "relics:textures/gui/description/cards/holy_locket/belief_holy.png"
+			rotation: 0.0d
+			width: 0.8275862068965517d
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/pure_darkness"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "goety:textures/painting/eldritch.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 1.4d
+			image: "netherexp:block/ancient_fire_0"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.2d
+			image: "cataclysm:block/melting_netherrack_2"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "goety_cataclysm:item/abyss_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/defeat_brainiac.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 0.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "4DB9001ED039990E"
-		tasks: [{
-			id: "4338CA25D3F3542A"
-			item: "irons_spellbooks:inscription_table"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 2.0d
-	}]
+	quests: [
+		{
+			description: [
+				"So you have found your first spell and you want to become a powerful wizard?"
+				"&5Iron's Spells and Spellbooks&r is just the right place for that."
+				"You'll cast a plethora of utility and damage dealing spells across your magical carrer."
+				""
+				"These &escrolls&r are frail and will be consumed if you use them directly."
+				"That won't do... There must be a less barbaric way of casting."
+				""
+				"&7Chapter Credit: Dark_Reaper115&r"
+			]
+			id: "5161C98079099E9B"
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "4D5B8112F7B9E8A2"
+				item: "irons_spellbooks:scroll"
+				match_nbt: false
+				title: "Any Magical Scroll"
+				type: "item"
+			}]
+			title: "Wizard Beginnings"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5161C98079099E9B"]
+			description: [
+				"Equip a &espellbook&r in your &eSpellbook Curio Slot&r and that will allow you to access your spells with a few &lkeybinds&r."
+				"&o(Personal preference is holding &lX&r to open the spell selection wheel and pressing &lR&r to cast the selected spell. You can also assign keybinds directly to a spell slot.)&r"
+			]
+			icon_scale: 0.75d
+			id: "791BEBC41E54EE77"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Eureka!"
+			tasks: [{
+				id: "23D50C13F3CE4E1C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:copper_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 5
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:iron_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Wizard's First Spellbook"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: [
+				"Now that you have your &espellbook&r in your &ecurio slot&r, you can access it from the &eInscription Table&r."
+				"Simply place your prefered spell in the input slot, select which spell slot you want that spell to go into, and save it."
+				"You can also remove spells by selecting it on the right and taking it out."
+			]
+			id: "2406A8BE1889B68A"
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Preperred spellcasting was never cooler"
+			tasks: [{
+				id: "23516E5A824DBB2D"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"There's 5 &eink&r rarities:"
+				"&7Common&r"
+				"&2Uncommon&r"
+				"&3Rare&r"
+				"&5Epic&r"
+				"and &6<wave>Legendary&r"
+				""
+				"Can be found in random chests, dropped by &5Iron's Spells&r enemies, and crafted from lower tier &einks&r.&e"
+			]
+			id: "38485FF144506F44"
+			tasks: [{
+				id: "461985041258E475"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:common_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:uncommon_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:rare_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:epic_ink"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:legendary_ink"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Inks"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"38485FF144506F44"
+				"2406A8BE1889B68A"
+			]
+			description: [
+				"The &eSpell Forge&r allows you to create your own spells &escrolls&r."
+				"All spells requiere some &eink&r (higher rarity &einks&r result in more powerful spells), a piece of &epaper&r, and finally some &emagic school focus&r."
+				"To see a full list of the &emagic school focuses&r, I recommand looking up the uses of the Spell Forge in JEI. Some examples are &eBlaze Rods&r for fire, &eDivine Pearl&r for Holy, and &ePoisonus Potato&r for Nature..."
+			]
+			id: "411641ED457A2ADF"
+			subtitle: "Write that down! Write that down!"
+			tasks: [{
+				id: "34F25B2740E4EEE2"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: ["Dropped by &cAncient Knights&r. They can be found in &7Pyromancer Towers&r in the Overworld or more abundantly in &7Ancient Battlegrounds&r in the Nether."]
+			id: "1C871AAD3C2A1AAC"
+			tasks: [{
+				id: "74D716796B517B4C"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1C871AAD3C2A1AAC"
+				"2406A8BE1889B68A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Inventory clogged with extra spells you'll never use?"
+				"Say no more. This &ecauldron&r allows you to destroy the worthless spells and (sometimes) get &eink&r in return."
+				"Additionally, you can brew &epotions&r and even combine &eink&r from a rarity to get a better rarity one."
+			]
+			id: "6CF3B99E5AAC1CD8"
+			rewards: [
+				{
+					count: 4
+					id: "0DBBDDDF6B2F310C"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "299D4001F1584DBA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CACAF7DE23CF9C0"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2406A8BE1889B68A"]
+			description: [
+				"The &eArcane Anvil&r has a few uses:"
+				"First of all it let's you level up your spells with higher rarity &eink&r. Usually it's cheaper to make a higher level version with the &eSpell Forge&r but certain spell can only get to their highest potential this way."
+				"{@pagebreak}"
+				"The &eArcane Anvil&r also allows you to imbue one spell into a sword, helmet, or chestplate. Essentially you are getting +1 spell slot while holding/wearing said item."
+				"{@pagebreak}"
+				"The final function is to apply &eupgrade orbs&r to armor pieces, staves, and spellbooks. You can apply up to 3 &eupgrade orbs&r per item. These upgrade orbs can grant all sorts of bonuses like spell power, cooldown reduction, maximum mana, cast time speed, etc..."
+			]
+			id: "6124AFF9384A9288"
+			tasks: [{
+				id: "7199204729030BD5"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Exclusively obtained from looting chests, every single piece of &eArcane Essence&r is important. Eventually you'll need &nLOTS&r of this to make your fancy &earmors&r and &eupgrades&r."]
+			id: "3F80B9468B60FA62"
+			tasks: [{
+				id: "522608CA9EE4588A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3F80B9468B60FA62"]
+			description: [
+				"Your very first armor set."
+				"Cheap. Reliable. Cheap."
+				"Better than leather, for sure."
+			]
+			id: "672773DD7379C83C"
+			subtitle: "\"I put on my robe and wizard hat\""
+			tasks: [
+				{
+					id: "39D47D113244D93A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ACA47FD7447B9CF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67A0A217E4A2B165"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B49E325A0EB1965"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician Set"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71F301DD88440949"]
+			description: ["Improved defense and maximum mana while looking stylish."]
+			id: "1BD6D6FB76B036EB"
+			subtitle: "I should put one of these in my farm"
+			tasks: [
+				{
+					id: "755E6E09020C8CC2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18733227DA148BE9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7014661435B860ED"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AC5A2085521476A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scarecrow Armor Set"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F80B9468B60FA62"]
+			description: [
+				"Base material for most armor sets and a few other items."
+				"Hope you've been collecting &3Arcane Essence&r."
+			]
+			id: "71F301DD88440949"
+			tasks: [{
+				id: "2C395725E5AD8143"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71F301DD88440949"]
+			description: ["So far so good... but generic armors aren't good enough. Let's look into some &eclass armor sets&r."]
+			id: "1216AEB3FB47642F"
+			shape: "hexagon"
+			tasks: [{
+				id: "6417FB916F795EAF"
+				title: "Better Armors"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "61467A50E6599B8E"
+			subtitle: "For those looking to be a jack-of-all-trades... or some extra defense"
+			tasks: [
+				{
+					id: "743F2BB7EDA9695E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00FC351DD9A91436"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "066255AD74512546"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08FD38E193A68A0B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battle Mage"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: ["Alright! You are getting the hang of spellcasting but it's kinda sad if you only prepare a few spells in your &espellbook.&r Let's look into some options."]
+			id: "79E22E61B3D7F832"
+			shape: "hexagon"
+			tasks: [{
+				id: "19C47F0AE90F64E6"
+				title: "Better Spellbooks"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"189A7A4E7CF3BC1D"
+				"7199204729030BD5"
+			]
+			description: ["Improve any &espellbook&r with less than 12 slots &eup to 12 slots&r. It's like teaching a new trick to an old dog."]
+			id: "7D22052197562BE7"
+			subtitle: "You'll need an arcane anvil to apply these to your spellbooks"
+			tasks: [{
+				id: "5F9CC9E7A58D16DB"
+				item: "irons_spellbooks:lesser_spell_slot_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "0939857CA799C325"
+			subtitle: "Gross... How long was this sitting here?"
+			tasks: [{
+				id: "35CCD3BE2975DC8C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0939857CA799C325"]
+			description: [
+				"\"Your clothes are so clean they look new... And there's a vaguely floral smell about them...\""
+				"{image:botania:block/light_blue_shiny_flower width:50 height:50 align:center}"
+				"{@pagebreak}"
+				"&6&lWARNING:&r&r If you are about to craft this &espellbook&r, &4&lDO NOT DO IT&r&r until you take all your precious &espells&r out. If you don't, they will be gone and become part of a rats nest. &nNot kidding&r. I learned that the hard way. Twice... T_T"
+				""
+				"{image:incubation:item/twig_nest width:50 height:50 align:center}"
+			]
+			id: "6119C2E5E4265ECA"
+			tasks: [{
+				id: "2D7552C09672ED3C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C291600402C8DFF"]
+			description: ["For those Wizards looking for even more customization. Can be upgraded with &emodifiers&r just like other &5Tinker's Construct&r items."]
+			id: "31B611FEFBAE1625"
+			tasks: [{
+				id: "7C62E1887F30A1D2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructs_casting:tinkerers_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 6
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+									etstlib_tool_uuid: "4c8f133d-13db-4352-8d46-9a6160580aee"
+									tic_modifiers: [
+										{
+											level: 1
+											name: "constructs_casting:cooldown_upgrade"
+										}
+										{
+											level: 1
+											name: "constructs_casting:mana_upgrade"
+										}
+									]
+									tic_persistent: { }
+									tic_stats: { }
+									tic_volatile_data: {
+										upgrades: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "constructs_casting:plated_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+									etstlib_tool_uuid: "c9647966-5e66-4173-b4ec-3ae1987429f3"
+									tic_modifiers: [{
+										level: 2
+										name: "constructs_casting:mana_upgrade"
+									}]
+									tic_persistent: { }
+									tic_stats: { }
+									tic_volatile_data: {
+										upgrades: 1
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tinkerer's New Best Friend"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["189A7A4E7CF3BC1D"]
+			id: "572D2B8856683A55"
+			subtitle: "Faster casting"
+			tasks: [{
+				id: "4F9CF5F59EA69EA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["189A7A4E7CF3BC1D"]
+			id: "7C291600402C8DFF"
+			subtitle: "More maximum mana. Mmm..."
+			tasks: [{
+				id: "457129B61E98BE6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			description: ["Once you get into &4The Nether&r, go hunt some &cHoglins&r and you'll have plenty materials for some upgrades."]
+			id: "189A7A4E7CF3BC1D"
+			tasks: [{
+				id: "487958EBD67B066B"
+				item: "irons_spellbooks:hogskin"
+				type: "item"
+			}]
+			title: "Hoglin's Bane"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79E22E61B3D7F832"
+				"26E27FB78FB855CE"
+			]
+			description: ["Whether you like it or not, this &eRuined Book&r holds immerse dormant power and you'll have to delve deep into the &7Ancient Cities&r if you wish to procure one for yourself. It's far too damaged to be used as is, so you might need a few more materials to make it into something usable."]
+			id: "6386336D053F9860"
+			tasks: [{
+				id: "68D9B6502F9CEFAF"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6386336D053F9860"]
+			id: "13CB39609AFF3183"
+			tasks: [{
+				id: "2C94BFBB47336629"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6386336D053F9860"]
+			id: "7D0F713675FD3E26"
+			subtitle: "Even more cooldown"
+			tasks: [{
+				id: "3BDCCCDEA397D9AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"68D9B6502F9CEFAF"
+				"596943F35C9D8838"
+			]
+			id: "3A6F48EC9F27BBBF"
+			subtitle: "\"Release the kraken!\""
+			tasks: [{
+				id: "34A7D0391D5CBDD2"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:abyss_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22355C3503FEFBA9"]
+			description: ["Go inside the Arch &7Evoker's Fort&r, steal their &eResearch Jounal&r."]
+			id: "7318D5424E5FC659"
+			tasks: [{
+				id: "3BC2141E9812603E"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"2:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"14:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"31:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"73:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\",\"font\":\"illageralt\"}]"
+						]
+						resolved: 1b
+						title: ""
+						untranslatedLogbook: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22355C3503FEFBA9"]
+			description: ["Comes with &e3 Evoker themed spells&r by default."]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:evoker_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 6
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:fang_ward"
+								index: 1
+								level: 4
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:summon_vex"
+								index: 2
+								level: 4
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "45FF6736776E1293"
+			tasks: [
+				{
+					entity: "irons_spellbooks:archevoker"
+					id: "2E66D794A6324A2E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "74D209F8EEC65E2A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:evoker_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [
+									{
+										id: "irons_spellbooks:fang_strike"
+										index: 0
+										level: 6
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:fang_ward"
+										index: 1
+										level: 4
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:summon_vex"
+										index: 2
+										level: 4
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Grimoire of Evokation"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "22355C3503FEFBA9"
+			subtitle: "Found in Overworld. Usually in forest or plains biomes."
+			tasks: [{
+				id: "5E082763C8F777A5"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			title: "Find an Evoker's Fort"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7318D5424E5FC659"]
+			description: [
+				"Hopefully you can find a &2captured Wandering Trader&r by the &cEvoker&r who can translate their &eresearch journal&r."
+				"(Low chance to spawn in each &7Evoker's Fort&r)"
+			]
+			id: "68A61D5731BE9529"
+			subtitle: "Have some emeralds ready... it won't be cheap"
+			tasks: [{
+				id: "4955F09461006559"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.translated_archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"2:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"14:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"31:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"73:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\"}]"
+						]
+						resolved: 1b
+						title: ""
+						translatedLogbook: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68A61D5731BE9529"]
+			description: ["Finally, take the &eTranslated Research Journal&r to a &2Priest Villager&r (randomly spawns in &7villages&r, always wearing their white &epriest armor set&r) who will give you back a &eVillager Bible&r."]
+			id: "520230ECA591D440"
+			rewards: [{
+				auto: "enabled"
+				command: "/execute at {p} run summon firework_rocket {x} {y} {z} {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:0,Colors:[I;14602026],FadeColors:[I;15435844]},{Type:2,Flicker:1,Trail:1,Colors:[I;15790320],FadeColors:[I;11250603]}]}}}}"
+				console: true
+				icon: "artifacts:cross_necklace"
+				id: "48FCFB3082C2FA33"
+				team_reward: true
+				title: "Trully Devoted"
+				type: "command"
+			}]
+			tasks: [{
+				id: "339D42B1957EEF4C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Final Step!!"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			id: "3842F005B53954E9"
+			subtitle: "Follow the whispers..."
+			tasks: [{
+				id: "14A69FDDEB3AC841"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: {
+						isInInventory: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3842F005B53954E9"]
+			description: ["Use the &eWayward Compass&r to locate &7The Catacombs&r, the &cDead King's&r underground domain. Be ready for plenty of &cenemies&r."]
+			id: "19702CD2611FF444"
+			tasks: [{
+				id: "26FF7AD5C051925A"
+				structure: "irons_spellbooks:catacombs"
+				title: "The Dead King's Domain"
+				type: "structure"
+			}]
+			title: "&fThe&r &cDead King's&r domain"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19702CD2611FF444"]
+			description: ["The &cDead King&r has chance to drop his powerful &eNecronomicon&r. This &espellbook&r has a few spells bound to it and cannot be removed. He also has a chance to drop &eThe Blood Staff&r as well."]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+				tag: {
+					ISBEnhance: "irons_spellbooks:raise_dead"
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "2921A570605D144F"
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+					id: "33F5BC92D589D597"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6D7E4DEC29A433F8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+						tag: {
+							ISBEnhance: "irons_spellbooks:raise_dead"
+							ISB_Spells: {
+								data: [
+									{
+										id: "irons_spellbooks:blood_slash"
+										index: 0
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blood_step"
+										index: 1
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:ray_of_siphoning"
+										index: 2
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blaze_storm"
+										index: 3
+										level: 5
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "485EAFC73D475213"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+			]
+			title: "Prying it from his cold dead hands"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			description: ["If you are looking for a very straight forward way to get a new &espellbook&r, go kill some &cblazes&r and that's it. Couldn't be easier. Chances are you'll be needing them for plenty other quests."]
+			id: "0659F0E3AAD283DB"
+			tasks: [{
+				id: "1C32B61EE2552559"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"1C32B61EE2552559"
+			]
+			id: "610F9506DF1E25D7"
+			subtitle: "\"SuperNOVA!!!\""
+			tasks: [{
+				id: "6EE8BF851BB795BE"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:ignis_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0659F0E3AAD283DB"
+				"7D0F713675FD3E26"
+				"6386336D053F9860"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&5Cataclysm: Spellbooks&r is an add-on for &5Iron's Spells and Spellbooks&r and &5L_Ender 's Cataclysm&r which adds &eover 50 new spells&r, including the &eabyssal magic school&r based on &cThe Leviathan&r boss, and the &eTechnomancy school&r based on &cThe Harvinger&r, among other goodies."]
+			id: "596943F35C9D8838"
+			shape: "hexagon"
+			tasks: [{
+				id: "5E98B8555C634B83"
+				title: "Cataclysmic Upgrades"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"3BDCCCDEA397D9AC"
+			]
+			id: "093DC44B304B6197"
+			subtitle: "Not to be confused with AE2's Disc Drives"
+			tasks: [{
+				id: "03F65EA96B031FBB"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:disc_driver"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						az_id: [I;
+							93143809
+							1149519364
+							-2075882725
+							-1870978571
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"596943F35C9D8838"
+				"3BDCCCDEA397D9AC"
+			]
+			id: "1CD6127C4A6A8606"
+			subtitle: "Sheer cold"
+			tasks: [{
+				id: "63B8A7368BCAACE2"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:codex_of_malice_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			description: ["Mixed class bonuses for both &eNature&r and &eHoly&r spells"]
+			id: "51AFBD5D228DC0AD"
+			tasks: [{
+				id: "0707066A871BF6EF"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:desert_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "cataclysm_spellbooks:monolith_crash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:desert_winds"
+									index: 1
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:sandstorm"
+									index: 2
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:thoths_witness"
+									index: 3
+									level: 1
+									locked: 1b
+								}
+								{
+									id: "cataclysm_spellbooks:pharaohs_wrath"
+									index: 4
+									level: 3
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C291600402C8DFF"]
+			description: ["The &5Alshanex Familiars mod&r adds a &esound based magic school&r and plenty of spells on top of multiple &2familiars&r can you can find in the wild, tame, and bring with you in your journeys to help you with buffs and fighting."]
+			id: "4C16CCFE24538F0F"
+			tasks: [{
+				id: "7625D641A9ABE596"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alshanex_familiars:sound_spell_book"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "alshanex_familiars:familiar_spellbook"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 10
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Alshanex Familiars"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79E22E61B3D7F832"]
+			description: ["The &cIllager raids&r are stronger than ever and you can adquiere some of their powers with these brand new &espellbooks&r"]
+			id: "746FDCADDE8671C7"
+			tasks: [{
+				id: "65912DA520AE43C2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ias_spellbooks:magispellers_legacy"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "ias_spellbooks:restorative_rain"
+											index: 0
+											level: 5
+											locked: 1b
+										}]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "ias_spellbooks:book_of_dark_mutations"
+								tag: {
+									ISB_Spells: {
+										data: [
+											{
+												id: "ias_spellbooks:dragline"
+												index: 0
+												level: 10
+												locked: 1b
+											}
+											{
+												id: "ias_spellbooks:pumpkin_spice"
+												index: 1
+												level: 3
+												locked: 1b
+											}
+										]
+										maxSpells: 12
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Illage and Spell-age&r"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "0A2E4B027C2D4E89"
+			subtitle: "\"I don't care how big the room is... I cast FIREBALL!\""
+			tasks: [
+				{
+					id: "29D76A41E5AA5A69"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B6EFDDF2E8F0C4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "455A2E990D97D78B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "291E62FE0086ADF2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pyromancer Set"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "5B762FA514B5B0B7"
+			subtitle: "\"Unlimited POWAH!\""
+			tasks: [
+				{
+					id: "6ECFAC6FAF1D11B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C582667C597F9FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C53BA1623DE7655"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "113B241187FA1F8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Electromancer Set"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "72BD166F099189C3"
+			subtitle: "\"The cold never bothered me anyway\""
+			tasks: [
+				{
+					id: "3575BC49CF5E619A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E487C062A38121C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D983B0E13D1C205"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75CC29B8D2EFC0D8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cryomancer Set"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "58121A43860BB58E"
+			subtitle: "\"♫Dori me. Interino, adapare. Dori me.♪♪\""
+			tasks: [
+				{
+					id: "352B87E3928EE712"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD3F30EE36833B4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD2AB5095B486F3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4808BB270D01E69E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Priest Set"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "00EBB727A88EB250"
+			subtitle: "To beat your enemy, you must think like your enemy."
+			tasks: [
+				{
+					id: "5E36D464E90594C1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34693B4B12079ECE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2858B81A50A6F696"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70CA36877DCFF0EF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Archevoker Set"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "0D0D5A8C053108B6"
+			subtitle: "No blood sacrifices neccesary"
+			tasks: [
+				{
+					id: "2ACC3D4B267088B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6177EC04E9DCD137"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "476FE421CF0A82C0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584C41FB2A4370E8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cultist Set"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "398CE06286B1C4FA"
+			subtitle: "\"I am the night.\""
+			tasks: [
+				{
+					id: "63603CB3A956ECA1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B8088E27C196C3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76BC0554A83D22E7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F86B0DBB639B056"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shadow-Walker Set"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			description: [""]
+			id: "0E52BCB347EA69D4"
+			subtitle: "You heard pick your poison and you took that literally."
+			tasks: [
+				{
+					id: "6D6C55346FB76981"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7802489BB196BE45"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495A2316FE50CE27"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50C6997992B78F77"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plagued Set"
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "6307C2D852A06C6D"
+			subtitle: "Told you programming is 90% magic"
+			tasks: [
+				{
+					id: "2C7803FD3DC72A3D"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_hood"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F6537BB924D135F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_suit"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E6039F0AB3CE014"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041D05FFB1782564"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Engineer's Set"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1216AEB3FB47642F"]
+			id: "04207C5166746AA9"
+			subtitle: "What lurks beneath the cold dark ocean?"
+			tasks: [
+				{
+					id: "7A4AD0AD48A2EB8F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "643342856FC3EBAB"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2502CF0C51B4114C"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12A05B74ECE0BF52"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:abyssal_warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Abyssal Warlock Set"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: ["Secret item with amazing magical properties as long as you don't mind dealing less damage with regular weapons."]
+			id: "0BA637D13CD55D39"
+			invisible: true
+			shape: "embellish"
+			tasks: [{
+				id: "6A000CEE0A90C182"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			description: ["Secret item only dropped by &can specific vindicator&r at &7Evoker Forts&r. Makes you stronger against magical attacks."]
+			id: "179604D9C5B62CDD"
+			invisible: true
+			shape: "embellish"
+			tasks: [{
+				id: "09BDA1212C69BEE2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:magehunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["Secret weapon. Only dropped."]
+			id: "1912962C1011132E"
+			invisible: true
+			shape: "embellish"
+			tasks: [{
+				id: "722E7F70CAFA89F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"483F44B451C33BCD"
+				"0DD6705B00E9AFBE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Most of these &ecurios&r can be looted from chests or crafted."]
+			id: "652FD4B14D238A98"
+			tasks: [{
+				id: "7F6CD11294971BFA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "irons_spellbooks:salvageable_curio"
+					}
+				}
+				type: "item"
+			}]
+			title: "Stronger Curios"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["791BEBC41E54EE77"]
+			description: ["Early on getting any extra &emana regen&r or &ecooldown&r might just save your life in combat."]
+			id: "483F44B451C33BCD"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "74D13704F39517C8"
+					item: "irons_spellbooks:amethyst_resonance_charm"
+					type: "item"
+				}
+				{
+					id: "680BE8D20BF8DC15"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "4864B2F3FAB92E22"
+					item: "cataclysm_spellbooks:engineers_power_glove"
+					type: "item"
+				}
+			]
+			title: "Early Additions"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "32F8BBE78DE29AB1"
+			subtitle: "You'll need a Netherite level pickaxe to mine this."
+			tasks: [{
+				id: "6189A8A1EE58BA68"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32F8BBE78DE29AB1"]
+			id: "0DD6705B00E9AFBE"
+			tasks: [{
+				id: "6DF5DFF7A40719D9"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			title: "Blast it all!"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DD6705B00E9AFBE"]
+			id: "74F5F04E6FA27AE2"
+			subtitle: "This weapons come with one preset spell"
+			tasks: [{
+				id: "4C4E3029A2D9348B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:spellbreaker"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:counterspell"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:amethyst_rapier"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:echoing_strikes"
+											index: 0
+											level: 5
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Imbued Weapons"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DD6705B00E9AFBE"]
+			id: "7DED1D9228E96F78"
+			subtitle: "Crafting material only"
+			tasks: [{
+				id: "77B860B3561BBAFB"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7DED1D9228E96F78"
+				"7199204729030BD5"
+			]
+			description: ["You can apply &eup to three orbs&r per piece of valid equipment (each armor piece, weapon, staff, spellbook). You'll an &eArcane Anvil&r to apply said orbs."]
+			id: "6C34C9D1465FE1BD"
+			shape: "pentagon"
+			tasks: [{
+				id: "4C32145F5C4511D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:mana_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:cooldown_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:protection_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "alshanex_familiars:sound_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:abyssal_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:technomancy_upgrade_orb"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade Orbs"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "41DFE43E0B58AF45"
+			invisible: true
+			shape: "embellish"
+			subtitle: "You chose correctly"
+			tasks: [{
+				id: "5F24C76275C92FAD"
+				item: {
+					Count: 1
+					id: "mce2lib:amethyst_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["483F44B451C33BCD"]
+			id: "128D84A63C435A60"
+			tasks: [{
+				id: "46BD87ACA3F74D51"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_rod"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_staff"
+							}
+							{
+								Count: 1b
+								id: "constructs_casting:eldritch_staff"
+								tag: {
+									Damage: 0
+									etstlib_tool_uuid: "5311b919-b40f-4c75-9602-74abe937f1e5"
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											level: 1
+											name: "constructs_casting:casting"
+										}
+										{
+											level: 3
+											name: "constructs_casting:eldritch_upgrade"
+										}
+									]
+									tic_persistent: { }
+									tic_stats: {
+										"tconstruct:block_amount": 20.0f
+										"tconstruct:block_angle": 50.0f
+										"tconstruct:durability": 1337.0f
+										"tconstruct:use_item_speed": 0.4f
+									}
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:artificer_cane"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:bloom_stone_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:coral_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:fake_wudjets_staff"
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:void_staff"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Stronger Staves"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4864B2F3FAB92E22"
+				"596943F35C9D8838"
+			]
+			id: "0081D9957EA24E30"
+			tasks: [{
+				id: "30471C2D23A10688"
+				item: "cataclysm_spellbooks:gauntlet_of_power"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0081D9957EA24E30"]
+			description: ["Each comes with &etheir own unique spell&r."]
+			id: "26896BF9AB3215D1"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "640582A4A0CF9CDB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_berserker"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:cryopiercer"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										1759895114
+										-1736622031
+										-1568030423
+										93399168
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_nightstalker"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:hemorrhaging_impact"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										-1187695001
+										2019904996
+										-1442723206
+										901967454
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "cataclysm_spellbooks:the_combuster"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "cataclysm_spellbooks:scorched_earth"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+									az_id: [I;
+										-1877031900
+										-1585166455
+										-1573549546
+										-561808420
+									]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Are these even swords anymore?!"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26E27FB78FB855CE"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "0356B766CA690404"
+			invisible: true
+			subtitle: "\"Thanks, builder. I couldn't have done it without you.\""
+			tasks: [{
+				id: "427D9927F1B500AE"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0356B766CA690404"]
+			hide_until_deps_complete: true
+			id: "49073179F0027BE8"
+			subtitle: "\"You are alone, builder. There is only darkness for you, and only death for your people. These ancients are just the beginning. I will command a great and terrible army, and we will sail to a billion worlds. We will sail until every light has been extinguished. You are strong, builder, but I am beyond strength. I am the end, and I have come for you, Steve.\""
+			tasks: [{
+				id: "0EC0DF0885863C1B"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "3494B5D849D4B12D"
+			subtitle: "\"Did you bring the book? ... Yes, one step closer.\""
+			tasks: [{
+				id: "120F313970457FB5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sculk_tentacles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EC0DF0885863C1B"]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "702EC9AB336D097B"
+			subtitle: "\"Aren't you cold, Steve?\""
+			tasks: [{
+				id: "502C7E021D4EDF69"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sonic_boom"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "3E9F898263F43E80"
+			subtitle: "\"The book, builder. Give me the book. Quickly. We are running out of time.\""
+			tasks: [{
+				id: "5C802D2A8BBD9D67"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:planar_sight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EC0DF0885863C1B"]
+			hide_until_deps_complete: true
+			id: "4F88EE8B3595F2B9"
+			subtitle: "\"The ice wizard is a weak fool\""
+			tasks: [{
+				id: "2EFB316889168E9A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:telekinesis"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49073179F0027BE8"]
+			hide_until_deps_complete: true
+			id: "163D3C747DE3F930"
+			subtitle: "\"No, it's all true. The book has great power. I can make you live... forever. Anything you want... Just give me that book.\""
+			tasks: [{
+				id: "48FA67503E92BCC8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:eldritch_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["702EC9AB336D097B"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "3348E55D55B04088"
+			optional: true
+			size: 0.1d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				icon: "irons_spellbooks:invisibility_ring"
+				id: "26486BACBD4F1F97"
+				secret: true
+				title: "?"
+				type: "questsadditions:time"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F88EE8B3595F2B9"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "689EFD254DB11F90"
+			optional: true
+			size: 0.1d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				icon: "irons_spellbooks:invisibility_ring"
+				id: "0B75E2491531A261"
+				secret: true
+				title: "??"
+				type: "questsadditions:time"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0E52BCB347EA69D4"
+				"5E98B8555C634B83"
+			]
+			id: "762B2615C1363CFA"
+			subtitle: "Crab people?"
+			tasks: [
+				{
+					id: "0175B136765E387E"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_hat"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5854312ACC65C9EE"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6744A9A14CFFC3D1"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1211CC3D5527CFEE"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:bloom_stone_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bloom Stone Set"
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"61467A50E6599B8E"
+				"5E98B8555C634B83"
+			]
+			id: "2F75F33FD87EFBC9"
+			subtitle: "Harness the blazing power of Ignis"
+			tasks: [
+				{
+					id: "439A3242ADA4EEEC"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54091AC2D6C579A3"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58AB8CEDA0F38AE0"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEE403668F2DCF3"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ignis Mage Set"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"61467A50E6599B8E"
+				"5E98B8555C634B83"
+			]
+			id: "6F34286FE36682B0"
+			subtitle: "Harness the spectral power of Maledictus"
+			tasks: [
+				{
+					id: "6020DEEBFEDED9B9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_circlet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E5AEAAC590F72D7"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0AC7330F2D1745"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28A8BBB105CCC6E4"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:cursium_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium Mage Set"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1216AEB3FB47642F"
+				"5E98B8555C634B83"
+			]
+			description: ["Mixed armor set for both &eNature&r and &eHoly&r Spells"]
+			id: "4032CE8B8F2B34C9"
+			tasks: [
+				{
+					id: "4A9FC3DE8D7222E9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BECCD30F839E95"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA5DF859CD3AE32"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "452EC1ABE555E775"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:pharaoh_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pharaoh Sacred Set"
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"6307C2D852A06C6D"
+				"5E98B8555C634B83"
+			]
+			description: ["The Excelsius armor set comes in 3 different flavors but these two pieces are your base."]
+			id: "3C56C4B7860A192F"
+			subtitle: "\"We have technology\""
+			tasks: [
+				{
+					id: "0F977C6CF613B3CB"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45EFC5208869D0E9"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Excelsius Propulsion"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			id: "071933CFB7B89499"
+			optional: true
+			rewards: [
+				{
+					id: "7FA7EABD72EE92ED"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_resist_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-1537982130
+								-651277884
+								-1730452424
+								-1891275561
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C43A47B5E5DADDF"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_resist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1583533341
+								-18921319
+								-1273536144
+								-1261226989
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "2E23CA1131B8CA9D"
+					item: "cataclysm_spellbooks:excel_upgrade_resistence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7A1DE248BDB8485A"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_hood"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "25F0012FE1DBA772"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "410E1D07F77C0604"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_suit"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Excelsius Oppresor"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			id: "2A4DAD96C671699F"
+			optional: true
+			rewards: [
+				{
+					id: "01BF0149AD14D86C"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_power_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1366853545
+								-1336063048
+								-1178999860
+								1497436762
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DC192377CB350A4"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_power_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1543632080
+								-1129821231
+								-1540498541
+								84229808
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "3BAB047D28C05172"
+					item: { Count: 2, id: "cataclysm_spellbooks:excel_upgrade_mana" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5EF8CBA4F20DEB91"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_hood"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4ECCBBDE7FA577E9"
+					item: { Count: 2, id: "cataclysm:witherite_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2EEF06643E03908F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_suit"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Excelsius Adversary"
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C56C4B7860A192F"]
+			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			id: "453C732510938EA2"
+			optional: true
+			rewards: [
+				{
+					id: "595665B5F4E0E740"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_speed_visors"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								1272863832
+								-427408744
+								-1189364101
+								-1706905888
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185AF737D326B294"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:excelsius_speed_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								-1117972010
+								-1290647760
+								-1526746407
+								273204886
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "75A708942BD1E4E6"
+					item: { Count: 2, id: "cataclysm_spellbooks:excel_upgrade_cooldown" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C066F2B8BB0B9AD"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_hood"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7D41CA91A4D798F3"
+					item: { Count: 2, id: "cataclysm:witherite_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "327E538815D0B33F"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:engineer_suit"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Excelsius Velocity"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"In your journey to become a great wizard, you might find plenty of random magical &escrolls&r."
+				"It would be wise to keep them since they can always be useful or eventually you will get a way to recycle them for &eink&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bundle"
+				tag: {
+					enchant: 1b
+					soulbound: 1b
+				}
+			}
+			id: "3F37D498C09BBC06"
+			subtitle: "Bundles are a great early way to hoard spells"
+			tasks: [{
+				id: "654A6DAF6692B890"
+				title: "Great!"
+				type: "checkmark"
+			}]
+			title: "Bundles are actually good?"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Keep an eye out for some handy spells for traveling like &eAngel Wings&r combined with &eBurning Dash&r, &eTeleport&r, &eBlood Step&r, &eFrost Step&r, etc..."]
+			icon: "minecraft:compass"
+			id: "610AEBCEEFADCAFD"
+			tasks: [{
+				id: "36DA4F4A1FF2C775"
+				title: "Will do"
+				type: "checkmark"
+			}]
+			title: "Iron's is all about exploration"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"All spells scale with your spell power, generic or class specific."
+				"However, there's a few spells that also base their power of your current held weapon."
+				"Those would be &eDivine Strike&r and &eFlaming Strike&r. A berserker's best friend."
+			]
+			icon: "dreadsteel:dreadsteel_scythe"
+			id: "010F4C671F424CAD"
+			subtitle: "Hmm... I think I suddenly need a BIG scythe"
+			tasks: [{
+				id: "0B28BEA79245FC40"
+				title: "Hack'n'Slash"
+				type: "checkmark"
+			}]
+			title: "Magical Might"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You'll need &eBlank Runes&r in order to craft &eclass runes&r for better armor."
+				"Your main source of them is either looting random chests or finding &7locations&r with some &2friendly NPCs&r to trade for maps that will point you to other &7points of interest&r or some &cfearsome foes&r that you'll have to defeat.}"
+				"Keep in mind you can craft &erunes&r with a &eShriving Stone&r to clean the elemental magic of rune and turn them backl to &eBlank Runes&r"
+				""
+				"&oNOTE: The &7Ancient Battleground&r is located in &4The Nether&r. (Careful with those &cbig guys&r)&r"
+			]
+			icon: "irons_spellbooks:furled_map"
+			id: "3EDB8D8AD5C605FB"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "16C3F05B45F8B0B7"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18E82F7DD5D50A89"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34982CF9C0CB8AEB"
+					structure: "irons_spellbooks:evoker_fort"
+					type: "structure"
+				}
+				{
+					id: "5CB1CC6E8B0AE0A6"
+					structure: "irons_spellbooks:impaled_icebreaker"
+					type: "structure"
+				}
+				{
+					id: "6E7EA5772631DD82"
+					structure: "irons_spellbooks:mangrove_hut"
+					type: "structure"
+				}
+				{
+					id: "7FCC5FFDA3A8B7A8"
+					structure: "irons_spellbooks:pyromancer_tower"
+					type: "structure"
+				}
+				{
+					id: "09792507CDF47F7C"
+					structure: "irons_spellbooks:mountain_tower"
+					type: "structure"
+				}
+				{
+					id: "11622E369BD544F8"
+					structure: "irons_spellbooks:ancient_battleground"
+					type: "structure"
+				}
+			]
+			title: "Locations, locations, locations..."
+			x: 3.0d
+			y: -6.0d
+		}
+	]
 	title: "&6Iron's Spells and Spellbooks"
 }
