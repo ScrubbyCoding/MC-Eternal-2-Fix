@@ -313,6 +313,7 @@
 						]
 					}
 				}
+				title: "Any Ink"
 				type: "item"
 			}]
 			title: "Inks"
@@ -701,6 +702,7 @@
 			dependencies: ["7C291600402C8DFF"]
 			description: ["For those Wizards looking for even more customization. Can be upgraded with &emodifiers&r just like other &5Tinker's Construct&r items."]
 			id: "31B611FEFBAE1625"
+			subtitle: "Craft any Construct's Casting Spellbook"
 			tasks: [{
 				id: "7C62E1887F30A1D2"
 				item: {
@@ -761,6 +763,7 @@
 						]
 					}
 				}
+				title: "Any Construct's Casting Spellbook"
 				type: "item"
 			}]
 			title: "Tinkerer's New Best Friend"
@@ -980,6 +983,7 @@
 			tasks: [
 				{
 					entity: "irons_spellbooks:archevoker"
+					icon: "irons_spellbooks:archevoker_spawn_egg"
 					id: "2E66D794A6324A2E"
 					type: "kill"
 					value: 1L
@@ -1421,6 +1425,7 @@
 			dependencies: ["7C291600402C8DFF"]
 			description: ["The &5Alshanex Familiars mod&r adds a &esound based magic school&r and plenty of spells on top of multiple &2familiars&r can you can find in the wild, tame, and bring with you in your journeys to help you with buffs and fighting."]
 			id: "4C16CCFE24538F0F"
+			subtitle: "Craft any Alshanex Familiars Spellbook"
 			tasks: [{
 				id: "7625D641A9ABE596"
 				item: {
@@ -1455,6 +1460,7 @@
 						]
 					}
 				}
+				title: "Any Alshanex Familiars Spellbook"
 				type: "item"
 			}]
 			title: "Alshanex Familiars"
@@ -1517,6 +1523,7 @@
 						]
 					}
 				}
+				title: "Any Illage and Spell-age Spellbook"
 				type: "item"
 			}]
 			title: "&5Illage and Spell-age&r"
@@ -2216,6 +2223,7 @@
 						value: "irons_spellbooks:salvageable_curio"
 					}
 				}
+				title: "Any Iron Spell's curio"
 				type: "item"
 			}]
 			title: "Stronger Curios"
@@ -2321,6 +2329,7 @@
 						]
 					}
 				}
+				title: "Any Imbued Weapon"
 				type: "item"
 			}]
 			title: "Imbued Weapons"
@@ -2413,9 +2422,10 @@
 						]
 					}
 				}
+				title: "Any Upgrade Orb"
 				type: "item"
 			}]
-			title: "Upgrade Orbs"
+			title: "Any Upgrade Orb"
 			x: 9.0d
 			y: -3.0d
 		}
@@ -2509,6 +2519,7 @@
 						]
 					}
 				}
+				title: "Any Staff"
 				type: "item"
 			}]
 			title: "Stronger Staves"
@@ -2535,6 +2546,7 @@
 			id: "26896BF9AB3215D1"
 			shape: "octagon"
 			size: 1.25d
+			subtitle: "Craft any Subjugator upgrade"
 			tasks: [{
 				id: "640582A4A0CF9CDB"
 				item: {
@@ -2614,6 +2626,7 @@
 						]
 					}
 				}
+				title: "Any Subjugator Upgrade"
 				type: "item"
 			}]
 			title: "Are these even swords anymore?!"
@@ -3150,14 +3163,13 @@
 			y: -11.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			description: ["The &eExcelsius Oppresor&r variant focuses on &eSpell Resistance&r."]
 			id: "071933CFB7B89499"
-			optional: true
-			rewards: [
+			subtitle: "\"This world... is an illusion...\""
+			tasks: [
 				{
-					id: "7FA7EABD72EE92ED"
+					id: "12F9A781AD079D3A"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_resist_visors"
@@ -3170,17 +3182,17 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								-1537982130
-								-651277884
-								-1730452424
-								-1891275561
+								-1089979770
+								2026262428
+								-1517263357
+								141965110
 							]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "7C43A47B5E5DADDF"
+					id: "63E23BABCDD1BE18"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_resist_chestplate"
@@ -3193,63 +3205,11 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								1583533341
-								-18921319
-								-1273536144
-								-1261226989
+								1823268083
+								1498303799
+								-1076579254
+								1017913712
 							]
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "2E23CA1131B8CA9D"
-					item: "cataclysm_spellbooks:excel_upgrade_resistence"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7A1DE248BDB8485A"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_hood"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "25F0012FE1DBA772"
-					item: "cataclysm:witherite_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "410E1D07F77C0604"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_suit"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
 						}
 					}
 					type: "item"
@@ -3260,14 +3220,13 @@
 			y: -11.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			description: ["The &eExcelsius Adversary&r variant focuses on &eMaximum Mana&r"]
 			id: "2A4DAD96C671699F"
-			optional: true
-			rewards: [
+			subtitle: "Become the mana reservoir"
+			tasks: [
 				{
-					id: "01BF0149AD14D86C"
+					id: "6E568B99E3FEE314"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_power_visors"
@@ -3280,17 +3239,17 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								1366853545
-								-1336063048
-								-1178999860
-								1497436762
+								-456599528
+								76171145
+								-1996667143
+								-1846923967
 							]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "0DC192377CB350A4"
+					id: "0621BE564C3DE9F2"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_power_chestplate"
@@ -3303,63 +3262,11 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								1543632080
-								-1129821231
-								-1540498541
-								84229808
+								1891656486
+								-231914601
+								-1844039549
+								-339030171
 							]
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "3BAB047D28C05172"
-					item: { Count: 2, id: "cataclysm_spellbooks:excel_upgrade_mana" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "5EF8CBA4F20DEB91"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_hood"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "4ECCBBDE7FA577E9"
-					item: { Count: 2, id: "cataclysm:witherite_ingot" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2EEF06643E03908F"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_suit"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
 						}
 					}
 					type: "item"
@@ -3370,14 +3277,13 @@
 			y: -13.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["These Smithing Table recipes are bugged and will crash your game. Use this quest or alternative recipes to get your armor."]
+			description: ["The &eExcelsius Velocity&r variant focuses on &eCooldown Reduction&r."]
 			id: "453C732510938EA2"
-			optional: true
-			rewards: [
+			subtitle: "The power... It's accelerating. I can't stop casting!!!"
+			tasks: [
 				{
-					id: "595665B5F4E0E740"
+					id: "45D32EDE7FCA8614"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_speed_visors"
@@ -3390,17 +3296,17 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								1272863832
-								-427408744
-								-1189364101
-								-1706905888
+								-2101685039
+								-1452719135
+								-2133443310
+								-1345072032
 							]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "185AF737D326B294"
+					id: "111763EB44DD8F39"
 					item: {
 						Count: 1
 						id: "cataclysm_spellbooks:excelsius_speed_chestplate"
@@ -3413,63 +3319,11 @@
 								spellWheel: 1b
 							}
 							az_id: [I;
-								-1117972010
-								-1290647760
-								-1526746407
-								273204886
+								-229606238
+								1030047222
+								-1559514956
+								-29486473
 							]
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "75A708942BD1E4E6"
-					item: { Count: 2, id: "cataclysm_spellbooks:excel_upgrade_cooldown" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0C066F2B8BB0B9AD"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_hood"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "7D41CA91A4D798F3"
-					item: { Count: 2, id: "cataclysm:witherite_ingot" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "327E538815D0B33F"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:engineer_suit"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
 						}
 					}
 					type: "item"
@@ -3592,6 +3446,23 @@
 			]
 			title: "Locations, locations, locations..."
 			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Not even a secret... you might not even realize you just got this item."
+				"Hard to keep track of for sure."
+			]
+			id: "5B5E134C19341572"
+			invisible: true
+			shape: "embellish"
+			subtitle: "For real..."
+			tasks: [{
+				id: "6E54F41545F865CC"
+				item: "irons_spellbooks:invisibility_ring"
+				type: "item"
+			}]
+			x: 11.0d
 			y: -6.0d
 		}
 	]
