@@ -1225,7 +1225,7 @@
 			subtitle: "Obtain &eCobalt Ore"
 			tasks: [{
 				id: "4C74EE2F8C1AFD91"
-				item: "tconstruct:cobalt_ore"
+				item: "tconstruct:raw_cobalt"
 				type: "item"
 			}]
 			title: "&eAcquire Nether Hardware"
