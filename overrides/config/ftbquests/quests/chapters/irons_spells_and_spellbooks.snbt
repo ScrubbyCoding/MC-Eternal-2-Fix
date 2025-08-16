@@ -18,7 +18,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -4.0d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			height: 1.2d
@@ -26,7 +26,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -4.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			height: 1.2d
@@ -34,7 +34,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -5.0d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			height: 1.2d
@@ -42,7 +42,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -5.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			height: 1.2d
@@ -50,7 +50,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -5.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			height: 1.2d
@@ -58,7 +58,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -4.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			height: 1.2d
@@ -66,7 +66,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -3.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			height: 1.2d
@@ -74,103 +74,385 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: -3.0d
-			y: -3.0d
-		}
-		{
-			height: 1.2d
-			image: "chipped:block/deepslate/rough_deepslate"
-			rotation: 0.0d
-			width: 1.2d
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "irons_spellbooks:item/energized_core_energy"
-			rotation: 60.0d
-			width: 0.16666666666666666d
-			x: 7.0d
 			y: -6.0d
 		}
 		{
 			height: 1.2d
-			image: "relics:textures/gui/description/cards/holy_locket/belief_holy.png"
+			image: "chipped:block/deepslate/rough_deepslate"
 			rotation: 0.0d
-			width: 0.8275862068965517d
-			x: 9.0d
-			y: -8.0d
-		}
-		{
-			height: 1.0d
-			image: "alexscaves:item/pure_darkness"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.5d
-			y: -11.5d
+			width: 1.2d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			height: 2.0d
-			image: "goety:textures/painting/eldritch.png"
+			image: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.0d
-			y: 1.0d
+			x: -1.050000000000047d
+			y: -2.5622448979591823d
 		}
 		{
-			height: 1.4d
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.8785714285713837d
+			y: -2.597959183673467d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.264285714285755d
+			y: -0.062244897959175205d
+		}
+		{
+			height: 3.0d
+			image: "goety:textures/painting/eldritch.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
 			image: "netherexp:block/ancient_fire_0"
 			rotation: 0.0d
-			width: 1.2d
-			x: 6.0d
-			y: 9.0d
+			width: 4.0d
+			x: 14.12857142857142d
+			y: 12.449319727891137d
 		}
 		{
-			height: 1.2d
+			height: 2.0d
 			image: "cataclysm:block/melting_netherrack_2"
 			rotation: 0.0d
-			width: 1.2d
-			x: 6.0d
-			y: 10.0d
+			width: 2.0d
+			x: 13.264285714285705d
+			y: 14.971428571428575d
 		}
 		{
-			height: 1.0d
+			height: 6.0d
 			image: "goety_cataclysm:item/abyss_essence"
 			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: 9.5d
+			width: 6.0d
+			x: 34.0d
+			y: 15.0d
+		}
+		{
+			height: 2.0d
+			image: "alexscaves:textures/misc/advancement/icon/defeat_brainiac.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.68571428571429d
+			y: 2.838435374149661d
+		}
+		{
+			height: 10.0d
+			image: "cataclysm_spellbooks:item/upgrade_orb_technomancy"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.7119047619047834d
+			y: -18.25d
+		}
+		{
+			height: 2.0d
+			image: "tconstruct:gui/tinker_pattern/button_repair"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.9785714285714775d
+			y: 14.294897959183679d
+		}
+		{
+			height: 2.0d
+			image: "alshanex_familiars:item/upgrade_orb_sound"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.7758503401360457d
+			y: 13.997959183673458d
+		}
+		{
+			height: 0.4d
+			image: "relics:item/fragrant_flower"
+			rotation: 0.0d
+			width: 0.4d
+			x: 5.226785714285683d
+			y: 10.5107142857143d
 		}
 		{
 			height: 1.0d
-			image: "alexscaves:textures/misc/advancement/icon/defeat_brainiac.png"
+			image: "chipped:block/acacia_leaves/magenta_flower_acacia_leaves"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
-			y: 0.0d
+			x: 4.292091836734663d
+			y: 11.767857142857132d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_oak_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.120663265306092d
+			y: 11.767857142857132d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/witch_hazel/stripped_log"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.377806122448959d
+			y: 13.367857142857133d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/witch_hazel/stripped_log"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.03494897959181d
+			y: 13.339285714285701d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_dark_oak_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.120663265306099d
+			y: 12.539285714285704d
+		}
+		{
+			height: 1.0d
+			image: "immersive_weathering:block/chipped/heavy_magenta_flower_jungle_leaf_pile"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.377806122448959d
+			y: 12.567857142857136d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/planter_side_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.29209183673467d
+			y: 14.053571428571423d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/planter_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.149234693877531d
+			y: 14.053571428571423d
+		}
+		{
+			height: 4.0d
+			image: "cofh_core:textures/mob_effect/cold_resistance.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 29.06020408163267d
+			y: 14.779931972789107d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/melting_netherrack_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.98571428571428d
+			y: 14.992176870748274d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:icons/controller"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.985714285714288d
+			y: 14.4471088435374d
+		}
+		{
+			height: 3.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.985714285714273d
+			y: 13.197108843537436d
+		}
+		{
+			height: 3.0d
+			image: "minecolonies:textures/entity_icon/raiders/pharao.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.985714285714273d
+			y: 14.625680272108859d
+		}
+		{
+			height: 3.0d
+			image: "minecolonies:item/pharaoh_scepter"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.0d
+			y: 16.0d
+		}
+		{
+			height: 4.0d
+			image: "pneumaticcraft:textures/render/minigun_crosshair.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm_spellbooks:textures/gui/spell_icons/conjure_amethyst_crab.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: -24.0d
+		}
+		{
+			height: 2.0d
+			image: "alshanex_familiars:item/upgrade_orb_swirl_sound"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.8044217687074706d
+			y: 13.997959183673458d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_fire"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_ice"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.840136054421748d
+			y: -9.940136054421757d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.128571428571426d
+			y: -10.13095238095238d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_holy"
+			rotation: 0.0d
+			width: 4.0d
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:item/upgrade_orb_evocation"
+			rotation: 0.0d
+			width: 5.0d
+			x: 18.330952380952404d
+			y: -16.98809523809524d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_blood"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.411564625850318d
+			y: -13.797278911564618d
+		}
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_ender"
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.0d
+			y: -21.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/crystallized_coral"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -20.0d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:item/ancient_metal_nugget"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.0d
+			y: -20.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/poisonous_potato"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/poison.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.664285714285732d
+			y: -21.20238095238095d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:item/poison_bottle"
+			rotation: -135.0d
+			width: 2.0d
+			x: 11.378571428571448d
+			y: -21.964285714285708d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm_spellbooks:item/technomancy_rune"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.950000000000031d
+			y: -17.05952380952381d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.0095238095238415d
+			y: -13.03061224489796d
+		}
+		{
+			height: 3.0d
+			image: "crust:textures/icon/portal_nether.png"
+			order: -2
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/particle/ignis_explode_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/entity/maledictus/phantom_arrow.png"
+			rotation: 90.0d
+			width: 3.0d
+			x: 3.295238095238119d
+			y: -12.566326530612244d
 		}
 	]
 	order_index: 4
@@ -188,6 +470,13 @@
 				"&7Chapter Credit: Dark_Reaper115&r"
 			]
 			id: "5161C98079099E9B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "36AAF87752E10115"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				consume_items: false
@@ -209,6 +498,53 @@
 			]
 			icon_scale: 0.75d
 			id: "791BEBC41E54EE77"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "717B331ADB889A2C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0FC0BB727AAE38BF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Eureka!"
@@ -249,8 +585,8 @@
 				type: "item"
 			}]
 			title: "Wizard's First Spellbook"
-			x: 2.0d
-			y: 0.0d
+			x: 5.069047619047566d
+			y: 0.009183673469372877d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
@@ -260,6 +596,13 @@
 				"You can also remove spells by selecting it on the right and taking it out."
 			]
 			id: "2406A8BE1889B68A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "44F8C666B450F7D7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "pentagon"
 			size: 1.0d
 			subtitle: "Preperred spellcasting was never cooler"
@@ -268,7 +611,7 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -283,6 +626,21 @@
 				"Can be found in random chests, dropped by &5Iron's Spells&r enemies, and crafted from lower tier &einks&r.&e"
 			]
 			id: "38485FF144506F44"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7E8F70DF4D5A999B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 4
+					id: "503E84220BF4E32E"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "461985041258E475"
 				item: {
@@ -317,8 +675,8 @@
 				type: "item"
 			}]
 			title: "Inks"
-			x: 4.0d
-			y: -1.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -331,25 +689,80 @@
 				"To see a full list of the &emagic school focuses&r, I recommand looking up the uses of the Spell Forge in JEI. Some examples are &eBlaze Rods&r for fire, &eDivine Pearl&r for Holy, and &ePoisonus Potato&r for Nature..."
 			]
 			id: "411641ED457A2ADF"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "4F45AB090F5EF69C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0767B0CE723D4DA4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Write that down! Write that down!"
 			tasks: [{
 				id: "34F25B2740E4EEE2"
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			description: ["Dropped by &cAncient Knights&r. They can be found in &7Pyromancer Towers&r in the Overworld or more abundantly in &7Ancient Battlegrounds&r in the Nether."]
+			icon: "irons_spellbooks:cinder_essence"
 			id: "1C871AAD3C2A1AAC"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "14DDDBFEAF88DC53"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "74D716796B517B4C"
 				item: "irons_spellbooks:cinder_essence"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -375,14 +788,59 @@
 					item: "minecraft:copper_ingot"
 					type: "item"
 				}
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "6A98925BC26517C7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "720F7FE3B3175582"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5CACAF7DE23CF9C0"
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2406A8BE1889B68A"]
@@ -395,24 +853,38 @@
 				"The final function is to apply &eupgrade orbs&r to armor pieces, staves, and spellbooks. You can apply up to 3 &eupgrade orbs&r per item. These upgrade orbs can grant all sorts of bonuses like spell power, cooldown reduction, maximum mana, cast time speed, etc..."
 			]
 			id: "6124AFF9384A9288"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "580B4FC26490D4BE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "7199204729030BD5"
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
 			description: ["Exclusively obtained from looting chests, every single piece of &eArcane Essence&r is important. Eventually you'll need &nLOTS&r of this to make your fancy &earmors&r and &eupgrades&r."]
 			id: "3F80B9468B60FA62"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "412E9E1E0C7119CE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "522608CA9EE4588A"
 				item: "irons_spellbooks:arcane_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: -4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3F80B9468B60FA62"]
@@ -422,6 +894,13 @@
 				"Better than leather, for sure."
 			]
 			id: "672773DD7379C83C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2FE6F9C7CA59E1C1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"I put on my robe and wizard hat\""
 			tasks: [
 				{
@@ -470,13 +949,20 @@
 				}
 			]
 			title: "Wandering Magician Set"
-			x: 0.0d
-			y: -5.0d
+			x: -4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["71F301DD88440949"]
 			description: ["Improved defense and maximum mana while looking stylish."]
 			id: "1BD6D6FB76B036EB"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:coins"
+				id: "6ACD8EA5815A4F1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "I should put one of these in my farm"
 			tasks: [
 				{
@@ -525,8 +1011,8 @@
 				}
 			]
 			title: "Scarecrow Armor Set"
-			x: 2.0d
-			y: -5.0d
+			x: 0.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3F80B9468B60FA62"]
@@ -535,30 +1021,82 @@
 				"Hope you've been collecting &3Arcane Essence&r."
 			]
 			id: "71F301DD88440949"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1826C290B2160CF6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2C395725E5AD8143"
 				item: "irons_spellbooks:magic_cloth"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 0.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["71F301DD88440949"]
 			description: ["So far so good... but generic armors aren't good enough. Let's look into some &eclass armor sets&r."]
 			id: "1216AEB3FB47642F"
+			rewards: [{
+				id: "3B14201475B20484"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						Enchantments: [{
+							id: "ars_nouveau:reactive"
+							lvl: 1
+						}]
+						HideFlags: 33
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"text\":\"§eQuest Loot\"}"
+						}
+						item_stack_owner: [I;
+							-1743009176
+							-448117200
+							-1885164842
+							210784931
+						]
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:rainbow_rune"
+						}
+						rpgloot.randomize: 0b
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6417FB916F795EAF"
 				title: "Better Armors"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: 12.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "61467A50E6599B8E"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "0E4D91F798D697B5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "For those looking to be a jack-of-all-trades... or some extra defense"
 			tasks: [
 				{
@@ -613,8 +1151,8 @@
 				}
 			]
 			title: "Netherite Battle Mage"
-			x: 2.0d
-			y: -9.0d
+			x: 7.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
@@ -626,8 +1164,8 @@
 				title: "Better Spellbooks"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -636,6 +1174,13 @@
 			]
 			description: ["Improve any &espellbook&r with less than 12 slots &eup to 12 slots&r. It's like teaching a new trick to an old dog."]
 			id: "7D22052197562BE7"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "55DE766FF5AE931B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "You'll need an arcane anvil to apply these to your spellbooks"
 			tasks: [{
 				id: "5F9CC9E7A58D16DB"
@@ -643,11 +1188,18 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			id: "0939857CA799C325"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "47B9E565BB0C775D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Gross... How long was this sitting here?"
 			tasks: [{
 				id: "35CCD3BE2975DC8C"
@@ -665,8 +1217,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0939857CA799C325"]
@@ -679,6 +1231,54 @@
 				"{image:incubation:item/twig_nest width:50 height:50 align:center}"
 			]
 			id: "6119C2E5E4265ECA"
+			rewards: [
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "1F888A475211FDE4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "5BAB13CC1ACCF328"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2D7552C09672ED3C"
 				item: {
@@ -695,13 +1295,20 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7C291600402C8DFF"]
 			description: ["For those Wizards looking for even more customization. Can be upgraded with &emodifiers&r just like other &5Tinker's Construct&r items."]
 			id: "31B611FEFBAE1625"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "54EBFF50FF5BB66F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft any Construct's Casting Spellbook"
 			tasks: [{
 				id: "7C62E1887F30A1D2"
@@ -768,11 +1375,18 @@
 			}]
 			title: "Tinkerer's New Best Friend"
 			x: -2.0d
-			y: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["189A7A4E7CF3BC1D"]
 			id: "572D2B8856683A55"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3CAD1A984D1B0860"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Faster casting"
 			tasks: [{
 				id: "4F9CF5F59EA69EA0"
@@ -791,11 +1405,18 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["189A7A4E7CF3BC1D"]
 			id: "7C291600402C8DFF"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "37F41D14F2BA3D78"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "More maximum mana. Mmm..."
 			tasks: [{
 				id: "457129B61E98BE6A"
@@ -814,12 +1435,68 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["79E22E61B3D7F832"]
+			dependencies: [
+				"79E22E61B3D7F832"
+				"2E93490E1274F9F3"
+			]
 			description: ["Once you get into &4The Nether&r, go hunt some &cHoglins&r and you'll have plenty materials for some upgrades."]
 			id: "189A7A4E7CF3BC1D"
+			rewards: [
+				{
+					count: 2
+					id: "7931436ABB0C4470"
+					item: "irons_spellbooks:hogskin"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "188CBEBA0734CC43"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D795A82749477C9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "487958EBD67B066B"
 				item: "irons_spellbooks:hogskin"
@@ -827,7 +1504,7 @@
 			}]
 			title: "Hoglin's Bane"
 			x: -1.0d
-			y: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -836,17 +1513,71 @@
 			]
 			description: ["Whether you like it or not, this &eRuined Book&r holds immerse dormant power and you'll have to delve deep into the &7Ancient Cities&r if you wish to procure one for yourself. It's far too damaged to be used as is, so you might need a few more materials to make it into something usable."]
 			id: "6386336D053F9860"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2126C3CAF02E4311"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0117FA1E6FA737FF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "68D9B6502F9CEFAF"
 				item: "irons_spellbooks:ruined_book"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6386336D053F9860"]
 			id: "13CB39609AFF3183"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "4B6E81780775DC09"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2C94BFBB47336629"
 				item: {
@@ -863,12 +1594,19 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 15.100000000000001d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6386336D053F9860"]
 			id: "7D0F713675FD3E26"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "6F2AC8C81F90AC2B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Even more cooldown"
 			tasks: [{
 				id: "3BDCCCDEA397D9AC"
@@ -886,15 +1624,63 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 13.1d
+			y: 7.0d
 		}
 		{
 			dependencies: [
 				"68D9B6502F9CEFAF"
 				"596943F35C9D8838"
 			]
+			description: ["Crafted by offering a &eRuined Book&r in an &eAltar of Amethyst Blessing&r. Found in the &7Sunken City&r."]
 			id: "3A6F48EC9F27BBBF"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "4BBF5C6AE2E5AA82"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C0E02A72137DEF3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "\"Release the kraken!\""
 			tasks: [{
 				id: "34A7D0391D5CBDD2"
@@ -912,13 +1698,20 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 34.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["22355C3503FEFBA9"]
 			description: ["Go inside the Arch &7Evoker's Fort&r, steal their &eResearch Jounal&r."]
 			id: "7318D5424E5FC659"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "29F5A08285758FDE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "3BC2141E9812603E"
 				item: {
@@ -942,11 +1735,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["22355C3503FEFBA9"]
+			dependencies: ["2D6744F825F58CF4"]
 			description: ["Comes with &e3 Evoker themed spells&r by default."]
 			icon: {
 				Count: 1
@@ -980,57 +1773,62 @@
 				}
 			}
 			id: "45FF6736776E1293"
-			tasks: [
-				{
-					entity: "irons_spellbooks:archevoker"
-					icon: "irons_spellbooks:archevoker_spawn_egg"
-					id: "2E66D794A6324A2E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "74D209F8EEC65E2A"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:evoker_spell_book"
-						tag: {
-							ISB_Spells: {
-								data: [
-									{
-										id: "irons_spellbooks:fang_strike"
-										index: 0
-										level: 6
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:fang_ward"
-										index: 1
-										level: 4
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:summon_vex"
-										index: 2
-										level: 4
-										locked: 1b
-									}
-								]
-								maxSpells: 10
-								mustEquip: 1b
-								spellWheel: 1b
-							}
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6A84F115F97D3294"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "74D209F8EEC65E2A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "Grimoire of Evokation"
-			x: 4.0d
-			y: 6.0d
+			x: 7.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			id: "22355C3503FEFBA9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "72BBB93BB9737B54"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Found in Overworld. Usually in forest or plains biomes."
 			tasks: [{
 				id: "5E082763C8F777A5"
@@ -1038,8 +1836,8 @@
 				type: "structure"
 			}]
 			title: "Find an Evoker's Fort"
-			x: 4.0d
-			y: 4.0d
+			x: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7318D5424E5FC659"]
@@ -1048,6 +1846,13 @@
 				"(Low chance to spawn in each &7Evoker's Fort&r)"
 			]
 			id: "68A61D5731BE9529"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2A0386FD8BE2977F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Have some emeralds ready... it won't be cheap"
 			tasks: [{
 				id: "4955F09461006559"
@@ -1072,23 +1877,71 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["68A61D5731BE9529"]
 			description: ["Finally, take the &eTranslated Research Journal&r to a &2Priest Villager&r (randomly spawns in &7villages&r, always wearing their white &epriest armor set&r) who will give you back a &eVillager Bible&r."]
 			id: "520230ECA591D440"
-			rewards: [{
-				auto: "enabled"
-				command: "/execute at {p} run summon firework_rocket {x} {y} {z} {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:0,Colors:[I;14602026],FadeColors:[I;15435844]},{Type:2,Flicker:1,Trail:1,Colors:[I;15790320],FadeColors:[I;11250603]}]}}}}"
-				console: true
-				icon: "artifacts:cross_necklace"
-				id: "48FCFB3082C2FA33"
-				team_reward: true
-				title: "Trully Devoted"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at {p} run summon firework_rocket {x} {y} {z} {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:0,Colors:[I;14602026],FadeColors:[I;15435844]},{Type:2,Flicker:1,Trail:1,Colors:[I;15790320],FadeColors:[I;11250603]}]}}}}"
+					console: true
+					icon: "artifacts:cross_necklace"
+					id: "48FCFB3082C2FA33"
+					team_reward: true
+					title: "Trully Devoted"
+					type: "command"
+				}
+				{
+					amount: 300L
+					currency: "eternalcurrencies:coins"
+					id: "59AC00D03C38CB81"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "46E19C4D97718954"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "339D42B1957EEF4C"
 				item: {
@@ -1106,12 +1959,19 @@
 				type: "item"
 			}]
 			title: "Final Step!!"
-			x: 3.0d
-			y: 8.0d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			id: "3842F005B53954E9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "71D5A9CD03FBC06E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Follow the whispers..."
 			tasks: [{
 				id: "14A69FDDEB3AC841"
@@ -1124,13 +1984,20 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 11.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3842F005B53954E9"]
 			description: ["Use the &eWayward Compass&r to locate &7The Catacombs&r, the &cDead King's&r underground domain. Be ready for plenty of &cenemies&r."]
 			id: "19702CD2611FF444"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7F4677D135E36231"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "26FF7AD5C051925A"
 				structure: "irons_spellbooks:catacombs"
@@ -1138,115 +2005,20 @@
 				type: "structure"
 			}]
 			title: "&fThe&r &cDead King's&r domain"
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["19702CD2611FF444"]
-			description: ["The &cDead King&r has chance to drop his powerful &eNecronomicon&r. This &espellbook&r has a few spells bound to it and cannot be removed. He also has a chance to drop &eThe Blood Staff&r as well."]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:necronomicon_spell_book"
-				tag: {
-					ISBEnhance: "irons_spellbooks:raise_dead"
-					ISB_Spells: {
-						data: [
-							{
-								id: "irons_spellbooks:blood_slash"
-								index: 0
-								level: 5
-								locked: 1b
-							}
-							{
-								id: "irons_spellbooks:blood_step"
-								index: 1
-								level: 5
-								locked: 1b
-							}
-							{
-								id: "irons_spellbooks:ray_of_siphoning"
-								index: 2
-								level: 5
-								locked: 1b
-							}
-							{
-								id: "irons_spellbooks:blaze_storm"
-								index: 3
-								level: 5
-								locked: 1b
-							}
-						]
-						maxSpells: 10
-						mustEquip: 1b
-						spellWheel: 1b
-					}
-				}
-			}
-			id: "2921A570605D144F"
-			tasks: [
-				{
-					entity: "irons_spellbooks:dead_king"
-					icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
-					id: "33F5BC92D589D597"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "6D7E4DEC29A433F8"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:necronomicon_spell_book"
-						tag: {
-							ISBEnhance: "irons_spellbooks:raise_dead"
-							ISB_Spells: {
-								data: [
-									{
-										id: "irons_spellbooks:blood_slash"
-										index: 0
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:blood_step"
-										index: 1
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:ray_of_siphoning"
-										index: 2
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:blaze_storm"
-										index: 3
-										level: 5
-										locked: 1b
-									}
-								]
-								maxSpells: 10
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "485EAFC73D475213"
-					item: "irons_spellbooks:blood_staff"
-					type: "item"
-				}
-			]
-			title: "Prying it from his cold dead hands"
-			x: 5.0d
-			y: 8.0d
+			x: 11.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			description: ["If you are looking for a very straight forward way to get a new &espellbook&r, go kill some &cblazes&r and that's it. Couldn't be easier. Chances are you'll be needing them for plenty other quests."]
 			id: "0659F0E3AAD283DB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0FFC23F73731E867"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1C32B61EE2552559"
 				item: {
@@ -1263,15 +2035,63 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"596943F35C9D8838"
 				"1C32B61EE2552559"
 			]
+			description: ["Crafted with &eIgnitium Ingots&r dropped from &4Ignis&r."]
 			id: "610F9506DF1E25D7"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "613B93BB34C55581"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "740B62C81EB365C2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "\"SuperNOVA!!!\""
 			tasks: [{
 				id: "6EE8BF851BB795BE"
@@ -1289,17 +2109,14 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 14.0d
+			y: 13.0d
 		}
 		{
-			dependencies: [
-				"0659F0E3AAD283DB"
-				"7D0F713675FD3E26"
-				"6386336D053F9860"
-			]
+			dependencies: ["79E22E61B3D7F832"]
 			dependency_requirement: "one_completed"
 			description: ["&5Cataclysm: Spellbooks&r is an add-on for &5Iron's Spells and Spellbooks&r and &5L_Ender 's Cataclysm&r which adds &eover 50 new spells&r, including the &eabyssal magic school&r based on &cThe Leviathan&r boss, and the &eTechnomancy school&r based on &cThe Harvinger&r, among other goodies."]
+			hide_dependency_lines: true
 			id: "596943F35C9D8838"
 			shape: "hexagon"
 			tasks: [{
@@ -1307,15 +2124,63 @@
 				title: "Cataclysmic Upgrades"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 24.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"596943F35C9D8838"
 				"3BDCCCDEA397D9AC"
 			]
+			description: ["Crafted with a &eStrange Disc&r dropped from &4The Harvinger&r."]
 			id: "093DC44B304B6197"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "612AA09B80FA476A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "697F51F8BAAEB92F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Not to be confused with AE2's Disc Drives"
 			tasks: [{
 				id: "03F65EA96B031FBB"
@@ -1339,15 +2204,63 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 19.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
 				"596943F35C9D8838"
 				"3BDCCCDEA397D9AC"
 			]
+			description: ["Crafted with &eCursium Ingots&r dropped from &4Maledectus&r."]
 			id: "1CD6127C4A6A8606"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "084301B41A26EBF9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2590F44B70A62159"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Sheer cold"
 			tasks: [{
 				id: "63B8A7368BCAACE2"
@@ -1365,12 +2278,64 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.0d
+			x: 29.0d
+			y: 13.0d
 		}
 		{
-			description: ["Mixed class bonuses for both &eNature&r and &eHoly&r spells"]
+			dependencies: ["596943F35C9D8838"]
+			description: [
+				"Mixed class bonuses for both &eNature&r and &eHoly&r spells"
+				""
+				"Dropped from the &4Ancient Remnant&r boss."
+			]
 			id: "51AFBD5D228DC0AD"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "6626E3379E6484CE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6DADD250DEBE3492"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0707066A871BF6EF"
 				item: {
@@ -1418,13 +2383,23 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 24.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["7C291600402C8DFF"]
-			description: ["The &5Alshanex Familiars mod&r adds a &esound based magic school&r and plenty of spells on top of multiple &2familiars&r can you can find in the wild, tame, and bring with you in your journeys to help you with buffs and fighting."]
+			dependencies: [
+				"7C291600402C8DFF"
+				"60D2F8A46F9CAFBF"
+			]
+			description: [""]
 			id: "4C16CCFE24538F0F"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "28B1858B95C2CAE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft any Alshanex Familiars Spellbook"
 			tasks: [{
 				id: "7625D641A9ABE596"
@@ -1463,14 +2438,21 @@
 				title: "Any Alshanex Familiars Spellbook"
 				type: "item"
 			}]
-			title: "Alshanex Familiars"
+			title: "The Music and the Critters"
 			x: 0.0d
-			y: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			description: ["The &cIllager raids&r are stronger than ever and you can adquiere some of their powers with these brand new &espellbooks&r"]
 			id: "746FDCADDE8671C7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "76FA46E76D9437E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "65912DA520AE43C2"
 				item: {
@@ -1528,7 +2510,7 @@
 			}]
 			title: "&5Illage and Spell-age&r"
 			x: 1.0d
-			y: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
@@ -1587,12 +2569,19 @@
 				}
 			]
 			title: "Pyromancer Set"
-			x: 6.0d
-			y: -5.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "5B762FA514B5B0B7"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "14C8FC83CF6E83DE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"Unlimited POWAH!\""
 			tasks: [
 				{
@@ -1647,12 +2636,19 @@
 				}
 			]
 			title: "Electromancer Set"
-			x: 7.0d
-			y: -6.0d
+			x: 10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "72BD166F099189C3"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "3F8C5F0BC19026B6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"The cold never bothered me anyway\""
 			tasks: [
 				{
@@ -1707,12 +2703,19 @@
 				}
 			]
 			title: "Cryomancer Set"
-			x: 8.0d
-			y: -7.0d
+			x: 14.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "58121A43860BB58E"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "4981DBCC77636951"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"♫Dori me. Interino, adapare. Dori me.♪♪\""
 			tasks: [
 				{
@@ -1767,12 +2770,19 @@
 				}
 			]
 			title: "Priest Set"
-			x: 8.0d
-			y: -8.0d
+			x: 17.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "00EBB727A88EB250"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "1615406FF0D88373"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "To beat your enemy, you must think like your enemy."
 			tasks: [
 				{
@@ -1827,12 +2837,19 @@
 				}
 			]
 			title: "Archevoker Set"
-			x: 7.0d
-			y: -9.0d
+			x: 17.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "0D0D5A8C053108B6"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "3A1BF222DBF22F35"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "No blood sacrifices neccesary"
 			tasks: [
 				{
@@ -1887,12 +2904,19 @@
 				}
 			]
 			title: "Cultist Set"
-			x: 6.0d
-			y: -10.0d
+			x: 17.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "398CE06286B1C4FA"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "7B620162842473F0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"I am the night.\""
 			tasks: [
 				{
@@ -1947,13 +2971,20 @@
 				}
 			]
 			title: "Shadow-Walker Set"
-			x: 5.0d
-			y: -11.0d
+			x: 17.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			description: [""]
 			id: "0E52BCB347EA69D4"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "24648F85B480EBD3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "You heard pick your poison and you took that literally."
 			tasks: [
 				{
@@ -2008,12 +3039,19 @@
 				}
 			]
 			title: "Plagued Set"
-			x: 4.0d
-			y: -11.0d
+			x: 10.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "6307C2D852A06C6D"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "63D66A197EB4AF5A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Told you programming is 90% magic"
 			tasks: [
 				{
@@ -2074,12 +3112,22 @@
 				}
 			]
 			title: "Engineer's Set"
-			x: 3.0d
-			y: -10.0d
+			x: 7.0d
+			y: -17.0d
 		}
 		{
-			dependencies: ["1216AEB3FB47642F"]
+			dependencies: [
+				"1216AEB3FB47642F"
+				"10EF524792F6952A"
+			]
 			id: "04207C5166746AA9"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "62460665749A1E2C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "What lurks beneath the cold dark ocean?"
 			tasks: [
 				{
@@ -2140,13 +3188,20 @@
 				}
 			]
 			title: "Abyssal Warlock Set"
-			x: 4.0d
-			y: -5.0d
+			x: 7.0d
+			y: -20.0d
 		}
 		{
 			description: ["Secret item with amazing magical properties as long as you don't mind dealing less damage with regular weapons."]
 			id: "0BA637D13CD55D39"
 			invisible: true
+			rewards: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "7F4412A72AC48AF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			tasks: [{
 				id: "6A000CEE0A90C182"
@@ -2165,13 +3220,20 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			description: ["Secret item only dropped by &can specific vindicator&r at &7Evoker Forts&r. Makes you stronger against magical attacks."]
 			id: "179604D9C5B62CDD"
 			invisible: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1754B312A3F0190F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			tasks: [{
 				id: "09BDA1212C69BEE2"
@@ -2184,13 +3246,20 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.0d
+			x: 16.0d
+			y: -2.0d
 		}
 		{
 			description: ["Secret weapon. Only dropped."]
 			id: "1912962C1011132E"
 			invisible: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "13E8371F4DEFEE29"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			tasks: [{
 				id: "722E7F70CAFA89F9"
@@ -2203,8 +3272,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -2214,6 +3283,13 @@
 			dependency_requirement: "one_completed"
 			description: ["Most of these &ecurios&r can be looted from chests or crafted."]
 			id: "652FD4B14D238A98"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6FDC8F2E5CAD295F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "7F6CD11294971BFA"
 				item: {
@@ -2228,12 +3304,19 @@
 			}]
 			title: "Stronger Curios"
 			x: 5.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
 			description: ["Early on getting any extra &emana regen&r or &ecooldown&r might just save your life in combat."]
 			id: "483F44B451C33BCD"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "56B4E3A66369957D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2253,11 +3336,58 @@
 				}
 			]
 			title: "Early Additions"
-			x: 2.0d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
 			id: "32F8BBE78DE29AB1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2641F2F8E026A7DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7933957F08F4A030"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "You'll need a Netherite level pickaxe to mine this."
 			tasks: [{
 				id: "6189A8A1EE58BA68"
@@ -2265,11 +3395,18 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["32F8BBE78DE29AB1"]
 			id: "0DD6705B00E9AFBE"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "21041817FD688258"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "6DF5DFF7A40719D9"
 				item: "irons_spellbooks:arcane_salvage"
@@ -2277,11 +3414,18 @@
 			}]
 			title: "Blast it all!"
 			x: 2.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0DD6705B00E9AFBE"]
 			id: "74F5F04E6FA27AE2"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "2409B4BD6E3768A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "This weapons come with one preset spell"
 			tasks: [{
 				id: "4C4E3029A2D9348B"
@@ -2334,19 +3478,26 @@
 			}]
 			title: "Imbued Weapons"
 			x: 5.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0DD6705B00E9AFBE"]
 			id: "7DED1D9228E96F78"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "37AF2B21CB17F3C2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Crafting material only"
 			tasks: [{
 				id: "77B860B3561BBAFB"
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -2355,6 +3506,53 @@
 			]
 			description: ["You can apply &eup to three orbs&r per piece of valid equipment (each armor piece, weapon, staff, spellbook). You'll an &eArcane Anvil&r to apply said orbs."]
 			id: "6C34C9D1465FE1BD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "182D364500E8C42B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2CD497EAB9FB2204"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				id: "4C32145F5C4511D3"
@@ -2427,11 +3625,18 @@
 			}]
 			title: "Any Upgrade Orb"
 			x: 9.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			id: "41DFE43E0B58AF45"
 			invisible: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3B661E2C8683B6A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			subtitle: "You chose correctly"
 			tasks: [{
@@ -2445,12 +3650,19 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -7.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["483F44B451C33BCD"]
 			id: "128D84A63C435A60"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "263CF146F450DF90"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "46BD87ACA3F74D51"
 				item: {
@@ -2523,8 +3735,8 @@
 				type: "item"
 			}]
 			title: "Stronger Staves"
-			x: 5.0d
-			y: -2.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -2532,20 +3744,74 @@
 				"596943F35C9D8838"
 			]
 			id: "0081D9957EA24E30"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "06251D4C56D6D19C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "30471C2D23A10688"
 				item: "cataclysm_spellbooks:gauntlet_of_power"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 26.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0081D9957EA24E30"]
 			description: ["Each comes with &etheir own unique spell&r."]
 			id: "26896BF9AB3215D1"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "024ECD3795BF7BCC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F60AEE462ACA14D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Craft any Subjugator upgrade"
 			tasks: [{
 				id: "640582A4A0CF9CDB"
@@ -2630,8 +3896,8 @@
 				type: "item"
 			}]
 			title: "Are these even swords anymore?!"
-			x: 14.0d
-			y: 6.0d
+			x: 28.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["26E27FB78FB855CE"]
@@ -2639,32 +3905,53 @@
 			hide_until_deps_complete: true
 			id: "0356B766CA690404"
 			invisible: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1CA5D857DD6182D3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"Thanks, builder. I couldn't have done it without you.\""
 			tasks: [{
 				id: "427D9927F1B500AE"
 				item: "irons_spellbooks:ancient_knowledge_fragment"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 14.7d
+			y: 4.2d
 		}
 		{
 			dependencies: ["0356B766CA690404"]
 			hide_until_deps_complete: true
 			id: "49073179F0027BE8"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "396B882ED66BAB85"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"You are alone, builder. There is only darkness for you, and only death for your people. These ancients are just the beginning. I will command a great and terrible army, and we will sail to a billion worlds. We will sail until every light has been extinguished. You are strong, builder, but I am beyond strength. I am the end, and I have come for you, Steve.\""
 			tasks: [{
 				id: "0EC0DF0885863C1B"
 				item: "irons_spellbooks:eldritch_manuscript"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 16.700000000000003d
+			y: 1.2d
 		}
 		{
 			dependencies: ["49073179F0027BE8"]
 			hide_until_deps_complete: true
 			id: "3494B5D849D4B12D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5AF866350DF67873"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"Did you bring the book? ... Yes, one step closer.\""
 			tasks: [{
 				id: "120F313970457FB5"
@@ -2688,14 +3975,21 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 18.700000000000003d
+			y: -0.8d
 		}
 		{
 			dependencies: ["0EC0DF0885863C1B"]
 			dependency_requirement: "one_started"
 			hide_until_deps_complete: true
 			id: "702EC9AB336D097B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "43117118DAAF84AA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"Aren't you cold, Steve?\""
 			tasks: [{
 				id: "502C7E021D4EDF69"
@@ -2719,13 +4013,20 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 16.0d
-			y: -3.0d
+			x: 20.700000000000003d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: ["49073179F0027BE8"]
 			hide_until_deps_complete: true
 			id: "3E9F898263F43E80"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "46D33A2A81C5FAE6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"The book, builder. Give me the book. Quickly. We are running out of time.\""
 			tasks: [{
 				id: "5C802D2A8BBD9D67"
@@ -2749,13 +4050,20 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 18.700000000000003d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: ["0EC0DF0885863C1B"]
 			hide_until_deps_complete: true
 			id: "4F88EE8B3595F2B9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4F6D34B2E17A50EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"The ice wizard is a weak fool\""
 			tasks: [{
 				id: "2EFB316889168E9A"
@@ -2779,13 +4087,20 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.0d
+			x: 20.700000000000003d
+			y: 2.2d
 		}
 		{
 			dependencies: ["49073179F0027BE8"]
 			hide_until_deps_complete: true
 			id: "163D3C747DE3F930"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "421D07A6E5D8CFA6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"No, it's all true. The book has great power. I can make you live... forever. Anything you want... Just give me that book.\""
 			tasks: [{
 				id: "48FA67503E92BCC8"
@@ -2809,8 +4124,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: 18.700000000000003d
+			y: 2.2d
 		}
 		{
 			dependencies: ["702EC9AB336D097B"]
@@ -2828,8 +4143,8 @@
 				title: "?"
 				type: "questsadditions:time"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 18.700000000000003d
+			y: -0.8d
 		}
 		{
 			dependencies: ["4F88EE8B3595F2B9"]
@@ -2847,15 +4162,23 @@
 				title: "??"
 				type: "questsadditions:time"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 18.700000000000003d
+			y: 0.19999999999999996d
 		}
 		{
 			dependencies: [
 				"0E52BCB347EA69D4"
 				"5E98B8555C634B83"
+				"0BEF2FBE6774D651"
 			]
 			id: "762B2615C1363CFA"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "5C4F8981C5C8F3AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Crab people?"
 			tasks: [
 				{
@@ -2916,8 +4239,8 @@
 				}
 			]
 			title: "Bloom Stone Set"
-			x: 4.0d
-			y: -13.0d
+			x: 10.0d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -2925,6 +4248,13 @@
 				"5E98B8555C634B83"
 			]
 			id: "2F75F33FD87EFBC9"
+			rewards: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "3B4AB773BA68BE8C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Harness the blazing power of Ignis"
 			tasks: [
 				{
@@ -2985,8 +4315,8 @@
 				}
 			]
 			title: "Ignis Mage Set"
-			x: 0.0d
-			y: -8.0d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -2994,6 +4324,13 @@
 				"5E98B8555C634B83"
 			]
 			id: "6F34286FE36682B0"
+			rewards: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "21DF44DA96DFF626"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Harness the spectral power of Maledictus"
 			tasks: [
 				{
@@ -3054,16 +4391,27 @@
 				}
 			]
 			title: "Cursium Mage Set"
-			x: 0.0d
-			y: -10.0d
+			x: 4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
 				"1216AEB3FB47642F"
 				"5E98B8555C634B83"
 			]
-			description: ["Mixed armor set for both &eNature&r and &eHoly&r Spells"]
+			description: [
+				"Mixed armor set for both &eNature&r and &eHoly&r Spells"
+				""
+				"&eCataclysm materials&r drop in the &7Cursed Pyramid&r."
+			]
 			id: "4032CE8B8F2B34C9"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "4D8C88FF037425EB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [
 				{
 					id: "4A9FC3DE8D7222E9"
@@ -3123,8 +4471,8 @@
 				}
 			]
 			title: "Pharaoh Sacred Set"
-			x: 8.0d
-			y: -11.0d
+			x: 14.0d
+			y: -20.0d
 		}
 		{
 			dependencies: [
@@ -3133,6 +4481,13 @@
 			]
 			description: ["The Excelsius armor set comes in 3 different flavors but these two pieces are your base."]
 			id: "3C56C4B7860A192F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5DCA31D46614F976"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"We have technology\""
 			tasks: [
 				{
@@ -3159,13 +4514,20 @@
 				}
 			]
 			title: "Excelsius Propulsion"
-			x: 2.0d
-			y: -11.0d
+			x: 4.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
 			description: ["The &eExcelsius Oppresor&r variant focuses on &eSpell Resistance&r."]
 			id: "071933CFB7B89499"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "11A48AF9301CFCC4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "\"This world... is an illusion...\""
 			tasks: [
 				{
@@ -3216,13 +4578,20 @@
 				}
 			]
 			title: "Excelsius Oppresor"
-			x: 0.0d
-			y: -11.0d
+			x: 2.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
 			description: ["The &eExcelsius Adversary&r variant focuses on &eMaximum Mana&r"]
 			id: "2A4DAD96C671699F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "66F72C9AFF3983CF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Become the mana reservoir"
 			tasks: [
 				{
@@ -3273,13 +4642,20 @@
 				}
 			]
 			title: "Excelsius Adversary"
-			x: 2.0d
-			y: -13.0d
+			x: 4.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
 			description: ["The &eExcelsius Velocity&r variant focuses on &eCooldown Reduction&r."]
 			id: "453C732510938EA2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "300071D13E6A2FFA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "The power... It's accelerating. I can't stop casting!!!"
 			tasks: [
 				{
@@ -3330,8 +4706,8 @@
 				}
 			]
 			title: "Excelsius Velocity"
-			x: 0.0d
-			y: -13.0d
+			x: 2.0d
+			y: -19.0d
 		}
 		{
 			description: [
@@ -3412,6 +4788,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			tasks: [
 				{
 					id: "34982CF9C0CB8AEB"
@@ -3445,8 +4822,8 @@
 				}
 			]
 			title: "Locations, locations, locations..."
-			x: 3.0d
-			y: -6.0d
+			x: 11.982993197278894d
+			y: -13.702040816326516d
 		}
 		{
 			description: [
@@ -3455,6 +4832,13 @@
 			]
 			id: "5B5E134C19341572"
 			invisible: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "360170A5ADE245DD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			subtitle: "For real..."
 			tasks: [{
@@ -3462,8 +4846,359 @@
 				item: "irons_spellbooks:invisibility_ring"
 				type: "item"
 			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"So a little &2Rat friend&r told me the &4Dead King's&r lair has plenty of magical resources (&einks&r, &earcane essence&r, &eblank runes&r, etc...) that could be worth exploring even if you aren't fighting the &4Dead King&r."
+				""
+				"{image:ftbchunks:textures/faces/minecraft/chicken.png width:50 height:50 align:center}"
+			]
+			id: "692705EA9E580BE7"
+			rewards: [
+				{
+					id: "53A38A65061206C4"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3935E627FD40346F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Why struggle when you can go to the source?"
+			tasks: [{
+				id: "39A4C9CE1DB8C593"
+				title: "Quick Tip"
+				type: "checkmark"
+			}]
+			title: "Loot is EVERYTHING"
+			x: 11.65238095238091d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5768E11E5F137489"]
+			description: ["The &cDead King&r has chance to drop his powerful &eNecronomicon&r. This &espellbook&r has a few spells bound to it and cannot be removed. He also has a chance to drop &eThe Blood Staff&r as well."]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+				tag: {
+					ISBEnhance: "irons_spellbooks:raise_dead"
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5212B0B2DB38E5DC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "095DC26A671A9E0B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4E7B5885F60BB288"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+						tag: {
+							ISBEnhance: "irons_spellbooks:raise_dead"
+							ISB_Spells: {
+								data: [
+									{
+										id: "irons_spellbooks:blood_slash"
+										index: 0
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blood_step"
+										index: 1
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:ray_of_siphoning"
+										index: 2
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blaze_storm"
+										index: 3
+										level: 5
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE38A8EAF54EA3B"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+			]
+			title: "Prying it from his cold dead hands"
 			x: 11.0d
-			y: -6.0d
+			y: 17.0d
+		}
+		{
+			description: ["The &5Alshanex Familiars mod&r adds a &esound based magic school&r and plenty of spells on top of multiple &2familiars&r can you can find in the wild, tame, and bring with you in your journeys to help you with buffs and fighting."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alshanex_familiars:bard_pet"
+					DisplayMobScale: 2.0d
+				}
+			}
+			id: "60D2F8A46F9CAFBF"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0915C47B7C113540"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0A3F97B18E076D1C"
+				title: "Alshanex's Familiars"
+				type: "checkmark"
+			}]
+			title: "Alshanex's Familiars"
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:hoglin"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "2E93490E1274F9F3"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0F49794273988A38"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "\"Hmm....Hogham...\""
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "72ADF6C6B117495E"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&fSlay&r &4Hoglins&r"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:citadel_keeper"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "54D3C3C35CFEBDDD"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1B21E7D2BA4F45EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				icon: "irons_spellbooks:keeper_spawn_egg"
+				id: "4D641E3DD0799A06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&fSlay an&r &4Ancient Knight&r"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19702CD2611FF444"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:dead_king"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "5768E11E5F137489"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "48D0EDBD70C27B07"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+				id: "767BFF57D1C5AAA1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&fSlay&r &4The Dead King&r"
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["22355C3503FEFBA9"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "irons_spellbooks:archevoker"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "2D6744F825F58CF4"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "75201D0E14CA48E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: "irons_spellbooks:archevoker_spawn_egg"
+				id: "129A4056BB3AE1CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&fSlay an&r &4Archevoker&r"
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			description: ["From the &eCataclysm&r mod. Found in the &7Sunken City&r."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:amethyst_crab"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "0BEF2FBE6774D651"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:coins"
+				id: "5A78BD739526193A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					icon: "irons_spellbooks:keeper_spawn_egg"
+					id: "36A9D9F59E5F1D43"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "4289470D3493779B"
+					item: { Count: 3, id: "cataclysm:amethyst_crab_shell" }
+					type: "item"
+				}
+			]
+			title: "&fSlay an&r &4Amethyst Crab&r"
+			x: 10.0d
+			y: -27.0d
+		}
+		{
+			description: ["From the &eCataclysm&r mod. Found in the &7Sunken City&r."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:coral_golem"
+					DisplayMobScale: 1.5d
+				}
+			}
+			id: "10EF524792F6952A"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:coins"
+				id: "0D23E9F85B3B72A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:coral_golem"
+					icon: "cataclysm:coral_golem_spawn_egg"
+					id: "4EB4BB19112ABD75"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "326A5771F51A9666"
+					item: "cataclysm:crystallized_coral_fragments"
+					type: "item"
+				}
+			]
+			title: "&fSlay a&r &4Coral Golem&r"
+			x: 4.0d
+			y: -23.0d
 		}
 	]
 	title: "&6Iron's Spells and Spellbooks"
