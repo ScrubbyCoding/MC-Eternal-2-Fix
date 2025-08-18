@@ -850,7 +850,7 @@
 			description: [
 				"As you begin to progress through &dApplied Energistics&r, you will come to find that &eCircuits&r and &eProccessors&r are in high demand. In order to produce them you will need their respective &eInscriber Press&r."
 				""
-				"&eCalclulation Press&r => &9Printed Calclulation Circuits&r"
+				"&eCalculation Press&r => &9Printed Calculation Circuits&r"
 				"&eEngineering Press&r => &bPrinted Engineering Circuits&r"
 				"&eLogic Press&r => &6Printed Logic Circuits&r"
 				"&eSilicon Press&r => &8Printed Silicon&r"
