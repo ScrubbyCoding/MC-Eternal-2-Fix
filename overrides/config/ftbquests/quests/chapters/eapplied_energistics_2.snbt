@@ -3068,11 +3068,11 @@
 			description: [
 				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
 				""
-				"1) Craft a &eWooden Handle&r"
+				"1) Craft a &eWooden Crank&r"
 				"2) Craft and Place a &eCharger&r"
-				"3) Place the Wooden Handle on the Charger"
+				"3) Place the Wooden Crank on the Charger"
 				"4) Place a &eCompass&r into the Charger"
-				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
+				"5) Turn the Wooden Crank &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
 				"6) Follow the Meteorite Compass towards your nearest Meteorite."
 			]
 			id: "5CF065DD209B4B1C"
@@ -3331,3 +3331,4 @@
 	]
 	title: "&6Applied Energistics 2"
 }
+
