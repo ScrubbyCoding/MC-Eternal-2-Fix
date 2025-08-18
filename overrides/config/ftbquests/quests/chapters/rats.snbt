@@ -798,7 +798,7 @@
 			id: "22D16D4DA22F766C"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5BD6237009BCA7EA"
 				ignore_reward_blocking: true
@@ -1021,7 +1021,7 @@
 			id: "4E5E230D2E1D1259"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "28983BE95D313F2E"
 				ignore_reward_blocking: true
@@ -1239,7 +1239,7 @@
 			id: "6569AC301F58FCB4"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "54F7D265FB2CC467"
 				ignore_reward_blocking: true
@@ -1261,7 +1261,7 @@
 			id: "5DECA05BD21C069E"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "329A37167367C567"
 				ignore_reward_blocking: true
@@ -1519,7 +1519,7 @@
 				item: "rats:rat_upgrade_bee"
 				type: "item"
 			}]
-			title: "BeeRat?"
+			title: "BeeRat"
 			x: -3.0d
 			y: 8.0d
 		}
@@ -2087,7 +2087,7 @@
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"&eBarry&f is NOT gonna pick any kind of support"
+				"&eBarry&f is NOT going to pick any kind of support"
 				"Lets make other rats do it"
 			]
 			hide_dependency_lines: true
@@ -2117,7 +2117,7 @@
 			id: "6B8647BA6B66BF77"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "579C40B906DA3A6E"
 				ignore_reward_blocking: true
@@ -2189,6 +2189,7 @@
 					type: "random"
 				}
 				{
+					count: 2
 					id: "3610686F062D854F"
 					item: {
 						Count: 1
@@ -2463,7 +2464,7 @@
 			id: "5BA65707B6A7B7BC"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "4FEF78B04B1792A0"
 				ignore_reward_blocking: true
@@ -2485,7 +2486,7 @@
 			id: "4070C31B90BA9CED"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "483FDBF9273DC4A7"
 				ignore_reward_blocking: true
@@ -2553,7 +2554,7 @@
 				}
 			]
 			shape: "spstar"
-			subtitle: "Isnt it sunny out"
+			subtitle: "A sunny day!"
 			tasks: [{
 				id: "187572C8252AFF1B"
 				item: "rats:plague_stew"
@@ -2719,7 +2720,7 @@
 			id: "45D1E8A651C4DE74"
 			optional: true
 			rewards: [{
-				amount: 20L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "353E153DBC31B8E6"
 				ignore_reward_blocking: true

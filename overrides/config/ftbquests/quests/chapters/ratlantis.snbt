@@ -573,7 +573,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Plenty of Petals"]
+			description: ["Plenty of Petals can be found in these lands"]
 			hide_until_deps_complete: true
 			id: "66829D8DB3812DF1"
 			rewards: [{
@@ -1135,33 +1135,6 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Feel the full power of a Rat in one sword."]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "65C83960A1C9BFB9"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "33B55A8B0CB9C8D5"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "336257FC7E2CC90C"
-				item: {
-					Count: 1
-					id: "rats:ratlantis_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["65DCDFD5CF572292"]
 			description: ["Claws of the feral ones can be quite fast with attacks."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1307,8 +1280,8 @@
 				item: "rats:rattling_gun"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["77AE1FA48A87B138"]
@@ -1326,27 +1299,27 @@
 			tasks: [
 				{
 					id: "56F50EE16D27FB49"
-					item: "rats:rat_upgrade_god"
-					type: "item"
-				}
-				{
-					id: "7A63393CAA394336"
 					item: "rats:rat_upgrade_nonbeliever"
 					type: "item"
 				}
 				{
+					id: "7A63393CAA394336"
+					item: "rats:rat_upgrade_god"
+					type: "item"
+				}
+				{
 					id: "1C92DD55E42EAA34"
-					item: "rats:rat_upgrade_voodoo"
+					item: "rats:rat_upgrade_warrior"
 					type: "item"
 				}
 				{
 					id: "2D9A12BF138C4625"
-					item: "rats:rat_upgrade_damage_protection"
+					item: "rats:rat_upgrade_voodoo"
 					type: "item"
 				}
 				{
-					id: "4FBB3C0B97466C63"
-					item: "rats:rat_upgrade_angel"
+					id: "3077AB3B5423EF02"
+					item: "rats:rat_upgrade_damage_protection"
 					type: "item"
 				}
 			]
@@ -1447,6 +1420,59 @@
 				"Be careful how you use them."
 			]
 			id: "7E7013783BCA97B0"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "1CEFAA9FFBBED79D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5BC953B6E5F6D7"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					id: "46F8021078923750"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "65BC3F39704D60CF"
@@ -1460,6 +1486,59 @@
 				}
 			]
 			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["The Brainiac wishes they could harvest this information"]
+			id: "6DE8A9C0EF83B4B5"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2D3FF7C8F3373764"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1509530607B75AD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "672554DD99246F98"
+				item: "rats:brain_block"
+				type: "item"
+			}]
+			title: "Oozing Information"
+			x: -1.0d
 			y: 6.0d
 		}
 	]
