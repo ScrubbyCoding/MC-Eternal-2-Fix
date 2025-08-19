@@ -573,7 +573,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Plenty of Petals can be found in these lands"]
+			description: ["Plenty of petals can be found in these lands"]
 			hide_until_deps_complete: true
 			id: "66829D8DB3812DF1"
 			rewards: [{
@@ -765,7 +765,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Theyve come back to protect the land."]
+			description: ["They've come back to protect the land."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:ratlantean_flame"
@@ -1028,7 +1028,6 @@
 		{
 			dependencies: ["09FCB6F26CB68886"]
 			description: ["Craft the Nonbeliever with all the powers of the Ratlantean's in one "]
-			hide_until_deps_complete: true
 			id: "10DF0901D794C66F"
 			rewards: [
 				{
@@ -1289,7 +1288,7 @@
 			id: "2E13A78D5507C410"
 			optional: true
 			rewards: [{
-				amount: 150L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "1B3CB48B57A63225"
 				ignore_reward_blocking: true
@@ -1333,7 +1332,7 @@
 			id: "38C34232E3CEB525"
 			optional: true
 			rewards: [{
-				amount: 150L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "2ADCBFC069DCB8A5"
 				ignore_reward_blocking: true
@@ -1388,7 +1387,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Some have rats choose not to evolve to land."]
+			description: ["Some rats have chosen not to evolve to land."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "23431E7A13474275"
@@ -1416,7 +1415,7 @@
 				"66829D8DB3812DF1"
 			]
 			description: [
-				"Ratlanteans most prized Reactors."
+				"Ratlantean's most prized Reactors."
 				"Be careful how you use them."
 			]
 			id: "7E7013783BCA97B0"
@@ -1489,17 +1488,21 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["65DCDFD5CF572292"]
 			description: ["The Brainiac wishes they could harvest this information"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "6DE8A9C0EF83B4B5"
 			rewards: [
 				{
-					amount: 150L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "2D3FF7C8F3373764"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 				{
+					count: 2
 					id: "1509530607B75AD7"
 					item: {
 						Count: 1

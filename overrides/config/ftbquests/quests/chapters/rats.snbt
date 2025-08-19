@@ -51,7 +51,7 @@
 			image: "rats:item/cheese"
 			rotation: -88.0d
 			width: 0.6d
-			x: -1.0d
+			x: -0.9d
 			y: 4.0d
 		}
 		{
@@ -228,6 +228,14 @@
 		{
 			description: ["{chapter.15.quest.113.description.1}"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+				}
+			}
 			id: "345F8558DB7253AA"
 			rewards: [
 				{
@@ -689,6 +697,8 @@
 				"Trash, Trash, Trash, Garbage!"
 				""
 				"&eTip: &fSet in the dark and leave some cheese"
+				""
+				"&eTip: &fOther types of garbage exist"
 			]
 			id: "129BCE5215BE5DC4"
 			rewards: [
@@ -903,7 +913,7 @@
 			id: "37C3FB129893409F"
 			optional: true
 			rewards: [{
-				amount: 500L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "5F32D7BB0A656866"
 				ignore_reward_blocking: true
@@ -911,6 +921,7 @@
 			}]
 			subtitle: "Press F to pay respect"
 			tasks: [{
+				consume_items: true
 				count: 1024L
 				id: "1E9996BBE91110BC"
 				item: "rats:block_of_cheese"
@@ -1794,7 +1805,7 @@
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Rats rule everything around me. Get the cheese dolla dolla bills yall."]
+			description: ["Rats rule everything around me. Get the cheese tiny tiny coins yall."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1D0AB102552451D2"
@@ -2567,7 +2578,7 @@
 		{
 			dependencies: ["064CBE31CC105137"]
 			description: [
-				"If you want to combine upgrades in the boring way."
+				"If you want to combine upgrades the old fashion way."
 				""
 				"&eTip: &fRight click when in hand. Cannot Edit once made"
 			]
@@ -2733,6 +2744,48 @@
 			}]
 			x: 6.65d
 			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"Ever wanted your own Inventory Rat?"
+				" No? "
+				"Well you can have one anyways"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+				}
+			}
+			id: "3C5A6697D771A78B"
+			rewards: [{
+				id: "712F8934DDF0F9F3"
+				item: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rats:rat"
+						DisplayMobScale: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "sign"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4EFC1ECD4E4FCA40"
+				item: { Count: 64, id: "rats:block_of_cheese" }
+				type: "item"
+			}]
+			title: "Not an Inventory Pet"
+			x: 5.0d
+			y: 0.0d
 		}
 	]
 	title: "&2Rats"
