@@ -698,7 +698,7 @@
 				""
 				"&eTip: &fSet in the dark and leave some cheese"
 				""
-				"&eTip: &fOther types of garbage exist"
+				"&eTip: &fThere may be other type of garbage"
 			]
 			id: "129BCE5215BE5DC4"
 			rewards: [
@@ -829,6 +829,8 @@
 			description: [
 				"Start your rat legion by making them work for you."
 				"Useful automation with rats and these upgrades."
+				""
+				"&eTip: &fMake sure &eMob Griefing&f is on"
 			]
 			hide_dependency_lines: true
 			id: "1D0C110300E87273"
@@ -913,7 +915,7 @@
 			id: "37C3FB129893409F"
 			optional: true
 			rewards: [{
-				amount: 250L
+				amount: 350L
 				currency: "eternalcurrencies:coins"
 				id: "5F32D7BB0A656866"
 				ignore_reward_blocking: true
@@ -2764,13 +2766,16 @@
 			}
 			id: "3C5A6697D771A78B"
 			rewards: [{
-				id: "712F8934DDF0F9F3"
+				id: "36A18927C2F64CA6"
 				item: {
 					Count: 1
 					id: "alexsmobs:tab_icon"
 					tag: {
 						DisplayEntityType: "rats:rat"
 						DisplayMobScale: 2
+						display: {
+							Name: "{\"text\":\"Inventory Rat\"}"
+						}
 					}
 				}
 				type: "item"
