@@ -27,6 +27,19 @@
       },
       "price_multiplier": 0.0
     },
+        {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "offer_item": {
+        "count": 8,
+        "item": "irons_spellbooks:armor_pile"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
     {
       "type": "goblintraders:basic",
       "experience": 10,
