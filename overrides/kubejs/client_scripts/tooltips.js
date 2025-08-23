@@ -5,6 +5,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
+	event.add('minecraft:lightning_rod', Text.of('§eWill teleport jolts to nearby Lightning Rod!').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
 	event.add('mekanism:osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('kubejs:chocolate_coin', Text.of('§e§oYou asked for a use for coins! Now you can eat your riches and sorrows away!').color('#FFFFFF')); 
@@ -226,3 +227,4 @@ ItemEvents.tooltip(event => {
 	event.add("majruszsaccessories:soul_of_minecraft", Text.translate("tooltip.mce2.majruszsaccessories.soul.minecraft").color("#FFAA00"))
 
 })
+
