@@ -3968,6 +3968,12 @@
 									}
 								}
 							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
 						}
 						"eccentrictome:version": 1
 					}
@@ -7976,3 +7982,4 @@
 	]
 	title: "&6A New Start! &a(Recommended!)"
 }
+
