@@ -816,7 +816,7 @@
 				""
 				"When harvested through &4*barbaric*&r means and when sprouting Certus Quartz Clusters; &eBudding Certus Quartz degrade&r in the following order: &bFlawless&r -> &eFlawed&r -> &eChipped&r -> &eDamaged&r -> Certus Quartz Block"
 				""
-				"&6Tip:&r &bFlawless Budding Certus Quartz&r do not deteriorate after sprouting Clusters and as such make for an &eeasy self-sustaining source of Quartz&r, But, They can not be acquired through direct methods such as mining, &eeven when using Silk Touch&r, instead you ought to find some other way to preserve it's quality."
+				"&6Tip:&r &bFlawless Budding Certus Quartz&r do not deteriorate after sprouting Clusters and as such make for an &eeasy self-sustaining source of Quartz&r, But, They can not be acquired through direct methods such as mining, &eeven when using Silk Touch&r, instead you must find some other way to preserve it's quality."
 				""
 				"{@pagebreak}"
 				"&6Hint:&r Mechanism Cardboard boxes are useful for transporting fragile packages :)"
@@ -1001,7 +1001,7 @@
 			description: [
 				"Before we move on, we must establish a new mechanic; &bIn World Transformations&r."
 				""
-				"Simply Put, Some of the upcoming recipes ask you to &9Submerge&r certain materials together in water in order to mediate for their reactions to take place."
+				"Simply Put, Some of the upcoming recipes ask you to &9Submerge&r certain materials together in water in order for their reactions to take place."
 				""
 				"I'll provide you with two non-essential but potentially useful examples as &eOptional Quests&r."
 			]
@@ -1105,7 +1105,7 @@
 		{
 			dependencies: ["35BF66CD4FAE83DE"]
 			description: [
-				"If you have yet to acquire a means of producing energy, the use of a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
+				"If you have yet to acquire a means of producing energy, using a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
 				""
 				"&6Tip:&r If you already have a source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
@@ -1138,7 +1138,7 @@
 				""
 				"&6Hint:&r Not every &dApplied Energestics&r machine uses a &eChannel&r, but every &bME (x)&r machine does."
 				"{@pagebreak}"
-				"If you haven't already, try right clicking your &dME Controller&r; It will provide you with an overwhealeming amount of infromation but once you understand what it all means it won't look so scary anymore."
+				"If you haven't already, try right clicking your &dME Controller&r; It will provide you with an overwheleming amount of infromation, but once you understand what it all means it won't look so scary anymore."
 				""
 				"Your &eNetwork&r details tell you a lot of things, the amount of &eChannels&r you have used, your &7Stored/Max Power&r, your &ePassive Drain&r which we will get to in a moment, and your &7Energy Useage/Generation&r."
 				""
