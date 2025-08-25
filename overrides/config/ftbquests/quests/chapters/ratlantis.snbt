@@ -1,11 +1,160 @@
 {
-	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ratlantis"
 	group: "0194595A09DF4755"
 	icon: "rats:oratchalcum_ingot"
 	id: "354EC5421E6F7BCD"
+	images: [
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_blue_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 8.0d
+			image: "modpack:textures/ratlantistitle.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "modpack:textures/thaumcraft_rat_flip.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "rats:textures/thaumcraft_rat_icon.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "rats:block/ratlantis_reactor"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/marbled_cheese_raw"
+			rotation: 0.0d
+			width: 3.5d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/marbled_cheese_raw"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "rats:block/ratlantis_reactor"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 0.5d
+			image: "conjurer_illager:textures/entity/bouncy_ball/stripes_2.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/creative_cheese"
+			rotation: 90.0d
+			width: 0.6d
+			x: 11.5d
+			y: 3.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -65,7 +214,7 @@
 		{
 			dependencies: ["17B679CF1D7FBA0F"]
 			hide_until_deps_complete: true
-			icon: "rats:ratlantean_flame"
+			icon: "rats:marbled_cheese_rat_head"
 			id: "65DCDFD5CF572292"
 			rewards: [
 				{
@@ -120,6 +269,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
+			description: ["May be able to change one of the lost feral rats."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:psionic_rat_brain"
@@ -172,17 +322,30 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				entity: "rats:neo_ratlantean"
-				id: "2E69FB179B701738"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.0d
-			y: 6.0d
+			tasks: [
+				{
+					advancement: "ratlantis:neoratlantean"
+					criterion: ""
+					id: "494B403E8CC17857"
+					type: "advancement"
+				}
+				{
+					id: "705FFCEEEEF2D471"
+					item: "rats:vial_of_sentience"
+					type: "item"
+				}
+			]
+			title: "Neo-Ratlantean"
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
+			description: [
+				"Build The Automaton Rat."
+				"&eTip:&f Place the head last"
+				"{image:modpack:textures/ratlanman.png width:150 height:100 align:center}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:arcane_technology"
@@ -235,17 +398,44 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				entity: "rats:ratlantean_automaton"
-				id: "25EE485CF3069724"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 6.0d
+			tasks: [
+				{
+					advancement: "ratlantis:marbled_cheese_golem"
+					criterion: ""
+					id: "4D6411B9A1A0A218"
+					type: "advancement"
+				}
+				{
+					id: "040A6B8CE1176492"
+					item: "rats:marbled_cheese_rat_head"
+					type: "item"
+				}
+				{
+					id: "2B5EF9D2E06B10D7"
+					item: "rats:marbled_cheese_golem_core"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5B20850524CB790A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:marbled_cheese"
+						}
+					}
+					title: "Any #rats:marbled_cheese"
+					type: "item"
+				}
+			]
+			title: "Ratlantean Automaton"
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
+			description: ["In the late hours of the night, some say you can still see his ship floating through the air."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:dutchrat_bell"
@@ -299,83 +489,23 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				entity: "rats:dutchrat"
-				id: "081F1164E2847FE5"
-				type: "kill"
-				value: 1L
+				advancement: "ratlantis:defeat_dutchrat"
+				criterion: ""
+				id: "22932EA0FA0E0B57"
+				type: "advancement"
 			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["65DCDFD5CF572292"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "rats:rat_king_crown"
-			id: "442BEC83734B6CED"
-			rewards: [
-				{
-					amount: 250L
-					currency: "eternalcurrencies:coins"
-					id: "39C2A2DA90DFEF6D"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "242C8A09063DFAA1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A6113A4913A6120"
-					table_id: 2644483923066781056L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				entity: "rats:rat_king"
-				id: "6714DF08738AE4E8"
-				type: "kill"
-				value: 1L
-			}]
+			title: "The Flying Duchrat"
 			x: 4.0d
-			y: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
+			description: ["Somewhere in the lands is an old broken down runway with an &eAir Raid Siren&f maybe it will hear its call."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:biplane_wing"
 			id: "2218B0FFA0D07C32"
+			min_required_tasks: 1
 			rewards: [
 				{
 					amount: 250L
@@ -424,80 +554,57 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				entity: "rats:rat_baron"
-				id: "140288FBF3EEE82E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["65DCDFD5CF572292"]
-			id: "66829D8DB3812DF1"
-			rewards: [
+			tasks: [
 				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "4AA601E55AB2DD8F"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
+					advancement: "ratlantis:defeat_rat_baron"
+					criterion: ""
+					id: "54AE818501F32190"
+					type: "advancement"
 				}
 				{
-					id: "6F776170F5F9A216"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
-									"{\"text\":\"\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
+					id: "1CE4045A7B1B7C6C"
+					item: "rats:biplane_wing"
 					type: "item"
 				}
 			]
+			title: "Rat Baron"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Plenty of Petals can be found in these lands"]
+			hide_until_deps_complete: true
+			id: "66829D8DB3812DF1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4AA601E55AB2DD8F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1F2CC74D968677C1"
 				item: "rats:ratglove_petals"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["66829D8DB3812DF1"]
+			description: ["Very rarely found underground"]
 			id: "00507FD30946FAA7"
 			rewards: [
 				{
-					amount: 200L
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "420747A503DA9FFA"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "547819B6DC524B90"
+					id: "497611D4EDF6FE2D"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -531,11 +638,908 @@
 			]
 			tasks: [{
 				id: "7C3E3C5B5218EEED"
-				item: "rats:oratchalcum_ingot"
+				item: "rats:oratchalcum_block"
 				type: "item"
 			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56DD03587D64EAE7"]
+			description: ["Mock the pursuit it took to create the avatar."]
+			hide_until_deps_visible: true
+			id: "09FCB6F26CB68886"
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "72B874A2F239340F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A70669BEA0D781A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05E667B7CF096497"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C6C87F5624D73B2"
+				item: "rats:idol_of_ratlantis"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3DC7CE87821D969F"
+				"39983DBF52720866"
+				"2218B0FFA0D07C32"
+				"6FD5A5FB24E35D23"
+			]
+			description: ["Combined within are the powers of ratlantis."]
+			hide_until_deps_visible: true
+			id: "56DD03587D64EAE7"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "41627D6AD5F6EFC9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0FA1916CA6C890DC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24229FFDA297B0CC"
+				item: "rats:ratlantis_rat_skull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Theyve come back to protect the land."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:ratlantean_flame"
+			id: "264AF78E4E16D037"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0D9BFCFE0B8BC6B3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "rats:ratlantean_spirit"
+				icon: "rats:ratlantean_flame"
+				id: "38E5DE439F6119E1"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Destroy those little pirat sailors."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:pirat_hat"
+			id: "15D343995EC3BCD9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "26A3D89498D12B81"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "rats:pirat"
+				icon: "rats:pirat_hat"
+				id: "518786BE773173D0"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Most of the locals have gone feral."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:feral_rat_claw"
+			id: "410025673CA82C65"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4CA248C313C3BB9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "rats:feral_ratlantean"
+				icon: "rats:feral_rat_claw"
+				id: "346CF4288340BB59"
+				type: "kill"
+				value: 5L
+			}]
 			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["May be a bit rare in these jungles."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:ratbot_barrel"
+			id: "4F384B2AB452D891"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "74AA9A38DD53F68A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "050D231930E25CD2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "rats:ratlantean_ratbot"
+				icon: "rats:ratbot_barrel"
+				id: "0388BC1936DD13CE"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09FCB6F26CB68886"]
+			description: [
+				"Create the ultimate rat by combining upgrades."
+				""
+				"&eTip:&f 1 Combined upgrade per rat (upgrade. combined. rat gems for fuel)"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "068C4E5E1D34233D"
+			subtitle: "Boo yaa! "
+			tasks: [{
+				id: "3E63D610103F38E9"
+				item: "rats:upgrade_combiner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["243CDB964EC69A5E"]
+			description: [
+				"Extra tang to its bite."
+				"Watch Out!"
+			]
+			id: "080DC17D6093A0B5"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "05FFCF0BBCA60BDE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "075D70425C3C3987"
+				item: "rats:rat_upgrade_feral_bite"
+				type: "item"
+			}]
+			title: "Feral Bite"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["243CDB964EC69A5E"]
+			description: ["Captain your own Fleet of Pirat's"]
+			id: "1873E9F243F6E653"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "31A791A1CA72BAF1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "40700D714EE74BA7"
+				item: "rats:rat_upgrade_buccaneer"
+				type: "item"
+			}]
+			title: "Buccaneer"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["243CDB964EC69A5E"]
+			description: ["Rat Automaton Systems Model 101"]
+			id: "2E1027BFA90D5408"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "671DF9B48A5AAC97"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Ill be back.. with Rats"
+			tasks: [{
+				id: "281C4F437DEDDAAF"
+				item: "rats:rat_upgrade_ratinator"
+				type: "item"
+			}]
+			title: "Ratinator"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["243CDB964EC69A5E"]
+			description: [
+				"We have a Neo Rat at home."
+				"Big Brained."
+			]
+			id: "3B22CADD3DB98AB4"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0F427AE65603E85C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Ive heard it both ways"
+			tasks: [{
+				id: "6684B99F84B45C6C"
+				item: "rats:rat_upgrade_psychic"
+				type: "item"
+			}]
+			title: "Resident Psychic"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["243CDB964EC69A5E"]
+			description: ["Lil Ghosty Rat Friend."]
+			id: "38679A0084BD89BC"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0948A645F4026125"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "100A241F6A90870A"
+				item: "rats:rat_upgrade_ethereal"
+				type: "item"
+			}]
+			title: "Ethereal Ghost"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["09FCB6F26CB68886"]
+			description: ["Craft the Nonbeliever with all the powers of the Ratlantean's in one "]
+			hide_until_deps_complete: true
+			id: "10DF0901D794C66F"
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "66402D31AC7ECD0C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "02A044441B7B9329"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66E0F889B9A77BC6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Blasphemy!"
+			tasks: [{
+				id: "71224D550DFAD7FB"
+				item: "rats:rat_upgrade_nonbeliever"
+				type: "item"
+			}]
+			title: "False Prophet"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Ratlantean Upgrade Base"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "243CDB964EC69A5E"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1EB6E9B72E74A219"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "32B1D134DDC65A25"
+				item: "rats:rat_upgrade_basic_ratlantean"
+				type: "item"
+			}]
+			title: "Basic Ratlantean"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66829D8DB3812DF1"]
+			description: ["We Need Gems, More gems, Gems with a rat."]
+			id: "5B342EADE390718D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "791AD47F8205C857"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "64C7C01B7173E488"
+				item: "rats:gem_of_ratlantis"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Claws of the feral ones can be quite fast with attacks."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "69DF5C42C57BC81D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1FD3C59C98332698"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "63B4700CFD99BC58"
+				item: {
+					Count: 1
+					id: "rats:feral_bagh_nakhs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["068C4E5E1D34233D"]
+			description: ["Combine this with an upgrade and a gem inside the &eUpgrade Combiner"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "77AE1FA48A87B138"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "11C8AB284FD6A1FB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0629E67902F29105"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hitmaker"
+			tasks: [{
+				id: "7E7E30131BA643F0"
+				item: "rats:rat_upgrade_combined"
+				type: "item"
+			}]
+			title: "Combo Wombo"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Obtain both variants of the Cutlass."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "736BB7434B3BFF86"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4F8EDD5A18E50350"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "2CA1E43C335003D1"
+					item: {
+						Count: 1
+						id: "rats:pirat_cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EFEA9AB01DA9C33"
+					item: {
+						Count: 1
+						id: "rats:ghost_pirat_cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: [
+				"Rats will mow down anything in sight."
+				""
+				"&eTip:&f Give mob filter and set to hunt mobs"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "07D25D97C4D75BC7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0BF4ED70E3943D0E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Ratatatatat"
+			tasks: [{
+				id: "7D27E7B8F5FD948A"
+				item: "rats:rattling_gun"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77AE1FA48A87B138"]
+			description: ["Add One by one with combined upgrade to create the ultimate tank"]
+			id: "2E13A78D5507C410"
+			optional: true
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "1B3CB48B57A63225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Nothing but a scratch"
+			tasks: [
+				{
+					id: "56F50EE16D27FB49"
+					item: "rats:rat_upgrade_nonbeliever"
+					type: "item"
+				}
+				{
+					id: "7A63393CAA394336"
+					item: "rats:rat_upgrade_god"
+					type: "item"
+				}
+				{
+					id: "1C92DD55E42EAA34"
+					item: "rats:rat_upgrade_warrior"
+					type: "item"
+				}
+				{
+					id: "2D9A12BF138C4625"
+					item: "rats:rat_upgrade_voodoo"
+					type: "item"
+				}
+				{
+					id: "3077AB3B5423EF02"
+					item: "rats:rat_upgrade_damage_protection"
+					type: "item"
+				}
+			]
+			title: "Combined Foruma: Ultimate Tank"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77AE1FA48A87B138"]
+			description: ["Add One by one with combined upgrade to create your own air support"]
+			id: "38C34232E3CEB525"
+			optional: true
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "2ADCBFC069DCB8A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Chopper incoming"
+			tasks: [
+				{
+					id: "525C4CC5C61D49A9"
+					item: "rats:rat_upgrade_dragon"
+					type: "item"
+				}
+				{
+					id: "4E978633DFDC6C13"
+					item: "rats:rat_upgrade_ethereal"
+					type: "item"
+				}
+				{
+					id: "178D372C2D41B94A"
+					item: "rats:rat_upgrade_bow"
+					type: "item"
+				}
+				{
+					id: "1DB26CBA4109CE98"
+					item: "rats:rat_upgrade_support"
+					type: "item"
+				}
+				{
+					id: "4AF36E301673F4EB"
+					item: "rats:rat_upgrade_remedy"
+					type: "item"
+				}
+			]
+			title: "Combined Formula: Air Support"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["068C4E5E1D34233D"]
+			description: ["If you need to separate your new upgrade."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "543DE671CB31D403"
+			optional: true
+			tasks: [{
+				id: "62AA60FFE82D36FE"
+				item: "rats:upgrade_separator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65DCDFD5CF572292"]
+			description: ["Some have rats choose not to evolve to land."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "23431E7A13474275"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "34462A75F8DBE170"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "rats:ratfish"
+				icon: "rats:ratfish"
+				id: "43CBBD4D33848A9C"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"00507FD30946FAA7"
+				"5B342EADE390718D"
+				"66829D8DB3812DF1"
+			]
+			description: [
+				"Ratlanteans most prized Reactors."
+				"Be careful how you use them."
+			]
+			id: "7E7013783BCA97B0"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "1CEFAA9FFBBED79D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5BC953B6E5F6D7"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					id: "46F8021078923750"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							item_stack_owner: [I;
+								-1743009176
+								-448117200
+								-1885164842
+								210784931
+							]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "65BC3F39704D60CF"
+					item: "rats:ratlantis_reactor"
+					type: "item"
+				}
+				{
+					id: "526627142EAE02DE"
+					item: "kubejs:reactor_tnt"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["The Brainiac wishes they could harvest this information"]
+			id: "6DE8A9C0EF83B4B5"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2D3FF7C8F3373764"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1509530607B75AD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "672554DD99246F98"
+				item: "rats:brain_block"
+				type: "item"
+			}]
+			title: "Oozing Information"
+			x: -1.0d
+			y: 6.0d
 		}
 	]
 	title: "{chapter.21.title}"

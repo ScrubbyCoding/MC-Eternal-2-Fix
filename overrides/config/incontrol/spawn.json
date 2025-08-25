@@ -6,7 +6,7 @@
     "when": "onjoin",
     "healthmultiply": 20.0,
     "damagemultiply": 8.5,
-    "speedmultiply": 1.5
+    "speedmultiply": 1.1
   },
 {
     "dimension": "thegreatbelow:thegreatbelow",
@@ -22,11 +22,7 @@
   {
     "dimension": "thegreatbelow:thegreatbelow",
     "mob": "alexscaves:forsaken",
-    "maxcount": {
-      "amount": 1,
-      "perplayer": false,
-      "when": "onjoin"
-    },
+    "when": "onjoin",
     "result": "deny"
   }, 
 
@@ -103,8 +99,8 @@
     "mob": "ars_nouveau:vexing_weald_walker",
     "when": "finalize",
     "result": "allow",
-    "healthmultiply": 2.5,
-    "damagemultiply": 2.5,
+    "healthmultiply": 4.5,
+    "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
 
@@ -512,14 +508,7 @@
     "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
-      {
-    "dimension": "thegreatbelow:thegreatbelow",
-    "mob": "alexsmobs:rocky_roller",
-    "when": "finalize",
-    "healthmultiply": 3.0,
-    "damagemultiply": 4.5,
-    "speedmultiply": 1.5
-  },
+
    {
     "mob": "alexsmobs:laviathan",
     "when": "finalize",

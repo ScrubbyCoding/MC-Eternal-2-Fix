@@ -55,7 +55,7 @@
       "weapon_attributes": "bettercombat:trident"
     },
     {
-      "item_id_regex": "katana|heartstriker|pan",
+      "item_id_regex": "katana|heartstriker|pan|soul_reaver_axe|soul_reaver",
       "weapon_attributes": "bettercombat:katana"
     },
     {

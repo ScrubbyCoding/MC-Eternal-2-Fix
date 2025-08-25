@@ -1,0 +1,10 @@
+StartupEvents.registry('block', event => {
+  event.create('ultimate_cheese')
+    .displayName('Ultimate Cheese')
+    .material('organic_product')
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(false)
+    .soundType('honey_block')
+    .renderType('solid')
+})

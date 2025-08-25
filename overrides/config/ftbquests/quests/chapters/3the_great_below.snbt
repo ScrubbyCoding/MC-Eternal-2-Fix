@@ -138,6 +138,8 @@
 				"The Quest Book will not be able to advise you until you make the discoveries yourself!"
 				""
 				"Look out for clues and let's uncover the secrets of <shake>&d<shake>THE GREAT BELOW!!!"
+				""
+				"&eTip:&r We should try investigating The Nether... "
 			]
 			id: "6741B77BBC23A95C"
 			rewards: [
@@ -193,6 +195,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "36703B5E497BDA3C"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			subtitle: "Find a &eWither Heart"
@@ -217,6 +224,8 @@
 				"I can hear whis&kd&rpers... I fe&k3&rel... str&k!&range... "
 				""
 				"We have to push on! <shake>&c<shake>FOR SCIENCE!"
+				""
+				"&eTip:&r We should try investigating The Overworld... See if there are any leads that might guide us.. "
 			]
 			hide_until_deps_complete: true
 			id: "20D7639E7B4A9C96"
@@ -259,6 +268,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "50B90EC9FC934F53"
+					item: "thegreatbelow:sculk_pizza"
 					type: "item"
 				}
 			]
@@ -338,6 +352,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "42FA0794F610ED05"
+					item: "thegreatbelow:sculk_pizza"
 					type: "item"
 				}
 			]
@@ -478,6 +497,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3D77362817E4AE70"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.4d
@@ -548,6 +572,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "429F3115A10731F3"
+					item: "thegreatbelow:sculk_pizza"
 					type: "item"
 				}
 			]
@@ -643,6 +672,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "10EC17164B7C831E"
+					item: "thegreatbelow:sculk_pizza"
 					type: "item"
 				}
 			]
@@ -782,6 +816,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "625C37A3E275F2AB"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			secret: true
 			shape: "octagon"
@@ -846,6 +885,11 @@
 							type: "quest_loot"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "15443BDF0B20B544"
+					item: "thegreatbelow:sculk_pizza"
 					type: "item"
 				}
 			]
@@ -970,6 +1014,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "18303C2DB4D335FF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			subtitle: "Craft a Warden Distraction-ator"
 			tasks: [{
@@ -1006,6 +1055,11 @@
 					item: "minecraft:lodestone"
 					type: "item"
 				}
+				{
+					id: "78A075E2E5F1B4EF"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
 			]
 			subtitle: "Craft a &eSlice Map"
 			tasks: [{
@@ -1016,6 +1070,149 @@
 			title: "&dLost and Afraid!"
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["6248503684C49C89"]
+			description: ["The Beckon Puppet can be deployed to make noise and distract nearby lesser sculk creatures!"]
+			id: "509ADB380DDBE778"
+			rewards: [
+				{
+					id: "07FA7BF10EF3B51F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77374A00404E7B97"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2EEA198911C5F495"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eBeckon Puppet"
+			tasks: [{
+				id: "05E9371B8096D8D4"
+				item: "blighted_beasts:beckon"
+				type: "item"
+			}]
+			title: "&bThe Lil Distraction That Could"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The Soulreaver is an ancient sword of untold power, the legend says it absorbs the souls of its victims, empowering itself and its user..."
+				""
+				"Simply holding the sword is enough for you to feel your own soul be pulled towards it. Wielding this weapon requires a great deal of self control and willpower. "
+				""
+				"You can hear it whisper to you..."
+				"&b⎓ ᒷ ᒷ ↸ ᒲ ᒷ \"Feed me\" "
+			]
+			id: "6C9EE00F1D018579"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "7CAC9C1AEBFA2BDA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:soulreaver"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "214ABD66F913EFAD"
+					title: "&eUnlock Title:&r the Soulreaver"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "14A036051C9A28BA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4CCCFD4D465D4D58"
+					item: "thegreatbelow:sculk_pizza"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Find the &eSoulreaver"
+			tasks: [{
+				id: "6A3A5BDC13E1510A"
+				item: {
+					Count: 1
+					id: "thegreatbelow:soul_reaver_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&bThe Ancient Blade"
+			x: 3.0d
+			y: 9.0d
 		}
 	]
 	title: "&3The Great Below &6☆☆☆"

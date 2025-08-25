@@ -1225,7 +1225,7 @@
 			subtitle: "Obtain &eCobalt Ore"
 			tasks: [{
 				id: "4C74EE2F8C1AFD91"
-				item: "tconstruct:cobalt_ore"
+				item: "tconstruct:raw_cobalt"
 				type: "item"
 			}]
 			title: "&eAcquire Nether Hardware"
@@ -2697,7 +2697,34 @@
 			x: 9.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7F42CAE7EEF5DD33"]
+			description: [
+				"Whilst smelting down Blazes from a spawner, you may occasionally come across the &eJolt&r, an annoying variant of the Blaze that can teleport around and out of your smeltery through lightning when hurt, leaving behind fire wherever he strikes down at. Luckily there is one thing lightning can't resist - a &elightning rod&r!"
+				""
+				""
+				"Simply have one nearby and all &eJolts&r attempting to teleport will strike down at the &elightning rod&r instead! "
+			]
+			id: "239A52DD530EC4F5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "178BD90C2EA6646C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a &elightning rod &rfor redirecting &eJolts"
+			tasks: [{
+				id: "6058001AFD2DCD41"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "Jolt Control"
+			x: 3.0d
+			y: -2.0d
+		}
 	]
 	title: "&6Tinker's Construct &o(Modular Tools)"
 }
+
 

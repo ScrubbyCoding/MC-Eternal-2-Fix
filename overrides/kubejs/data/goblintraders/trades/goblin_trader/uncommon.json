@@ -3,6 +3,104 @@
   "trades": [
     {
       "type": "goblintraders:basic",
+      "experience": 1,
+      "max_trades": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "constructs_casting:poisonous_potato_stew"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "alexsmobs:unsettling_kimono"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "petcapturetool:capture_tool"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:fall_prevention_charm"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+        {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:powdered_snow_walk_charm"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:sonic_boom_protection_charm"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "ars_additions:sonic_boom_protection_charm"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+       {
+      "type": "goblintraders:basic",
       "experience": 4,
       "max_trades": 1,
       "offer_item": {
@@ -11,6 +109,20 @@
       },
       "payment_item": {
         "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "ad_astra:radio"
+      },
+      "payment_item": {
+        "count": 15,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -194,6 +306,21 @@
       },
       "payment_item": {
         "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "thegreatbelow:sculk_pizza"
+      },
+      "payment_item": {
+        "count": 15,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0

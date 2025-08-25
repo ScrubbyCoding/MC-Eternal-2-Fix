@@ -62,4 +62,8 @@ ServerEvents.tags("item", event => {
 
     //Hex Pigment
     event.add("mce2:hexcasting/pigment", /hexcasting:.*_colorizer.*/)
+
+
+    //Mining Gadgets
+    event.add("mce2:mininggadgets", /mininggadgets:mininggadget.*/)
 })

@@ -1,9 +1,9 @@
 {
-	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rats"
 	group: "6ACD28698B988220"
+	icon: "rats:trash_can"
 	id: "42E60799F4AECBB9"
 	images: [
 		{
@@ -12,7 +12,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
@@ -43,23 +43,23 @@
 			image: "rats:item/cheese"
 			rotation: 33.0d
 			width: 0.6d
-			x: -0.7499999999999929d
-			y: 3.4464285714285694d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			height: 0.6d
 			image: "rats:item/cheese"
 			rotation: -88.0d
 			width: 0.6d
-			x: 2.535714285714292d
-			y: 2.2678571428571423d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			height: 0.6d
 			image: "rats:item/cheese"
 			rotation: 33.0d
 			width: 0.6d
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -78,8 +78,98 @@
 			x: 1.2452380952381077d
 			y: 0.934523809523796d
 		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: -88.0d
+			width: 0.6d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 3.5d
+			image: "rats:block/block_of_cheese"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			height: 13.0d
+			image: "modpack:textures/cheesescroll.png"
+			rotation: 90.0d
+			width: 10.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			height: 13.0d
+			image: "modpack:textures/cheesescroll.png"
+			rotation: 90.0d
+			width: 10.0d
+			x: -5.95d
+			y: 8.05d
+		}
+		{
+			height: 4.0d
+			image: "rats:block/block_of_nether_cheese"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "dialog:textures/portraits/barry_love.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "rats:textures/thaumcraft_rat_icon.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/thaumcraft_rat_flip.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/blue_cheese"
+			order: 1
+			rotation: 25.0d
+			width: 0.6d
+			x: 8.5d
+			y: 5.1d
+		}
+		{
+			height: 0.6d
+			image: "rats:item/nether_cheese"
+			rotation: 33.0d
+			width: 0.6d
+			x: -1.5d
+			y: 1.2d
+		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -141,11 +231,6 @@
 			id: "345F8558DB7253AA"
 			rewards: [
 				{
-					id: "25DF0DCC8F5D8B49"
-					item: "rats:rat_sack"
-					type: "item"
-				}
-				{
 					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "604A9AAC13D4B765"
@@ -153,8 +238,40 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
+					id: "7A4CF8EE6D992835"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
-					id: "7375BCB2E600DCFF"
+					id: "77C5DFF1A929E4EB"
 					table_id: 2644483923066781056L
 					type: "random"
 				}
@@ -170,14 +287,14 @@
 				type: "advancement"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			description: [
 				"Wild Rats can sometimes spawn near your crops! They are very crafty.. and hungry!!"
 				"They will eat all they can and even burrow through wood/dirt to steal food from chests!"
 				""
-				"Behold! The humble Rat Trap! Place or two of these around your farm and food storage to scare off those no good wild rats! "
+				"Behold! The humble Rat Trap! Place one or two of these around your farm and food storage to scare off those no good wild rats! "
 			]
 			id: "0328BC07E0F0215E"
 			rewards: [{
@@ -194,7 +311,2428 @@
 				type: "item"
 			}]
 			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Why wait to find a RAT when they can come to you!"
+				"Craft yourself a trash can for easy access to garbage"
+			]
+			icon: "rats:trash_can"
+			id: "0553029F480C0A09"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "250268C3A0B8BA4A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "3B89378F841AC2C8"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "Shoosh"
+			tasks: [{
+				id: "2AFA20615DB76818"
+				item: "rats:trash_can"
+				type: "item"
+			}]
+			title: "One Mans Trash is Another Rats Garbage"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"You've outdone it this time"
+				"So Many Options."
+				"Wowza look at how snazzy they are."
+				""
+				"Ready to party... or work"
+			]
+			icon: "rats:party_hat"
+			id: "5BA70537938CEA2E"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "5B952DD693837DB7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "4CCE04DBE6AD45FA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&eya like ratz?"
+			tasks: [
+				{
+					advancement: "rats:all_hats"
+					criterion: ""
+					id: "027B26D004727F50"
+					type: "advancement"
+				}
+				{
+					id: "3BBB337C45ECACD8"
+					item: "rats:chef_toque"
+					type: "item"
+				}
+				{
+					id: "415540CE7E260096"
+					item: {
+						Count: 1
+						id: "rats:piper_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436CCB90194D6CA7"
+					item: "rats:archeologist_hat"
+					type: "item"
+				}
+				{
+					id: "241FF187386C4B5A"
+					item: "rats:farmer_hat"
+					type: "item"
+				}
+				{
+					id: "52EE39E4F720F3D7"
+					item: "rats:fisherman_hat"
+					type: "item"
+				}
+				{
+					id: "6D7B4CAAEC6850CB"
+					item: "rats:rat_fez"
+					type: "item"
+				}
+				{
+					id: "4A91F629CDD88450"
+					item: "rats:top_hat"
+					type: "item"
+				}
+				{
+					id: "0F9ECC2DF6FD535F"
+					item: "rats:santa_hat"
+					type: "item"
+				}
+				{
+					id: "341AB7C777ABE6B9"
+					item: "rats:halo_hat"
+					type: "item"
+				}
+				{
+					id: "7ADD83521C5732EE"
+					item: "rats:party_hat"
+					type: "item"
+				}
+				{
+					id: "637CA3DB74BD5DC2"
+					item: "rats:pirat_hat"
+					type: "item"
+				}
+				{
+					id: "288B62A3A7B3C4AF"
+					item: "rats:rat_king_crown"
+					type: "item"
+				}
+				{
+					id: "54F8C5A994422D13"
+					item: "rats:aviator_hat"
+					type: "item"
+				}
+				{
+					id: "167182597253FAF1"
+					item: "rats:ghost_pirat_hat"
+					type: "item"
+				}
+				{
+					id: "7A5B65FA85FE3007"
+					item: "rats:military_hat"
+					type: "item"
+				}
+				{
+					id: "63076AEE38B9FF48"
+					item: "rats:exterminator_hat"
+					type: "item"
+				}
+				{
+					id: "3B2A07D45B49FD7E"
+					item: {
+						Count: 1
+						id: "rats:plague_doctor_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "064C2848979BE997"
+					item: {
+						Count: 1
+						id: "rats:black_death_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Master of Coat Check"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["Make a rat cage to store your new rat friends"]
+			hide_until_deps_complete: true
+			id: "692B70594330B7F9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "428C11B33DCCA72E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "It's a bit bare"
+			tasks: [{
+				id: "6E7AB11141A8254E"
+				item: "rats:rat_cage"
+				type: "item"
+			}]
+			title: "Keep them safe"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["692B70594330B7F9"]
+			description: [
+				"Used inside of a rat cage to breed."
+				"Can spawn different Colored rats."
+			]
+			id: "561565CD3E7FC288"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7EA4408DF000BC5D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "52A53AE26612D39F"
+				item: "rats:rat_breeding_lantern"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692B70594330B7F9"]
+			description: [
+				"Power may not be the rats strong suit,"
+				"but they will run to their hearts content."
+			]
+			id: "62164909FBDDF38B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "45199AE68D9BD012"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Run Rat Run"
+			tasks: [{
+				id: "3D0A4FACE336F062"
+				item: "rats:rat_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: [
+				"Once youve created Tons and Tons of garbage youll be able to create&e Filth."
+				""
+				"&eTip: &fClick on a wild rat with the &eBall of filth&f and prepare"
+			]
+			hide_until_deps_complete: true
+			id: "7E1B8CE92AE090E7"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "749E9E8F95248362"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "50F89AEB7C797826"
+					item: "rats:filth"
+					type: "item"
+				}
+				{
+					id: "7505624043A35BCD"
+					item: "rats:filth_corruption"
+					type: "item"
+				}
+			]
+			title: "Filty filthy rats"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E1B8CE92AE090E7"]
+			description: ["Steal the bundled up throne of the Rat King."]
+			hide_until_deps_complete: true
+			icon: "rats:rat_king_crown"
+			id: "73C26A1D5F5D3D50"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "0659AD3AA73D96BB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "47504B5E1DC481B7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "120A29A5B8ADECA5"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Rat Basher"
+			tasks: [{
+				advancement: "rats:defeat_rat_king"
+				criterion: ""
+				id: "5F7DA32A3FA7CF35"
+				type: "advancement"
+			}]
+			title: "King of the rats?"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0553029F480C0A09"]
+			description: [
+				"Trash, Trash, Trash, Garbage!"
+				""
+				"&eTip: &fSet in the dark and leave some cheese"
+			]
+			id: "129BCE5215BE5DC4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "25314CEACCC428BE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 8
+					id: "426075F1FAB0C0DE"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "Duck Duck Rat"
+			tasks: [{
+				id: "4E8F4E720243FA8B"
+				item: "rats:garbage_pile"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&eCheese Staff&f lets you set Container and home point"
+				"&eRadius Staff&f to change the area a rat can harvest"
+				"&ePatrol Staff&f to have a rat guard between points(Not working)"
+			]
+			id: "5AAB0EA331220FD8"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "073DF23466C9DE21"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "126E8D7EF63FD48A"
+					item: "rats:rat_flute"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D9545BE78283352"
+					item: "rats:cheese_stick"
+					type: "item"
+				}
+				{
+					id: "4F0DFEFBE997DE7D"
+					item: "rats:radius_stick"
+					type: "item"
+				}
+				{
+					id: "3DF324BB6990E28C"
+					item: "rats:patrol_stick"
+					type: "item"
+				}
+			]
+			title: "Cheester Staffington"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["&eTip:&f Obtain Plastic waste by destroying that fresh pile of garbage"]
+			hide_until_deps_complete: true
+			id: "50F185B6545B60D1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5815D156791B0F9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Plastic Cheese"
+			tasks: [
+				{
+					id: "7FF58EF0C5C48D9F"
+					item: "rats:plastic_waste"
+					type: "item"
+				}
+				{
+					id: "149F5BB9221047CA"
+					item: "rats:raw_plastic"
+					type: "item"
+				}
+			]
+			title: "Microplastic Haven"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Its time to stop drinking your rat"
+				"and Start eating your rat,"
+				"By Ratguards for Ratguards."
+				"(no rats are harmed)"
+			]
+			hide_until_deps_complete: true
+			id: "22D16D4DA22F766C"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5BD6237009BCA7EA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Power of a &mcrow&r Rat"
+			tasks: [{
+				id: "74825A05A9840A56"
+				item: "rats:rat_upgrade_carrat"
+				type: "item"
+			}]
+			title: "Eat Carrat"
+			x: 8.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"Start your rat legion by making them work for you."
+				"Useful automation with rats and these upgrades."
+			]
+			hide_dependency_lines: true
+			id: "1D0C110300E87273"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "2393AC33305D8271"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "37474EDDB4E81057"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			title: "Utility upgrades"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"50F185B6545B60D1"
+				"692B70594330B7F9"
+			]
+			description: ["Rat Cage accessories"]
+			id: "37242CF1AB251620"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2DB90E80D5A04163"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Home is where the cheese is"
+			tasks: [
+				{
+					id: "5F036A9437751691"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:hammocks"
+						}
+					}
+					title: "Any #rats:hammocks"
+					type: "item"
+				}
+				{
+					id: "272FA3329A9A9376"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rats:igloos"
+						}
+					}
+					title: "Any #rats:igloos"
+					type: "item"
+				}
+				{
+					id: "04C1F9B49AC9C696"
+					item: "rats:rat_seed_bowl"
+					type: "item"
+				}
+				{
+					id: "4F18EDB4A21E5B0B"
+					item: "rats:rat_water_bottle"
+					type: "item"
+				}
+			]
+			title: "Cage Decor"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Pour one out for all the lost rats"
+				"and feed them for the rest of time."
+			]
+			id: "37C3FB129893409F"
+			optional: true
+			rewards: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "5F32D7BB0A656866"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Press F to pay respect"
+			tasks: [{
+				count: 1024L
+				id: "1E9996BBE91110BC"
+				item: "rats:block_of_cheese"
+				type: "item"
+			}]
+			title: "Sacrifice"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: [
+				"Wonder what notes the doctor has been taking."
+				"Maybe give them back and see what it does?"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "290A574868B34E76"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "5BC3E259BD2022B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5C57091AECD6F859"
+				item: "rats:plague_tome"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["290A574868B34E76"]
+			description: [
+				"Grant the doctor his tome"
+				"Defeat the black death in rome."
+			]
+			hide_until_deps_complete: true
+			id: "052651542B69BA30"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "3FF534B6C1AC1DD1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "04DE6DC1A53B0471"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28AD491D415F9820"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Plague immune"
+			tasks: [{
+				advancement: "rats:black_death"
+				criterion: ""
+				id: "63187647FECA5A4C"
+				type: "advancement"
+			}]
+			title: "Dance with Death"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Dont wanna keep fishing for neptunium on your own?"
+				"Make one of this little guys do it for you"
+			]
+			hide_until_deps_complete: true
+			id: "4E5E230D2E1D1259"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "28983BE95D313F2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "17779EC6F812BBCF"
+				item: "rats:rat_upgrade_fisherman"
+				type: "item"
+			}]
+			title: "The Codfather"
+			x: 6.8d
+			y: 6.0d
+		}
+		{
+			description: ["Is there much else to say?"]
+			id: "0FF34655B0CF88FD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "038E392CC7F03DAC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Rat with no keys"
+			tasks: [{
+				id: "2664D2CECF2E0C4D"
+				item: "rats:ratbow_essence"
+				type: "item"
+			}]
+			title: "RGB Rat"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Basic Mount Upgrade for crafting."]
+			hide_until_deps_complete: true
+			id: "499F93D12649257F"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "53F2F642771DFB6F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "062E95281FA8D789"
+				item: "rats:rat_upgrade_basic_mount"
+				type: "item"
+			}]
+			title: "Slinkstallion"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["Chicken Mount for the rat."]
+			id: "266BCE10E88E3A71"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7A22AEF0F4C6D43B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "23BC0D431685477D"
+				item: "rats:rat_upgrade_chicken_mount"
+				type: "item"
+			}]
+			title: "Bawk Bawk"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["Iron Golem Mount for the rat."]
+			id: "0AC9C54F6322D753"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6291AE1D39C358F8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "00501BEABA0C9645"
+				item: "rats:rat_upgrade_golem_mount"
+				type: "item"
+			}]
+			title: "Irat Golem"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["Strider Mount for the rat."]
+			id: "22C4BE44DB1A3620"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "292541CF4F317DF8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "01961A66C503FFE4"
+				item: "rats:rat_upgrade_strider_mount"
+				type: "item"
+			}]
+			title: "Squeakstride"
+			x: 10.8d
+			y: 6.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["Beast Mount for the rat."]
+			id: "3249F5D009F1A95C"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "178765DF0BD0E7E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "51B80163D506762B"
+				item: "rats:rat_upgrade_beast_mount"
+				type: "item"
+			}]
+			title: "Clawsteed"
+			x: 10.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["Automaton Mount for the rat."]
+			id: "22A3BC3876168BF3"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "1C3EEB55D1074067"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "62495A18237F029D"
+				item: "rats:rat_upgrade_automaton_mount"
+				type: "item"
+			}]
+			title: "T-800"
+			x: 10.8d
+			y: 7.0d
+		}
+		{
+			dependencies: ["499F93D12649257F"]
+			description: ["The Barons Biplane Mount for the rat."]
+			id: "49DC1D349E16E626"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7569F49AFAB8B84B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4ED6092980B4F5BE"
+				item: "rats:rat_upgrade_biplane_mount"
+				type: "item"
+			}]
+			title: "Barons little pilot"
+			x: 10.8d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EB2FD5E07A7A312"]
+			description: [
+				"Get yourself a cow and a rat willing to do the hard work."
+				"Harvest milk for more cheese!"
+			]
+			hide_until_deps_visible: true
+			id: "27E4829BD91D77E6"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "500CDDF02D3C09FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1F5A8B03B77A8F97"
+				item: "rats:rat_upgrade_milker"
+				type: "item"
+			}]
+			title: "Squeakmaid Buttercup"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Rats may speak a language of love we dont understand"
+				"More Animals!"
+			]
+			hide_until_deps_complete: true
+			id: "6569AC301F58FCB4"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "54F7D265FB2CC467"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2546A146B995015C"
+				item: "rats:rat_upgrade_breeder"
+				type: "item"
+			}]
+			title: "Rat Husbandry"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Make the trees tumble with the power of a rat"]
+			hide_until_deps_complete: true
+			id: "5DECA05BD21C069E"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "329A37167367C567"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "53A85A8F8AC9D4FC"
+				item: "rats:rat_upgrade_lumberjack"
+				type: "item"
+			}]
+			title: "Paul Bunrat"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Why not make the rats cook up one of "
+				"the famous delicacies they can offer."
+			]
+			hide_until_deps_complete: true
+			id: "71235D8203AA7F16"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4D20F39FFB3F6F95"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6A9B8A52AC810961"
+				item: "rats:rat_upgrade_chef"
+				type: "item"
+			}]
+			title: "Ricotta Ratterini"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71235D8203AA7F16"]
+			description: [
+				"Youve done it. you have recreated Ratatouille "
+				"Hope you are proud"
+			]
+			id: "5F1F6A20A19D8F42"
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "34E95C072FCABD75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A495CD822E9408A"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					id: "37668D2AD742F809"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "7715DC8D1E6813AE"
+					item: "rats:confit_byaldi"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7FD1D9FD9FF972E3"
+					item: { Count: 32, id: "rats:potato_knishes" }
+					type: "item"
+				}
+			]
+			title: "Squeak ‘n’ Serve"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Turn your rat friend into a little demon with more stats."]
+			hide_until_deps_complete: true
+			id: "40957BC86EB1FE9A"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "735E4F6D5F8C3801"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "252C5826B3D7B134"
+				item: "rats:rat_upgrade_demon"
+				type: "item"
+			}]
+			title: "NosfeRATu"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Give your rat resurrective immortality."]
+			hide_until_deps_complete: true
+			id: "1E8BD5F2E11E3F7F"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "76FD258522D0B637"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "155FDA229DD0C877"
+				item: "rats:rat_upgrade_angel"
+				type: "item"
+			}]
+			title: "Saint Cheddard"
+			x: 9.05d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Archeologist rats can transform a handful of items into a ratlantean counterpart ."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0A0354F4B1979E63"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "59D6FDA57780E86D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68B0714D636BC757"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51CBEEA7BEF7A05B"
+				item: "rats:rat_upgrade_archeologist"
+				type: "item"
+			}]
+			title: "Ratassic Excavator"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B60D17E7595FAD3"
+				"0F17D9539C1D0D19"
+				"78FE17774BFBB62C"
+			]
+			description: ["Now thats one mini winged beast."]
+			id: "6C68D567D25AF659"
+			optional: true
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1DCBD4E7A75A01AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Winged Beast"
+			tasks: [{
+				id: "196F739D77BB35D0"
+				item: "rats:rat_upgrade_dragon"
+				type: "item"
+			}]
+			title: "Rat Goes Rawr"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B60D17E7595FAD3"]
+			description: [
+				"Turn your rat into a Bee."
+				"Because science"
+			]
+			id: "0FECE045F1B891B4"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "65F89AACA4C6A983"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "10BCBFFD0D603743"
+				item: "rats:rat_upgrade_bee"
+				type: "item"
+			}]
+			title: "BeeRat"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Let your rat feel the air through its fur."]
+			hide_until_deps_complete: true
+			id: "5B60D17E7595FAD3"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0E2619F8AD2E90C0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "408ECB7D290D2ED7"
+				item: "rats:rat_upgrade_flight"
+				type: "item"
+			}]
+			title: "When Rats Fly"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5C7CC41A81FC4F6F"
+				"5B150BC9853F0D26"
+				"3165BD6F2D5ACC2E"
+			]
+			id: "78FE17774BFBB62C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "7F885BE4805F4577"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0845D1175CF06691"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E0E7B4B257AB0F2"
+				item: "rats:rat_upgrade_warrior"
+				type: "item"
+			}]
+			title: "Warrior"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Give your rat a small boost to its damage."]
+			hide_until_deps_complete: true
+			id: "5B150BC9853F0D26"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "69F59C308B8438DF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "72955DF23867DEA9"
+				item: "rats:rat_upgrade_strength"
+				type: "item"
+			}]
+			title: "Strength up"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Give your rat a little health boost."]
+			hide_until_deps_complete: true
+			id: "5C7CC41A81FC4F6F"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "02DBF85189708767"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3D37BA8978A7B6AA"
+				item: "rats:rat_upgrade_health"
+				type: "item"
+			}]
+			title: "Health up"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Make your rat just a little more like a tank"]
+			hide_until_deps_complete: true
+			id: "3165BD6F2D5ACC2E"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "2C8812E491BC5DA2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6B1DC6BB9450EA80"
+				item: "rats:rat_upgrade_armor"
+				type: "item"
+			}]
+			title: "Armor Up"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["345F8558DB7253AA"]
+			description: [
+				"Start your rat army off with some battle upgrades"
+				"Attack, Defense. and Health"
+			]
+			hide_dependency_lines: true
+			id: "064CBE31CC105137"
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "289674DCD6901291"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "573B102332930056"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			title: "Combat Ready"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78FE17774BFBB62C"]
+			description: ["Upgrade your rat to be your ultimate fighting companion."]
+			id: "5D372162DA9FF3F1"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "0A2BFEEF07058E75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "60AE6073931F13AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "oof. Thats gotta hurt"
+			tasks: [{
+				id: "023AAA182E822142"
+				item: "rats:rat_upgrade_god"
+				type: "item"
+			}]
+			title: "Basic Battle Tank"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Some environmental damage immunity."]
+			hide_until_deps_complete: true
+			id: "0F17D9539C1D0D19"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3A71A1B9414FD0C5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2B354B3EC0C7331F"
+				item: "rats:rat_upgrade_asbestos"
+				type: "item"
+			}]
+			title: "Asbesto-Rat"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C7CC41A81FC4F6F"]
+			description: ["Conjure something dark and youll notice your rats healthier."]
+			id: "59CE4F17F88B5E58"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5051EF2C19C9F892"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "30F77CCBC7A28D88"
+				item: "rats:rat_upgrade_voodoo"
+				type: "item"
+			}]
+			title: "Voodoo Wooloo"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Rats rule everything around me. Get the cheese dolla dolla bills yall."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1D0AB102552451D2"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "79BFAC5701295D14"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B86435B9C9CA749"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C799343F858CD9"
+				item: "rats:rat_upgrade_aristocrat"
+				type: "item"
+			}]
+			title: "Lord Nibbleton"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Turns your rat friend into santa to give you a little gift every hour."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4A3612A88952B456"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "71DA5388D1A6987B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0A9E37D8B67579F8"
+				item: "rats:rat_upgrade_christmas"
+				type: "item"
+			}]
+			title: "Rudrat the Red Noised"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"Let your rat double your ore output"
+				""
+				"&eTip:&f Rats may drop some regular nuggets after eating"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "13A04EB31529F4AE"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5A0FA7A4D29758A4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C45A4A3038FC566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2051ED1A487057E9"
+				item: "rats:rat_upgrade_ore_doubling"
+				type: "item"
+			}]
+			title: "Oresplitter"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Rat fluid transportation"]
+			hide_until_deps_complete: true
+			id: "7EB2FD5E07A7A312"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "510BD8B1847E79BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3D6DB8E436B20C9A"
+				item: "rats:rat_upgrade_bucket"
+				type: "item"
+			}]
+			title: "Bucket Bucket"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0F17D9539C1D0D19"
+				"1CBB36A1983F38F3"
+				"779B7814DBF8ADDB"
+			]
+			description: ["Wow 99% environmentally indestructible."]
+			id: "5396EE806D578883"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4FA370178104FB6A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2525211F0C0E4DD7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C1E0AAB427F1120"
+				item: "rats:rat_upgrade_damage_protection"
+				type: "item"
+			}]
+			title: "Damage Immunity"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Some environmental damage immunity"]
+			hide_until_deps_complete: true
+			id: "1CBB36A1983F38F3"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "71D5CE05D3C59BBF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "615C4300FF36EA7C"
+				item: "rats:rat_upgrade_poison"
+				type: "item"
+			}]
+			title: "Poisonous Resistance"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: ["Some environmental damage immunity."]
+			hide_until_deps_complete: true
+			id: "779B7814DBF8ADDB"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "032112B340EFF3A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "004A35BD7026B47D"
+				item: "rats:rat_upgrade_underwater"
+				type: "item"
+			}]
+			title: "Deep Breathe"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"GOLDEN RAT"
+				"isn't it glorious."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5E4DEA3616C85972"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "061964BDFB86E7BB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "43B038ACD99E9D1E"
+				item: "rats:rat_upgrade_idol"
+				type: "item"
+			}]
+			title: "Golden Idol"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"&eBarry&f is NOT going to pick any kind of support"
+				"Lets make other rats do it"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7D22C7D688D16D6D"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "4B52FD5CA2C80797"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1F214BFF11664ED5"
+				item: "rats:rat_upgrade_support"
+				type: "item"
+			}]
+			title: "Pick Mercy"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Turn the little rat into a skeleton."]
+			hide_until_deps_complete: true
+			id: "6B8647BA6B66BF77"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "579C40B906DA3A6E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "100B12EBA783B4BA"
+				item: "rats:rat_upgrade_undead"
+				type: "item"
+			}]
+			title: "Vertebratt"
+			x: 9.9d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Bath your rat in the sculky ancient city."]
+			hide_until_deps_complete: true
+			id: "3AC62DE60B33BF35"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3273E9026AD18FAC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "013BB12135DD1985"
+				item: "rats:rat_upgrade_sculked"
+				type: "item"
+			}]
+			title: "Sculkgnasher"
+			x: 10.7d
+			y: 10.0d
+		}
+		{
+			dependencies: ["779B7814DBF8ADDB"]
+			description: ["Rats are under da water and they're not drowning."]
+			id: "6F5FA852F9A08C66"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0B3CD4D4A72AE2A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "54889EE933F95F26"
+				item: "rats:rat_upgrade_aquatic"
+				type: "item"
+			}]
+			title: "Glug glug"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			description: ["Create the ultimate cheese and be forever stuck with the cheese touch"]
+			icon: "kubejs:ultimate_cheese"
+			id: "286FA5340108878F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BA0A7DA03806742"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3610686F062D854F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3343CD1E2161D40F"
+					table_id: 1000697171934557785L
+					type: "random"
+				}
+			]
+			secret: true
+			shape: "heart"
+			subtitle: "ew! Get away from me"
+			tasks: [
+				{
+					id: "1D9061FECD096032"
+					item: "rats:block_of_cheese"
+					type: "item"
+				}
+				{
+					id: "1533D8D66EA8DD28"
+					item: "rats:block_of_blue_cheese"
+					type: "item"
+				}
+				{
+					id: "055F07EBB5F25E3B"
+					item: "rats:block_of_nether_cheese"
+					type: "item"
+				}
+				{
+					id: "0EF92BC2374FC808"
+					item: "kubejs:ultimate_cheese"
+					type: "item"
+				}
+			]
+			title: "CHEESE TOUCH"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"&eWhitelist&f Used to filter the items you want the Rat to be able to interact with."
+				"&eBlacklist&f Used to filter the items you don't want the rat to interact with."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CDACA8A878F2C08"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "256391E20D4D2107"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "522FDE2457CAC0E6"
+					item: "rats:rat_upgrade_whitelist"
+					type: "item"
+				}
+				{
+					id: "5F5812CF81BB3DC2"
+					item: "rats:rat_upgrade_blacklist"
+					type: "item"
+				}
+			]
+			title: "Rat Filter"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1A700C584A856120"]
+			description: ["Dipped in gold, &eBarry&f questions your motives."]
+			hide_until_deps_complete: true
+			id: "62307DA8122BEE2D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "48B65D388AEA98E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Treacherous"
+			tasks: [{
+				id: "19CD09E30A16C058"
+				item: "rats:golden_rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62307DA8122BEE2D"]
+			description: [
+				"&eBarry&f will not ask you were you got this."
+				"They are just disappointed."
+			]
+			hide_until_deps_complete: true
+			id: "1B19A55F671806DF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "75B66FF67F26AD7F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5E5DC9419B301C4E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Why"
+			tasks: [{
+				id: "508BAD37A3C5CB46"
+				item: "rats:corrupt_rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: ["&eBarry&f asks that you change your ways."]
+			id: "1A700C584A856120"
+			invisible: true
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "09C3D51C4DE64884"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Bad"
+			tasks: [{
+				id: "3A0E9BF8A455B520"
+				item: "rats:rat_skull"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"If rats could save time in a bottle"
+				""
+				"The first thing that we'd like to do"
+				""
+				"Is to stash every day"
+				""
+				"'til the mold drifts away,"
+				""
+				"Just to spend them with cheese"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "59256A4A5360489C"
+			optional: true
+			rewards: [
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "18E73D068276E819"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D7BEB1FD2383F6B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "1 Eternity Later"
+			tasks: [{
+				id: "2954A31655F72EC5"
+				item: "rats:rat_upgrade_time_manipulator"
+				type: "item"
+			}]
+			title: "Time in a Rat"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Easily replant seeds after harvesting crops or lumber"]
+			hide_until_deps_complete: true
+			id: "5BA65707B6A7B7BC"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "4FEF78B04B1792A0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5D3071981562484B"
+				item: "rats:rat_upgrade_replanter"
+				type: "item"
+			}]
+			title: "Tillrat"
+			x: 5.95d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: ["Obtain all the wool by making your rat shear sheep"]
+			hide_until_deps_complete: true
+			id: "4070C31B90BA9CED"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "483FDBF9273DC4A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7267B9DF6EFF7E8C"
+				item: "rats:rat_upgrade_shears"
+				type: "item"
+			}]
+			title: "Woolwhisker"
+			x: 5.1d
+			y: 6.0d
+		}
+		{
+			dependencies: ["603233D2050BF539"]
+			description: ["Create what could possibly be the only real cure to the plague."]
+			hide_until_deps_complete: true
+			id: "005457EA8387EACE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "276DCDF2C30DB96B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "72798E37C5EEB119"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421C900C6035EC26"
+					table_id: 2644483923066781056L
+					type: "random"
+				}
+			]
+			shape: "spstar"
+			subtitle: "A sunny day!"
+			tasks: [{
+				id: "187572C8252AFF1B"
+				item: "rats:plague_stew"
+				type: "item"
+			}]
+			title: "The Cure?"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"If you want to combine upgrades in the boring way."
+				""
+				"&eTip: &fRight click when in hand. Cannot Edit once made"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58B52CD51A2A6DAC"
+			optional: true
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "414E2FE06A287B49"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Tales from the Bootleg Trail"
+			tasks: [{
+				id: "1DCD652D6C128276"
+				item: "rats:rat_upgrade_jury_rigged"
+				type: "item"
+			}]
+			title: "Bootleg Combination"
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"Carry all your rats with you."
+				"A lot more cozy on the inside."
+			]
+			id: "3FD703A32118319A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2893BF157B9A6B98"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 16
+					id: "6AC1728186E5E738"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			subtitle: "Comfortable"
+			tasks: [{
+				id: "1BE59DFDFB75B201"
+				item: "rats:rat_sack"
+				type: "item"
+			}]
+			title: "Pouch Potato"
+			x: 1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["129BCE5215BE5DC4"]
+			description: ["Not much can be done to prevent it but you may have a chance to cleanse yourself."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "603233D2050BF539"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2111717A48373F70"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Not feeling so well"
+			tasks: [
+				{
+					id: "68AA3B45B0B4D4D5"
+					item: "rats:herb_bundle"
+					type: "item"
+				}
+				{
+					id: "45BEF77CD76B5FF1"
+					item: "rats:treacle"
+					type: "item"
+				}
+				{
+					id: "1A9881A67702AE60"
+					item: "rats:plague_leech"
+					type: "item"
+				}
+			]
+			title: "Temporary Plague"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Make your rat yearn for the mines."
+				""
+				"&eTip:&f Make a &eRat Quarry&f to start"
+			]
+			hide_until_deps_complete: true
+			id: "4C43E1F5BB747A8B"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:coins"
+				id: "51AD3C8AA0437BFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "58D478BB291B2F5A"
+				item: "rats:rat_upgrade_quarry"
+				type: "item"
+			}]
+			title: "Miney McChews "
+			x: 7.45d
+			y: 10.0d
+		}
+		{
+			dependencies: ["064CBE31CC105137"]
+			description: [
+				"&eMob Filter&f Required to set what the rats will attack."
+				"Blacklist will attack anything"
+			]
+			hide_until_deps_complete: true
+			id: "0311675DA849F75D"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "36A97545A3BDA24F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "73BCC15D19A926EC"
+				item: "rats:rat_upgrade_mob_filter"
+				type: "item"
+			}]
+			title: "Filtered rat"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C110300E87273"]
+			description: [
+				"Let the rat get its hands on a book to give it magical energy."
+				""
+				"&eTip:&f Surround with bookshelves for better enchants"
+			]
+			hide_until_deps_complete: true
+			id: "45D1E8A651C4DE74"
+			optional: true
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "353E153DBC31B8E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F97D28ED048B17E"
+				item: "rats:rat_upgrade_enchanter"
+				type: "item"
+			}]
+			x: 6.65d
+			y: 10.0d
 		}
 	]
 	title: "&2Rats"
