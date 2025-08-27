@@ -27,5 +27,6 @@ CapeJS.addCapes(event => {
   event.register("4aa5155e-f914-4b2d-8dd5-595a8bbe9c8f", "friend");
   event.register("b566f842-f44a-414e-8092-4271cbb11c27", "friend");
   event.register("98feea67-d965-4233-b106-fd482ad87b2f", "friend");
+  event.register("5523f41a-96d5-4ff5-adb1-9508cf18db37", "friend");
   event.register("77463cb4-057b-4d13-a233-3ead2ad20a27", "friend");
 });
