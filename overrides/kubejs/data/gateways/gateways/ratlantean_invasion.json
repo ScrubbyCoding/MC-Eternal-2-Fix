@@ -20,7 +20,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_nugget",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -50,7 +50,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_nugget",
-      "Count": 2
+      "count": 2
     }
   },
      {
@@ -104,7 +104,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_nugget",
-      "Count": 4
+      "count": 4
     }
   }
             ],
@@ -154,7 +154,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_ingot",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -208,7 +208,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:gem_of_ratlantis",
-      "Count": 8
+      "count": 8
     }
   }
             ],
@@ -274,7 +274,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_block",
-      "Count": 1
+      "count": 1
     }
   }
             ],
@@ -288,7 +288,7 @@
     "type": "gateways:stack",
     "stack": {
       "item": "rats:oratchalcum_block",
-      "Count": 1
+      "count": 1
     }
   },
      {
