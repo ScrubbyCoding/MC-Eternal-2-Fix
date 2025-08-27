@@ -20,9 +20,11 @@ BlockEvents.rightClicked(event => {
 
   player.persistentData[cooldownKey] = now
 
+  level.server.runCommandSilent(`effect give ${player.username} minecraft:saturation 5 3 true`)
   level.server.runCommandSilent(`effect give ${player.username} minecraft:regeneration 5 3 true`)
   level.server.runCommandSilent(`effect give ${player.username} rats:synesthesia 5 0 true`)
 
   player.tell(Text.yellow('The Cheese fills your wounds healing you!'))
 })
+
 
