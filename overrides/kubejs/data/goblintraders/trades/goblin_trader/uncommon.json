@@ -15,6 +15,20 @@
       },
       "price_multiplier": 0.0
     },
+    {
+      "type": "goblintraders:basic",
+      "experience": 1,
+      "max_trades": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "thegreatbelow:sculk_soup"
+      },
+      "payment_item": {
+        "count": 12,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
       {
       "type": "goblintraders:basic",
       "experience": 4,
