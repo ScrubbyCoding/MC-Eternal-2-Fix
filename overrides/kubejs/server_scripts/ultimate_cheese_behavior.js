@@ -9,7 +9,7 @@ BlockEvents.rightClicked(event => {
   const cooldownKey = 'cheese_last_use'
   const now = level.server.overworld().time
   const lastUsed = player.persistentData[cooldownKey] || 0
-  const cooldownTicks = 1800
+  const cooldownTicks = 3600
   const remaining = cooldownTicks - (now - lastUsed)
 
   if (remaining > 0) {
@@ -25,3 +25,4 @@ BlockEvents.rightClicked(event => {
 
   player.tell(Text.yellow('The Cheese fills your wounds healing you!'))
 })
+
