@@ -16,7 +16,7 @@
 		string_id: "quest_loot"
 	}
 	loot_size: 1
-	order_index: 14
+	order_index: 15
 	rewards: [
 		{
 			item: {
@@ -5269,6 +5269,25 @@
 			}
 		}
 		{ item: "kubejs:travel_ticket" }
+		{ item: "petcapturetool:capture_tool" }
+		{ item: "kubejs:ultimate_cheese" }
+		{ item: "kubejs:ingot_thousand_metals" }
+		{ item: "kubejs:chocolate_coin" }
+		{ item: "kubejs:sunscreen" }
+		{ count: 6, item: "goety_spillage:skull_bomb" }
+		{ item: "cataclysm:azure_seastone_mural_underworld" }
+		{ item: "mcwwindows:key" }
+		{ item: "cloudstorage:cotton_candy" }
+		{ item: "immersive_machinery:redstone_sheep" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_machinery:bamboo_bee"
+				tag: {
+					ContainerPositions: [ ]
+				}
+			}
+		}
 	]
 	title: "&e"
 	use_title: true
