@@ -8,9 +8,8 @@
     "gateways.eternal_nether_invasion": "Eternal Invasion Gateway",
     "gateways.neptune_invasion": "Neptune Invasion Gateway",
     "gateways.israphel_invasion": "Israphel Invasion Gateway",
-    "gateways.dwarven_gateway": "Dwarven Gateway",
-    "gateways.ratlantean_invasion": "Ratlantean Invasion Gateway",
     "gateways.end_invasion": "End Invasion Gateway",
+	  "gateways.ratlantean_invasion": "Ratlantean Invasion Gateway",
     "enhancedcelestials.notification.rat_moon.rise": "The Rat Moon rises!",
     "enhancedcelestials.notification.rat_moon.set": "The Rat Moon sets!",
      "enhancedcelestials.name.rat_moon": "Rat Moon",
@@ -30,5 +29,10 @@
     "tooltip.mce2.majruszsaccessories.rune.household": "Crafted from Dream Catcher, Discount Voucher and Secret Ingredient",
     "tooltip.mce2.majruszsaccessories.rune.miner": "Crafted from Miner Guide, Tool Scraps, and Lucky Rock",
     "tooltip.mce2.majruszsaccessories.rune.nature": "Crafted from Certificate of Taming, Idol of Fertility and Tamed Potato Beetle",
-    "tooltip.mce2.majruszsaccessories.soul.minecraft": "Crafted from Adventurer Rune, Angler Rune, Household Rune, Miner Rune and Nature Rune"
+    "tooltip.mce2.majruszsaccessories.soul.minecraft": "Crafted from Adventurer Rune, Angler Rune, Household Rune, Miner Rune and Nature Rune",
+    "tooltip.mce2.rats.reactor.ratlantis": "Deco-rat-ion!",
+	  "tooltip.mce2.rats.cheese.ultimate": "Healing Cheesy Goodness",
+	  "tooltip.mce2.rats.reactor.tnt": "Emits dangerous energy...Do Not Break!"
+	
+
 }
