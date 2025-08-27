@@ -6,7 +6,7 @@
     "when": "onjoin",
     "healthmultiply": 20.0,
     "damagemultiply": 8.5,
-    "speedmultiply": 1.5
+    "speedmultiply": 1.1
   },
 {
     "dimension": "thegreatbelow:thegreatbelow",
@@ -22,11 +22,7 @@
   {
     "dimension": "thegreatbelow:thegreatbelow",
     "mob": "alexscaves:forsaken",
-    "maxcount": {
-      "amount": 1,
-      "perplayer": false,
-      "when": "onjoin"
-    },
+    "when": "onjoin",
     "result": "deny"
   }, 
 
@@ -103,8 +99,8 @@
     "mob": "ars_nouveau:vexing_weald_walker",
     "when": "finalize",
     "result": "allow",
-    "healthmultiply": 2.5,
-    "damagemultiply": 2.5,
+    "healthmultiply": 4.5,
+    "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
 
@@ -512,14 +508,7 @@
     "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
-      {
-    "dimension": "thegreatbelow:thegreatbelow",
-    "mob": "alexsmobs:rocky_roller",
-    "when": "finalize",
-    "healthmultiply": 3.0,
-    "damagemultiply": 4.5,
-    "speedmultiply": 1.5
-  },
+
    {
     "mob": "alexsmobs:laviathan",
     "when": "finalize",
@@ -543,7 +532,45 @@
   "result":"deny",
   "when": "onjoin"
 },
-  
+      {
+      "mob": "alexscaves:forsaken",
+     "dimension": "mce:dwarven_depths",
+    "maxcount": {
+      "amount": 1,
+      "perplayer": false,
+      "when": "onjoin"
+    }
+  }, 
+    {
+       "mob": "alexscaves:forsaken",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Durin's Bane",
+    "result": "true",
+    "when": "onjoin"
+  },
+     {
+       "mob": "thermal:basalz",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Earthen Elemental",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 7.5,
+    "speedmultiply": 1.5
+  },
+    {
+    "mod":"thermal",
+    "gamestage":"expert",
+    "result":"default",
+     "healthmultiply": 3.5,
+    "damagemultiply": 6.5,
+    "when": "onjoin"
+  },
+  {
+    "mod":"thermal",
+    "result":"deny",
+    "when": "onjoin"
+  },
 
 {
   "mob":"rootoffear:wilted",

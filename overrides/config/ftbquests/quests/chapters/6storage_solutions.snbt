@@ -902,11 +902,11 @@
 		{
 			dependencies: ["7E8025C11C76068A"]
 			description: [
-				"The &eDrying Baisen&r can be used for more than just drying &eMenril Blocks&r."
+				"The &eDrying Basin&r can be used for more than just drying &eMenril Blocks&r."
 				""
 				"Moving forward we are going to need &eMenril Glass&r; A single piece will do, but use this as a moment to explore it alternative uses."
 				"{@pagebreak}"
-				"&6Hint:&r Try placing &eGlass&r within an Drying Baisen, &ebefore&r adding in some Menril Resin."
+				"&6Hint:&r Try placing &eGlass&r within an Drying Basin, &ebefore&r adding in some Menril Resin."
 			]
 			id: "1914150BEBE05F9E"
 			rewards: [{
@@ -1001,3 +1001,4 @@
 	]
 	title: "&6Storage Solutions!"
 }
+

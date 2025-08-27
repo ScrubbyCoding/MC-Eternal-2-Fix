@@ -69,6 +69,7 @@ ServerEvents.tags("entity_type", event => {
         "cataclysm:netherite_ministrosity",
         "cataclysm:the_baby_leviathan",
         "cataclysm:modern_remnant",
+        "the_bumblezone:bee_queen",
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
@@ -99,7 +100,8 @@ ServerEvents.tags("entity_type", event => {
     event.add("c:spawning_not_supported", [
         tagNoCapture,
         "minecraft:evoker",
-        "alexscaves:atlatitan"
+        "alexscaves:atlatitan",
+        "minecraft:elder_guardian"
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [
@@ -111,6 +113,10 @@ ServerEvents.tags("entity_type", event => {
     ])
 
     event.add("pneumaticcraft:vacuum_trap_blacklisted", [
+        tagNoFarming
+    ])
+
+    event.add("ars_additions:source_spawner_denylist", [
         tagNoFarming
     ])
 

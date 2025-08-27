@@ -1850,6 +1850,7 @@
 				title: "{chapter.39.quest.26.task.1.title}"
 				type: "forge_energy"
 				value: 1000000000000000000L
+				max_input: 1000000000000000000L
 			}]
 			x: 0.0d
 			y: -1.0d

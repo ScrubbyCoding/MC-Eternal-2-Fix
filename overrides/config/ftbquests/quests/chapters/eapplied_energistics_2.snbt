@@ -850,7 +850,7 @@
 			description: [
 				"As you begin to progress through &dApplied Energistics&r, you will come to find that &eCircuits&r and &eProccessors&r are in high demand. In order to produce them you will need their respective &eInscriber Press&r."
 				""
-				"&eCalclulation Press&r => &9Printed Calclulation Circuits&r"
+				"&eCalculation Press&r => &9Printed Calculation Circuits&r"
 				"&eEngineering Press&r => &bPrinted Engineering Circuits&r"
 				"&eLogic Press&r => &6Printed Logic Circuits&r"
 				"&eSilicon Press&r => &8Printed Silicon&r"
@@ -3068,11 +3068,11 @@
 			description: [
 				"If you are looking to dive into &dApplied Energistics&r, and have not found an &eCrashed Meteorite&r yet, here's how to get started:"
 				""
-				"1) Craft a &eWooden Handle&r"
+				"1) Craft a &eWooden Crank&r"
 				"2) Craft and Place a &eCharger&r"
-				"3) Place the Wooden Handle on the Charger"
+				"3) Place the Wooden Crank on the Charger"
 				"4) Place a &eCompass&r into the Charger"
-				"5) Turn the Wooden Handle &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
+				"5) Turn the Wooden Crank &7(Hold Right-Click)&r until your Compass transforms into a &eMeteorite Compass&r"
 				"6) Follow the Meteorite Compass towards your nearest Meteorite."
 			]
 			id: "5CF065DD209B4B1C"
@@ -3331,3 +3331,4 @@
 	]
 	title: "&6Applied Energistics 2"
 }
+

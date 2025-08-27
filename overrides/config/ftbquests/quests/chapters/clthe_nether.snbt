@@ -612,6 +612,7 @@
 			dependencies: ["479494C1FD505646"]
 			description: ["{chapter.22.quest.6.description.1}"]
 			id: "10C1A1C3CF267607"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -885,29 +886,6 @@
 					type: "item"
 				}
 				{
-					id: "7796C6E123CF3A11"
-					item: {
-						Count: 1
-						id: "cataclysm_spellbooks:ignis_chestplate_elytra"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-							az_id: [I;
-								189906367
-								1472678100
-								-1950774278
-								-1300945646
-							]
-						}
-					}
-					type: "item"
-				}
-				{
 					count: 6
 					id: "78523C3FF9FC65BD"
 					item: {
@@ -1106,27 +1084,19 @@
 			]
 			shape: "square"
 			subtitle: "{chapter.22.quest.11.subtitle}"
-			tasks: [
-				{
-					entity: "cataclysm:ignited_revenant"
-					id: "72AD66BBC4CC9504"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "00141A9DF86B20BD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "00141A9DF86B20BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "cataclysm:burning_ashes"
 					}
-					type: "item"
+					id: "cataclysm:burning_ashes"
 				}
-			]
+				type: "item"
+			}]
 			title: "&eThe Ashen Demon"
 			x: 7.0d
 			y: 2.0d
