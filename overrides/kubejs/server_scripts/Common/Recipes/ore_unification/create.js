@@ -19,12 +19,14 @@ createModule("create")
 
         crushedRawAndBlock("cobalt")
         crushedRawAndBlock("iesnium")
+
+        // nuke Washing recipes for Crushed Raw ores
+        event.remove({id: /create:splashing\/.*crushed_raw_.*/})
     }
 
 modules.create.main = (event, matId, material) => {
 
     if(material.crushed_raw && material.nugget) {
-        event.remove({id: `create:splashing/crushed_raw_${matId}`})
 
         let inputs = [Item.of(material.nugget, 9)]
         if(material.byproduct)

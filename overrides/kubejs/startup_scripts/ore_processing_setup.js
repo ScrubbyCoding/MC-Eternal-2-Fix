@@ -38,7 +38,7 @@ StartupEvents.registry("item", event => {
     event.create("crushed_raw_cobalt")
 })
 
-const byproduct = (item, chance, count) => {
+const byproductOf = (item, chance, count) => {
     count = count || 1
     chance = chance || 1
     return {
@@ -89,7 +89,7 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_iron",
         raw_block: "minecraft:raw_iron_block",
         crushed_raw: "create:crushed_raw_iron",
-        byproduct: byproduct("minecraft:redstone_dust", 0.75)
+        byproduct: byproductOf("minecraft:redstone", 0.75)
     },
     gold: {
         type: global.types.ORE_METAL,
@@ -105,7 +105,7 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_gold",
         raw_block: "minecraft:raw_gold_block",
         crushed_raw: "create:crushed_raw_gold",
-        byproduct: byproduct("minecraft:quartz", 0.5)
+        byproduct: byproductOf("minecraft:quartz", 0.5)
     },
     copper: {
         type: global.types.ORE_METAL,
@@ -121,7 +121,7 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_copper",
         raw_block: "minecraft:raw_copper_block",
         crushed_raw: "create:crushed_raw_copper",
-        byproduct: byproduct("minecraft:clay_ball", 0.5)
+        byproduct: byproductOf("minecraft:clay_ball", 0.5)
     },
     tin: {
         type: global.types.ORE_METAL,
@@ -136,7 +136,8 @@ global.preferredOreProducts = {
         molten: "tconstruct:molten_tin",
         raw_material: "thermal:raw_tin",
         raw_block: "thermal:raw_tin_block",
-        crushed_raw: "create:crushed_raw_tin"
+        crushed_raw: "create:crushed_raw_tin",
+        byproduct: byproductOf("thermal:apatite_dust", 0.12)
     },
     silver: {
         type: global.types.ORE_METAL,
@@ -152,7 +153,7 @@ global.preferredOreProducts = {
         raw_material: "thermal:raw_silver",
         raw_block: "thermal:raw_silver_block",
         crushed_raw: "create:crushed_raw_silver",
-        byproduct: byproduct("thermal:lead_dust", 0.1)
+        byproduct: byproductOf("thermal:lead_dust", 0.1)
     },
     lead: {
         type: global.types.ORE_METAL,
@@ -168,7 +169,7 @@ global.preferredOreProducts = {
         raw_material: "thermal:raw_lead",
         raw_block: "thermal:raw_lead_block",
         crushed_raw: "create:crushed_raw_lead",
-        byproduct: byproduct("thermal:silver_dust", 0.1)
+        byproduct: byproductOf("thermal:silver_dust", 0.1)
     },
     nickel: {
         type: global.types.ORE_METAL,
@@ -197,7 +198,7 @@ global.preferredOreProducts = {
         raw_material: "mekanism:raw_osmium",
         raw_block: "mekanism:block_raw_osmium",
         crushed_raw: "create:crushed_raw_osmium",
-        byproduct: byproduct("thermal:diamond_dust", 0.05)
+        byproduct: byproductOf("thermal:diamond_dust", 0.05)
     },
     uranium: {
         type: global.types.ORE_METAL,
@@ -211,7 +212,7 @@ global.preferredOreProducts = {
         raw_material: "mekanism:raw_uranium",
         raw_block: "mekanism:block_raw_uranium",
         crushed_raw: "create:crushed_raw_uranium",
-        byproduct: byproduct("thermal:sulfur_dust", 0.5)
+        byproduct: byproductOf("thermal:sulfur_dust", 0.5)
     },
     zinc: {
         type: global.types.ORE_METAL,
@@ -225,7 +226,7 @@ global.preferredOreProducts = {
         raw_material: "create:raw_zinc",
         raw_block: "create:raw_zinc_block",
         crushed_raw: "create:crushed_raw_zinc",
-        byproduct: byproduct("minecraft:gunpowder", 0.25)
+        byproduct: byproductOf("minecraft:gunpowder", 0.25)
     },
     cobalt: {
         type: global.types.ORE_METAL,
@@ -249,7 +250,7 @@ global.preferredOreProducts = {
         raw_material: "occultism:raw_iesnium",
         raw_block: "occultism:raw_iesnium_block",
         crushed_raw: "kubejs:crushed_raw_iesnium",
-        byproduct: byproduct("create:powdered_obsidian", 0.20)
+        byproduct: byproductOf("create:powdered_obsidian", 0.20)
     },
     desh: {
         type: global.types.ORE_METAL,

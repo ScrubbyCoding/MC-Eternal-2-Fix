@@ -54,6 +54,31 @@ modules.minecraft.init = (event) => {
     //AC uranium considered a Uranium Ingot block, but can be uncrafted into Raw Uranium. that's a dupe exploit hiding in plain sight.
     event.remove({id: "alexscaves:uranium_from_block"})
     event.remove({id: "alexscaves:block_of_uranium"})
+
+    //Ruby
+    event.shapeless(global.preferredOreProducts.ruby.block, [
+        "#forge:gems/ruby", "#forge:gems/ruby", "#forge:gems/ruby",
+        "#forge:gems/ruby", "#forge:gems/ruby", "#forge:gems/ruby",
+        "#forge:gems/ruby", "#forge:gems/ruby", "#forge:gems/ruby"
+    ]).id("mce2:unification/crafting/ruby_block_from_gem")
+
+    event.shapeless(Item.of(global.preferredOreProducts.ruby.gem, 9), [
+        "#forge:storage_blocks/ruby"
+    ]).id("mce2:unification/crafting/ruby_gem_from_block")
+
+    //Sapphire
+    event.remove({id: "iceandfire:sapphire_gem_to_sapphire_block"})
+    event.remove({id: "iceandfire:sapphire_block_to_sapphire_gem"})
+
+    event.shapeless(global.preferredOreProducts.sapphire.block, [
+        "#forge:gems/sapphire", "#forge:gems/sapphire", "#forge:gems/sapphire",
+        "#forge:gems/sapphire", "#forge:gems/sapphire", "#forge:gems/sapphire",
+        "#forge:gems/sapphire", "#forge:gems/sapphire", "#forge:gems/sapphire"
+    ]).id("mce2:unification/crafting/sapphire_block_from_gem")
+
+    event.shapeless(Item.of(global.preferredOreProducts.sapphire.gem, 9), [
+        "#forge:storage_blocks/sapphire"
+    ]).id("mce2:unification/crafting/sapphire_gem_from_block")
 }
 
 modules.minecraft.main = (event, matId, material) => {
