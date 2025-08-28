@@ -16,32 +16,43 @@ const benches = {
 }
 
 createModule("chipped")
-    .first = (event) => {
-        chippedBenchConversion = (benchType, variantTags) => {
-            //Filter out any entries with 1
-            let acceptedVariants = []
-            for (let tag of variantTags) {
-                //console.log(`Items in tag: ${Ingredient.of(`#${tag}`).itemIds.length}, isChipped: ${tag.startsWith("chipped")}, isMinecraft: ${tag.startsWith("minecraft")}`)
-                if(Ingredient.of(`#${tag}`).itemIds.length > 1 && !(tag.startsWith("chipped") || tag.startsWith("minecraft")))
-                    acceptedVariants.push(tag)
-            }
 
-            let recipe = {
-                type: benchType,
-                tags: acceptedVariants
-            }
+modules.chipped.init = (event) => {
+    const ignoredTags = [
+        "forge:storage_blocks/emerald",
+        "forge:storage_blocks/quartz"
+    ]
 
-            return event.custom(recipe)
+    chippedBenchConversion = (benchType, variantTags) => {
+        //Filter out any entries with 1
+        let acceptedVariants = []
+        for (let tag of variantTags) {
+            //console.log(`Items in tag: ${Ingredient.of(`#${tag}`).itemIds.length}, isChipped: ${tag.startsWith("chipped")}, isMinecraft: ${tag.startsWith("minecraft")}`)
+            if(Ingredient.of(`#${tag}`).itemIds.length > 1
+                    && !ignoredTags.includes(tag)
+                    && !(tag.startsWith("chipped") || tag.startsWith("minecraft")))
+                acceptedVariants.push(tag)
         }
 
-        let tags = []
-        //add Metal and Gem Storage Block tags
-        for (let material of Object.keys(global.preferredOreProducts.metal_block).concat(Object.keys(global.preferredOreProducts.gem_block)))
-            tags.push(`forge:storage_blocks/${material}`)
-        //add Raw Ore block tags
-        for (let material of Object.keys(global.preferredOreProducts.raw_block))
-            tags.push(`forge:storage_blocks/raw_${material}`)
+        let recipe = {
+            type: benchType,
+            tags: acceptedVariants
+        }
 
-        chippedBenchConversion(benches.alchemy, tags)
-            .id("mce2:unification/chipped/forge_storage_block_conversion")
+        return event.custom(recipe)
     }
+
+    let tags = []
+    for (let [matId, material] of Object.entries(global.preferredOreProducts)) {
+        //add Metal and Gem Storage Block tags
+        if(material.block)
+            tags.push(`forge:storage_blocks/${matId}`)
+        //add Raw Ore block tags
+        if(material.raw_block)
+            tags.push(`forge:storage_blocks/raw_${matId}`)
+    }
+
+    chippedBenchConversion(benches.alchemy, tags)
+        .id("mce2:unification/chipped/forge_storage_block_conversion")
+
+}
