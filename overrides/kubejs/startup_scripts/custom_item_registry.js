@@ -45,8 +45,6 @@ StartupEvents.registry("item", event => {
   event.create('morbo_half_2').displayName('§dOrb of Morphing Piece').glow(false);
   
   event.create('morbo_half').displayName('§Orb of Morphing Piece').glow(false);
-  
-  event.create('sunscreen').displayName('§eBottle of Sunblock').glow(true);
 
   event.create('jaffa_cake').displayName('§eJaffa Cake');
   

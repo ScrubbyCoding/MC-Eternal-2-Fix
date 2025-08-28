@@ -79,7 +79,7 @@
 			y: 5.607142857142868d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -806,33 +806,13 @@
 		}
 		{
 			id: "3C855F312B929DF8"
-			rewards: [
-				{
-					id: "2826C69B12266C79"
-					type: "custom"
-				}
-				{
-					count: 3
-					id: "37C59EC57ABCA6B9"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "boss_tools:chesse"
-					}
-					type: "item"
-				}
-				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					id: "0C134CD9C8AC9E37"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0C134CD9C8AC9E37"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "{chapter.31.quest.23.subtitle}"
 			tasks: [{
 				id: "63FD0387003BA200"
