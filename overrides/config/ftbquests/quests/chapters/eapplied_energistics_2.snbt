@@ -1107,7 +1107,7 @@
 			description: [
 				"If you have yet to acquire a means of producing energy, using a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
 				""
-				"&6Tip:&r If you already have a source of power, You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
+				"&6Tip:&r If you already have a source of power (for example RF from a Thermal dynamo), You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
 				"&6Note:&r All &dApplied Energistics&r equipment will automatically link themselves to each other and allow power to flow between themselves."
 			]
@@ -3331,4 +3331,5 @@
 	]
 	title: "&6Applied Energistics 2"
 }
+
 
