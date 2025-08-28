@@ -1,0 +1,4 @@
+{
+    "tconstruct:writable": ["bosses_of_mass_destruction:item/crystal_fruit", "tconstruct:gui/modifiers/plus"],
+    "tconstruct:recapitated": ["mowziesmobs:item/wraught_helmet_icon", "tconstruct:gui/modifiers/plus"]
+}
