@@ -1983,7 +1983,7 @@
 					tag: { }
 				}
 				id: "756A1955D8D76966"
-				observe_type: 3
+				observe_type: 5
 				timer: 0L
 				title: "{chapter.1.quest.17.task.1.title}"
 				to_observe: "goblintraders:goblin_trader"
@@ -7982,4 +7982,5 @@
 	]
 	title: "&6A New Start! &a(Recommended!)"
 }
+
 
