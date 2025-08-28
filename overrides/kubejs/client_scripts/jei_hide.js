@@ -28,4 +28,9 @@ JEIEvents.hideItems(event => {
     // there are far too many of them, for each material, the parts is more than enough.
     // hides slimeskulls atm but that's a bug, they are incorrectly classed as multipart in Tcon 3.9.2.37
     event.hide("#tconstruct:modifiable/multipart")
+
+    //hide unavailable/disabled foods
+	event.hide("netherexp:hogham")
+    event.hide("netherexp:cooked_hogham")
+	event.hide("jadensnetherexpansiondelight:hogham_slice")
 })
