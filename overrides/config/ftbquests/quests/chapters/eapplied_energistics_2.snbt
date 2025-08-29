@@ -1105,7 +1105,7 @@
 		{
 			dependencies: ["35BF66CD4FAE83DE"]
 			description: [
-				"If you have yet to acquire a means of producing energy, using a &eWooden Crank&r to convert our kinetic energy into power will have to do. "
+				"If you have yet to acquire a means of producing energy, using a &eWooden Crank&r to convert manual labor into power will have to do. "
 				""
 				"&6Tip:&r If you already have a source of power (for example RF from a Thermal dynamo), You can transfer it into your machine by using an &eEnergy Acceptor&r. Try placing it adjacent to your source of power and the machine you are attempting to power."
 				""
