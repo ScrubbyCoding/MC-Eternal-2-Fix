@@ -2007,6 +2007,7 @@
 					value: 500000L
 				}
 				{
+					consume_items: true
 					count: 800000L
 					id: "55B252B0B16A6959"
 					item: "minecraft:egg"
@@ -2366,7 +2367,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tame a &dTerrorzilla"
+			subtitle: "Tame a &dTremorzilla"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/tame_tremorzilla"
 				criterion: ""

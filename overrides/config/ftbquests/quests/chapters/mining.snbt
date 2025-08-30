@@ -1075,7 +1075,7 @@
 		{
 			dependencies: ["5239A5F8AE9FC855"]
 			description: [
-				"&eThe Mining Gadget MK1 &ris a device that shoots a continuous high-powered beam of pure energy. "
+				"&eThe Mining Gadget &ris a device that shoots a continuous high-powered beam of pure energy. "
 				"This beam is capable of mining blocks at high speed and can be upgraded with many different upgrades for different playstyles and preferences!"
 				""
 				"&6Hint:&r You can upgrade your Mining Gadget with a &eModification Station"
@@ -1132,20 +1132,18 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Craft a &eMining Gadget MK1"
+			subtitle: "Craft a &eMining Gadget"
 			tasks: [{
 				id: "56AE37E65F02C816"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:mininggadgets"
 					}
-					id: "mininggadgets:mininggadget_simple"
-					tag: { }
 				}
 				only_from_crafting: true
+				title: "Any Mining Gadget"
 				type: "item"
 			}]
 			title: "&eMining With Style (II)"
