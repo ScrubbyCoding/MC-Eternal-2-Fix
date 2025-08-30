@@ -1373,27 +1373,28 @@
 			shape: "octagon"
 			subtitle: "Find The Blade of Eternal Torment"
 			tasks: [{
-				id: "44C0D1CA21D45C12"
-				item: {
+				icon: {
 					Count: 1
 					id: "iceandfire:dread_knight_sword"
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 3s
-						}]
-						display: {
-							Lore: ["{\"text\":\"Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legions.\",\"color\":\"gray\",\"italic\":true}"]
-							Name: "{\"text\":\"Blade of Eternal Torment\",\"color\":\"dark_purple\",\"italic\":false}"
+					}
+				}
+				id: "44C0D1CA21D45C12"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							mce2_quest_item: "blade_of_eternal_torment"
 						}
-						etstlib_tool_uuid: "0a343ae3-e330-4f46-8937-3973ed0374da"
-						tic_persistent: { }
 					}
 				}
 				match_nbt: true
+				title: "&5{item.mce2.blade_of_eternal_torment}"
 				type: "item"
 			}]
+			title: "&5{item.mce2.blade_of_eternal_torment}"
 			x: 1.0d
 			y: 0.0d
 		}
