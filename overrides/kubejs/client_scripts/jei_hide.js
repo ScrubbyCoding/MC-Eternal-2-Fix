@@ -33,4 +33,8 @@ JEIEvents.hideItems(event => {
 	event.hide("netherexp:hogham")
     event.hide("netherexp:cooked_hogham")
 	event.hide("jadensnetherexpansiondelight:hogham_slice")
+	event.hide("netherexp:red_scale_fungus")
+	event.hide("netherexp:blue_scale_fungus")
+	event.hide("jadensnetherexpansiondelight:blue_scale_fungus_roll")
+	event.hide("jadensnetherexpansiondelight:red_scale_fungus_roll")
 })
