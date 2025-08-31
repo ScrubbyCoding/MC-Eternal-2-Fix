@@ -229,6 +229,18 @@ ItemEvents.tooltip(event => {
     event.add("kubejs:reactor_tnt", Text.translate("tooltip.mce2.rats.reactor.tnt").color("#990000"))
     event.add("rats:ratlantis_reactor", Text.translate("tooltip.mce2.rats.reactor.ratlantis").color("#F7DF47"))
 	event.add("kubejs:ultimate_cheese", Text.translate("tooltip.mce2.rats.cheese.ultimate").color("#F7DF47"))
+
+	const lootCrateComponents = [
+		Text.translate("item.mce2.quest_loot.desc.0").color("yellow").italic(),
+		Text.keybind("key.use").color("aqua").append(Text.translate("item.mce2.quest_loot.desc.1")),
+		Text.translate("item.mce2.quest_loot.desc.2").color("gold").underlined(),
+		Text.translate("item.mce2.quest_loot.desc.3").color("gray").italic()
+	]
+
+	event.addAdvanced("ftbquests:lootcrate", (stack, isAdv, components) => {
+		if(stack.nbt.type == "quest_loot")
+			components.addAll(lootCrateComponents);
+	})
 	
 })
 

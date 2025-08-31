@@ -867,7 +867,8 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["39AD340D4971B4F5"]
+			dependencies: ["58F45881D48D9534"]
+			description: ["Find all of &eAlex's Caves&r."]
 			hide_dependency_lines: true
 			id: "30050DB388D05568"
 			rewards: [
@@ -924,57 +925,43 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Find all rare underground biomes"
+			subtitle: "\"Collect my Caves\""
 			tasks: [
 				{
-					biome: "alexscaves:candy_cavity"
-					icon: {
-						Count: 1
-						id: "alexscaves:candy_cane"
-						tag: { }
-					}
-					id: "417CF93DC1671219"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+					id: "2405B19FE084E32E"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:abyssal_chasm"
-					icon: {
-						Count: 1
-						id: "alexscaves:submarine"
-						tag: { }
-					}
-					id: "08BCA2B7F1D04C48"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+					criterion: ""
+					id: "73F1F7F8116084B9"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:forlorn_hollows"
-					icon: {
-						Count: 1
-						id: "alexscaves:pure_darkness"
-						tag: { }
-					}
-					id: "6424937262C7B192"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_toxic_caves"
+					criterion: ""
+					id: "58669C73C47A14FA"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:magnetic_caves"
-					icon: {
-						Count: 1
-						id: "alexscaves:quarry_smasher"
-						tag: { }
-					}
-					id: "631F3CFC99808BC1"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+					criterion: ""
+					id: "267C8A94E3E0D3DE"
+					type: "advancement"
 				}
 				{
-					biome: "alexscaves:primordial_caves"
-					icon: {
-						Count: 1
-						id: "alexscaves:tremorsaurus_egg"
-						tag: { }
-					}
-					id: "1BAA35C1387E24A3"
-					type: "biome"
+					advancement: "alexscaves:alexscaves/discover_candy_cavity"
+					criterion: ""
+					id: "3492D870FB1E804A"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+					criterion: ""
+					id: "50875908566D7E2F"
+					type: "advancement"
 				}
 			]
 			title: "&6An Uncommon Adventure!"
@@ -1149,6 +1136,122 @@
 			title: "&eMining With Style (II)"
 			x: 2.0d
 			y: 2.761904761904752d
+		}
+		{
+			description: [
+				"&eAlex's Caves&r is a mod that adds a handful of &6Rare&r and Expansive &dUnderground Biomes&r, each with a swath of unique content associated with them."
+				""
+				"You might have taken note of the fact that they're &6Rare&r though, and you might be thinking \"&7&ooh great, that'll be fun to try and find...&r\", and you'd be right! Fortunately, the mod has mechanics to locate them!"
+				""
+				"And before you think about using some kind of &2Biome Locator&r to find them, don't, it won't work. &eAlex's Caves&r wants you to &dinteract with its own mechanics&r, not just skip over them."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					Rainbow: 1b
+				}
+			}
+			id: "44FD49343D820DD6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "017EA6371E3A5BE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Introduction to Alex's Caves"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/root"
+					criterion: ""
+					icon: "minecraft:stripped_oak_log"
+					id: "53C881772ABEEB80"
+					title: "&eFind an Underground Cabin"
+					type: "advancement"
+				}
+				{
+					id: "1F4F38E35DA16E30"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_tablet"
+					criterion: ""
+					id: "71574DF96C9B64BF"
+					title: "&eFind a Cave Tablet"
+					type: "advancement"
+				}
+			]
+			title: "&6Cavernous Journey"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44FD49343D820DD6"]
+			description: [
+				"In order to &oactually&r find one of &eAlex's Caves&r without losing your mind, you'll need to decode your &dCave Tablets&r at the &bSpelunkery Table&r."
+				""
+				"Decoding them is as simple as &dfinding key words shown on the left&r in the batch of &eGalactic Standard Alphabet&r text on the right."
+				""
+				"Do it 3 times without more than 5 wrong guesses, and you'll get a &6Cave Codex&r, which you can &buse to craft a &6Cave Map&r for the type of cave the Codex is related to, or &duse while holding with &l{key.use}&r to add information about some of that Cave's features to the &bCave Compendium&r when you read it."
+				"{@pagebreak}"
+				"&eTip:&r Memorize the appearance of &aVowels&r in &eGalactic Standard Alphabet&r, being common characters, knowing the way they look helps in easing the process!"
+				""
+				"You &ocould&r also just use the collective memory known as \"&dThe Internet&r\", surely someone's made a translator out there. But where's the fun in that?"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					Filled: 1b
+				}
+			}
+			id: "58F45881D48D9534"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5CF2837863AD8D03"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "43098D38126E69A4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Half of a Codec"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/cave_codex"
+					criterion: ""
+					id: "7E6FB54AE3ED3399"
+					title: "&eDecode a Cave Tablet"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_map"
+					criterion: ""
+					id: "567F0EEFBE248A92"
+					title: "&eCraft a Cave Map"
+					type: "advancement"
+				}
+			]
+			title: "&6Decoder"
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "{chapter.3.title}"

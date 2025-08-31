@@ -16,8 +16,14 @@
     "biome.thegreatbelow.thegreatbelow": "§8The Great Below",
     "biome.mce.dwarven_depths": "§eThe Dwarven Depths",
     "item.kubejs.corporea_crystal.desc": "A strange Crystal capable of exchanging information with others of its kind.\nThe core of important Corporea devices.",
+
     "item.mce2.blade_of_eternal_torment": "Blade of Eternal Torment",
     "item.mce2.blade_of_eternal_torment.desc": "Forged in the depths of the Nether. Used to torment and torture enemies of The Eternal Legion.",
+    "item.mce2.quest_loot": "Quest Loot",
+    "item.mce2.quest_loot.desc.0": "Contains a random special item!",
+    "item.mce2.quest_loot.desc.1": " to open",
+    "item.mce2.quest_loot.desc.2": "\u270e Lore Text",
+    "item.mce2.quest_loot.desc.3": "\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\"",
 
     "tooltip.mce2.occultism.stable_wormhole.fragile": "Unstable! The Wormhole will break when picked up!",
     "tooltip.mce2.ae2.facade.can_be_made_with_more_things": "Can be made using most blocks",
