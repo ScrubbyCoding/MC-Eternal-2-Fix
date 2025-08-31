@@ -67,3 +67,19 @@ ServerEvents.tags("item", event => {
     //Mining Gadgets
     event.add("mce2:mininggadgets", /mininggadgets:mininggadget.*/)
 })
+
+
+ServerEvents.tags("entity_type", event => {
+
+    event.add("mce2:arthropods", [
+        "#forge:spiders",
+        "#forge:silverfish"
+    ])
+
+    event.add("mce2:vampiresdelight/humanoids", [
+        "#vampirism:hunter",
+        "#minecraft:raiders",
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+    ])
+})
