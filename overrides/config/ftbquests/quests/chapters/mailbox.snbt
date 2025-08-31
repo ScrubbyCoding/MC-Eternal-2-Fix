@@ -114,7 +114,6 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:mossy_letter"
 			id: "1FC9E8044B1B61B4"
-			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
@@ -444,7 +443,6 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:mossy_letter"
 			id: "36558CB7A7A5D2DB"
-			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
@@ -515,7 +513,6 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:mossy_letter"
 			id: "621F369C844200D6"
-			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
@@ -588,7 +585,6 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:mossy_letter"
 			id: "281E319CBD1DECBE"
-			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
@@ -667,7 +663,6 @@
 			hide_until_deps_visible: true
 			icon: "kubejs:scorched_letter"
 			id: "3731FFBC670F0E3B"
-			incompatible: ["3332943281ADBEF1"]
 			invisible: true
 			optional: true
 			rewards: [
