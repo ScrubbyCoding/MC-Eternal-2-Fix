@@ -241,6 +241,8 @@ ItemEvents.tooltip(event => {
 		if(stack.nbt.type == "quest_loot")
 			components.addAll(lootCrateComponents);
 	})
+
+	event.add("quark:gold_bars", Text.translate("block.tconstruct.gold_bars.tooltip").color("gray"))
 	
 })
 

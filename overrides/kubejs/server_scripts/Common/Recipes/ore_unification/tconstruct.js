@@ -21,27 +21,27 @@ modules.tconstruct.main = (event, matId, material) => {
 
     if(material.molten && material.cooling_time) {
         let fluid = `forge:molten_${matId}`
-        let moltenSourceMod = material.molten.split(":")[0]
+        let baseDefaultRecipePath = `${material.molten.split(":")[0]}:smeltery/casting/metal/${matId}/`
 
-        console.log(`${moltenSourceMod}:smeltery/casting/metal/${matId}/nugget_gold_cast`)
+        //console.log(`${moltenSourceMod}:smeltery/casting/metal/${matId}/nugget_gold_cast`)
 
         if(material.ingot) {
-            event.remove({id: `${moltenSourceMod}:smeltery/casting/metal/${matId}/ingot_gold_cast`})
-            event.remove({id: `${moltenSourceMod}:smeltery/casting/metal/${matId}/ingot_sand_cast`})
+            event.remove({id: baseDefaultRecipePath +"ingot_gold_cast"})
+            event.remove({id: baseDefaultRecipePath +"ingot_sand_cast"})
 
             sandAndGoldCasting(matId, material.ingot, {tag: fluid, amount: 90}, material.cooling_time, "ingot")
         }
 
         if(material.block) {
-            event.remove({id: `${moltenSourceMod}:smeltery/casting/metal/${matId}/block`})
+            event.remove({id: baseDefaultRecipePath +"block"})
 
             tinkersCastingBasin(event, material.block, {tag: fluid, amount: 810}, Math.round(material.cooling_time * 3))
                 .id(`mce2:unification/casting/metal/${matId}/block`)
         }
 
         if(material.nugget) {
-            event.remove({id: `${moltenSourceMod}:smeltery/casting/metal/${matId}/nugget_gold_cast`})
-            event.remove({id: `${moltenSourceMod}:smeltery/casting/metal/${matId}/nugget_sand_cast`})
+            event.remove({id: baseDefaultRecipePath +"nugget_gold_cast"})
+            event.remove({id: baseDefaultRecipePath +"nugget_sand_cast"})
 
             sandAndGoldCasting(matId, material.nugget, {tag: fluid, amount: 10}, Math.round(material.cooling_time / 3), "nugget")
         }
