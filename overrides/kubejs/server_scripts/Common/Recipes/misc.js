@@ -70,4 +70,32 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:potion', '{Potion:"minecraft:long_regeneration"}'),
         "minecraft:ghast_tear"
     ]).id("mce2:bomd_brimstone_nectar")
+
+
+    //Infinity Wand
+    event.shaped("constructionwand:infinity_wand", [
+        "  C",
+        " S ",
+        "S  "
+    ],
+    {
+        C: "mekanism:ultimate_control_circuit",
+        S: "mekanism:hdpe_stick"
+    }).id("constructionwand:infinity_wand")
+
+
+    //Destruction Core
+    // when combined with the former, allows *free* mass destruction of only *similar* blocks indefinitely, akin to a Destruction Gadget, only arguably more powerful.
+    event.shaped("constructionwand:core_destruction", [
+        "GEG",
+        "TVT",
+        "GPG"
+    ],
+    {
+        E: "iceandfire:cockatrice_eye",
+        P: "create:precision_mechanism",
+        V: "#mce2:item_trash_cans",
+        G: "#c:glass_panes",
+        T: "create:electron_tube"
+    }).id("constructionwand:core_destruction")
 })
