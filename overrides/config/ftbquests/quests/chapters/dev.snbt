@@ -221,6 +221,42 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			description: ["Force Complete to get."]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "quest_loot"
+				}
+			}
+			id: "35BE3E41082253E9"
+			optional: true
+			rewards: [{
+				id: "0ABFCC834230AB28"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Debug/Dev quest for just a Quest Loot box"
+			tasks: [{
+				id: "607465DCA45BABDF"
+				type: "custom"
+			}]
+			title: "Quest Loot"
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	title: "dev"
 }

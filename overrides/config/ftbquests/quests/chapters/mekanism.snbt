@@ -3030,12 +3030,12 @@
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-							HideFlags: 33
-							display: {
-								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
-							}
-							type: "quest_loot"
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
+						type: "quest_loot"
+					}
 				}
 				type: "item"
 			}]

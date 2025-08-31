@@ -1826,6 +1826,7 @@
 				{
 					id: "5BAC7BFE2C31CDC1"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
 							HideFlags: 33
