@@ -1,9 +1,7 @@
-const tinkersEntityMelting = (event, entityTypes, fluid, amount, damage) => {
+const tinkersEntityMelting = (event, entityRep, fluid, amount, damage) => {
     let recipe = {
         type: "tconstruct:entity_melting",
-        entity: {
-            types: entityTypes
-        },
+        entity: entityIngredient(entityRep),
         result: {
             fluid: fluid,
             amount: amount
@@ -51,4 +49,31 @@ const tinkersMelting = (event, output, input, temp, time, byproducts) => {
         recipe.byproducts = byproducts
 
     return event.custom(recipe)
+}
+
+const tinkersSevering = (event, output, entityRep) => {
+    let recipe = {
+        type: "tconstruct:severing",
+        entity: entityIngredient(entityRep),
+        result: output
+    }
+
+    
+
+    return event.custom(recipe)
+}
+
+/**
+ * Helper to convert a JS object to accepted Mantle `EntityIngredient` format appropriate for it. 
+ * Allows Severing and Entity Melting helpers to accept hard ID, Array, or Tag reference.
+ * @param {string|string[]|TagKey} entityRep object to convert to `EntityIngredient`
+ * @returns 
+ */
+const entityIngredient = (entityRep) => {
+    if(Array.isArray(entityRep))
+        return { types: entityRep }
+    else if(entityRep.startsWith("#"))
+        return { tag: entityRep.substring(1) }
+    else
+        return { type: entityRep }
 }
