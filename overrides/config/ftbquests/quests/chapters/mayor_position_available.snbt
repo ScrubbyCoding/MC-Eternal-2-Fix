@@ -209,24 +209,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -260,24 +246,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -313,24 +285,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -375,24 +333,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -441,24 +385,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -506,24 +436,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -558,24 +474,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -618,24 +520,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -687,24 +575,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -758,24 +632,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -819,24 +679,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -872,24 +718,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -943,24 +775,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1012,24 +830,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1075,24 +879,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1140,24 +930,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1207,24 +983,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1286,24 +1048,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1354,24 +1102,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1422,24 +1156,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1484,24 +1204,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1561,24 +1267,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
@@ -1626,24 +1318,10 @@
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
 							HideFlags: 33
 							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
 							type: "quest_loot"
 						}
 					}
