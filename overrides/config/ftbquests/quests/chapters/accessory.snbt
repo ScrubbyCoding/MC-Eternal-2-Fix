@@ -1,0 +1,791 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accessory"
+	group: "372D1188C5A9B800"
+	icon: {
+		Count: 1
+		id: "majruszsaccessories:soul_of_minecraft"
+		tag: {
+			Bonus: {
+				Boosters: [ ]
+				Value: 0.6f
+			}
+		}
+	}
+	id: "1E54C70FEA19DD02"
+	images: [
+		{
+			height: 40.0d
+			image: "modpack:textures/soulofmc3.png"
+			rotation: 0.0d
+			width: 40.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "majruszsaccessories:item/soul_of_minecraft"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/barry-the-rat-demon-transparent-no-white.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "majruszsaccessories:item/soul_of_minecraft"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/barry-the-rat-demon-transparent-no-white.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The farther you wander, the richer the world becomes."
+				""
+				"&eTip&f May be found as chest loot"
+			]
+			hide_dependency_lines: true
+			id: "7B3A80D4D2073785"
+			tasks: [{
+				id: "73612F260C5E9D63"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:adventurer_kit"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Bearer of eternity, the scarab reveals treasures long buried."
+				""
+				"&eTip:&f May be found when brushing suspicuous items"
+			]
+			hide_dependency_lines: true
+			id: "69C12386695D143C"
+			tasks: [{
+				id: "1858CFD07AB6B97C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:ancient_scarab"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.0d
+			y: -1.8d
+		}
+		{
+			description: [
+				"Swim far and fast with your new swimmers guide"
+				""
+				"&eTip:&f May be found when looting sunken ships or buried treasure"
+			]
+			hide_dependency_lines: true
+			id: "4786D84EB5B73073"
+			tasks: [{
+				id: "78E98DE0B1BF86E5"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:swimmer_guide"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.0d
+			y: -0.8d
+		}
+		{
+			description: [
+				"The crown of an angler, earned in salt and sweat."
+				""
+				"&eTip:&f May be found when fishing"
+			]
+			hide_dependency_lines: true
+			id: "7C96E9AD0B161338"
+			tasks: [{
+				id: "1BA1D322072177E0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:angler_trophy"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"When titans rise from the deep, this line does not bow."
+				""
+				"&eTip:&f May be found when fishing or hunting fish"
+			]
+			hide_dependency_lines: true
+			id: "0D6C21C75B9211D1"
+			tasks: [{
+				id: "64471A342DA66BAC"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:unbreakable_fishing_line"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.9d
+			y: 5.0d
+		}
+		{
+			description: [
+				"The right lure hooks them first try."
+				""
+				"&eTip:&f May be found when hunting fish"
+			]
+			hide_dependency_lines: true
+			id: "18612510A3206B11"
+			tasks: [{
+				id: "4F45A5DED22BA00A"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:metal_lure"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Only the sharpest hagglers may wield such coupons."
+				""
+				"&eTip:&f May be given after bartering with a villager"
+			]
+			hide_dependency_lines: true
+			id: "29255B1972641D84"
+			tasks: [{
+				id: "0E309B2E3F661C51"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:discount_voucher"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Mimimimi mimimi. you sleep so soundly. ;)"
+				""
+				"&eTip:&f May be found on your bed in the morning"
+			]
+			hide_dependency_lines: true
+			id: "6D1E6B226173A615"
+			subtitle: "&oShhhhhhhhh"
+			tasks: [{
+				id: "5006C219647ED22C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:dream_catcher"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Master alchemy you are. more potions you make. -&oyoda&r"
+				""
+				"&eTip:&f May find an extra ingrediant when brewing potions"
+			]
+			hide_dependency_lines: true
+			id: "29CF34A723252FA8"
+			tasks: [{
+				id: "64D4AB584E5B7EA0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:secret_ingredient"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"In every strike, fortune hides, this rock makes it yours."
+				""
+				"&eTip:&f May be found when mining stone type blocks"
+			]
+			hide_dependency_lines: true
+			id: "429EA6BC45960519"
+			tasks: [{
+				id: "16F471D7FD0C43BE"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:lucky_rock"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"What took hours, now falls in moments"
+				""
+				"&eTip:&f May be found through chest loot underground"
+			]
+			hide_dependency_lines: true
+			id: "411AE18F59CF19AF"
+			tasks: [{
+				id: "6F4C1E9CDAA3657A"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:miner_guide"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.8d
+			y: -4.5d
+		}
+		{
+			description: [
+				"What was lost now guards what remains."
+				""
+				"&eTip:&f May be found when you break a tool"
+			]
+			hide_dependency_lines: true
+			id: "5D14CCACDC222B8C"
+			tasks: [{
+				id: "1DDD5D617C72426D"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:tool_scraps"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"A mark of trust, carved from conquest"
+				""
+				"&eTip:&f May be found from taming animals"
+			]
+			hide_dependency_lines: true
+			id: "2A116D410ABB1CB4"
+			tasks: [{
+				id: "16D1A9D6551EF6B9"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:certificate_of_taming"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69C12386695D143C"
+				"7B3A80D4D2073785"
+				"4786D84EB5B73073"
+			]
+			description: ["From distant lands to sunken ruins, luck and skill travel with you."]
+			id: "148B7728A3EA3435"
+			tasks: [{
+				id: "68453842600EC54C"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:adventurer_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18612510A3206B11"
+				"7C96E9AD0B161338"
+				"0D6C21C75B9211D1"
+			]
+			description: ["From the smallest stream to the mightiest river, it commands a catch."]
+			id: "600A1D8906EC1C29"
+			tasks: [{
+				id: "213A51977E99F1CD"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:angler_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"29CF34A723252FA8"
+				"6D1E6B226173A615"
+				"29255B1972641D84"
+			]
+			description: ["A charm for those who seek ease and fortune at home."]
+			id: "44BFAC4C17E187CC"
+			tasks: [{
+				id: "03D83265068036B0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:household_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"411AE18F59CF19AF"
+				"5D14CCACDC222B8C"
+				"429EA6BC45960519"
+			]
+			description: ["The rune binds swiftness, fortune, and resilience into one unbreakable power."]
+			id: "4FAF6B0499F0C5FD"
+			tasks: [{
+				id: "1C2F3BDC13B48A61"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:miner_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Where one blessing was expected, two are given."
+				""
+				"&eTip:&f May be found in the arms of a new born animal"
+			]
+			hide_dependency_lines: true
+			id: "1D6E5317B7BA0521"
+			tasks: [{
+				id: "0037C6599714D663"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:idol_of_fertility"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.0d
+			y: -1.8d
+		}
+		{
+			description: [
+				"Small enough to hide in a leaf, strong enough to double a feast."
+				""
+				"&eTip:&f Found when harvesting crops"
+			]
+			hide_dependency_lines: true
+			id: "1F0FF12E007C792B"
+			tasks: [{
+				id: "0F32B3CA4C6E3DF0"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:tamed_potato_beetle"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1D6E5317B7BA0521"
+				"1F0FF12E007C792B"
+				"2A116D410ABB1CB4"
+			]
+			description: ["The wild bends, the earth prospers, and life multiplies."]
+			id: "5BCF12C8FF8A22AF"
+			tasks: [{
+				id: "229F87345A69FE6D"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:nature_rune"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5BCF12C8FF8A22AF"
+				"600A1D8906EC1C29"
+				"4FAF6B0499F0C5FD"
+				"148B7728A3EA3435"
+				"44BFAC4C17E187CC"
+			]
+			description: [
+				"The heartbeat of worlds, the flame of every quest, contained in one eternal soul."
+				""
+				"Obtain the perfect &eSoul of Minecraft"
+			]
+			id: "26363ED4971167EA"
+			tasks: [{
+				id: "329864470BF42FF8"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:soul_of_minecraft"
+					tag: {
+						Bonus: {
+							Value: 0.6f
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["More Experience"]
+			hide_dependency_lines: true
+			id: "63E3A2FB7F5D49BA"
+			tasks: [{
+				id: "610CB598056A5118"
+				item: "majruszsaccessories:owl_feather"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["More accessory luck chance"]
+			hide_dependency_lines: true
+			id: "1B6847871A2B4221"
+			tasks: [
+				{
+					id: "2DE3B319216A372C"
+					item: "majruszsaccessories:dice"
+					type: "item"
+				}
+				{
+					id: "3554CD58BBCCAFE9"
+					item: "majruszsaccessories:golden_dice"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["More efficiency bonus with accessories"]
+			hide_dependency_lines: true
+			id: "18FE3C2A1403BA4F"
+			tasks: [{
+				id: "51C6C9B0BF0A6D4F"
+				item: "majruszsaccessories:onyx"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28856EB467B85620"]
+			description: ["More Luck"]
+			hide_dependency_lines: true
+			id: "5669A2B81FF69E72"
+			tasks: [
+				{
+					id: "6209610FBE9E2809"
+					item: "majruszsaccessories:horseshoe"
+					type: "item"
+				}
+				{
+					id: "7C602BCFF9BDA719"
+					item: "majruszsaccessories:golden_horseshoe"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: ["Gamble to increase the efficiency bonus within a set range"]
+			hide_dependency_lines: true
+			id: "512E84AE3E2E975B"
+			tasks: [{
+				id: "5FF14A12D99E18C2"
+				item: "majruszsaccessories:gambling_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: ["Removes the accessory booster from your accessory"]
+			hide_dependency_lines: true
+			id: "207C5A92BF79AB4F"
+			tasks: [{
+				id: "3F24F6742253308E"
+				item: "majruszsaccessories:removal_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0937152190A59C5A"
+				"60E339DF5E8AB806"
+			]
+			description: [
+				"int main()"
+				""
+				"return 0"
+			]
+			hide_dependency_lines: true
+			id: "30D9C02EA39CA3E1"
+			tasks: [{
+				id: "03E5CAF639B07629"
+				item: "majruszsaccessories:reverse_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Have you found Majrusz accessories and ended up with multiples of the same type?"
+				"Don't throw them away! Instead, craft the duplicate accessories together to increase their efficiency bonus."
+			]
+			icon: {
+				Count: 1
+				id: "majruszsaccessories:adventurer_kit"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: 0.6f
+					}
+				}
+			}
+			id: "0937152190A59C5A"
+			tasks: [{
+				id: "68A80A0A351D20EF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:pocket_left"
+					}
+				}
+				title: "Any #curios:pocket_right"
+				type: "item"
+			}]
+			title: "Combine to profit"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Combine the boosters with an accessory to apply the bonus"]
+			id: "28856EB467B85620"
+			tasks: [{
+				id: "42561F791C90095E"
+				title: "Booster"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: ["You can get these cards by trading in accessories to a certain wanderer who roams around."]
+			id: "60E339DF5E8AB806"
+			tasks: [{
+				id: "5D2FB830CFE7DC91"
+				title: "Card Stock"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+	]
+	title: "&eTrial of the Soul"
+}
