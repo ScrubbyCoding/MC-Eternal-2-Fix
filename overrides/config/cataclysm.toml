@@ -68,10 +68,10 @@
 	"Ceraunus Cooldown" = 150
 	#Astrape's LightningStorm Damage
 	#Range: 0.0 ~ 1000000.0
-	"Astrape's Lightning Spear Damage" = 30.0
+	"Astrape's Lightning Spear Damage" = 65.0
 	#Astrape's Wave Damage
 	#Range: 0.0 ~ 1000000.0
-	"Astrape's Area Damage'" = 15.0
+	"Astrape's Area Damage'" = 25.0
 	#Astrape's Cooldown
 	#Range: 0 ~ 1000000
 	"Astrape Cooldown" = 80
@@ -300,7 +300,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 2.8
+	HarbingerHealthMultiplier = 3.4
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 3.7
@@ -394,7 +394,7 @@
 	AmethystCrabEarthQuakeDamage = 10.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 3.5
+	AmethystCrabDamageMultiplier = 6.5
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
@@ -402,7 +402,7 @@
 	AncientRemnantHealthMultiplier = 3.9
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.5
+	AncientRemnantDamageMultiplier = 1.8
 	#AncientRemnant's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 10.0
