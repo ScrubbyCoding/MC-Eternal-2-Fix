@@ -3620,6 +3620,12 @@
 									id: "iceandfire:bestiary"
 								}
 							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
 							tconstruct: {
 								0: {
 									Count: 1b
@@ -3658,12 +3664,6 @@
 											}
 										}
 									}
-								}
-							}
-							solcarrot: {
-								0: {
-									Count: 1b
-									id: "solcarrot:food_book"
 								}
 							}
 						}
@@ -7145,8 +7145,52 @@
 			x: 2.3911564625850374d
 			y: -1.307142857142857d
 		}
+		{
+			can_repeat: true
+			dependencies: ["39C7248750512A5B"]
+			description: [
+				"Charlie is a well known and legendary Goblin Trader! You can summon him by paying a small fee!"
+				""
+				"&6Hint:&r If you cannot locate a Goblin Trader by normal means for daily reward loyalty cards, Charlie can help and always has the relevant trades!"
+				""
+				"&dNote: &rYou can only hire Charlie once every hour!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:tiny_coin"
+			id: "6D28AAFC102E83EC"
+			optional: true
+			rewards: [{
+				command: "/execute at {p} run summon goblintraders:goblin_trader ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Charlie\\\\\\\"\\\"\"}"
+				console: true
+				icon: "rats:tiny_coin"
+				id: "538093A5B68608B8"
+				silent: true
+				title: "&6Summon Charlie!"
+				type: "command"
+			}]
+			subtitle: "&oTempt Charlie the Goblin Trader with some money!"
+			tasks: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					disable_toast: true
+					id: "0141BD815B96B26C"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 3600L
+					icon: "minecraft:green_bed"
+					id: "679BAD7C2CE5BE2E"
+					title: "&aNap Time!"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&6Hire Charlie"
+			x: 2.390178571428578d
+			y: -2.3011904761904773d
+		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
 }
-
-
