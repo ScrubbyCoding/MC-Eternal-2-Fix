@@ -7119,7 +7119,7 @@
 			can_repeat: true
 			dependencies: ["39C7248750512A5B"]
 			description: [
-				"This strange device can turn money into chocolate money. Wow."
+				"This strange device can turn money into chocolate money. Waow."
 				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
 				"            &o&7<shake>Beep Boop CHOCOLATE"
 			]
