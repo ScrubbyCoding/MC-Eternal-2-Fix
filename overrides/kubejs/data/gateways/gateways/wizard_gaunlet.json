@@ -121,7 +121,7 @@
 		},
 		{
 			"type": "gateways:command",
-			"command": "tellraw @p {\"text\":\"An Ice Cold Cryomancer is approaching\",\"color\":\"dark_blue\"}",
+			"command": "tellraw @p {\"text\":\"An Ice Cold Cryomancer is approaching\",\"color\":\"dark_aqua\"}",
 			"desc": "Ice Ice Baby"
 		}],
 		"max_wave_time": 800,
@@ -262,7 +262,17 @@
 					}]
 				},
 				"count": 1
-			}                
+			},
+			    {
+                    "entity": "illager_additions:royal_guard_spearman",
+                     "desc": "Security!!",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Royal Security Guard\",\"color\":\"gold\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "count": 2
+                }
 		],
 		"modifiers": [
                 {
@@ -273,12 +283,12 @@
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.30
+                    "value": 0.20
                 },
                 {
                     "attribute": "attributeslib:life_steal",
                     "operation": "ADDITION",
-                    "value": 0.10
+                    "value": 0.30
                 }
 		],
 		"rewards": [{
@@ -308,13 +318,6 @@
 		"stack": {
 			"item": "irons_spellbooks:blank_rune",
 			"count": 2
-		}
-	},
-	{
-		"type": "gateways:stack",
-		"stack": {
-			"item": "irons_spellbooks:pedestal",
-			"count": 1
 		}
 	},
 	{
