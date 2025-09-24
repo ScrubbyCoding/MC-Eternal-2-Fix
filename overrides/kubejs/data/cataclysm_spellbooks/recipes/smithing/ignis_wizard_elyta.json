@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cataclysm_spellbooks:ignis_chestplate"
+        },
+        {
+            "item": "minecraft:elytra"
+        }
+    ],
+    "result": {
+        "item": "cataclysm_spellbooks:ignis_chestplate_elytra"
+    }
+}

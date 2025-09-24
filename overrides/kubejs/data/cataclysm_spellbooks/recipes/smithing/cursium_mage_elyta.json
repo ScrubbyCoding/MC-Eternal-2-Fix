@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item": "cataclysm_spellbooks:cursium_mage_chestplate"
+        },
+        {
+            "item": "minecraft:elytra"
+        }
+    ],
+    "result": {
+        "item": "cataclysm_spellbooks:cursium_mage_elytra"
+    }
+}
