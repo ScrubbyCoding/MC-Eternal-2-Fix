@@ -3,7 +3,7 @@
   "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
-      "item_id_regex": "claymore|great_sword|greatsword|pan|heartseeker",
+      "item_id_regex": "claymore|great_sword|greatsword|pan|heart_seeker",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
@@ -55,7 +55,7 @@
       "weapon_attributes": "bettercombat:trident"
     },
     {
-      "item_id_regex": "katana|heartstriker|pan|soul_reaver_axe|soul_reaver",
+      "item_id_regex": "katana|heart_striker|pan|soul_reaver_axe|soul_reaver",
       "weapon_attributes": "bettercombat:katana"
     },
     {
