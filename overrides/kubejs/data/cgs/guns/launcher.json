@@ -1,0 +1,170 @@
+{
+  "general": {
+    "fireMode": ["ntg:semi", "ntgl:multi"],
+    "gripType": "ntgl:bazooka",
+    "category": "heavy",
+    "rate": 4,
+    "damage": 5.0,
+    "maxAmmo": 4,
+    "equipTime": 15,
+    "reloadTime": 70,
+    "recoilAngle": 0.1,
+    "alwaysSpread": true,
+    "projectileAmount": 1,
+    "multishotAmount": 4,
+    "spread": 3.0,
+    "ammo": [
+      "cgs:rocket"
+    ]
+  },
+  "melee": {
+    "mode": "ntgl:single",
+    "damage": 12,
+    "delay": 6,
+    "cooldown": 6,
+    "distance": 5,
+    "angle": 40,
+    "maxTargets": 1,
+    "knockback": 0.3
+  },
+  "ammoData": {
+    "cgs:rocket": {
+      "ammo": {
+        "type": "ntgl:missile"
+      },
+      "projectile":{
+        "projectile": "cgs:rocket",
+        "damageType": "ntgl:explosive",
+        "visible": true,
+        "damage": 1.0,
+        "size": 4.0,
+        "speed": 4.0,
+        "life": 120,
+
+        "explosion": {
+          "damage": 50,
+          "radius": 6,
+          "knockback": 1.0
+        }
+      }
+    },
+    "cgs:rocket_small": {
+      "ammo": {
+        "type": "cgs:small_rocket"
+      },
+      "projectile":{
+        "projectile": "cgs:small_rocket",
+        "damageType": "ntgl:explosive",
+        "visible": true,
+        "damage": 0.2,
+        "size": 4.0,
+        "speed": 7.0,
+        "life": 120,
+
+        "explosion": {
+          "damage": 20,
+          "radius": 5,
+          "knockback": 0.1
+        }
+      }
+    },
+    "cgs:spear": {
+      "ammo": {
+        "type": "cgs:spear"
+      },
+      "projectile":{
+        "projectile": "cgs:spear",
+        "visible": true,
+        "damage": 25.0,
+        "size": 4.0,
+        "speed": 1.0,
+        "life": 1200
+      }
+    }
+  },
+  "fuel": {
+    "cgs:air":{
+      "max": 900,
+      "amountPerUse": 5,
+      "mandatory": false,
+      "ammo": {
+        "type": "cgs:air"
+      }
+    }
+  },
+  "sounds": {
+    "fire": "cgs:gun.launcher.fire",
+    "boltopen": "cgs:gun.launcher.boltopen",
+    "equip": "cgs:gun.launcher.equip",
+    "magin": "cgs:gun.launcher.magin",
+    "magout": "cgs:gun.launcher.magout",
+    "magin_mini": "cgs:gun.launcher.magin_mini",
+    "magout_mini": "cgs:gun.launcher.magout_mini"
+  },
+  "modules": {
+    "zoom": {
+      "xOffset": -5,
+      "yOffset": 2.7,
+      "zOffset": -0.5,
+      "fovModifier": 0.7
+    },
+    "attachments": {
+      "ntgl:scope": [
+        {
+          "name": "scope",
+          "item": "cgs:scope",
+          "xOffset": 0,
+          "yOffset": 0,
+          "zOffset": 0
+        }
+      ],
+      "ntgl:muzzle": [
+        {
+          "name": "melee",
+          "item": "cgs:big_bayonet",
+          "hide": [
+            "ballista_handle"
+          ]
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "rocket_container",
+          "item": "cgs:rocket_container",
+          "hide": [
+            "container_quadro"
+          ]
+        },
+        {
+          "name": "auto_launcher",
+          "item": "cgs:launcher_auto",
+          "hide": [
+            "container"
+          ]
+        },
+        {
+          "name": "ballistazooka",
+          "item": "cgs:ballistazooka",
+          "hide": [
+            "front",
+            "back",
+            "container"
+          ]
+        },
+        {
+          "name": "grappling_hook",
+          "item": "cgs:grappling_hook",
+          "hide": [
+            "container"
+          ]
+        },
+        {
+          "name": "item_launcher",
+          "item": "cgs:item_launcher",
+          "hide": [
+            "container"
+          ]
+        }
+      ]
+    }
+  }}
