@@ -1,0 +1,5482 @@
+{
+	autofocus_id: "362EF4C38452D51E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "701563945253F512"
+	icon: "occultism:ritual_dummy/summon_demonic_wife"
+	id: "4F445883DAC2433C"
+	images: [
+		{
+			height: 1.0d
+			image: "sophisticatedstorage:block/gold_barrel_bottom"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/5"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/12"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/12"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/8"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/9"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/3"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/11"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/0"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/9"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/6"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/7"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/4"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/10"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/candle"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "53C751FAB47C0453"
+			height: 35.0d
+			image: "modpack:textures/occultismtop.png"
+			rotation: 0.0d
+			width: 35.0d
+			x: 2.0d
+			y: -23.0d
+		}
+		{
+			height: 35.0d
+			image: "modpack:textures/occultismbottom.png"
+			rotation: 0.0d
+			width: 35.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependency: "3272A212753DAD8A"
+			height: 8.0d
+			image: "modpack:textures/occultismcrusher.png"
+			order: 10
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.0d
+			y: -6.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"&6Welcome to &5Occultism&6!"
+				"&5Occultism &7is a mod that enables you to automate various tasks, efficiently store items, and delve into the fascinating world of rituals and &4demons&7.  "
+				""
+				"&7To begin your journey, seek out &dDemon's Dream Seeds &7by harvesting grass in your surroundings. Once obtained, you can craft your very own &bDictionary of Spirits &7— your essential guide to the &5Spirit Realm&7!"
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:dictionary_of_spirits"
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+			id: "362EF4C38452D51E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "011E87EFB7EE96B6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0C17EBB4F325EE05"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Introduction To The Occult"
+			tasks: [{
+				id: "6EC3CC6930C1BB4A"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6The Dictionary Of Spirits"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["362EF4C38452D51E"]
+			description: [
+				"&7To continue your journey, acquire another &dDemon's Dream Seed&7 and plant it on &6farmland&7."
+				"&7Once it has fully grown, harvest the &dfruit&7 it bears — who knew dreaming could be so easy!"
+			]
+			id: "04E32A71EEC41F68"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "063081D690FDA047"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Dark Fruit"
+			tasks: [{
+				id: "5B1B04CDDFD5B1ED"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			title: "&6The Fruit Of Dreams"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04E32A71EEC41F68"]
+			description: [
+				"&7To create your very own &5Spirit Fire&7, simply toss your &dDream Fruit &7onto the ground, then ignite it using a &6Flint and Steel&7."
+				"&7There’s no need for concern — this mystical flame &adoes not spread&7, &adoes not extinguish itself&7, and &adoes not harm you&7."
+				""
+				"&7Next, toss &6Andesite Blocks &7directly into the &5Spirit Fire&7.  "
+				"&7After a brief moment, they will be consumed by the flames and transformed, rewarding you with &6Stone &7from the other side."
+			]
+			icon: "occultism:spirit_fire"
+			id: "74511E47C417EFF6"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "530F7E15255599AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "My Fires Purple?!"
+			tasks: [
+				{
+					id: "5549E7BF111D9CA1"
+					title: "Make Spirit Fire"
+					type: "checkmark"
+				}
+				{
+					count: 28L
+					id: "5815243FF08A39F1"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			title: "&6Spirit Fire"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74511E47C417EFF6"]
+			description: [
+				"&7Another step before you can begin your first ritual is &eCandles&7!"
+				"&7To craft these, you will need a wick and some fuel — &4<shake>SOME BLOO-&7... &7I mean, some perfectly harmless fuel."
+				"&7To obtain &6Tallow&7, first create a &6Butcher's Knife&7 using &f2 Iron Ingots &7and &f3 Sticks&7."
+				"&7Then, hunt a few animals — they will drop &6Tallow&7. Isn’t that fun~?  "
+				""
+				"&7Finally, combine &fString &7and &6Tallow &7to craft your very own &eCandle&7!"
+				"{@pagebreak}"
+			]
+			icon: "occultism:candle_white"
+			id: "091089B332530789"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C16AAF60D752C61"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "&4First Blood"
+			tasks: [
+				{
+					id: "61CF9DEADEB9AB58"
+					item: {
+						Count: 1
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C8285C17923C527"
+					item: "occultism:tallow"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40462F6AD136630E"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "&6Butcher"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["091089B332530789"]
+			description: [
+				"&7Did you know you can also use &eother candles&7?  "
+				"&7Feel free to experiment — the &5Spirit Realm &7isn’t picky about style!"
+			]
+			id: "7FF69002B72E926F"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "1F1B0B0E71D3554C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Colours!"
+			tasks: [{
+				id: "3768D019AB741869"
+				title: "Did you know?"
+				type: "checkmark"
+			}]
+			title: "&eDid you know?"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["091089B332530789"]
+			description: [
+				"&7To begin, toss a few &2Oak Saplings &7into your &5Spirit Fire&7 — it might be wise to add several for future use."
+				"&7Next, plant them and patiently wait for them to grow. They may appear ordinary, but to the spirits, they are &dmysterious &7and &dimportant&7."
+				""
+				"&7Once they have matured, eat one of your &dDream Fruits&7 to glimpse what the spirits see. "
+				"&7After your vision changes, gather the &6logs&7 and return..."
+				"&7But try not to bring back any... &4<shake>‘friends’&7. That would be... undesirable. At least, for now."
+			]
+			icon: "occultism:otherworld_sapling"
+			id: "10F0C46128C30040"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4C9F9F31D50D9C4E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C2E265B9A93FC3F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Mirror"
+			tasks: [
+				{
+					id: "1453CDE0DFB8F785"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "237258F06FD1E437"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+			]
+			title: "&6The Other World"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10F0C46128C30040"]
+			description: [
+				"&7Ahh, &fChalk&7... brings back memories~  "
+				"&7To craft your very own &fChalk&7, place both &6Otherworld Wood &7and &6Otherstone &7into a &6Furnace&7."
+				"&7Burn them to create &cOtherworld Ash&7 and &cBurnt Otherstone&7, then combine them in a &6Crafting Table&7 to make some &fChalk&7!"
+				""
+				"&7Unfortunately... you didn’t do a very good job. &7Humans never do."
+				"&7Come on, hand it over — toss it into your &5Spirit Fire&7 and I’ll clean it for you."
+				"&7It will only take a moment."
+			]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_white"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19892BC1249CF884"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0000FB10E0509D97"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "A Chalk Drawing"
+			tasks: [
+				{
+					count: 3L
+					id: "142D5A3D0D84B5F5"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "12A9D95D7AF109B4"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+				{
+					id: "5289D6B3F9386FED"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "4AA04BFF56022977"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Childhood Memories"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19892BC1249CF884"]
+			description: [
+				"&7To offer items to the spirits, you will need to craft &6Sacrificial Bowls&7."
+				"&7Simply use the remaining &6Otherstone &7you created earlier to make them."
+			]
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "243134A56B123F6A"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "76333BAD33198545"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Offerings"
+			tasks: [
+				{
+					count: 4L
+					id: "4CB235F330C65C36"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "23930D9E97FCEBC6"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "&6Not For Cereal"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["243134A56B123F6A"]
+			description: [
+				"&7It’s time to create a &afriend&7!  "
+				"&7But before we can craft your first &5pentacle &7to summon them, we’ll need to find them first.  "
+				""
+				"&7Fortunately, this is easy in &dThe Otherworld&7! "
+				"&7Simply toss a &fBook&7, a &fFeather&7, and &0Black Dye &7into your &5Spirit Fire&7."
+				"&7Then, combine the result with &f4 White Dye &7to create a &6Foliot Book of Binding&7."
+				""
+				"&7At this point, it is still unbound — so merge the unbound book with your &bDictionary of Spirits &7to complete the binding. "
+				"&7For now, your friend is tied directly to the book, meaning you can’t see them yet...  "
+				""
+				"&7Don’t worry — we’re about to reveal your new companion!"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:book_of_binding_bound_foliot"
+				tag: {
+					spiritName: "Azursirthyre"
+				}
+			}
+			id: "03B50ECA705E17CE"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "0363D0E1A55D2480"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Bind a friend"
+			tasks: [
+				{
+					id: "1E8F0086C4C3D52D"
+					item: "occultism:taboo_book"
+					type: "item"
+				}
+				{
+					id: "1FD4611A6D019252"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "6EF3D61B2985067E"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+				{
+					id: "2EC3A8665715661B"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "4F07083EC7499A46"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Azursirthyre"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Your First Binding"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"&7To create your first &5ritual&7, gather everything you’ve crafted and place it on the ground in a specific order."
+				"&7Don’t worry — you can discover the correct arrangement by following your &bDictionary of Spirits&7!"
+				"&7I can even visualise it in your world for you — just click the &eEye &7icon in the bottom left of the ritual page."
+				""
+				"&7Once everything is in place, offer your items and wait for your new &afriend &7to take them."
+				"&7Welcome home, &afriend&7!"
+			]
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
+			id: "3272A212753DAD8A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "525C268E2D552D13"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "70B9FADC4EA6E61E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Welcome Friend!"
+			tasks: [
+				{
+					id: "5D115A2C0275315F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "0C342F2216D442C9"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "1EF5F99FC45B061F"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "612E42594563B538"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/silver"
+						}
+					}
+					title: "Any #forge:raw_materials/silver"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					icon: "occultism:ritual_dummy/summon_foliot_crusher"
+					id: "33CAE838C82B8A65"
+					type: "advancement"
+				}
+			]
+			title: "&4Friends Forever"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"&7Did you know you can create &6Empty Books of Binding&7 in two ways? "
+				"&7Simply toss a &fBook and Quill &7into the &5Spirit Fire&7, or craft one without any dye.  "
+				"&7They’re perfect to keep in storage for future use!"
+			]
+			id: "63FFFAB0CD376373"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "370FF0200F8CADF1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Book Of Binding: Empty"
+			tasks: [{
+				id: "066EAACE47F7B2A6"
+				title: "Did you know?"
+				type: "checkmark"
+			}]
+			title: "&eDid you know?"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"&7Well done on creating your first &6Foliot Crusher&7!  "
+				"&7You’ve got the basics down — but your work isn’t over yet. Now you have a &afriend &7to help!"
+				""
+				"&7Feed your crusher ores or rocks and it will return &6Crushed Ores&7, which are vital for future crafting. "
+				"&7For example: toss &63 Gold Ingots &7to your crusher to make &6Golden Chalk&7!"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72D18882F1206888"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "666D86D6F6B6B9F3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Oh Lawd He's Crushin'"
+			tasks: [
+				{
+					id: "37A9C88A550DC8F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "Any #forge:dusts/gold"
+					type: "item"
+				}
+				{
+					id: "27D784DFDD14DF2E"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "429FEB7C93494749"
+					item: {
+						Count: 1
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Crushing Work!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"&7Did you know your &6Crusher &7can increase ore yields?  "
+				"&7You’ll get even more if the ores were mined with &bSilk Touch&7!"
+			]
+			id: "1B2FBA23CEA21E92"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "5739B2EAFFE77F66"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Better Yeild!"
+			tasks: [{
+				id: "1AA627C791602E74"
+				title: "&6Did you know?"
+				type: "checkmark"
+			}]
+			title: "&eDid you know?"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"&7Who knew you could store items in the &dOtherworld&7?  "
+				"&7With a few more &5rituals&7 you can craft a &6Dimensional Storage Actuator&7 — check your &bDictionary&7 for the pattern.  "
+				""
+				"&7It holds &a128 slots&7, each storing up to &a1024 items&7!"
+			]
+			icon: "occultism:storage_controller"
+			id: "30AB22B3FB6CE7AE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "56723F903EB07579"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "08251998B702D1E2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Storage In The Otherworld!"
+			tasks: [
+				{
+					id: "6D04A993327AD55A"
+					item: {
+						Count: 1
+						id: "occultism:dimensional_matrix"
+						tag: {
+							spiritName: "Nidvyrmorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "12973648A0A402AA"
+					item: "occultism:storage_controller_base"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "48E2003527B0F9BA"
+					item: "occultism:storage_controller"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Dimensional Storage!"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["30AB22B3FB6CE7AE"]
+			description: [
+				"&7Not enough storage? No problem! "
+				"&7Build &6Dimensional Storage Stabilizers&7 to expand your space — up to &a6 &7can be used at once."
+			]
+			id: "5B2B846B0E174EFF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6C000722A482257A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "476D9EE5114A236A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "More storage!"
+			tasks: [{
+				id: "2FDCC29A2B702939"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			title: "&6T1 Storage Stabilizer"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5B2B846B0E174EFF"]
+			description: [
+				"&7O-Oh! Still not enough storage? That’s fine— "
+				"&7You can upgrade your &6Storage Stabilizers&7 through additional &5rituals&7!"
+			]
+			id: "0DA17DCEE4380FA8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0641AAE639F09D41"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5D55313705D87CA4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Full To The Brim"
+			tasks: [{
+				id: "22200FB25E39FC1B"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			title: "&6T2 Storage Stabilizer"
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0DA17DCEE4380FA8"]
+			description: [
+				"&7Huh?! Do you really need that many items? "
+				"&7Maybe clear some space — I see those &6chestplates &7you’ve never touched! "
+				"&7You know I have to sort this every time you toss more junk in here, right?  "
+				""
+				"&7Anyway... yes, you can upgrade further.  "
+				"&7But this time it won’t be so easy — you’ll need to defeat &dGaia &7(from &aBotania&7)."
+			]
+			id: "3BD968E5AB3B1F80"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7C467F4DDE0E3B8F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "416587D6EF415C85"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Even more?!"
+			tasks: [{
+				id: "090C52BCCD288E07"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			title: "&6T3 Storage Stabilizer"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3BD968E5AB3B1F80"]
+			description: [
+				"&7EVEN MORE?! No, you can’t!  "
+				"&7I’m literally swimming in your loot over here!  "
+				""
+				"&7Luckily, you can’t swamp me with any more until you’ve slain the &5Dragon&7.  "
+				"&7Haha~ it’s not like some &6Bee Queen &7would just hand you &5Dragon’s Breath&7... right?"
+			]
+			id: "07417BBE187F33D8"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "7F6D8FC7A8E95D87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "38C95D3FDFDC2C79"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&4<shake>ENOUGH!"
+			tasks: [{
+				id: "619A280401B25EC2"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			title: "&6T4 Storage Stabilizer"
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["30AB22B3FB6CE7AE"]
+			description: [
+				"&7A &6Wormhole &7lets you access your storage from anywhere —  "
+				"&7even across &dDimensions&7!"
+			]
+			id: "6B96467BF82DFAAF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14E23293438ED252"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10191E9837EEC0F2"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dimensional Delivery"
+			tasks: [{
+				id: "1EBA8754BA164E06"
+				item: {
+					Count: 1
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6Wormhole"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6B96467BF82DFAAF"]
+			description: [
+				"&7The &6Storage Accessor &7lets you access your storage remotely!  "
+				"&7Isn’t that helpful? &7Goodbye, backpacks!"
+			]
+			id: "6F973E28F7261C20"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "06ABC23AEF5C2842"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "23F6B52C2AD56212"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Portable Storage"
+			tasks: [{
+				id: "39AB2C0774E3EEE2"
+				item: {
+					Count: 1
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6Handheld Wormhole"
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B96467BF82DFAAF"]
+			description: ["&7Make sure your &6Storage &7stays loaded — otherwise you won’t be able to access it!"]
+			id: "57FE1AB43E9E701B"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "3BA8156F466E9F7D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Loaded chunks"
+			tasks: [{
+				id: "4FC7812060FD7C2D"
+				title: "&6Tip"
+				type: "checkmark"
+			}]
+			title: "&eTip"
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6F973E28F7261C20"]
+			description: ["&7Because &6Warp Stones &7come late in the game, it may be easier to link your &5Occultism Storage &7with another system, like &dArs Nouveau&7."]
+			id: "72D9E99A54C3CEA9"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "130501DD6BA39996"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Alternatives"
+			tasks: [{
+				id: "3648C051E0812B5F"
+				type: "checkmark"
+			}]
+			title: "&eOther Storage Remotes"
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B5918000CFDC02A"]
+			description: [
+				"&7Although you can’t see everything on the other side, you can catch a &aglimpse&7 of what we see. "
+				"&7You’ve already tried, but it didn’t last long…  "
+				""
+				"&7Wouldn’t you like to explore the &dOtherworld &7for longer? Lucky for you, I might have just what you need!  "
+				""
+				"&7Crafting these &6Goggles &7gives the same effect as a &fDream Fruit &7—forever, while worn.  "
+				"&7Plus, no distortion effects like the fruit!"
+			]
+			id: "31E0B093AC5FE579"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "28B96A6D98CFCD77"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "59A64BE88BF3C959"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Look Into The Other Side"
+			tasks: [{
+				id: "5A6F1A6C4C326794"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "occultism:otherworld_goggles"
+					}
+				}
+				match_nbt: false
+				title: "Otherworld Goggles"
+				type: "item"
+			}]
+			title: "&6Otherworld Vision"
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"&7You should now understand the basics of &5Occultism&7, and can expand into summoning &dmore spirits &7— even stronger ones!"
+				""
+				"&7Unfortunately, you may not yet have all the &6items &7needed for certain &5rituals&7.  "
+				"&7But don’t worry — &5Occultism &7provides ways to obtain them!  "
+				""
+				"&7The most important are &fSkeleton Skulls &7and &dEnd Stone&7."
+			]
+			id: "59424050CCB90D69"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "72BC69199A69A4CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Long Road Ahead"
+			tasks: [{
+				id: "34B435B8AF1A69D3"
+				title: "The Expanding World"
+				type: "checkmark"
+			}]
+			title: "&6Basics Of Possession"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72D18882F1206888"]
+			description: [
+				"&7&6Spirit Attuned Gems &7are vital for rituals. "
+				"&7Sadly for you humans, they cost a pretty penny!  "
+				""
+				"&7Throw a &bDiamond &7into your &5Spirit Fire &7to create one.  "
+				"&7You’ll need at least &a9 &7for the next step—and many more later!"
+			]
+			id: "2B5918000CFDC02A"
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "3F3EB1BC4DC1037D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Spirit Attuned Gem"
+			tasks: [{
+				id: "433A2EF419EF26DF"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			title: "&6Gem of the Otherworld"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31E0B093AC5FE579"]
+			description: [
+				"&7You’ve almost seen all the &dOtherworld &7resources your inferior human eyes can spot. "
+				"&7Honestly, I’m sure you could make a deal with the devil to see the rest…  "
+				""
+				"&7Anyway, this &6Pickaxe &7lets you mine the final resource!"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:infused_pickaxe"
+				tag: {
+					Damage: 0
+					spiritName: "Jagkornwyrm"
+				}
+			}
+			id: "5ADBF76573147B4E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "54E711286274A2B7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "41ED25DAC470A5BF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Infused Pickaxe"
+			tasks: [
+				{
+					id: "5794606999D019EE"
+					item: "occultism:spirit_attuned_pickaxe_head"
+					type: "item"
+				}
+				{
+					id: "7418D99FCDA61ADA"
+					item: {
+						Count: 1
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Jagkornwyrm"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Brittle Pickaxe"
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D06AE88847D9D31"]
+			description: ["&7A &6Dimensional Mineshaft &7lets you automatically mine ores from the &dMining Dimension&7!"]
+			id: "63D86872E0575E7D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7EC0877E9D272508"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E01083E5FE7A70E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Wormhole To The Mining Dimension"
+			tasks: [{
+				id: "22E2CC84E5EA1CB3"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			title: "&6Dimesnional Mineshaft"
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5ADBF76573147B4E"]
+			description: [
+				"&7Mining &6Iesnium &7is easy!  "
+				""
+				"&7Grab a &6Divination Rod &7and bind it to &4Netherrack &7(Shift + Right Click).  "
+				"&7Then uncrouch and hold Right Click in a &cNetherite &7tunnel —nearby &6Iesnium &7will light up!"
+				""
+				"&7Mine it with your &6Infused Pickaxe&7!"
+			]
+			icon: "occultism:iesnium_ingot"
+			id: "0D06AE88847D9D31"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "678A954E21173E9E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "371C026E87CF16C4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Iesnium Miner"
+			tasks: [
+				{
+					id: "4C62A6D6308F1E3E"
+					item: {
+						Count: 1
+						id: "occultism:divination_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B8F1C4589819D90"
+					item: "occultism:raw_iesnium"
+					type: "item"
+				}
+				{
+					id: "46162CC04440CEF9"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+			]
+			title: "&6Iesnium"
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"&7Done with your &6Mineshaft&7? Still not working?  "
+				"&7Well, of course — energy doesn’t create itself! "
+				""
+				"&7You’ll need someone to mine for you.  "
+				"&7Bind a &dDjinni &7to a &6Magic Lamp &7and let them do the hard work!"
+			]
+			id: "3FAA195550F83836"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7C5F1AB70D2E226C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5DF1F314C466AE00"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Miner Minion"
+			tasks: [{
+				id: "156A9385FB4A2922"
+				item: {
+					Count: 1
+					id: "occultism:miner_djinni_ores"
+					tag: {
+						Damage: 0
+						maxMiningTime: 300
+						rollsPerOperation: 1
+						spiritName: "Creomaraclyne"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Automatic Mining"
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"&7Your &dDjinni &7still not working hard enough?  "
+				"&7Well… to be fair, they’re not getting paid.  "
+				""
+				"&7No problem! Just overwrite them with an &cAfrit Miner&7!"
+			]
+			id: "61B4CC3093CCF630"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "410A5BF87182A276"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C5692C5FE1DC36F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Afrit Miner"
+			tasks: [{
+				id: "101DCD09DC358FF8"
+				item: {
+					Count: 1
+					id: "occultism:miner_afrit_deeps"
+					tag: {
+						Damage: 0
+						maxMiningTime: 200
+						rollsPerOperation: 1
+						spiritName: "Sigrjorvin"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Better Miner"
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["63D86872E0575E7D"]
+			description: [
+				"&7Still too slow? Try binding a &1Marid&7 — one of the strongest spirits of the &dOtherworld&7.  "
+				"&7Few humans have ever succeeded in binding them…  "
+				""
+				"&7I would… &4<shake>avoid upsetting them&7."
+			]
+			id: "1D8BFF7B3DA167AE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "50ABACCC979ADBD2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1910AFFDC9664970"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Marid"
+			tasks: [{
+				id: "3D13D33838EF6EF3"
+				item: {
+					Count: 1
+					id: "occultism:miner_marid_master"
+					tag: {
+						Damage: 0
+						maxMiningTime: 100
+						rollsPerOperation: 1
+						spiritName: "Jarzoirmur"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Master Of Mining"
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"&7Fortunately, this &5ritual &7was easy — no sacrifice needed.  "
+				"&7But later rituals may require one. If &7gray dust &7appears around the circle, a sacrifice is needed.  "
+				""
+				"&7Slay it nearby to begin the ritual.  "
+				"&7instead of &6Minecarts&7, you can use a &dSoul Gem &7(found later in this chapter) to transport sacrifices!"
+			]
+			id: "0BB920A041F1FE7F"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "6A796EADC3745B73"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "The Sacrificial Lamb"
+			tasks: [{
+				id: "5D05D51AF47F6F75"
+				title: "&6Tip"
+				type: "checkmark"
+			}]
+			title: "&eTip"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03B50ECA705E17CE"]
+			description: [
+				"&7There are &65 types of spirits &7in this realm — but only &64 &7have ever been bound by humans. "
+				""
+				"&6Foliot &7— the weakest, lacking intelligence, often used for simple labor.  "
+				"&6Djinni &7— commonly conjured, trusted with more important tasks.  "
+				"&6Afrit &7— powerful, with strength and intelligence beyond humans; only the most skilled cultists should summon them."
+				"&6Marid &7— the strongest bound spirits. But beware… are they serving you, or are you serving them?  "
+				"&6Greater Spirits &7— the most powerful beings in existence. They cannot be bound by your silly books. &7Don’t even try."
+				""
+				"&7&oYou can read more about this in your &bDictionary of Spirits&7."
+			]
+			id: "5882C212CBF2FCC7"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "610EDBBD36A36A4D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D5F4F5E5CA78872"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The 5 Spirits"
+			tasks: [
+				{
+					id: "7AB2D444E409BDFF"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "1B25E22EEF837BB0"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					id: "6A0F7CD2F7257378"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+				{
+					id: "64BBF7888CDD2486"
+					item: "occultism:book_of_binding_marid"
+					type: "item"
+				}
+			]
+			title: "&eBooks Of Binding"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3272A212753DAD8A"]
+			description: [
+				"&6Foliot Demons &7are the weakest &dspirits&7, and unlike the others, they &cdecay slowly&7 over time. "
+				"&7To view their &cdecay status&7, &eCrouch &7and &eRight Click &7on your &6Foliot&7."
+			]
+			id: "00498B8969C8A6D9"
+			optional: true
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "65AFEB2D29365ED8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Decay Of Spirits"
+			tasks: [{
+				id: "6FBA61C667977669"
+				title: "&eFoliot Decay "
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59424050CCB90D69"]
+			description: [
+				"&7To gain &fSkeleton Skulls&7, summon a &6Possessed Skeleton&7 using the &5Pentacle: Hedyrin's Lure&7."
+				""
+				"&7If the ritual refuses to begin, the reason is simple —  &7the &dspirits demand a sacrifice&7. Slay a &fChicken &7nearby to appease them."
+			]
+			id: "3E32A30921459232"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "576127058B1A3A53"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0879838EF808EB52"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Skeleton Skulls"
+			tasks: [{
+				id: "0BEAA88296E53E8B"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			title: "&6Possessed Skeleton"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["59424050CCB90D69"]
+			description: [
+				"&7To obtain &dEnd Stone&7, summon a &6Possessed Endermite&7 using the &5Pentacle: Hedyrin's Lure&7.  "
+				""
+				"&7To begin the ritual, throw an &fEgg &7into the circle.  "
+				"&7&oDo not click the &6Sacrificial Bowls&7 — it will interrupt the ritual."
+			]
+			id: "64632ABFDB6D1D52"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4CC22078470C9194"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "280C6C4F53B776FE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "End Stone"
+			tasks: [{
+				id: "036E939EE01F8D09"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "&6Possessed Endermite"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3E32A30921459232"]
+			description: ["&7Although not part of &5Occultism&7 directly, &6“The Ender” &7is a great way to obtain &fMob Skulls&7."]
+			id: "5073C0960A7570D7"
+			optional: true
+			rewards: [{
+				amount: 25L
+				currency: "eternalcurrencies:coins"
+				id: "24DDA003E3E499A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Decapitation"
+			tasks: [{
+				id: "7B9CF920A5ACAD5F"
+				item: {
+					Count: 1
+					id: "enderio:dark_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eThe Ender"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3E32A30921459232"
+				"64632ABFDB6D1D52"
+			]
+			description: [
+				"&7&5Purple Chalk &7is one of the last major chalks required in &5Occultism&7.  "
+				"&7While &4Red Chalk &7is also needed, it’s only used in a few rituals and will be explained later.  "
+				""
+				"&7To craft &5Purple Chalk&7, crush &dEnd Stone &7and &5Obsidian &7using your &6Foliot Ore Crusher&7."
+			]
+			id: "495E8287CDE80AC0"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "500734C1B7A15295"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "749FA3ED1036C16C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tastes like the moon!"
+			tasks: [{
+				id: "1292FEC2B008557D"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Purple Chalk"
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"3E32A30921459232"
+				"495E8287CDE80AC0"
+			]
+			description: [
+				"&7&fWither Skeleton Skulls &7are vital for many &5Pentacles&7."
+				"&7One way to obtain them is through the &5Pentacle: Osorin's Unbound Calling&7 — using one of the &fSkeleton Skulls &7you’ve already gathered.  "
+				""
+				"&7But beware: the &5Wild Hunt &7summons several &cGreater Spirits&7.  "
+				"&o&7Be well prepared before you face them!"
+			]
+			id: "3820E59C2752339C"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5ED0BAC02CAE197C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5EEC2E692622F539"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Skulls Of The Wither"
+			tasks: [{
+				id: "7E9C69082501CD74"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "&6Wither Skeleton Skulls"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["495E8287CDE80AC0"]
+			description: [
+				"&7Welp… I’ve reached my &6contractual obligation&7 to guide you through &5Occultism&7. "
+				"&7Oh? You thought I was helping out of choice? &aHaha! &7Good joke.  "
+				""
+				"&7I wouldn’t be helping if I didn’t have to!  "
+				"&7So… good luck. Try not to die.  "
+				"&7But if you do…"
+				""
+				"&4<shake>I'LL BE WAITING."
+			]
+			id: "53C751FAB47C0453"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "21D76B24B65890AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Dive Into Darkness"
+			tasks: [{
+				id: "4284073BEEA0F0B5"
+				title: "Explore The Occult"
+				type: "checkmark"
+			}]
+			title: "&6Explore The Occult"
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["53C751FAB47C0453"]
+			dependency_requirement: "all_started"
+			description: [
+				"&7Although &4&onot required&r&7, I recommend completing the &6entire right side &7of the basics before diving deeper into the &5Occult&7.  "
+				""
+				"&7Some &5rituals &7may also demand preparation, as they involve &cpowerful spirits&7.  "
+				"&7Be sure to study your &bDictionary of Spirits&7 — it may hold vital knowledge for your success."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "61DC8C4E50D1F230"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "281EBF40775E6EC2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Into The Unknown"
+			tasks: [{
+				id: "3645ED5EA6713364"
+				title: "The Wider Occult"
+				type: "checkmark"
+			}]
+			title: "&6The Wider Occult"
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: [
+				"&7&6Possession Rituals &7summon powerful beings of great use. "
+				"&7They can help you &abypass progression stages&7 or even replace &6hard-to-find structures&7, greatly aiding in your progression."
+			]
+			icon: "occultism:ritual_dummy/possess_enderman"
+			id: "5C433B46F78658D6"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "29D6E49CC6AD2454"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Born To Die"
+			tasks: [{
+				id: "43BE361BC66D2095"
+				type: "checkmark"
+			}]
+			title: "&6Possession"
+			x: -7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: ["&7&6Summoning Rituals &7allow you to call forth spirits that can assist with many tasks —  from &atrading &7and &ebetter crushing&7, to &2woodcutting &7and even &bautomation&7."]
+			icon: "occultism:ritual_dummy/summon_djinni_crusher"
+			id: "5D93637BC53827A1"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "686850534B31D0A0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Born To Serve"
+			tasks: [{
+				id: "05F7B1A0314ECC31"
+				type: "checkmark"
+			}]
+			title: "&6Summoning"
+			x: 7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["61DC8C4E50D1F230"]
+			description: [
+				"&7&6Familiar Rituals &7summon loyal servants, willing to &cprotect &7you — even to the death!"
+				"&7Some are &cstrong defenders&7, while others are simply &auseful companions&7 to keep at your side."
+			]
+			icon: "occultism:ritual_dummy/summon_demonic_wife"
+			id: "54D8BD7A38F5A035"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "67EFFDFF2BA0E300"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Born For Power"
+			tasks: [{
+				id: "1CDDC643A8596E22"
+				type: "checkmark"
+			}]
+			title: "&6Familiar"
+			x: 0.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Ghast&7 that drops &61–3 Ghast Tears&7."]
+			icon: "vanillabackport:dried_ghast"
+			id: "648DB2331DDA8E78"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "236FB67725257509"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2BB315DB2B0AC80D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Tears Of The Nether"
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "715FA3074B1551C8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Ghast"
+			x: -5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Enderman&7 that drops &61–3 Ender Pearls&7."]
+			icon: "minecraft:ender_pearl"
+			id: "23642985A5A22A47"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "566FEE94C746AB4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "72B6EF4AA878EBAA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ender Ballz"
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "24238C14EF2853E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Enderman"
+			x: -9.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Phantom&7 that drops &61–4 Phantom Membranes&7."]
+			icon: "minecraft:phantom_membrane"
+			id: "26AD8C380F9D74BA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4991982FF14850E9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0931C67062D5272E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Take Flight"
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "3DD956A54B96744F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Phantom"
+			x: -9.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Shulker&7 that drops &61–2 Shulker Shells&7.  "]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "3C8563183B4C5A07"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "678A7D312B6CA5A5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "480B8A1A6FFA08FB"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ender Backpack"
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "0CBD5CA8C6BDEE39"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Shulker"
+			x: -5.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Weak Possessed Shulker&7 that drops &61–3 Chorus Fruit&7 and has a &a10% chance&7 to drop a &5Shulker Shell&7."]
+			icon: "minecraft:chorus_fruit"
+			id: "2F55473B95973A9E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "48C6AB7423E1EFFE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "16EFF08B316A3721"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Weakling"
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "1C22D63C3816B58F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Weak Shulker"
+			x: -9.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Elder Guardian&7 that drops &62–4 Nautilus Shells&7 and has a &640% chance&7 to drop a &1Heart of the Sea&7.  "]
+			icon: "minecraft:heart_of_the_sea"
+			id: "0EF573F61630E243"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "6E0E1E17BE62922E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6E5ACD486D77FC8C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "A Very Old Fish"
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "2AF7844A647B97C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Elder Guardian"
+			x: -9.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Hoglin&7 that can drop either &c1 Smithing Template&7, &c1 Netherite Scrap&7, or &8nothing&7. "]
+			icon: "mynethersdelight:hoglin_hide"
+			id: "470B0ACBA49F40B4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "1C8B9CF4941EBC28"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7ADA73F6973A365F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Nether Pig"
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "2C49E0B63EAAFC5D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Hoglin"
+			x: -5.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: ["&7Summons a &5Possessed Warden&7 that drops &11 Echo Shard&7.  "]
+			icon: "minecraft:echo_shard"
+			id: "27E8B1F369084D81"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "16D1A120D763032B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7B3C12935E1243E3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Into The Depths"
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "5728E560BB0A1687"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Possessed Warden"
+			x: -5.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5C433B46F78658D6"]
+			description: [
+				"&7Huh? Oh… it’s &ayou&7. Great. "
+				"&7Why am I back here anyway? Ugh… do I really have to explain everything?  "
+				""
+				"&7That is an &4Unbound Afrit&7 — probably the strongest thing you humans will face.  "
+				"&7It’s very important though, as it allows you to make &cRed Chalk&7 for a few high-end &5rituals&7.  "
+				""
+				"&7Can I go back to my show now? Good. &7Now leave me alone!"
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:afrit_wild"
+				}
+			}
+			icon_scale: 0.7d
+			id: "64E8AB7B404E9118"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "52104D279D776BDD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "15FEC7D28059AB9F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "A Strong Foe"
+			tasks: [{
+				entity: "occultism:afrit_wild"
+				id: "0B712A0FBE76A1CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4<shake>The Unbound Afrit"
+			x: -7.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants the player &aincreased XP&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:dragon_familiar"
+				}
+			}
+			id: "4AB906D6467F3B98"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "48FB58CC37A3B458"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EB2BF9692F7DC6E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Donkey's Wife"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:dragon_familiar"
+					}
+				}
+				id: "74326DD6C9AA2C2D"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Dragon Familiar"
+				to_observe: "occultism:dragon_familiar"
+				type: "observation"
+			}]
+			title: "&6Dragon Familiar"
+			x: -1.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants the player &eNight Vision&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:bat_familiar"
+				}
+			}
+			id: "1F65741554B4D553"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0C3ACE4D73460DB6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20F733CFBD953F56"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This Is To See Even Further Beyond"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:bat_familiar"
+					}
+				}
+				id: "51786928A5F54A1F"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Bat Familiar"
+				to_observe: "occultism:bat_familiar"
+				type: "observation"
+			}]
+			title: "&6Bat Familiar"
+			x: 1.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Assists other &6Familiars&7, prevents &cFamiliar death&7, and drains &4enemy life force&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:fairy_familiar"
+				}
+			}
+			id: "620E97C2C02C68B8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "769B519651B9EB4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A43C579A8BDA330"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Weird Looking Fairy"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:fairy_familiar"
+					}
+				}
+				id: "347EB7C62D336892"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Fairy Familiar"
+				to_observe: "occultism:fairy_familiar"
+				type: "observation"
+			}]
+			title: "&6Fairy Familiar"
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants &2increased wood break speed&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beaver_familiar"
+				}
+			}
+			id: "39B0FF3DDBB7FBA1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "3A7A9D9039B7D2B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "42ED7ED4C8631993"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Chipper's Lumber Co."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:beaver_familiar"
+					}
+				}
+				id: "15DD2984DEF1A743"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Beaver Familiar"
+				to_observe: "occultism:beaver_familiar"
+				type: "observation"
+			}]
+			title: "&6Beaver Familiar"
+			x: -2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Automatically picks up items and grants &aincreased pick-up range&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:greedy_familiar"
+				}
+			}
+			id: "2E73E1C369AB1CD5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "150E1421FF35A352"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "231EE2054CAF6475"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "<shake>GIVE THE GOBLIN SOME GOLD!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:greedy_familiar"
+					}
+				}
+				id: "3E77223037705419"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Greedy Familiar"
+				to_observe: "occultism:greedy_familiar"
+				type: "observation"
+			}]
+			title: "&6Greedy Familiar"
+			x: -3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Highlights enemies and shoots them with &cLasers&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beholder_familiar"
+				}
+			}
+			id: "2499997F958840DA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "34B0554D7EC98A38"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7352AB44D9621F06"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Sun Is a Deadly Lazer"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:beholder_familiar"
+					}
+				}
+				id: "2D9A65732857BCAD"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Beholder Familiar"
+				to_observe: "occultism:beholder_familiar"
+				type: "observation"
+			}]
+			title: "&6Beholder Familiar"
+			x: 3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Prevents &cplayer death &7while alive."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:guardian_familiar"
+				}
+			}
+			id: "43E45F3FABCF1FD2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "14FF6159A3404E05"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "55BE758837CB655B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This isnt a fish."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:guardian_familiar"
+					}
+				}
+				id: "4371117C8B5806F9"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Guardian Familiar"
+				to_observe: "occultism:guardian_familiar"
+				type: "observation"
+			}]
+			title: "&6Guardian Familiar"
+			x: -3.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Repairs equipment while mining and &aupgrades other Familiars&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:blacksmith_familiar"
+				}
+			}
+			id: "1C44C908183ED4A0"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "5A9088DDE8D93038"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "77565BC6DFFA425E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mendin' 2: Electric Boogaloo"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:blacksmith_familiar"
+					}
+				}
+				id: "6508DCAD60E0911A"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Blacksmith Familiar"
+				to_observe: "occultism:blacksmith_familiar"
+				type: "observation"
+			}]
+			title: "&6Blacksmith Familiar"
+			x: 3.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants a &cconditional damage buff&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:headless_familiar"
+				}
+			}
+			id: "2A594F224357BDD3"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "56BBC4D439DA2C94"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "504B20C9F674846A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Chicken Jockey"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:headless_familiar"
+					}
+				}
+				id: "647A41620BF47092"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Headless Familiar"
+				to_observe: "occultism:headless_familiar"
+				type: "observation"
+			}]
+			title: "&6Headless Familiar"
+			x: -3.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Can be &bridden&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:chimera_familiar"
+				}
+			}
+			id: "13AFF64E92DE7750"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "160E49BA1E592829"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6DDCF3E42AF6471C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Above Capacity"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:chimera_familiar"
+					}
+				}
+				id: "40BA1A4AE9E0490B"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Chimera Familiar"
+				to_observe: "occultism:chimera_familiar"
+				type: "observation"
+			}]
+			title: "&6Chimera Familiar"
+			x: 3.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Fights your enemies and grants the &aDodge &7effect."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:mummy_familiar"
+				}
+			}
+			id: "0E0C06B4FD98AEE4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "726087D0F6CBC84B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7A3D80EB4149B32D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Not The Best Toilet Paper"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:mummy_familiar"
+					}
+				}
+				id: "3E96E51E4900DD1F"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Mummy Familiar"
+				to_observe: "occultism:mummy_familiar"
+				type: "observation"
+			}]
+			title: "&6Mummy Familiar"
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants &bWater Breathing&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:cthulhu_familiar"
+				}
+			}
+			id: "5B96F2054BBAA2C5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "163EDF57FA48D21A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "240B4583479EB9B0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "From Below The Depths"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:cthulhu_familiar"
+					}
+				}
+				id: "57E4B6A697B412AA"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Cthulhu Familiar"
+				to_observe: "occultism:cthulhu_familiar"
+				type: "observation"
+			}]
+			title: "&6cthulhu Familiar"
+			x: 3.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants &bMulti-Jump&7, &bJump Boost&7, and &bSlow Falling&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:otherworld_bird"
+				}
+			}
+			id: "78B0011A35A2032F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "06EA71AD628D0B81"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03455914A2359E88"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Otherworld Parrot"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:otherworld_bird"
+					}
+				}
+				id: "7872008E7EF0A89B"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Drikwing Familiar"
+				to_observe: "occultism:otherworld_bird"
+				type: "observation"
+			}]
+			title: "&6Drikwing Familiar"
+			x: -3.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants &bJump Boost&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:deer_familiar"
+				}
+			}
+			id: "5D3B8EE89DB24EE4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4AA630A241B0EC0D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "68D3566BE232BDFC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Unknown Specimen 4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:deer_familiar"
+					}
+				}
+				id: "1CFF91B09CED2D42"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Deer Familiar"
+				to_observe: "occultism:deer_familiar"
+				type: "observation"
+			}]
+			title: "&6Deer Familiar"
+			x: 3.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Grants &cFire Resistance&7 and attacks enemies."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:devil_familiar"
+				}
+			}
+			id: "67FDD16AB1EC787C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "58F6CB743DCBB967"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "09D7615F68917588"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cursed Souls"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:devil_familiar"
+					}
+				}
+				id: "372F332B0B8BF2C5"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Devil Familiar"
+				to_observe: "occultism:devil_familiar"
+				type: "observation"
+			}]
+			title: "&6Devil Familiar"
+			x: -2.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: ["&7Spawns smaller versions of itself to assist in &cfighting&7."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:shub_niggurath_familiar"
+				}
+			}
+			id: "62EABAD21616DF86"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "7614FB7A3D331ED8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7FD17B3251ABF495"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rat?"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:shub_niggurath_familiar"
+					}
+				}
+				id: "5B5C27B89A652ED4"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Shub Niggurath Familiar"
+				to_observe: "occultism:shub_niggurath_familiar"
+				type: "observation"
+			}]
+			title: "&6Shub niggurath Familiar"
+			x: 2.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_wife"
+				}
+			}
+			icon_scale: 0.7d
+			id: "33847E6BE61AD1BE"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "548CCB26FFA53018"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "196D1614BCC16E34"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Bound &4<shake>Forever"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:demonic_wife"
+					}
+				}
+				id: "4AF98593EC68F7AF"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Demonic Wife"
+				to_observe: "occultism:demonic_wife"
+				type: "observation"
+			}]
+			title: "&dA Demonic Marriage"
+			x: -1.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_husband"
+				}
+			}
+			id: "2F3F47D15246776C"
+			optional: true
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1942C6CA9B6E5037"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "102D6E7FC4EA6B77"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Bound &4<shake>Forever"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "occultism:demonic_husband"
+					}
+				}
+				id: "75B3342DB5474848"
+				observe_type: 5
+				timer: 0L
+				title: "Look At A Demonic Husband"
+				to_observe: "occultism:demonic_husband"
+				type: "observation"
+			}]
+			title: "&dA Demonic Marriage"
+			x: 1.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["54D8BD7A38F5A035"]
+			description: [
+				"&7Soul Gems &7allow you to move mobs while keeping all of their &cNBT&7 intact.  "
+				"&7They’re especially useful for transporting creatures to &5Rituals &7for sacrifice."
+			]
+			id: "34489717F3BDB7F6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A8FE15A0ECA67C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4E247256120E7DC6"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Otherworld Cage"
+			tasks: [{
+				id: "478E15F4FF9439BD"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6Soul Gems"
+			x: 0.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["34489717F3BDB7F6"]
+			description: ["&7This &6Ring &7grants the wearer the effects of a captured &6Familiar &7without needing it summoned."]
+			id: "48FF284519BC3FD7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "443D9CA19329F23F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5B42C2A793812612"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Portable Familiar"
+			tasks: [{
+				id: "72A59E3F37C439B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+					id: "occultism:familiar_ring"
+					tag: {
+						spiritName: "Valtirth"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Familiar Ring"
+			x: 0.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"&7The &6Foliot Lumberjack &7is a basic summoned spirit, perfect for the early game.  "
+				"&7It will &2cut trees automatically &7and &areplant saplings&7, giving you simple &bwood automation&7."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5075A67088048E9C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "548577DD8E7AC5A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "790D2A90A133AD84"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Otherworld Lumberjack"
+			tasks: [{
+				id: "5EDB371D127AD1F6"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_lumberjack"
+					tag: {
+						spiritName: "Garsalmarryn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Foliot Lumberjack"
+			x: 5.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["64E8AB7B404E9118"]
+			description: ["&7&cRed Chalk &7is used for a few high-level &5Rituals&7."]
+			id: "57163C7C970259AF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3D9781FF7E317783"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0CFA375332AFCBF0"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hot To Hold"
+			tasks: [{
+				id: "7AEE02AD54EE818D"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cRed Chalk"
+			x: -7.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["&7The &6Foliot Transporter &7is a summoned spirit that &emoves items &7between inventories,  making it a simple yet effective tool for &bitem logistics&7."]
+			icon: "quark:dark_oak_chest"
+			id: "2DAEF250EDBF606F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "55B867BD0D4522BC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "45034C9DB486545E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Item Transport"
+			tasks: [{
+				id: "358C9EE2CEF46999"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_transport_items"
+					tag: {
+						spiritName: "Ketjormorn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Foliot Transporter"
+			x: 5.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"&7The &6Foliot Janitor &7is a summoned spirit that &acollects dropped items&7 and neatly places them into &elinked inventories&7.  "
+				"&7A humble helper for keeping things &bclean and organized&7."
+			]
+			icon: "sophisticatedstorage:paintbrush"
+			id: "63EDB5F1B96E5D7A"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "795A77C2C9D50AD7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1241E7016B293D02"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Clean Up Squad"
+			tasks: [{
+				id: "56427F752A694E58"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_foliot_cleaner"
+					tag: {
+						spiritName: "Krsirborn"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Foliot Janitor"
+			x: 5.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["&7The &6Machine Operator &7transfers items from your &6Storage Actuator &7to the machine it manages,  streamlining &bautomation &7processes."]
+			icon: {
+				Count: 1
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				tag: {
+					spiritName: "Firnornrinne"
+				}
+			}
+			id: "545BE4032957797C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2421802DD776BD56"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A4EE2E2AA962F32"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Manager"
+			tasks: [{
+				id: "1F68B1F3FAA4C742"
+				item: {
+					Count: 1
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Vemerion"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "&6Djinni Machine Operator"
+			x: 5.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["&7You can even control the &etime of day &7by summoning &6Rituals&7!"]
+			icon: "minecraft:clock"
+			id: "0260A7E6AF6D394B"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "344014D870D42D7B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "A Shift In The World Rotation"
+			tasks: [{
+				id: "41084E4A0CCBBD5C"
+				type: "checkmark"
+			}]
+			title: "Time Of Day"
+			x: 8.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["&7You can even control the &bweather &7in your world by summoning &6Rituals&7!"]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_radiance"
+				tag: {
+					abilityUseRemaining: 4800
+				}
+			}
+			id: "3E3EBE61FF6B445F"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "7508DFD40522E220"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Control The Clouds"
+			tasks: [{
+				id: "441DF2B548E78961"
+				type: "checkmark"
+			}]
+			title: "&6Weather Control"
+			x: 6.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["0260A7E6AF6D394B"]
+			description: ["&7This ritual sets the &etime &7to &6Dawn&7."]
+			icon: "ars_nouveau:ritual_sunrise"
+			id: "17E298939E82B6F3"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "64CA4A78C9EED15C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "275E4679111FD889"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Good Morning"
+			tasks: [
+				{
+					id: "4C06BC4332AF4283"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "53E66D0945A2C561"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:yellow_dyes"
+						}
+					}
+					title: "Any #balm:yellow_dyes"
+					type: "item"
+				}
+				{
+					id: "1FBE39CE1520C43E"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "77919CA8816B7068"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Rise Of Dawn"
+			x: 10.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["0260A7E6AF6D394B"]
+			description: ["&7This ritual sets the &etime &7to &5Dusk&7."]
+			icon: "ars_nouveau:ritual_moonfall"
+			id: "65A4C24A71F1AFB5"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "55843842FAACCB2F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6348251E9E5FD50F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Good Night"
+			tasks: [
+				{
+					id: "057C6680DE751203"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:colorable/beds"
+						}
+					}
+					title: "Any #mekanism:colorable/beds"
+					type: "item"
+				}
+				{
+					id: "35A1125969A1C26D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:black_dyes"
+						}
+					}
+					title: "Any #balm:black_dyes"
+					type: "item"
+				}
+				{
+					id: "5DD68FD2CB1BF116"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bones"
+						}
+					}
+					title: "Any #forge:bones"
+					type: "item"
+				}
+				{
+					id: "694429A2CC9DF0DC"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "202BAD1740B85F62"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Set Of Dusk"
+			x: 8.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["&7This ritual sets the &bweather &7to &eClear&7."]
+			icon: "minecraft:glass_bottle"
+			id: "286B05908A53061D"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "5C4CF1C8EF704ADF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C6837C0BF48DD04"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Part The Clouds"
+			tasks: [
+				{
+					id: "5B9A4F88C21E20F2"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "317D86BF69D57945"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "3C452FA695F15576"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "0B16BD80460138A8"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "046DAA112895A424"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gargorndor"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Clear skys"
+			x: 4.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["&7This ritual sets the &bweather &7to &cThunder&7."]
+			icon: "irons_spellbooks:lightning_bottle"
+			id: "59F18E11DB76C7A0"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "2373A160F31E515F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7FEF797807B57741"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Zeus"
+			tasks: [
+				{
+					id: "04496E229BB2EB25"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "54BB98D3552585D7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bones"
+						}
+					}
+					title: "Any #forge:bones"
+					type: "item"
+				}
+				{
+					id: "634319F8E168DC83"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "16B35E9DC48C67E2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Brynuraklind"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Shocking"
+			x: 6.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["3E3EBE61FF6B445F"]
+			description: ["&7This ritual sets the &bweather &7to &1Rain&7."]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "600824C8C68F3F37"
+			rewards: [
+				{
+					amount: 25L
+					currency: "eternalcurrencies:coins"
+					id: "3E9307249B082667"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F4CDB4D7B326F01"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "When It Falls It Pours"
+			tasks: [
+				{
+					id: "6A8F8D9A0BBD8A14"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					id: "3E1298B3865CE13E"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "0C0A9455EA2FA9FC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:sand"
+						}
+					}
+					title: "Any #minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "086C5ABAC70DA170"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "42AB58364DBF209C"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Brynuraklind"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6A Rainy Day"
+			x: 5.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: [
+				"&7The &6Djinni Crusher &7functions like the &6Foliot Crusher&7, but &adoes not decay&7,  "
+				"&7crushes faster, and &bproduces 3 dusts &7from ores instead of 2."
+			]
+			icon: "occultism:iron_dust"
+			id: "5577F6672C1EECE1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "75430A8F4E77CA15"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "522B859803C91C93"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tasty Rocks"
+			tasks: [
+				{
+					id: "7739FCA7E677A62A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/iron"
+						}
+					}
+					title: "Any #forge:dusts/iron"
+					type: "item"
+				}
+				{
+					id: "2D2F5C98DE420458"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "Any #forge:dusts/gold"
+					type: "item"
+				}
+				{
+					id: "29047E419EAF0549"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/silver"
+						}
+					}
+					title: "Any #forge:dusts/silver"
+					type: "item"
+				}
+				{
+					id: "6EEFEE2ACE9F2C4B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/copper"
+						}
+					}
+					title: "Any #forge:dusts/copper"
+					type: "item"
+				}
+				{
+					id: "7B0351B7CE61E374"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Gornornthorn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Djinni Crusher"
+			x: 9.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["5577F6672C1EECE1"]
+			description: ["&7The &eAfrit Crusher &7is even more efficient, producing &b4 dusts &7per ore."]
+			icon: "occultism:silver_dust"
+			id: "3EF76CAED11D18C8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "741056FC710ECC87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "10AA6F085A2F6002"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Kicking Up Dust"
+			tasks: [
+				{
+					id: "1DF6124ADB3B874D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6F5218476B059526"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2A87578D8AB948DF"
+					item: "occultism:iesnium_dust"
+					type: "item"
+				}
+				{
+					id: "12EB2402970A0755"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Thrurakryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Afrit Crusher"
+			x: 9.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3EF76CAED11D18C8"]
+			description: ["&7The &2Marid Crusher &7is the most efficient, dramatically increasing yield from &b4 &7to &b6 dusts &7per ore."]
+			icon: "occultism:gold_dust"
+			id: "22BBC88E54748354"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "1F5780FC10808EEF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "295C5D15A69F1C36"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pocket Sand"
+			tasks: [
+				{
+					id: "79EA2CC252372A96"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "631B8EFF97D5D0C5"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "5F30975C344DD44D"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "4C99B591A410CC44"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "4F1066C157471FB3"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_marid"
+						tag: {
+							spiritName: "Drogwornborn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Marid Crusher"
+			x: 9.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["5D93637BC53827A1"]
+			description: ["&7&6Trader Spirits &7will exchange items between your world and theirs."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:wandering_trader"
+				}
+			}
+			icon_scale: 0.7d
+			id: "4B4441623130A0F8"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "1B3BC09AD4AD9333"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Trading With The Spirits"
+			tasks: [{
+				id: "675763CBC7AAEADE"
+				type: "checkmark"
+			}]
+			title: "&6Otherworld Traders"
+			x: 9.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["4B4441623130A0F8"]
+			description: ["&7The &6Otherworld Sapling Trader &7lets you trade normal saplings for &dStable Otherworld Saplings&7,  which don’t require the &b“Third Eye” &7effect to harvest."]
+			icon: "occultism:otherworld_sapling"
+			id: "605C417E0DB7D6A1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "25EC109A8FFBF446"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7582ABDFADCB16B9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Otherworld Life"
+			tasks: [
+				{
+					id: "050ACDF288114497"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "11B5F1F6BDD70E5A"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "4D2158D4A974E83A"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "2925A9A94B0183A1"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "46D38A3AB06E14E6"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Rasalmarborn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Otherworld Sapling Trader"
+			x: 10.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["4B4441623130A0F8"]
+			description: ["&7The &6Otherstone Trader &7lets you trade various stones for &6Otherstone&7,  yielding more than you would from a &5Spirit Fire&7."]
+			icon: "occultism:otherstone"
+			id: "3D4753F858260695"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "4208CAE6B7338464"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0D8414825D163816"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Otherworld Miner"
+			tasks: [
+				{
+					id: "0B4365F7E8C13BBA"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "785A5E9FBB524A78"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					id: "6D06897A1C6AD895"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "03C5DFB8747054D2"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "50869FF75AE56769"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Rasalmarborn"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&6Otherstone Trader"
+			x: 10.0d
+			y: -25.0d
+		}
+	]
+	title: "&6Occultism"
+}
