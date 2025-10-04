@@ -56,7 +56,7 @@
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.6
+		attack_multiplier = 3.6
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -65,7 +65,7 @@
 		durability = 600
 		#Freeze duration in ticks (applies to frostmaw too!)
 		#Range: > 1
-		freeze_duration = 50
+		freeze_duration = 100
 
 	[tools_and_abilities.umvuthana_mask]
 
@@ -206,7 +206,7 @@
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 3.5
+			health_multiplier = 5.5
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 7.5
