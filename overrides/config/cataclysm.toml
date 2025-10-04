@@ -470,7 +470,7 @@
 	MaledictusHealthMultiplier = 2.8
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 3.3
+	MaledictusDamageMultiplier = 6.5
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 15.0
