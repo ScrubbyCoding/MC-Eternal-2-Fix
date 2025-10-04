@@ -16,7 +16,7 @@
 		string_id: "quest_loot"
 	}
 	loot_size: 1
-	order_index: 15
+	order_index: 16
 	rewards: [
 		{
 			item: {
@@ -4304,7 +4304,7 @@
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:durability": 143.0f
+						"tconstruct:durability": 1243.0f
 						"tinkersjewelry:amplification": 0.963f
 					}
 				}
