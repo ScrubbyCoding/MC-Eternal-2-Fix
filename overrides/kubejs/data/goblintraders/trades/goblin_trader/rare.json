@@ -7,6 +7,48 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
+        "item": "gonefishing:mysterious_clam"
+      },
+      "payment_item": {
+        "count": 22,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	  {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "gonefishing:sunken_pickaxe"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "gonefishing:salmon_of_knowledge"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	  {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
         "item": "alexscaves:rainbounce_boots"
       },
       "payment_item": {
