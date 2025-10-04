@@ -5288,6 +5288,28 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "goety:hunters_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gonefishing:sunken_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:waste_drum" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "gonefishing:salmon_of_knowledge" }
+		{ item: "gonefishing:mysterious_clam" }
 	]
 	title: "&e"
 	use_title: true
