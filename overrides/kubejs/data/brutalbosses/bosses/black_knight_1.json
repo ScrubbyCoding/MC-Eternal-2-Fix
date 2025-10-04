@@ -13,7 +13,7 @@
     "generic.max_health": 150,
     "generic.follow_range": 50,
     "generic.knockback_resistance": 10,
-    "generic.movement_speed": 0.4
+    "generic.movement_speed": 1.1
   },
   "customattributes": { 
 	  "attack_speed": 2.6,
@@ -54,7 +54,7 @@
 "duration": 80,                      
 "interval": 200,                     
 "potions": {                         
-"minecraft:wither":                  
+"mowziesmobs:frozen":                  
 {
   "duration": 200,                   
   "amplifier": 1,                    
