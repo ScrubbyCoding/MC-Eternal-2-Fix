@@ -281,6 +281,14 @@
 			x: 5.865306122448985d
 			y: -2.9952380952380864d
 		}
+		{
+			height: 2.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.8928571428571388d
+			y: -3.0112244897959286d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -3066,6 +3074,49 @@
 			]
 			title: "&6Semi-Modern Warfare!"
 			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D9A770D9C0B128F"]
+			description: [
+				"The Stress FE Generator is capable of converting Create Stress Units to FE (Forge Energy)"
+				"FE storage blocks can be fueled with energy and FE powered items can be charged by being placed in a depot connected to the generator!"
+				""
+				"&eTip:&r Converting Stress to FE can be a useful way to generate Forge Energy in the early game! It's basically free energy!"
+			]
+			id: "33031089A440E98E"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "25B1819C6E809BB5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F4698B039C7B099"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &eStress FE Generator"
+			tasks: [{
+				id: "5C1B267468813644"
+				item: "create_simple_generator:stress_generator"
+				type: "item"
+			}]
+			title: "&3Forge Energy!"
+			x: -2.0d
 			y: -3.0d
 		}
 	]
