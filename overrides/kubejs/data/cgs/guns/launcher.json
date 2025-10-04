@@ -3,7 +3,7 @@
     "fireMode": ["ntg:semi", "ntgl:multi"],
     "gripType": "ntgl:bazooka",
     "category": "heavy",
-    "rate": 4,
+    "rate": 10,
     "damage": 5.0,
     "maxAmmo": 4,
     "equipTime": 15,
@@ -169,3 +169,4 @@
     }
 
   }}
+
