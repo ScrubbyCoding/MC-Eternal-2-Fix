@@ -1814,7 +1814,7 @@
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "artifacts:umbrella"
+			icon: "artifacts:mimic_spawn_egg"
 			id: "39C7248750512A5B"
 			rewards: [
 				{
@@ -4163,10 +4163,11 @@
 				"Only members&r currently in your team are allowed to break and interact with blocks."
 				"Simply hold &dRight-Click&r and drag across the grid to claim chunks!"
 				""
+				"Claim chunks from inside your &dXaeros World Map&r, press &dM&r to access this menu!"
+				""
 				"You have &e80 chunks.&r &nUse them wisely!"
 				""
 				""
-				"{image:modpack:textures/claim.png width:200 height:100 align:1}"
 				"&6Hint:&r You can use /sethome and /home to teleport back!"
 			]
 			hide_until_deps_complete: true
