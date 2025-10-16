@@ -46,7 +46,8 @@
 			id: "13D3D8AF18EEAE6D"
 			rewards: [
 				{
-					command: "/titles add @p titles:landlord"
+					command: "/titles add <p> titles:landlord"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "70813F175D24A808"
 					title: "&eUnlock Title:&r the Landlord"
@@ -112,7 +113,8 @@
 			id: "0F9C1118D28CABAE"
 			rewards: [
 				{
-					command: "/titles add @p titles:tycoon"
+					command: "/titles add <p> titles:tycoon"
+					console: true
 					icon: "titles:title_scroll_rare"
 					id: "2B6AEC16D6420755"
 					title: "&eUnlock Title:&r the Tycoon "
