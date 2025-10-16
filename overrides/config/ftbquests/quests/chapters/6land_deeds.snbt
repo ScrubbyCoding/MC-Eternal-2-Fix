@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6land_deeds"
+	group: "12BCDDCCCA65FD77"
+	icon: "create:schematic_and_quill"
+	id: "7E65A3CE9BA50EA9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You can purchase &dLand Titles&r to be able to claim more land!"
+				"By default you have 50 Chunks that you can claim as your own. "
+				"You can claim chunks by opening your Xaero's Worldmap and pressing &dM&r and clicking to select chunks to claim. You &lcannot&r claim chunks that someone else has already claimed!"
+				""
+				"&6Hint:&r Claimed chunks are immune to most forms of mob griefing, such as creepers and endermen. Players that aren't in your team will be unable to build, break blocks or open chests!"
+				""
+				"&eLegitimate Business Advice:&r If you are short on cash, why not ask some friends to invest in your enterprise? You will surely make profit and you can simply repay them with the money you earn! Or keep borrowing money to pay back the debt! Everyone wins! &8Ignore the fact that these quests are pyramid shaped. That is unrelated."
+			]
+			icon: "create:schematic_and_quill"
+			id: "27B0575D49AF9423"
+			rewards: [{
+				id: "62CAA79A82D12344"
+				item: "opacbonusclaims:common_claim"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Learn about Claiming Chunks!"
+			tasks: [{
+				id: "4612D43233C08F18"
+				title: "&e&nClick To Complete!"
+				type: "checkmark"
+			}]
+			title: "&6&nInformation Quest&r &r&2&l"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B0575D49AF9423"]
+			description: [
+				"&2Unlock:&r +5 Chunks"
+				""
+			]
+			icon: "titles:title_scroll_common"
+			id: "13D3D8AF18EEAE6D"
+			rewards: [
+				{
+					command: "/titles add @p titles:landlord"
+					icon: "titles:title_scroll_common"
+					id: "70813F175D24A808"
+					title: "&eUnlock Title:&r the Landlord"
+					type: "command"
+				}
+				{
+					id: "282D1EE0369FD2A4"
+					item: "opacbonusclaims:rare_claim"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "&eThe Landlord"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "77C4875020276837"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&dPurchase Land Deed:&r &7+5 Chunks"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13D3D8AF18EEAE6D"]
+			description: ["&2Unlock:&r +10 Chunks"]
+			icon: "titles:title_scroll_uncommon"
+			id: "4499592BF9A70EE7"
+			rewards: [
+				{
+					command: "/titles add <p> titles:prop"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "37449BF693B38FF2"
+					title: "&eUnlock Title:&r the Proprietor"
+					type: "command"
+				}
+				{
+					id: "35E4E39A4682FC46"
+					item: "opacbonusclaims:epic_claim"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&3The Proprietor"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "67059F819AC917ED"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&dPurchase Land Deed:&r &7+10 Chunks"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4499592BF9A70EE7"
+				"27B0575D49AF9423"
+			]
+			description: ["&2Unlock:&r +50 Chunks"]
+			icon: "titles:title_scroll_rare"
+			id: "0F9C1118D28CABAE"
+			rewards: [
+				{
+					command: "/titles add @p titles:tycoon"
+					icon: "titles:title_scroll_rare"
+					id: "2B6AEC16D6420755"
+					title: "&eUnlock Title:&r the Tycoon "
+					type: "command"
+				}
+				{
+					count: 5
+					id: "4CC856959A1DB81F"
+					item: "opacbonusclaims:epic_claim"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "&6&lThe Tycoon"
+			tasks: [{
+				amount: 8000L
+				currency: "eternalcurrencies:coins"
+				id: "0062CFA0CB2F24C3"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&dPurchase Land Title:&r &7+50 Chunks"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "&7Land Deeds"
+}

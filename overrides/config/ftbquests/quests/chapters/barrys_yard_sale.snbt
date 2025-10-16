@@ -1,0 +1,810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "barrys_yard_sale"
+	group: "12BCDDCCCA65FD77"
+	icon: "rats:rat_fez"
+	id: "1F7C2620408EB5A8"
+	images: [
+		{
+			height: 4.0d
+			hover: ["Spend all of your coins here!! Barry needs a new set of shoes!"]
+			image: "dialog:textures/portraits/barry.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.030952380952414d
+			y: 1.0309523809523853d
+		}
+		{
+			dependency: "13049AEB2F8829E1"
+			height: 4.0d
+			hover: ["Spend all of your coins here!! Barry needs a new set of shoes!"]
+			image: "modpack:textures/barry-the-rat-uwu-transparent-no-white.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Charlie is a well known and legendary Goblin Trader! You can summon him by paying a small fee!"
+				""
+				"&6Hint:&r If you cannot locate a Goblin Trader by normal means for daily reward loyalty cards, Charlie can help and always has the relevant trades!"
+				""
+				"&dNote: &rYou can only hire Charlie once every hour!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:tiny_coin"
+			id: "6D28AAFC102E83EC"
+			optional: true
+			rewards: [{
+				command: "/execute at {p} run summon goblintraders:goblin_trader ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Charlie\\\\\\\"\\\"\"}"
+				console: true
+				icon: "rats:tiny_coin"
+				id: "538093A5B68608B8"
+				silent: true
+				title: "&6Summon Charlie!"
+				type: "command"
+			}]
+			subtitle: "&oTempt Charlie the Goblin Trader with some money!"
+			tasks: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					disable_toast: true
+					id: "0141BD815B96B26C"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 3600L
+					icon: "minecraft:green_bed"
+					id: "679BAD7C2CE5BE2E"
+					title: "&aNap Time!"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&6Hire Charlie"
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"This strange device can turn money into chocolate money. Waow."
+				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
+				"            &o&7<shake>Beep Boop CHOCOLATE"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "quark:deepslate_furnace"
+			id: "4C7BC395C5E035D1"
+			optional: true
+			rewards: [{
+				id: "7EED2E2BABF3AAC5"
+				item: "kubejs:chocolate_coin"
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Feed me money..."
+			tasks: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "4ABFA578BC714193"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eChocolate Coin Maker 5000"
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Frank can often be found hanging out under a bridge with his bridge friends. You can summon him by paying a small fee!"
+				""
+				""
+				"&dNote: &rYou can only hire Frank once!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:tiny_coin"
+			id: "73D01A47A22E3978"
+			optional: true
+			rewards: [{
+				command: "/execute at {p} run summon ribbits:ribbit ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Frank\\\\\\\"\\\"\"}"
+				console: true
+				icon: "rats:tiny_coin"
+				id: "3AF731FD7801A8D5"
+				silent: true
+				title: "&6Summon Frank!"
+				type: "command"
+			}]
+			subtitle: "&oTempt Frank the Ribbit with some money!"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				disable_toast: true
+				id: "67AC5B6A04A8EE4F"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&6Hire Frank"
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					HideFlags: 33
+					display: {
+						Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+					}
+					type: "quest_loot"
+				}
+			}
+			id: "4B5B24150BD52E90"
+			rewards: [{
+				id: "788CC3BE1BFFE5DE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						HideFlags: 33
+						display: {
+							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						}
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Contains 1x Random Piece of Questing Loot"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "0482D52AC33F2747"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Quest Lootbox"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"While we &opatiently&r await the return of the Quest Shop&r, Barry has decided to setup a Yard Sale to sell off some of their worldly and otherworldly possessions! "
+				""
+				"&o\"In my Quest to become the richest rat in the universe, I have setup a Yard Sale to sell some of my miscellaneous wares\" &r&6- Barry"
+				""
+				"&eTip:&r You can use &o/ec checkbalance eternalcurrencies:coins&r to view your coin balance at any time!"
+			]
+			icon: "rats:trash_can"
+			id: "13049AEB2F8829E1"
+			rewards: [{
+				id: "4D51F27A637F7E3A"
+				item: "rats:rat_burger"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Barry is having a Yard Sale!"
+			tasks: [{
+				id: "541D7005ED9AA37D"
+				title: "The Yard Sale! &e(Click To View Barry's Wares!)"
+				type: "checkmark"
+			}]
+			title: "&7<pend f=1.0 a=30 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=3 j=0.02 b=0.01 s=0.1><neon p=8 r=2 a=0.15>Barry's Yard Sale"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&7*&oCurio not guaranteed"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "curious_box"
+				}
+			}
+			id: "03DA3D57743E6D7D"
+			rewards: [{
+				id: "296E7ED46A5B1314"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "curious_box"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Contains 1x Random Curio Item"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "33EFA8A71793A0E6"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Curio Lootbox"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&7&o*Quality of item may vary!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "barry_s_trash"
+				}
+			}
+			id: "0C34EBD2666F7AD0"
+			rewards: [{
+				id: "431FEA566D80D76E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "barry_s_trash"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Contains 1x Random Item From Barry's Trashcan"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "3A6C1F57602DE2AF"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Barry's Trashcan"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Mmmmmm cheesy..."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cheesy_cache"
+				}
+			}
+			id: "23BDDB74459B7491"
+			rewards: [{
+				id: "197B2B854518B5BB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "cheesy_cache"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Contains 1x Random Item From Cheesy Cache"
+			tasks: [{
+				amount: 150L
+				currency: "eternalcurrencies:coins"
+				id: "40FDCA5AFA29B0E1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Cheesy Lootbox"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&oWhy does Barry have so many Helium Flamingo's?"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:helium_flamingo"
+			id: "5FEDC19E269FC1E2"
+			rewards: [{
+				id: "500A2837CAF75686"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			subtitle: "Purchase a Helium Flamingo"
+			tasks: [{
+				amount: 1200L
+				currency: "eternalcurrencies:coins"
+				id: "6E96EBCCC7C568C5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale: &rHelium Flamingo"
+			x: 6.032142857142858d
+			y: 8.521428571428551d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"               &l<grad from=#55CDFC to=#F7A8B8 hue=true f=0.3 sp=80 uni=true>Trans Rights!!!!!!"
+				""
+				""
+				"                  <grad from=#55CDFC to=#55CDFC hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				"                  <grad from=#F7A8B8 to=#F7A8B8 hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				"                  <grad from=#FFFFFF to=#FFFFFF hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				"                  <grad from=#F7A8B8 to=#F7A8B8 hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				"                  <grad from=#55CDFC to=#55CDFC hue=true f=0 sp=0 uni=true>[][][][][][][]"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mce2lib:trans_rights_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13E2B8CEC781C4A2"
+			rewards: [{
+				id: "529BE57246B7F1A6"
+				item: {
+					Count: 1
+					id: "mce2lib:trans_rights_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Barry Says"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "15D985D888F354CB"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Blade of Blahaj"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Rats, rats, we're the rats"
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>We prey at night, we stalk at night, we're the rats"
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>[King Rat]"
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>I'm the giant rat that makes all of the rules"
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>[All Rats]"
+				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Let's see what kind of trouble we can get ourselves into"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "rats:gilded_rat_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77017B2660E26922"
+			rewards: [{
+				id: "087C73E9BA1C1E7F"
+				item: {
+					Count: 1
+					id: "rats:gilded_rat_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Gilded Rat Flute"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "603DAAE5844659DD"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Gilded Rat Flute"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["<grad from=#A8E6A3 to=#3FA66D hue=true f=0.3 sp=70 uni=true>Something is very wrong with this egg"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mce2lib:chicken_nugget_summon"
+			id: "65A50BFFDFC499E6"
+			rewards: [{
+				id: "4FD9349B6FFF3A95"
+				item: "mce2lib:chicken_nugget_summon"
+				type: "item"
+			}]
+			subtitle: "Purchase a Freaky Egg"
+			tasks: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "376BA5950114D0F5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Freaky Egg"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["<grad from=#FADADD to=#E75480 hue=true f=0.3 sp=70 uni=true>This Porkchop radiates pure joy and love!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mce2lib:porkus_summon"
+			id: "27DAE8BB682BC07A"
+			rewards: [{
+				id: "5059FD3E1A7C12FC"
+				item: "mce2lib:porkus_summon"
+				type: "item"
+			}]
+			subtitle: "Purchase a Magical Porkchop"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "5D5494F38BA16309"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Magical Porkchop"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>La-la-la-lava ch-ch-ch-chicken"
+				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Steve's Lava Chicken, yeah, it's tasty as hell"
+				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, mamacita, now you're ringing the bell"
+				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Crispy and juicy, now you're having a snack"
+				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, super spicy, it's a lava attack"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "vanillabackport:music_disc_lava_chicken"
+			id: "160FEAD5EF3B96C3"
+			rewards: [{
+				id: "2D9CA78605E260DB"
+				item: "vanillabackport:music_disc_lava_chicken"
+				type: "item"
+			}]
+			subtitle: "Purchase Music Disc"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "1A22D494123B5A2B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Music Disc - Lava Chicken"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:shotgun"
+				tag: {
+					Ammo: "cgs:round_shotgun"
+					AmmoCount: 2
+					FireMode: "ntgl:semi"
+					display: {
+						Name: "{\"text\":\"Junkyard Shotgun\"}"
+					}
+					variant: "default"
+				}
+			}
+			id: "76AE8F18AD0E7279"
+			rewards: [{
+				id: "2F7B5099818D6B27"
+				item: {
+					Count: 1
+					id: "cgs:shotgun"
+					tag: {
+						Ammo: "cgs:round_shotgun"
+						AmmoCount: 2
+						FireMode: "ntgl:semi"
+						display: {
+							Name: "{\"text\":\"Junkyard Shotgun\"}"
+						}
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Junkyard Shotgun"
+			tasks: [{
+				amount: 2500L
+				currency: "eternalcurrencies:coins"
+				id: "7C01FD149595D34D"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Junkyard Shotgun"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>I want to be the very greatest"
+				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>Like no one ever has been"
+				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>To catch them is my real challenge"
+				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>To train them is my job"
+				""
+				"- One can never take a chance with Nintendo. "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "petcapturetool:capture_tool"
+			id: "0D54B09097CA96F2"
+			rewards: [{
+				id: "10F50DE1FFBFB2C3"
+				item: "petcapturetool:capture_tool"
+				type: "item"
+			}]
+			subtitle: "Purchase a Portable Pet Sphere"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "0CC79025F886B2F2"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Portable Pet Sphere"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_tools:amethyst_goat_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B07F007D678FF25"
+			rewards: [{
+				id: "085D513390A7E75C"
+				item: {
+					Count: 1
+					id: "amethyst_tools:amethyst_goat_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Amethyst Goat Horn"
+			tasks: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "402EEE608482552C"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Amethyst Goat Horn"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C81E892E526168E"
+			rewards: [{
+				id: "430FB04899067347"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Gorgon Head"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "2A62CC68B32A1663"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale: &rGorgon Head"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["Weezer is HUGE in Goblin circles right now... "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "iceandfire:weezer_blue_album"
+			id: "10F251753AF8984F"
+			rewards: [{
+				id: "14172CF0CA316CB6"
+				item: "iceandfire:weezer_blue_album"
+				type: "item"
+			}]
+			subtitle: "Purchase Weezer"
+			tasks: [{
+				amount: 650L
+				currency: "eternalcurrencies:coins"
+				id: "3F1B6B9E578DEF8D"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Weezer"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "alexscaves:nuclear_bomb"
+			id: "06C93AB285A6B3F0"
+			rewards: [{
+				id: "59D840DC3D763740"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			subtitle: "Purchase a Nuclear Bomb"
+			tasks: [{
+				amount: 50000L
+				currency: "eternalcurrencies:coins"
+				id: "75A99232C9E867F3"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Nuclear Bomb"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "majruszsdifficulty:recall_potion"
+			id: "0E5D02A5D4C48202"
+			rewards: [{
+				id: "46E28A9D10FC847C"
+				item: "majruszsdifficulty:recall_potion"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "74B9A9777709424B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Recall Potion"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "rats:rat_fez"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 2s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"<neon p=8 r=2 a=0.15>Barry's Famous Fez\"}"
+					}
+				}
+			}
+			id: "0315618E959F4C6D"
+			rewards: [{
+				id: "563B996F4115403A"
+				item: {
+					Count: 1
+					id: "rats:rat_fez"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"<neon p=8 r=2 a=0.15>Barry's Famous Fez\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Barry's Famous Fez"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "0A15BC4964BCA57A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Barry's Famous Fez"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:druidic_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "1D7CF402C2122B38"
+			rewards: [{
+				id: "00CA8BB7AFB5FCAC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Druidic Tome"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "4B04842062FB6833"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Druidic Tome"
+			x: 9.0d
+			y: 9.0d
+		}
+	]
+	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
+}
