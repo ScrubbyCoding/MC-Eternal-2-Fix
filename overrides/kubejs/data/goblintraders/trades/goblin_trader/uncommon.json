@@ -15,6 +15,24 @@
       },
       "price_multiplier": 0.0
     },
+{
+  "type": "goblintraders:basic",
+  "enchantments": [],
+  "experience": 2,
+  "max_trades": 1,
+  "offer_item": {
+    "count": 1,
+    "item": "iceandfire:armor_blue_chestplate",
+    "nbt": "{Damage:0,RepairCost:3,display:{Name:'{\"text\":\"Sweater Song\"}',Lore:['{\"text\":\"This bands my favorite man!\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:projectile_protection\",lvl:4}]}"
+  },
+  "payment_item": {
+    "count": 1,
+    "item": "iceandfire:weezer_blue_album"
+  },
+  "price_multiplier": 0.1
+},
+
+
     {
       "type": "goblintraders:basic",
       "experience": 1,
