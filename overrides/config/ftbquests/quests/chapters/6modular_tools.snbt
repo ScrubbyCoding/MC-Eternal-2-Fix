@@ -1964,7 +1964,7 @@
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:durability": 143.0f
+							"tconstruct:durability": 1243.0f
 							"tinkersjewelry:amplification": 0.963f
 						}
 					}
@@ -2439,7 +2439,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&6Tinker's Construct &o(Modular Tools)"
+	title: "&7Tinker's Construct!"
 }
-
-

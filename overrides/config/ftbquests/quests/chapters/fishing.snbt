@@ -158,8 +158,17 @@
 			x: 7.0d
 			y: -3.0d
 		}
+		{
+			dependency: "0D4D2C4884395067"
+			height: 1.7d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 4.0d
+		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -3380,11 +3389,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "002AFF599EBA4C42"
-					item: "lavachickenmusicdisc:music_disc_lava_chicken"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "6D36B135C4ADF9BB"
 					item: {
@@ -3406,6 +3410,11 @@
 					id: "295C19A98E2677DB"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "71F6A54AB1EEE3EB"
+					item: "vanillabackport:music_disc_lava_chicken"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -3557,6 +3566,85 @@
 			x: -6.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"&6Hint:&r This item starts a LEGENDARY fishing quest!"
+				""
+				"This item is fairly rare so keep it safe!"
+			]
+			id: "7326DBFDB1C6B9F3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "596D8A876E512BEB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78F467CA68D99F7D"
+					item: "gonefishing:salmon_of_knowledge"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "pentagon"
+			subtitle: "Fish up a &eMysterious Clam"
+			tasks: [{
+				id: "2AEA889C85F37DF3"
+				item: "gonefishing:mysterious_clam"
+				type: "item"
+			}]
+			title: "&3<swing a=0.5 f=1.8>Everyday I'm Anglin'"
+			x: -0.4642857142857082d
+			y: 3.4464285714285694d
+		}
+		{
+			dependencies: ["7326DBFDB1C6B9F3"]
+			description: [
+				"The Underlight Angler is the greatest fishing rod ever created!"
+				"It is unbrekable, has built in unobtainable levels of Lure and Luck of The Sea and has two special abilities!"
+				""
+				"1) Entering water will cause you to enter a &3Dolphin Form&r which grants &eWater Breathing&r, &eUnderwater Vision&r and faster movement speed!"
+				"2) Hooking a target will cause them to become &3\"Bubbled\"&r which makes them begin to float! You can then pull them towards you!"
+				""
+				"Finally, special treasure seems drawn to The Underlight Angler during the fishing minigame!"
+			]
+			id: "0C2525227C8FA80F"
+			rewards: [
+				{
+					amount: 1500L
+					currency: "eternalcurrencies:coins"
+					id: "016141BBE91E7BFE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:master_angler"
+					console: true
+					elevate_perms: true
+					icon: "titles:title_scroll_rare"
+					id: "2F45CF61085E7AD6"
+					title: "&eUnlock Title:&r the Master Angler"
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			subtitle: "Obtain the legendary &eUnderlight Angler"
+			tasks: [{
+				id: "46AC83A85E8B9383"
+				item: {
+					Count: 1
+					id: "gonefishing:underlight_angler"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.4285714285714306d
+			y: 4.875d
+		}
 	]
-	title: "{chapter.16.title}"
+	title: "&7Fishing"
 }

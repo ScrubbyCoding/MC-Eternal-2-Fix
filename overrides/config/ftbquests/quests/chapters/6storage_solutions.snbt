@@ -259,7 +259,7 @@
 			y: -4.583333333333336d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -914,6 +914,5 @@
 			y: 1.0d
 		}
 	]
-	title: "&6Storage Solutions!"
+	title: "&7Storage Solutions!"
 }
-

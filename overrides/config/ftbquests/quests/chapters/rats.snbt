@@ -169,7 +169,7 @@
 			y: 1.2d
 		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2538,5 +2538,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&2Rats"
+	title: "&7Rats"
 }

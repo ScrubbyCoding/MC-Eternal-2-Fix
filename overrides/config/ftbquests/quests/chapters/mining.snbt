@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "mining"
 	group: "12BCDDCCCA65FD77"
-	icon: "minecraft:raw_gold"
+	icon: {
+		Count: 1
+		id: "gonefishing:sunken_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "1E2DE0DC5D73868D"
 	images: [
 		{
@@ -1064,5 +1070,5 @@
 			y: 3.0d
 		}
 	]
-	title: "{chapter.3.title}"
+	title: "&7Intro To Mining"
 }

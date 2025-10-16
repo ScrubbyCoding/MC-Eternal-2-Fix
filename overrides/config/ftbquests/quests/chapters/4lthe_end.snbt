@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "4lthe_end"
 	group: "0194595A09DF4755"
-	icon: "supplementaries:enderman_head"
+	icon: "minecraft:end_crystal"
 	id: "7E48450A71FC0BCF"
 	images: [
 		{
@@ -369,5 +369,5 @@
 			y: -2.0d
 		}
 	]
-	title: "{chapter.24.title}"
+	title: "<grad from=#FFF0A3 to=#F6B800 hue=true f=1.3 sp=50 uni=true>☆☆☆&r The End"
 }

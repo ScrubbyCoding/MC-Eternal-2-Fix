@@ -5,7 +5,7 @@
 	group: "12BCDDCCCA65FD77"
 	icon: "immersive_aircraft:biplane"
 	id: "273CA855185B20FF"
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -423,5 +423,5 @@
 			y: 3.5535714285714306d
 		}
 	]
-	title: "&6Fast Travel"
+	title: "&7Fast Travel"
 }

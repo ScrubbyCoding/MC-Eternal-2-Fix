@@ -3538,7 +3538,7 @@
 			id: "4FF7C485A4E5EA9C"
 			optional: true
 			rewards: [{
-				id: "3291AAD9FC09CCDB"
+				id: "4266FA76C8FBF9CB"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -3624,6 +3624,9 @@
 								0: {
 									Count: 1b
 									id: "solcarrot:food_book"
+									tag: {
+										Enchantments: [ ]
+									}
 								}
 							}
 							tconstruct: {
@@ -6814,7 +6817,10 @@
 			y: -0.67499999999999d
 		}
 		{
-			dependencies: ["16A59774B0927BC5"]
+			dependencies: [
+				"16A59774B0927BC5"
+				"2785A42DDDEB324C"
+			]
 			description: [
 				"The Nature's Compass allows you to locate the biome of your dreams!"
 				"Simply Right-Click and press Find Biome! Make sure you select a biome native to the dimension you are in!"
@@ -7115,82 +7121,6 @@
 			x: 2.78626700680271d
 			y: -0.09931972789115662d
 		}
-		{
-			can_repeat: true
-			dependencies: ["39C7248750512A5B"]
-			description: [
-				"This strange device can turn money into chocolate money. Waow."
-				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
-				"            &o&7<shake>Beep Boop CHOCOLATE"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "quark:deepslate_furnace"
-			id: "4C7BC395C5E035D1"
-			optional: true
-			rewards: [{
-				id: "7EED2E2BABF3AAC5"
-				item: "kubejs:chocolate_coin"
-				type: "item"
-			}]
-			shape: "embellish"
-			subtitle: "Feed me money..."
-			tasks: [{
-				amount: 10L
-				currency: "eternalcurrencies:coins"
-				id: "4ABFA578BC714193"
-				type: "eternalcurrencies:currency"
-			}]
-			title: "&eChocolate Coin Maker 5000"
-			x: 2.3911564625850374d
-			y: -1.307142857142857d
-		}
-		{
-			can_repeat: true
-			dependencies: ["39C7248750512A5B"]
-			description: [
-				"Charlie is a well known and legendary Goblin Trader! You can summon him by paying a small fee!"
-				""
-				"&6Hint:&r If you cannot locate a Goblin Trader by normal means for daily reward loyalty cards, Charlie can help and always has the relevant trades!"
-				""
-				"&dNote: &rYou can only hire Charlie once every hour!"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "rats:tiny_coin"
-			id: "6D28AAFC102E83EC"
-			optional: true
-			rewards: [{
-				command: "/execute at {p} run summon goblintraders:goblin_trader ~3 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Charlie\\\\\\\"\\\"\"}"
-				console: true
-				icon: "rats:tiny_coin"
-				id: "538093A5B68608B8"
-				silent: true
-				title: "&6Summon Charlie!"
-				type: "command"
-			}]
-			subtitle: "&oTempt Charlie the Goblin Trader with some money!"
-			tasks: [
-				{
-					amount: 150L
-					currency: "eternalcurrencies:coins"
-					disable_toast: true
-					id: "0141BD815B96B26C"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 3600L
-					icon: "minecraft:green_bed"
-					id: "679BAD7C2CE5BE2E"
-					title: "&aNap Time!"
-					type: "questsadditions:time"
-				}
-			]
-			title: "&6Hire Charlie"
-			x: 2.390178571428578d
-			y: -2.3011904761904773d
-		}
 	]
-	title: "&6A New Start! &a(Recommended!)"
+	title: "&7A New Start! &f<neon p=8 r=2 a=0.15>(Recommended!)"
 }

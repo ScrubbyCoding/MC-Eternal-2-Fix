@@ -3082,7 +3082,7 @@
 				"The Stress FE Generator is capable of converting Create Stress Units to FE (Forge Energy)"
 				"FE storage blocks can be fueled with energy and FE powered items can be charged by being placed in a depot connected to the generator!"
 				""
-				"&eTip:&r Converting Stress to FE can be a useful way to generate Forge Energy in the early game! It's renewable energy!"
+				"&eTip:&r Converting Stress to FE can be a useful way to generate Forge Energy in the early game! It's basically free energy!"
 			]
 			id: "33031089A440E98E"
 			rewards: [
@@ -3120,6 +3120,5 @@
 			y: -3.0d
 		}
 	]
-	title: "{chapter.25.title}"
+	title: "&7Create"
 }
-
