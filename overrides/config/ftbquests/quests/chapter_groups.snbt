@@ -1,11 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "12BCDDCCCA65FD77", title: "&e&lIntroduction" }
-		{ id: "53833FE85BBBE6D0", title: "{category.3}" }
-		{ id: "6ACD28698B988220", title: "{category.5}" }
-		{ id: "0194595A09DF4755", title: "{category.6}" }
-		{ id: "3EBF424A99DA33B7", title: "{category.7}" }
-		{ id: "701563945253F512", title: "{category.8}" }
-		{ id: "372D1188C5A9B800", title: "&dAchievements" }
+		{ id: "12BCDDCCCA65FD77", title: "<grad from=#F5B3FF to=#A21CAF hue uni><grad from=#F5B3FF to=#A21CAF hue uni>Introduction" }
+		{ id: "53833FE85BBBE6D0", title: "<grad from=#FFD78C to=#FF9F3C hue=true f=0 sp=60 uni=true>Progression" }
+		{ id: "6ACD28698B988220", title: "<grad from=#A8EBC2 to=#3FA66D hue=true f=0 sp=60 uni=true>Farming and Agriculture" }
+		{ id: "0194595A09DF4755", title: "<grad from=#7ED3FF to=#3B75D6 hue=true f=0 sp=70 uni=true>Dimensional Exploration" }
+		{ id: "3EBF424A99DA33B7", title: "<grad from=#9AC7FF to=#2E4EA0 hue=true f=0 sp=70 uni=true>Science and Technology" }
+		{ id: "701563945253F512", title: "<grad from=#DAB8FE to=#7436D8 hue=true f=0 sp=70 uni=true>Magic and Spellcasting" }
+		{ id: "372D1188C5A9B800", title: "<grad from=#FFF0A3 to=#F6B800 hue=true f=0 sp=50 uni=true>Achievements" }
 	]
 }
