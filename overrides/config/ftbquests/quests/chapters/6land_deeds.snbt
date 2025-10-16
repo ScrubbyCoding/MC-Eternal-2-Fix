@@ -46,7 +46,7 @@
 			id: "13D3D8AF18EEAE6D"
 			rewards: [
 				{
-					command: "/titles add <p> titles:landlord"
+					command: "/titles add {p} titles:landlord"
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "70813F175D24A808"
@@ -78,7 +78,7 @@
 			id: "4499592BF9A70EE7"
 			rewards: [
 				{
-					command: "/titles add <p> titles:prop"
+					command: "/titles add {p} titles:prop"
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "37449BF693B38FF2"
@@ -113,7 +113,7 @@
 			id: "0F9C1118D28CABAE"
 			rewards: [
 				{
-					command: "/titles add <p> titles:tycoon"
+					command: "/titles add {p} titles:tycoon"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "2B6AEC16D6420755"
@@ -138,6 +138,40 @@
 			title: "&dPurchase Land Title:&r &7+50 Chunks"
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4499592BF9A70EE7"
+				"27B0575D49AF9423"
+				"0F9C1118D28CABAE"
+			]
+			description: [
+				"&2Unlock:&r +1 Chunk"
+				""
+				"&eNote:&r This Quest is repeatable!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "titles:title_fragment"
+			id: "4DDB1CBDFB1B4C76"
+			optional: true
+			rewards: [{
+				id: "6DBA23287EF212FC"
+				item: "opacbonusclaims:common_claim"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&6&lThe Land Baron"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "7F752B5BB30C7A46"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&dPurchase Land Deed:&r &7+1 Chunk"
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "&7Land Deeds"

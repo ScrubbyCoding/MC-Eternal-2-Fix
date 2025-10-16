@@ -158,15 +158,6 @@
 			x: 7.0d
 			y: -3.0d
 		}
-		{
-			dependency: "0D4D2C4884395067"
-			height: 1.7d
-			image: "minecraft:block/cave_vines"
-			rotation: 0.0d
-			width: 1.2d
-			x: -3.0d
-			y: 4.0d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
