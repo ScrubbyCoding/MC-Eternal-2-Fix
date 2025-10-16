@@ -375,7 +375,7 @@
 			}]
 			subtitle: "Barry Says"
 			tasks: [{
-				amount: 1500L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "15D985D888F354CB"
 				type: "eternalcurrencies:currency"
@@ -808,3 +808,4 @@
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }
+
