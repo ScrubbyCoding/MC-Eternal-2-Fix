@@ -5310,6 +5310,12 @@
 		{ item: "minecraft:heart_of_the_sea" }
 		{ item: "gonefishing:salmon_of_knowledge" }
 		{ item: "gonefishing:mysterious_clam" }
+		{ item: "uniqueaccessories:accessory_box" }
+		{ item: "uniqueaccessories:blade_shoes" }
+		{ item: "uniqueaccessories:starved_wolf_skull" }
+		{ item: "uniqueaccessories:strong_sticky_slime_ball" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:royal_honeycomb" }
 	]
 	title: "&e"
 	use_title: true
