@@ -68,15 +68,15 @@
 			image: "modpack:textures/mimic_octopus.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -10.0d
-			y: -4.0d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/roadrunner.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 2.0d
+			x: -14.0d
 			y: -4.1d
 		}
 		{
@@ -85,7 +85,7 @@
 			rotation: 180.0d
 			width: 1.5d
 			x: 10.0d
-			y: 10.8d
+			y: 7.85d
 		}
 		{
 			height: 4.0d
@@ -181,15 +181,15 @@
 			rotation: 180.0d
 			width: 3.0d
 			x: -6.0d
-			y: -4.0d
+			y: 14.0d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/dropbear.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: -4.1d
+			x: 10.0d
+			y: -1.1d
 		}
 		{
 			height: 1.5d
@@ -352,10 +352,10 @@
 			y: 15.0d
 		}
 		{
-			height: 2.0d
-			image: "modpack:textures/moose_antlered.png"
-			rotation: 180.0d
-			width: 2.0d
+			height: 5.0d
+			image: "modpack:textures/moose.png"
+			rotation: 0.0d
+			width: 5.0d
 			x: -10.0d
 			y: -1.1d
 		}
@@ -365,7 +365,7 @@
 			rotation: 180.0d
 			width: 3.0d
 			x: -6.0d
-			y: -1.1d
+			y: -1.05d
 		}
 		{
 			height: 3.0d
@@ -373,23 +373,23 @@
 			rotation: 180.0d
 			width: 3.0d
 			x: -2.0d
-			y: -1.0d
+			y: 10.9d
 		}
 		{
 			height: 4.0d
 			image: "modpack:textures/bald_eagle.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 2.0d
-			y: -1.1d
+			x: -14.0d
+			y: 1.9d
 		}
 		{
 			height: 1.5d
 			image: "alexsmobs:textures/mob_effect/orcas_might.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 6.0d
-			y: -1.2d
+			x: 2.0d
+			y: 10.9d
 		}
 		{
 			height: 2.0d
@@ -397,46 +397,46 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -10.0d
-			y: 1.8d
+			y: 4.9d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/blobfish.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -6.0d
-			y: 2.0d
+			x: -10.0d
+			y: 8.0d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/cachalot_whale.png"
 			rotation: 180.0d
 			width: 2.0d
-			x: 2.0d
-			y: 1.9d
-		}
-		{
-			height: 4.0d
-			image: "modpack:textures/platypus.png"
-			rotation: 180.0d
-			width: 4.0d
-			x: 6.0d
-			y: 1.9d
+			x: -6.0d
+			y: 10.9d
 		}
 		{
 			height: 3.0d
-			image: "modpack:textures/mantis_shrimp_0.png"
-			rotation: 180.0d
+			image: "modpack:textures/platypus.png"
+			rotation: 0.0d
 			width: 3.0d
-			x: -10.0d
-			y: 4.9d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "modpack:textures/mantis_shrimp.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: 13.9d
 		}
 		{
 			height: 5.0d
 			image: "modpack:textures/cockroach.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -6.0d
+			x: 6.0d
 			y: 4.8d
 		}
 		{
@@ -444,32 +444,32 @@
 			image: "modpack:textures/capuchin_monkey.png"
 			rotation: 180.0d
 			width: 4.0d
-			x: -2.0d
-			y: 5.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/tiger.png"
 			rotation: 180.0d
 			width: 3.0d
-			x: 2.0d
-			y: 4.9d
+			x: 6.0d
+			y: -4.1d
 		}
 		{
 			height: 4.0d
 			image: "modpack:textures/tasmanian_devil.png"
 			rotation: 180.0d
 			width: 4.0d
-			x: 6.0d
-			y: 4.9d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/guster.png"
 			rotation: 180.0d
 			width: 2.0d
-			x: 6.0d
-			y: 7.9d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			height: 2.0d
@@ -484,8 +484,8 @@
 			image: "modpack:textures/kangaroo.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -2.0d
-			y: 7.9d
+			x: 2.0d
+			y: -1.1d
 		}
 		{
 			height: 3.0d
@@ -500,8 +500,8 @@
 			image: "modpack:textures/komodo_dragon.png"
 			rotation: 180.0d
 			width: 3.0d
-			x: -6.0d
-			y: 13.9d
+			x: 6.0d
+			y: -1.1d
 		}
 		{
 			height: 2.8d
@@ -517,7 +517,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 2.0d
-			y: 13.9d
+			y: 1.95d
 		}
 		{
 			height: 3.0d
@@ -532,40 +532,40 @@
 			image: "modpack:textures/tarantula_hawk.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -10.0d
-			y: 14.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			height: 2.5d
 			image: "modpack:textures/sunbird.png"
 			rotation: 45.0d
 			width: 2.5d
-			x: -6.0d
-			y: 16.8d
+			x: 19.0d
+			y: -4.25d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/grizzly_bear.png"
 			rotation: 180.0d
 			width: 2.0d
-			x: -6.0d
-			y: 10.9d
+			x: -2.0d
+			y: 1.95d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/hummingbird.png"
 			rotation: 180.0d
 			width: 3.0d
-			x: -2.0d
-			y: 11.0d
+			x: -14.0d
+			y: -1.0d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/elephant.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 2.0d
-			y: 10.8d
+			x: -2.0d
+			y: -1.1d
 		}
 		{
 			height: 3.0d
@@ -573,14 +573,14 @@
 			rotation: 180.0d
 			width: 3.0d
 			x: 6.0d
-			y: 11.0d
+			y: 8.0d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/shoebill.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -10.0d
+			x: -14.0d
 			y: 8.0d
 		}
 		{
@@ -589,7 +589,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 10.0d
-			y: 7.9d
+			y: 5.0d
 		}
 		{
 			dependency: "740DD4098893630E"
@@ -600,38 +600,6 @@
 			width: 60.0d
 			x: 8.0d
 			y: 13.0d
-		}
-		{
-			height: 1.5d
-			image: "structurize:block/timberframe/spruce/blocktimberframetop"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: 18.0d
-		}
-		{
-			height: 1.5d
-			image: "structurize:block/timberframe/spruce/blocktimberframetop"
-			rotation: 0.0d
-			width: 1.5d
-			x: -2.0d
-			y: 18.0d
-		}
-		{
-			height: 1.5d
-			image: "structurize:block/timberframe/spruce/blocktimberframetop"
-			rotation: 0.0d
-			width: 1.5d
-			x: 2.0d
-			y: 18.0d
-		}
-		{
-			height: 1.5d
-			image: "structurize:block/timberframe/spruce/blocktimberframetop"
-			rotation: 0.0d
-			width: 1.5d
-			x: 6.0d
-			y: 18.0d
 		}
 		{
 			height: 1.5d
@@ -718,40 +686,40 @@
 			image: "modpack:textures/skelewag.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 10.0d
-			y: -1.2d
+			x: -10.0d
+			y: 13.8d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/bunfungus.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -10.0d
-			y: 10.8d
+			x: -6.0d
+			y: 4.9d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/giant_squid.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 10.0d
-			y: -4.3d
+			x: -10.0d
+			y: 10.7d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/warped_mosco.png"
 			rotation: 180.0d
 			width: 2.0d
-			x: 2.0d
-			y: 16.7d
+			x: 19.0d
+			y: -0.2d
 		}
 		{
 			height: 2.0d
 			image: "modpack:textures/void_worm_head.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 16.8d
+			x: 24.0d
+			y: -0.2d
 		}
 		{
 			height: 4.0d
@@ -759,23 +727,23 @@
 			rotation: 90.0d
 			width: 4.0d
 			x: 10.0d
-			y: 1.9d
+			y: -4.0d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/jerboa.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -14.0d
-			y: -1.1d
+			x: -10.0d
+			y: -4.1d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/farseer.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -2.0d
-			y: 16.9d
+			x: 24.0d
+			y: -4.2d
 		}
 		{
 			height: 3.0d
@@ -783,7 +751,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 10.0d
-			y: 4.9d
+			y: 2.0d
 		}
 		{
 			height: 3.0d
@@ -798,16 +766,16 @@
 			image: "modpack:textures/rhinoceros.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -14.0d
-			y: 1.9d
+			x: -6.0d
+			y: -4.1d
 		}
 		{
 			height: 3.0d
 			image: "modpack:textures/maned_wolf.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -14.0d
-			y: -4.2d
+			x: 2.0d
+			y: -4.1d
 		}
 		{
 			height: 3.0d
@@ -818,28 +786,70 @@
 			y: 41.0d
 		}
 		{
-			height: 1.5d
-			image: "structurize:block/timberframe/spruce/blocktimberframetop"
-			rotation: 0.0d
-			width: 1.5d
-			x: 10.0d
-			y: 12.0d
-		}
-		{
 			height: 1.0d
 			image: "ftbchunks:textures/faces/alexsmobs/gazelle.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -14.0d
-			y: 7.8d
+			x: -10.0d
+			y: 1.9d
 		}
 		{
-			height: 4.0d
-			image: "modpack:textures/rocky_roller.png"
+			height: 5.0d
+			image: "modpack:textures/natgeo2.png"
 			rotation: 0.0d
-			width: 4.0d
-			x: -2.0d
-			y: 1.9d
+			width: 10.0d
+			x: 21.5d
+			y: -9.0d
+		}
+		{
+			height: 10.0d
+			image: "modpack:textures/animalsnap2.png"
+			rotation: -25.0d
+			width: 20.0d
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			color: 11927514
+			height: 15.0d
+			image: "modpack:textures/mint_letter.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "structurize:block/timberframe/spruce/blocktimberframetop"
+			rotation: 0.0d
+			width: 1.5d
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "structurize:block/timberframe/spruce/blocktimberframetop"
+			rotation: 0.0d
+			width: 1.5d
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "structurize:block/timberframe/spruce/blocktimberframetop"
+			rotation: 0.0d
+			width: 1.5d
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "structurize:block/timberframe/spruce/blocktimberframetop"
+			rotation: 0.0d
+			width: 1.5d
+			x: 24.0d
+			y: 1.0d
 		}
 	]
 	order_index: 3
@@ -874,10 +884,11 @@
 				type: "observation"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.2.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "730AA8FF3B1D5FFF"
@@ -929,8 +940,8 @@
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -978,11 +989,12 @@
 				}
 			]
 			title: "{chapter.18.quest.3.title}"
-			x: -2.047619047619051d
-			y: -6.076190476190476d
+			x: -2.0d
+			y: -6.1d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.4.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6E43E3720CAD62BD"
@@ -1013,6 +1025,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.5.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			hide_until_deps_visible: true
@@ -1039,11 +1052,12 @@
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: -10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.6.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59C69C0FF435E15E"
@@ -1075,10 +1089,11 @@
 				type: "observation"
 			}]
 			x: 10.0d
-			y: 12.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.7.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5D80C2726C373333"
@@ -1109,11 +1124,12 @@
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.8.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "232342855D8AE067"
@@ -1139,11 +1155,12 @@
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
-			x: -6.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.9.description.1}"]
 			hide_dependency_lines: true
 			id: "22E9B4362EEED53D"
 			rewards: [
@@ -1168,11 +1185,12 @@
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.10.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3870E2F1E8A34005"
@@ -1203,8 +1221,8 @@
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -1239,6 +1257,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.12.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7300391FE576F1BC"
@@ -1263,8 +1282,8 @@
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -1305,6 +1324,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.14.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5ABA30D635FE45A0"
@@ -1335,11 +1355,12 @@
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: 12.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.15.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7FA7D1B6CBD832F0"
@@ -1365,8 +1386,8 @@
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: -14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -1396,11 +1417,12 @@
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.17.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0436475F60226CC8"
@@ -1426,11 +1448,12 @@
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: 15.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.18.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "76B71254CBDAB702"
@@ -1461,6 +1484,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.19.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "05599EF83F42E8D6"
@@ -1487,10 +1511,11 @@
 				type: "observation"
 			}]
 			x: 2.0d
-			y: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.20.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59326A796BADA195"
@@ -1553,10 +1578,11 @@
 				type: "observation"
 			}]
 			x: -10.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.22.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "2B7240B6990E8874"
@@ -1582,11 +1608,12 @@
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
-			x: -10.0d
-			y: 6.0d
+			x: 2.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.23.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "33691B511ACF083D"
@@ -1612,7 +1639,7 @@
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
-			x: -10.0d
+			x: -14.0d
 			y: 9.0d
 		}
 		{
@@ -1661,11 +1688,12 @@
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: 18.0d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.25.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "56E396A50F7A78C0"
@@ -1691,8 +1719,8 @@
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
-			x: -10.0d
-			y: 15.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -1722,8 +1750,8 @@
 				to_observe: "alexsmobs:orca"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
@@ -1753,11 +1781,12 @@
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.28.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0982619083F925C3"
@@ -1783,7 +1812,7 @@
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -1814,11 +1843,12 @@
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.30.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3E9FD1EA9E4FD2A2"
@@ -1845,10 +1875,11 @@
 				type: "observation"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.31.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5DCE2D084DEC7B4F"
@@ -1879,6 +1910,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.32.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "63383AEB0455A3C0"
@@ -1909,11 +1941,12 @@
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
-			x: -10.0d
-			y: -3.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.33.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1FABE803DFFE00F1"
@@ -1940,10 +1973,11 @@
 				type: "observation"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.34.description.1}"]
 			hide_dependency_lines: true
 			id: "3F89F0FD757BE0D5"
 			rewards: [
@@ -1973,6 +2007,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.35.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "628E57AF66B08D65"
@@ -1998,7 +2033,7 @@
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
-			x: 2.0d
+			x: -14.0d
 			y: -3.0d
 		}
 		{
@@ -2034,8 +2069,8 @@
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -2078,6 +2113,8 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["053690126EB056CD"]
+			description: ["{chapter.18.quest.38.description.1}"]
 			id: "2CC2B36748715D73"
 			tasks: [
 				{
@@ -2086,159 +2123,186 @@
 					type: "item"
 				}
 				{
-					id: "5A1599A182444954"
+					id: "154B789B2B3B4B8A"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "exposure:film_rolls"
+							value: "exposure:developed_film_rolls"
 						}
 					}
-					title: "Any #exposure:film_rolls"
+					title: "{chapter.18.quest.38.task.1.title}"
 					type: "item"
 				}
 			]
 			x: -1.0d
-			y: -21.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.39.description.1}"]
+			hide_dependency_lines: true
 			id: "410EFB70748D6EE2"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.39.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "7D5103DAED3B4353"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGiant Squid"
+				title: "{chapter.18.quest.39.task.1.title}"
 				to_observe: "alexsmobs:giant_squid"
-				type: "observation"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			id: "7556FC23E3D19EEF"
-			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "120F2678E27E1196"
-				observe_type: 5
-				timer: 0L
-				title: "Spot a &e&oLaviathan"
-				to_observe: "alexsmobs:laviathan"
-				type: "observation"
-			}]
-			x: 10.0d
-			y: 9.0d
-		}
-		{
-			id: "3A58ADE2E58485C5"
-			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "6E5826F35C703383"
-				observe_type: 5
-				timer: 0L
-				title: "Spot a &e&oBunfungus"
-				to_observe: "alexsmobs:bunfungus"
 				type: "observation"
 			}]
 			x: -10.0d
 			y: 12.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.40.description.1}"]
+			hide_dependency_lines: true
+			id: "7556FC23E3D19EEF"
+			shape: "hexagon"
+			subtitle: "{chapter.18.quest.40.subtitle}"
+			tasks: [{
+				icon: "minecraft:spyglass"
+				id: "120F2678E27E1196"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.40.task.1.title}"
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.41.description.1}"]
+			hide_dependency_lines: true
+			id: "3A58ADE2E58485C5"
+			shape: "hexagon"
+			subtitle: "{chapter.18.quest.41.subtitle}"
+			tasks: [{
+				icon: "minecraft:spyglass"
+				id: "6E5826F35C703383"
+				observe_type: 5
+				timer: 0L
+				title: "{chapter.18.quest.41.task.1.title}"
+				to_observe: "alexsmobs:bunfungus"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.42.description.1}"]
+			hide_dependency_lines: true
 			id: "1D5D605432230DDE"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.42.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "447D8AF28C30EF15"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSkelewag"
+				title: "{chapter.18.quest.42.task.1.title}"
 				to_observe: "alexsmobs:skelewag"
 				type: "observation"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -10.0d
+			y: 15.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.43.description.1}"]
+			hide_dependency_lines: true
 			id: "2D0CAAA08451927D"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.43.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "3C6FBD0E0C461C6A"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oWarped Mosco"
+				title: "{chapter.18.quest.43.task.1.title}"
 				to_observe: "alexsmobs:warped_mosco"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 18.0d
+			x: 19.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.44.description.1}"]
+			hide_dependency_lines: true
 			id: "120EB493F7442852"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.44.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "419E62D9655BCE5B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oVoid Worm"
+				title: "{chapter.18.quest.44.task.1.title}"
 				to_observe: "alexsmobs:void_worm"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: 18.0d
+			x: 24.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.45.description.1}"]
+			hide_dependency_lines: true
 			id: "4A1132CCDF1C24A3"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.45.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "5C05BBDFA5785466"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oJerboa"
+				title: "{chapter.18.quest.45.task.1.title}"
 				to_observe: "alexsmobs:jerboa"
 				type: "observation"
 			}]
-			x: -14.0d
-			y: 0.0d
+			x: -10.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.46.description.1}"]
+			hide_dependency_lines: true
 			id: "077A1A2802DB7F14"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.46.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "30FF0006EF14778B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRhinoceros"
+				title: "{chapter.18.quest.46.task.1.title}"
 				to_observe: "alexsmobs:rhinoceros"
 				type: "observation"
 			}]
-			x: -14.0d
-			y: 3.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.47.description.1}"]
+			hide_dependency_lines: true
 			id: "31C709AAEF7662DC"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.47.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E7A730CB817399B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oPotoo"
+				title: "{chapter.18.quest.47.task.1.title}"
 				to_observe: "alexsmobs:potoo"
 				type: "observation"
 			}]
@@ -2246,100 +2310,185 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.48.description.1}"]
+			hide_dependency_lines: true
 			id: "0BE05D606AA93EBE"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.48.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "46034653D28F69D8"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCentipede"
+				title: "{chapter.18.quest.48.task.1.title}"
 				to_observe: "alexsmobs:centipede"
 				type: "observation"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.49.description.1}"]
+			hide_dependency_lines: true
 			id: "14CF6995310A7222"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.49.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "76A06B54EFBA52B6"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oFarseer"
+				title: "{chapter.18.quest.49.task.1.title}"
 				to_observe: "alexsmobs:farseer"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 18.0d
+			x: 24.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.50.description.1}"]
+			hide_dependency_lines: true
 			id: "59598533E60BDCF1"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.50.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "21F34B736175CBCF"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oStraddler"
+				title: "{chapter.18.quest.50.task.1.title}"
 				to_observe: "alexsmobs:straddler"
 				type: "observation"
 			}]
 			x: 10.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.51.description.1}"]
+			hide_dependency_lines: true
 			id: "08716E92515FF414"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.51.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "166A78E95485C62F"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oManed Wolf"
+				title: "{chapter.18.quest.51.task.1.title}"
 				to_observe: "alexsmobs:maned_wolf"
 				type: "observation"
 			}]
-			x: -14.0d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
-			id: "4EEE1336663B6342"
-			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "5B94408A1D460218"
-				observe_type: 5
-				timer: 0L
-				title: "Spot a &e&oRocky Roller&r&4 (Danger!)"
-				to_observe: "alexsmobs:rocky_roller"
-				type: "observation"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.52.description.1}"]
+			hide_dependency_lines: true
 			id: "69BB49A6E68BA733"
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{chapter.18.quest.52.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6602E90B68CFCC3D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGazelle"
+				title: "{chapter.18.quest.52.task.1.title}"
 				to_observe: "alexsmobs:gazelle"
 				type: "observation"
 			}]
-			x: -14.0d
-			y: 9.0d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["740DD4098893630E"]
+			description: [
+				"{chapter.18.quest.53.description.1}"
+				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "exposure:stacked_photographs"
+			id: "7F9988189EB11116"
+			optional: true
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{chapter.18.quest.53.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					elapsedTime: 10800L
+					icon: "kubejs:mossy_letter1"
+					id: "6B8C2F2C4DA95105"
+					title: "&e3 Hour Delivery"
+					type: "questsadditions:time"
+				}
+				{
+					consume_items: true
+					id: "4319685F9BDD4811"
+					item: "exposure:photograph"
+					type: "item"
+				}
+			]
+			title: "{chapter.18.quest.53.task.1.title}"
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["053690126EB056CD"]
+			description: ["{chapter.18.quest.54.description.1}"]
+			id: "05D7C66872C0080E"
+			subtitle: "{chapter.18.quest.54.subtitle}"
+			tasks: [{
+				id: "44AFF69990B65FD1"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "{chapter.18.quest.54.task.1.title}"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F3BE05DDE9DB59B"]
+			description: ["{chapter.18.quest.55.description.1}"]
+			hide_dependency_lines: true
+			id: "619352123B0694A4"
+		    subtitle: "{chapter.18.quest.55.subtitle}"
+			tasks: [{
+				id: "7F8CC2087C1DAE4D"
+				item: "xercapaint:item_palette"
+				type: "item"
+			}]
+			title: "{chapter.18.quest.55.task.1.title}"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["619352123B0694A4"]
+			description: ["{chapter.18.quest.56.description.1}"]
+			id: "2DF4A293350706F3"
+			subtitle: "{chapter.18.quest.56.subtitle}"
+			tasks: [
+				{
+					id: "27423316E3B8E936"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+				{
+					id: "64280275024347C4"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			title: "{chapter.18.quest.56.task.1.title}"
+			x: 2.0d
+			y: -6.0d
 		}
 	]
 	title: "{chapter.18.title}"
