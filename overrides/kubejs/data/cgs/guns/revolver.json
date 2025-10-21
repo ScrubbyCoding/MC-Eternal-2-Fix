@@ -5,7 +5,7 @@
     "maxAmmo": 6,
     "fireTimer": 2,
     "fullCharge": true,
-    "damage": 18.0,
+    "damage": 20.0,
     "equipTime": 0,
     "reloadTime": 60,
     "reloadAmount": 1,
@@ -82,4 +82,5 @@
       ]
     }
   }
+
 }
