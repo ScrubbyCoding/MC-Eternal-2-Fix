@@ -15,6 +15,20 @@
       },
       "price_multiplier": 0.0
     },
+       {
+      "type": "goblintraders:basic",
+      "experience": 1,
+      "max_trades": 10,
+      "offer_item": {
+        "count": 1,
+        "item": "gonefishing:mysterious_clam"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
 {
   "type": "goblintraders:basic",
   "enchantments": [],
@@ -23,7 +37,7 @@
   "offer_item": {
     "count": 1,
     "item": "iceandfire:armor_blue_chestplate",
-    "nbt": "{Damage:0,RepairCost:3,display:{Name:'{\"text\":\"Sweater Song\"}',Lore:['{\"text\":\"This bands my favorite man!\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:projectile_protection\",lvl:4}]}"
+    "nbt": "{Damage:0,RepairCost:3,display:{Name:'{\"text\":\"Sweater Song\"}',Lore:['{\"text\":\"This bands my favorite man!\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:4},{id:\"minecraft:projectile_protection\",lvl:4}]}"
   },
   "payment_item": {
     "count": 1,
