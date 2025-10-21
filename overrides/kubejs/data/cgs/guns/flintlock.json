@@ -3,7 +3,7 @@
     "rate": 10,
     "gripType": "ntgl:one_handed",
     "maxAmmo": 1,
-    "damage": 20.0,
+    "damage": 33.0,
     "reloadTime": 140,
     "recoilAngle": 7.0,
     "recoilKick": 0.4,
