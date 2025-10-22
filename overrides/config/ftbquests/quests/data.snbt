@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	title: "&2The Quest Book &l(MCE2)"
+	title: "<grad from=#D8B4FE to=#7C3AED hue uni>The Quest Book MCE2"
 	version: 13
 }
