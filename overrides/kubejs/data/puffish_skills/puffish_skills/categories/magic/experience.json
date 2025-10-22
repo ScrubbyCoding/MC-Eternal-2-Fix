@@ -1,0 +1,102 @@
+{
+	"experience_per_level": {
+	  "type": "values",
+	  "data": {
+		"values": [
+		  50, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250,
+		  250, 250, 300, 350, 350, 350, 350, 350, 350, 350, 
+		  350, 350, 400, 400, 400, 400, 400, 450, 450, 450, 
+		  450, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 2500
+		]
+	  }
+	},
+	"sources": [
+	  {
+		"type": "pufferfish_unofficial_additions:spell_casting",
+		"data": {
+		  "variables": {
+			"level": {
+			  "operations": [
+				{ "type": "level" }
+			  ]
+			},
+			"is_common": {
+			  "operations": [
+				{ "type": "rarity_name" },
+				{ "type": "puffish_skills:test", "data": { "value": "COMMON" } },
+				{ "type": "switch", "data": { "true": 1, "false": 0 } }
+			  ]
+			},
+			"is_uncommon": {
+			  "operations": [
+				{ "type": "rarity_name" },
+				{ "type": "puffish_skills:test", "data": { "value": "UNCOMMON" } },
+				{ "type": "switch", "data": { "true": 3, "false": 0 } }
+			  ]
+			},
+			"is_rare": {
+			  "operations": [
+				{ "type": "rarity_name" },
+				{ "type": "puffish_skills:test", "data": { "value": "RARE" } },
+				{ "type": "switch", "data": { "true": 5, "false": 0 } }
+			  ]
+			},
+			"is_epic": {
+			  "operations": [
+				{ "type": "rarity_name" },
+				{ "type": "puffish_skills:test", "data": { "value": "EPIC" } },
+				{ "type": "switch", "data": { "true": 7, "false": 0 } }
+			  ]
+			},
+			"is_legendary": {
+			  "operations": [
+				{ "type": "rarity_name" },
+				{ "type": "puffish_skills:test", "data": { "value": "LEGENDARY" } },
+				{ "type": "switch", "data": { "true": 10, "false": 0 } }
+			  ]
+			},
+			"is_eldritch": {
+			  "operations": [
+				{ "type": "school" },
+				{ "type": "puffish_skills:test", "data": { "school": "irons_spellbooks:eldritch" } },
+				{ "type": "switch", "data": { "true": 1.5, "false": 1 } }
+			  ]
+			},
+			"mana_cost": {
+			  "operations": [
+				{ "type": "mana_cost" }
+			  ]
+			},
+			"mana_cost_per_second": {
+			  "operations": [
+				{ "type": "mana_cost_per_second" }
+			  ]
+			},
+			"expected_ticks": {
+			  "operations": [
+				{ "type": "expected_ticks" }
+			  ]
+			},
+			"is_continuous": {
+			  "operations": [
+				{ "type": "spell" },
+				{ "type": "cast_type" },
+				{ "type": "puffish_skills:test", "data": { "value": "CONTINUOUS" } },
+				{ "type": "switch", "data": { "true": 1, "false": 0 } }
+			  ]
+			}
+		  },
+		  "experience": [
+			{
+			  "condition": "is_continuous",
+			  "expression": "max((((is_common + is_uncommon + is_rare + is_epic + is_legendary) + level + (mana_cost_per_second / 10)) / 6) * is_eldritch, 1)"
+			},
+			{
+			  "condition": "!is_continuous",
+			  "expression": "((is_common + is_uncommon + is_rare + is_epic + is_legendary) + level + (mana_cost / 10)) * is_eldritch"
+			}
+		  ]
+		}
+	  }
+	]
+  }
