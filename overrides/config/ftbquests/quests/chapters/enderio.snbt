@@ -85,6 +85,30 @@
 				"Hold flint off-hand and deepslate main-hand, then sneak–right-click obsidian (or crying obsidian) or a grindstone to scrape out early grains. Mind the sparks and the existential dust."
 			]
 			id: "6108266A7EE8EDAF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "2D8E360F0D5DAF82"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "54DD170B5D3BAF05"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "<wave>A Small Piece of Infinity"
 			tasks: [{
@@ -105,6 +129,13 @@
 				"Toss in some coal, grab a snack, and wait. Progress takes time… and apparently, fumes."
 			]
 			id: "151CB9B46E6BE653"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "0E86A7BEC1760F1B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oIndustrial Revolution, Caveman Edition"
 			tasks: [{
 				id: "1AB9E69A7344D9AF"
@@ -124,6 +155,13 @@
 				"It’s clean, efficient, and will absolutely make your base look like a sci-fi noodle factory."
 			]
 			id: "5965372FAD4A8995"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7BCF63FD681D06F8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oThe Ultimate Cable Management Solution"
 			tasks: [
 				{
@@ -167,6 +205,30 @@
 				"Don’t forget your SAG Mill - Silicon is the unsung hero in this recipe symphony."
 			]
 			id: "4BF38C4BBB8538D8"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "669961B9CDE3B795"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "49F5DB5127D7993A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "&oWhere Metals Meet Madness"
 			tasks: [
@@ -203,6 +265,30 @@
 				"Throw in ores, coal, or anything remotely solid, and it’ll reduce it to dust with mechanical enthusiasm."
 			]
 			id: "15605055D06F990B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "702E2A2D3FFF83FA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "277F16BE2E6AFCB3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oWhere Rocks Meet Their End"
 			tasks: [{
 				id: "0947EB7E68D8F9BE"
@@ -225,6 +311,30 @@
 				"Just don’t stare too long... &4<shake>some say they stare back.&r"
 			]
 			id: "405E0E4B20FD9314"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2030A0D787859D78"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2182146B6E1DDF51"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "&oForged in Flame, Touched by the Nether"
 			tasks: [
@@ -256,6 +366,13 @@
 				"The Basic Capacitor might not power a city, but it’ll keep your first EnderIO machines humming happily instead of sulking in silence."
 			]
 			id: "5B6AD90588A0F62C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "637A7FBD74F93F1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oThe Spark of Progress"
 			tasks: [{
 				id: "4470C89C707E4E13"
@@ -275,6 +392,13 @@
 				"Don’t worry... mostly safe."
 			]
 			id: "16B01C63FA65C2A3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "3621912C5C4F5EEE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oTwice the Power, Twice the Risk"
 			tasks: [{
 				id: "7DD2E4AB6E3ED68D"
@@ -293,6 +417,30 @@
 				"It supercharges your machines to absurd levels of efficiency, though side effects may include glowing walls and mild power addiction."
 			]
 			id: "539AC071B1900B6C"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7C7D390AB820F7B9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7B789ED53C548196"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oBecause “Overkill” Sounds Too Negative"
 			tasks: [{
 				id: "75BC2D9D5D9D6836"
@@ -313,6 +461,30 @@
 				"Choose your material wisely... performance comes at a price."
 			]
 			id: "163EF924FF463EE4"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3695A5F017C698A4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4548F72D51BCE80E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oBecause Smashing Rocks Can Be Optimized"
 			tasks: [{
 				id: "41DE97399C1CA5EB"
@@ -338,6 +510,30 @@
 				"The Alloy Smelter takes your tinkering to the next level, fusing metals with precision, speed, and just a hint of smug superiority."
 			]
 			id: "1E08377F770E79EC"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "46CA72424B41DC31"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0075805540163037"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oThe Furnace That Dreamed Bigger"
 			tasks: [{
 				id: "4FBD2CDA8A852FF0"
@@ -356,6 +552,30 @@
 				"Simply connect it to your power network and watch your items light back up, ready for action. "
 			]
 			id: "73E320C65C23EE48"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "61CF7FAA1EEC893D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "12E39A0740B0D679"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oBecause tools don’t power themselves"
 			tasks: [{
 				id: "3C320C760522D37A"
@@ -377,6 +597,13 @@
 				"It may not be flashy, but it’s reliable - and reliability is the first step toward automation."
 			]
 			id: "78149E0BF29D8147"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6CC16F46C3D6B75B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oThe Humble Beginning of Endless Energy"
 			tasks: [{
 				id: "437DF73151CBFDE9"
@@ -399,6 +626,13 @@
 				"&6Warning:&r Tools lose durability. Please keep your fingers outside the working area."
 			]
 			id: "1E55F3238B19293E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "74E7F21A4649C3C5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "&oClassified Hardware for Integrated Life Logistics"
 			tasks: [{
 				id: "5B415F90C2415BD1"
@@ -419,6 +653,13 @@
 				"&3<shake>Some say the souls remember...&r"
 			]
 			id: "58822B04CBCCDA4E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "160E38D7806B6C41"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Generalized Aetheric Node Generator"
 			tasks: [{
 				id: "5AE1CAE321C97498"
@@ -433,6 +674,30 @@
 			dependencies: ["58822B04CBCCDA4E"]
 			description: ["A delicate fusion of metal and mind. The Soul Binder is capable of merging organic essence with inorganic matter."]
 			id: "241C0114E0B3BD9A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "23752E4FBA0923FB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5534DD667C8307C9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Binding Souls Since Version 1.7.10"
 			tasks: [{
 				id: "1851B5E04B832BA4"
@@ -451,6 +716,30 @@
 				"The XP Vacuum harvests raw experience before it fades, drawing in every last drop of knowledge from fallen foes."
 			]
 			id: "71FF97B428CF8C59"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4F169651DCF3751E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "57C60047F850E72D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oCollect wisdom the efficient way."
 			tasks: [{
 				id: "0413FF8E7D78EDE6"
@@ -471,6 +760,30 @@
 				"It’s quiet, efficient, and slightly unsettling - because who really knows &l&owhere&r the void keeps its treasures?"
 			]
 			id: "6E886DBBA74C9AC3"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "1B03CCF17A61DCCC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1C34E8C43A434969"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oWhen gravity becomes your best collector."
 			tasks: [{
 				id: "6101CF4235299FD5"
@@ -491,6 +804,30 @@
 				"Just make sure nothing blocks its view of the sky."
 			]
 			id: "784941BCC05B012B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "23E80B485825FE0B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "503650819B63C8DD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oThe First Step Toward Sustainable Power"
 			tasks: [{
 				id: "340BC6A2AE53A28D"
@@ -509,6 +846,30 @@
 				"It’s the perfect mid-tier upgrade for any tech-savvy engineer who prefers brilliance over combustion."
 			]
 			id: "28C99FABE74B95DF"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "42FFA68A7FF63573"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "56AB3586D923367E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oMore Energy, Same Sunshine"
 			tasks: [{
 				id: "1ECE7FEE2D139636"
@@ -529,6 +890,30 @@
 				"No fuel, no noise, no limits - &e<wave>just pure radiant power.&r  "
 			]
 			id: "67E7BC470D1BFA41"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E10FF2F5467FF23"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BAE8820004417E1"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oWhen the Sun Itself Powers Your Dreams"
 			tasks: [{
 				id: "758167E8BF52F1B3"
@@ -552,6 +937,30 @@
 				"After all, even progress needs a little downtime to recharge."
 			]
 			id: "2660426F2EBF7185"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6959D039A9370200"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "374DF9A9C17E0386"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oBecause Power Deserves a Home"
 			tasks: [{
 				id: "2B05AB447ED63221"
@@ -572,6 +981,30 @@
 				"Perfect for powering multiple machines or feeding larger production setups without bottlenecks."
 			]
 			id: "4433E1975A2A692A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7E16894A7050EDAD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "467CFE1799FEA34A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oWhen Basic Just Isn’t Enough"
 			tasks: [{
 				id: "5224E79EB75C5941"
@@ -592,6 +1025,30 @@
 				"Stack multiple banks together to create your own glowing power core, and watch your base pulse with limitless potential."
 			]
 			id: "6BFAFDD2DFBFFE0A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "40659E31B2E7D56B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "12F57885FB30FCB5"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oWhere Energy Becomes Art"
 			tasks: [{
 				id: "5DA135D9914D94D7"
@@ -616,6 +1073,30 @@
 				"&6Just be careful&r - &oteleporting your boss away mid-fight tends to ruin the mood.&r"
 			]
 			id: "5F7BF6738D6997DB"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "3FC83C66F0D75541"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F28D521281B343A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "&oWhen Circuits Meet Spells"
 			tasks: [{
@@ -637,6 +1118,30 @@
 				"It’s tough, efficient, and looks suspiciously like it’s judging your setup."
 			]
 			id: "0DC7D05B53CA8F62"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "10579B69B0EA15D4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "565A60F3A96D9C04"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oEvery Empire Starts with Dust"
 			tasks: [
 				{
@@ -664,6 +1169,30 @@
 				"Some call it innovation - others call it playing god."
 			]
 			id: "3A33BB68006E85E8"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "6E30BA3C24DFF21A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4732CC91F1422D9B"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oHarness life itself — with a little help from Create."
 			tasks: [{
 				id: "0D8A627157F92E76"
@@ -688,6 +1217,30 @@
 				"&6Warning:&r sudden stops may result in mild existential confusion."
 			]
 			id: "1D5CE42A0FB9A79A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5CADD6EC72A3F4B7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5ED44B58EFDBE237"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "&oBlink. Don’t Think."
 			tasks: [
 				{
@@ -716,5 +1269,5 @@
 			y: -9.0d
 		}
 	]
-	title: "&6EnderIO"
+	title: "&7EnderIO"
 }
