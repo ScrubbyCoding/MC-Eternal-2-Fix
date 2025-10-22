@@ -43,7 +43,6 @@
 			}
 			id: "55C7DE6FA0F4E388"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -115,7 +114,6 @@
 			icon: "kubejs:mossy_letter"
 			id: "1FC9E8044B1B61B4"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					icon: "create:orange_toolbox"
@@ -204,7 +202,6 @@
 			icon: "kubejs:scorched_letter"
 			id: "20241D6DD5AAE70E"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					id: "0FE39D54AB3123B9"
@@ -260,7 +257,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&4You've got Mail!"
+			subtitle: "&c&nYou've got Mail!"
 			tasks: [{
 				advancement: "vampirism:vampire/become_vampire"
 				criterion: ""
@@ -444,7 +441,6 @@
 			icon: "kubejs:mossy_letter"
 			id: "36558CB7A7A5D2DB"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					icon: "create:orange_toolbox"
@@ -514,7 +510,6 @@
 			icon: "kubejs:mossy_letter"
 			id: "621F369C844200D6"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					icon: "create:orange_toolbox"
@@ -586,7 +581,6 @@
 			icon: "kubejs:mossy_letter"
 			id: "281E319CBD1DECBE"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					icon: "create:orange_toolbox"
@@ -664,7 +658,6 @@
 			icon: "kubejs:scorched_letter"
 			id: "3731FFBC670F0E3B"
 			invisible: true
-			optional: true
 			rewards: [
 				{
 					icon: "create:orange_toolbox"
