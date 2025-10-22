@@ -248,7 +248,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:cooldown_ring"
+				"item": "irons_spellbooks:concentration_amulet"
 			}
 		},
 		"rewards": [
@@ -270,7 +270,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:cast_time_ring"
+				"item": "irons_spellbooks:permafrost_shard"
 			}
 		},
 		"rewards": [
@@ -292,7 +292,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:amethyst_resonance_charm"
+				"item": "irons_spellbooks:energized_core"
 			}
 		},
 		"rewards": [
