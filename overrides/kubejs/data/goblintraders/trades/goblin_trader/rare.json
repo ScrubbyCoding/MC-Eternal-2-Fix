@@ -915,7 +915,21 @@
         "item": "artifacts:helium_flamingo"
       },
       "payment_item": {
-        "count": 50,
+        "count": 30,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	   {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "pneumaticcraft:micromissiles"
+      },
+      "payment_item": {
+        "count": 15,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
