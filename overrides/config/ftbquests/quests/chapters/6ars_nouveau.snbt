@@ -5,6 +5,480 @@
 	group: "701563945253F512"
 	icon: "ars_nouveau:summon_focus"
 	id: "511BD5CE8926D782"
+	images: [
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 1.25d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_nouveau:item/glyph_template"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ars_ocultas:item/_glyph_template_component"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/spell_prism"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/present"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/magebloom_fiber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -107,7 +581,7 @@
 			}]
 			title: "Spell Casting 101"
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["09E7B05E4298F3BE"]
@@ -274,7 +748,7 @@
 			]
 			title: "Altering Threads"
 			x: 7.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -324,11 +798,11 @@
 				type: "item"
 			}]
 			title: "A Stronger Spell Book"
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["46ADECF58830F3CF"]
+			dependencies: ["7461C12182F6AC36"]
 			description: [
 				"The &eRitual Brazier&r allows you to manipulate the space around you, such as summoning animals, changing the Time of day, or even allowing constant flight. "
 				""
@@ -374,8 +848,8 @@
 				}
 			]
 			title: "Ritual Brazier"
-			x: 10.0d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["58594005824B1BBE"]
@@ -414,11 +888,14 @@
 				type: "item"
 			}]
 			title: "Ender Source Jars"
-			x: 10.0d
-			y: -1.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["58594005824B1BBE"]
+			dependencies: [
+				"46ADECF58830F3CF"
+				"58594005824B1BBE"
+			]
 			description: [
 				"The Wilden Chimera is the Boss of &5Ars Nouveau&r, and very difficult having multiple phases that imitate each of the Wilden Beasts. "
 				""
@@ -461,7 +938,11 @@
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
-			description: ["The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."]
+			description: [
+				"The &eArchmage's Spell Book&r is the final tier of Spell Book for &5Ars Nouveau&r, allowing for even more powerful spell combinations and unlocks access to Tier 3 &eGlyphs&r."
+				""
+				"&6Tip:&r You can find Crystallized Ender using the Ritual of Scrying!"
+			]
 			id: "5DD2BA94561922D4"
 			rewards: [
 				{
@@ -541,8 +1022,8 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 10.0d
-			y: -4.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -591,8 +1072,8 @@
 				}
 			]
 			title: "The Bookwyrm"
-			x: 11.0d
-			y: -4.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -646,8 +1127,8 @@
 				}
 			]
 			title: "The Drygmy"
-			x: 11.0d
-			y: -5.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -718,8 +1199,8 @@
 				}
 			]
 			title: "The Wixie"
-			x: 9.0d
-			y: -6.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -761,8 +1242,8 @@
 				type: "item"
 			}]
 			title: "The Whirlisprig"
-			x: 9.0d
-			y: -5.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -809,8 +1290,8 @@
 				type: "item"
 			}]
 			title: "The Starbuncle"
-			x: 9.0d
-			y: -4.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -847,7 +1328,7 @@
 			}]
 			title: "Sourcelinks and Relays"
 			x: 5.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -888,7 +1369,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -912,7 +1393,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -953,7 +1434,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -973,7 +1454,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -997,7 +1478,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1034,7 +1515,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1071,7 +1552,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1108,7 +1589,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["105A86F70B2C6B39"]
@@ -1138,7 +1619,7 @@
 			}]
 			title: "Mastering The Elements"
 			x: 12.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1158,7 +1639,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25613F7E8248805C"]
@@ -1178,7 +1659,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -1218,7 +1699,7 @@
 			}]
 			title: "The Shady Wizard"
 			x: 5.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
@@ -1288,8 +1769,8 @@
 				type: "item"
 			}]
 			title: "The Siren"
-			x: 11.0d
-			y: -6.0d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1330,8 +1811,8 @@
 				type: "item"
 			}]
 			title: "The Flarecannon"
-			x: 10.0d
-			y: -6.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1374,8 +1855,8 @@
 				type: "item"
 			}]
 			title: "Helpful Familiars"
-			x: 11.0d
-			y: -3.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -1412,8 +1893,8 @@
 				type: "item"
 			}]
 			title: "The Amethyst Golem"
-			x: 10.0d
-			y: -5.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0680B29423DD2DD4"]
@@ -1625,7 +2106,7 @@
 			]
 			title: "Proper Archmage Armor"
 			x: 13.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -1794,7 +2275,7 @@
 			]
 			title: "Proper Mage Clothes"
 			x: 5.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DD2BA94561922D4"]
@@ -1877,8 +2358,8 @@
 				type: "item"
 			}]
 			title: "Enchanter's Tools"
-			x: 14.0d
-			y: -1.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
@@ -1943,7 +2424,7 @@
 			}]
 			title: "Basic Essences"
 			x: 3.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -1969,7 +2450,7 @@
 			}]
 			title: "Magical Spawners"
 			x: 7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["704C7C142ECED1D5"]
@@ -2000,7 +2481,7 @@
 			}]
 			title: "Warp Scrolls"
 			x: 3.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7461C12182F6AC36"]
@@ -2057,7 +2538,7 @@
 			]
 			title: "Magic Equipment"
 			x: 6.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["16A7C49E6CDC24DD"]
@@ -2091,7 +2572,7 @@
 			}]
 			title: "Rainbow Spellbook"
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06F0A11431B112E4"]
@@ -2113,8 +2594,8 @@
 				title: "How does this work...?"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			description: ["&5Ars Ocultas&r bridges the gap between &5Occultism&r and &5Ars Nouveau&r by allowing the Djinns from &5Occultism&r in &eContainment Jars&r to continue their work!"]
@@ -2134,8 +2615,8 @@
 				title: "Ars Ocultas"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			id: "1A39D87C0BC3F4AE"
@@ -2154,8 +2635,8 @@
 				type: "item"
 			}]
 			title: "Spell Turrets!"
-			x: 5.0d
-			y: -4.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2174,8 +2655,8 @@
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2193,8 +2674,8 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2213,8 +2694,8 @@
 				item: "ars_nouveau:rotating_spell_turret"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A39D87C0BC3F4AE"]
@@ -2266,8 +2747,8 @@
 				type: "item"
 			}]
 			title: "Specialized Turrets"
-			x: 5.0d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -2299,33 +2780,8 @@
 				type: "checkmark"
 			}]
 			title: "Ars Delight"
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5DD2BA94561922D4"]
-			description: [
-				"In order to craft the &eArchmage Spell Book&r, as well as many other items outside of &5Ars Nouveau&r, you need many materials from the End Dimension, one of those being &eEnderium Ingots&r. "
-				""
-				""
-				"{ \"text\": \"Ritual of Scrying\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"192CD8BC280620AB\" } }"
-			]
-			id: "143F454F976B2E9E"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "0E7CD7EB4DCB3B8D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "So... Where Is It?"
-			tasks: [{
-				id: "31EC4072C269724F"
-				item: "majruszsdifficulty:enderium_shard_ore"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2351,8 +2807,8 @@
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["58594005824B1BBE"]
@@ -2379,8 +2835,8 @@
 				title: "Basic Rituals"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2405,8 +2861,8 @@
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2429,8 +2885,8 @@
 				item: "ars_additions:ritual_locate_structure"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2453,8 +2909,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
@@ -2477,13 +2933,13 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EC7BF21C76FF1C2"]
 			description: [
-				"The &eTablet of Scrying&r allows you to find just about anything and everything, but the most usage comes from finding those hard to find ores such as &eEnderium Shard Ore&r from the End, or &eAncient Debris&r!"
+				"The &eTablet of Scrying&r allows you to find just about anything and everything, but the most usage comes from finding those hard to find ores such as &eCrystallized Ender Shard Ore&r from the End, or &eAncient Debris&r!"
 				""
 				"You MUST have the Ore itself in order to Scry for it, meaning you must have already used Silk Touch on an Ore to use it in the &eRitual Brazier&r. "
 				""
@@ -2503,9 +2959,9 @@
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 11.0d
+			y: 5.0d
 		}
 	]
-	title: "&7Ars Nouveau"
+	title: "{chapter.34.title}"
 }
