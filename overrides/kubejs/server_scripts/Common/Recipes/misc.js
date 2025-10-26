@@ -98,4 +98,10 @@ ServerEvents.recipes(event => {
         G: "#c:glass_panes",
         T: "create:electron_tube"
     }).id("constructionwand:core_destruction")
+
+
+    //Mob Swab and GM Chicken Feed
+    // no. it lets you create infinite spawn eggs from a single instance of a mob. this is unquestionably overpowered as shit.
+    event.remove({id: "mob_grinding_utils:recipe_mob_swab"})
+    event.remove({id: "mob_grinding_utils:gm_chicken_feed"})
 })

@@ -37,4 +37,8 @@ JEIEvents.hideItems(event => {
 	event.hide("netherexp:blue_scale_fungus")
 	event.hide("jadensnetherexpansiondelight:blue_scale_fungus_roll")
 	event.hide("jadensnetherexpansiondelight:red_scale_fungus_roll")
+
+    //disabled Mob Grinding Utils items
+    event.hide("mob_grinding_utils:mob_swab")
+    event.hide("mob_grinding_utils:gm_chicken_feed")
 })
