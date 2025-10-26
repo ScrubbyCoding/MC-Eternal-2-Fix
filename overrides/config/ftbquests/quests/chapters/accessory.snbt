@@ -57,6 +57,22 @@
 			x: -10.0d
 			y: 0.5d
 		}
+		{
+			height: 5.0d
+			image: "modpack:textures/soultrial.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 7.4d
+		}
+		{
+			height: 20.0d
+			image: "structurize:block/timberframe/spruce/blocksideframedside"
+			rotation: 90.0d
+			width: 5.0d
+			x: 1.0d
+			y: -26.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -762,7 +778,7 @@
 			}]
 			title: "Combine to profit"
 			x: 0.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			description: ["Combine the boosters with an accessory to apply the bonus"]
