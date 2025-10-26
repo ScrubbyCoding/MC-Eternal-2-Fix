@@ -92,4 +92,9 @@ ServerEvents.tags("worldgen/structure", event => {
         "irons_spellbooks:mountain_tower",
         "irons_spellbooks:evoker_fort"
     ])
+
+
+    event.add('kubejs:structure_locator_nether', 'netherexp:sanctum')
+
+    event.add('kubejs:structure_locator', 'minecraft:ancient_city')
 })

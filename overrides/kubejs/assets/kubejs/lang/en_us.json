@@ -2,6 +2,38 @@
     "item.kubejs.corporea_crystal": "§dCorporeality Crystal",
     "item.kubejs.artifact_beating_heart": "§3Mysterious Object",
     "item.kubejs.mobdrop_endermanheart_beating": "§7Wither Heart",
+    "item.kubejs.contract": "§eDubious Contract",
+    "item.kubejs.contract.use.0": "Contract: NO take backsies! (Hover to read small print)",
+    "item.kubejs.contract.use.1": "Small Print: Anything you ever create is proprietary property of ME and your soul is MINE... FOR ALL OF ETERNITY!! BARRY WITHHOLDS THE RIGHT TO DESTROY YOUR MORTAL COIL AT ANY GIVEN MOMENT.. THIS CONTRACT HAS BEEN SIGNED BY THE PLAYER AND IS LEGALLY BINDING IN MINECRAFT AND THE REAL WORLD!! *The writing becomes so small that it's unreadable...*",
+    "item.kubejs.unsigned_contract": "§eUnsigned Contract",
+    "item.kubejs.dwarven_map": "§dDwarven Map",
+    "item.kubejs.magic_map": "§eSeeker Map",
+    "item.kubejs.ingot_thousand_metals": "'§eIngot of a Thousand Metals'",
+    "item.kubejs.artifact_endergem": "§bSoul Stone",
+    "item.kubejs.travel_ticket": "§dTravel Ticket - Sakura Dimension",
+    "item.kubejs.scorched_letter": "§cBodyguard Contract - Zombie Absorber",
+    "item.kubejs.scorched_letter1": "§cBodyguard Contract - Ancient Factory",
+    "item.kubejs.mossy_letter": "§2Bodyguard Contract - Coralssus",
+    "item.kubejs.mossy_letter1": "§2Bodyguard Contract - Bear",
+    "item.kubejs.elegant_letter": "§eBodyguard Contract - Kobolediator",
+    "item.kubejs.eternal_engine": "§dEternal Engine",
+    "item.kubejs.loyalty_card_generic": "§eLoyalty Card - Random Reward",
+    "item.kubejs.loyalty_card_curio": "§aLoyalty Card - Random Curio Reward",
+    "item.kubejs.loyalty_card_bm": "§5Loyalty Card - Random Blackmarket Reward",
+    "item.kubejs.nether_item": "§dObsidian Palantir",
+    "item.kubejs.s_soup": "§eSculptor Soup",
+    "item.kubejs.strange_burger": "§eStrange Burger",
+    "item.kubejs.sunscreen": "§eBottle of Sunblock",
+    "item.kubejs.chocolate_coin": "§eChocolate Coin",
+    "item.kubejs.mcejaffa": "§5Happy Welcome Jaffa",
+
+    "block.kubejs.ancient_portal_stone": "Ancient Portal Stone",
+    "block.kubejs.reactor_tnt": "Reactor TNT",
+    "block.kubejs.ultimate_cheese": "Ultimate Cheese",
+
+    "entity.kubejs.mobdrop_endermanheart_beating": "Wither Heart",
+    "entity.kubejs.artifact_beating_heart": "Mysterious Object",
+
     "kubejs.ancient_factory_map": "§4Ancient Factory Map ",
     "kubejs.frostmaw_map": "§bFrostmaw Map ",
     "biome.thegreatbelow.thegreatbeyond": "§bThe Great Beyond",
@@ -40,7 +72,13 @@
     "tooltip.mce2.majruszsaccessories.soul.minecraft": "Crafted from Adventurer Rune, Angler Rune, Household Rune, Miner Rune and Nature Rune",
     "tooltip.mce2.rats.reactor.ratlantis": "Deco-rat-ion!",
 	  "tooltip.mce2.rats.cheese.ultimate": "Healing Cheesy Goodness",
-	  "tooltip.mce2.rats.reactor.tnt": "Emits dangerous energy...Do Not Break!"
+	  "tooltip.mce2.rats.reactor.tnt": "Emits dangerous energy...Do Not Break!",
 	
 
+    "message.mce2.bodyguard_arrived": "Your personal bodyguard has arrived!",
+    "message.mce2.soul_stone_peer": "You peer into the Soul Stone and see a vision of The Great Beyond... Eternal darkness... Countless souls singing and dancing... Countless screaming and writhing.. It seems some take to death better than others..",
+    "message.mce2.ultimate_cheese_cooldown": "The cheese is still cooling down! (%ss)",
+    "message.mce2.ultimate_cheese_used": "The Cheese fills your wounds, Healing you!",
+    "message.mce2.reactor_tnt_touch": "§aThe reactor hums with unstable energy...",
+    "message.mce2.reactor_tnt_broken": "§4The broken reactor releases a wave of sickening energy!"
 }
