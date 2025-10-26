@@ -83,3 +83,13 @@ ServerEvents.tags("entity_type", event => {
         "minecraft:wandering_trader"
     ])
 })
+
+
+ServerEvents.tags("worldgen/structure", event => {
+
+    event.add("mce2:irons_spellbooks/wizard_structure", [
+        "irons_spellbooks:pyromancer_tower",
+        "irons_spellbooks:mountain_tower",
+        "irons_spellbooks:evoker_fort"
+    ])
+})
