@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "create:brass_sheet"
+    },
+     "B": {
+      "item": "thermal:gold_gear"
+    }
+  },
+  "result": {
+    "item": "clockwork:clockwork_gear",
+    "count": 2
+  }
+}
