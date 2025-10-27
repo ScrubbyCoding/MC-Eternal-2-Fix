@@ -66,12 +66,13 @@
 			y: 7.4d
 		}
 		{
-			height: 20.0d
-			image: "structurize:block/timberframe/spruce/blocksideframedside"
-			rotation: 90.0d
-			width: 5.0d
-			x: 1.0d
-			y: -26.0d
+			height: 2.0d
+			image: "modpack:textures/thaumcraft_rat_flip.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 8.0d
 		}
 	]
 	order_index: 2
