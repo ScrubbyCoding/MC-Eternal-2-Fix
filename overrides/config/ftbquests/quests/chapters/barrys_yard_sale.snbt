@@ -351,6 +351,9 @@
 				"                  <grad from=#FFFFFF to=#FFFFFF hue=true f=0 sp=0 uni=true>[][][][][][][]"
 				"                  <grad from=#F7A8B8 to=#F7A8B8 hue=true f=0 sp=0 uni=true>[][][][][][][]"
 				"                  <grad from=#55CDFC to=#55CDFC hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				""
+				""
+				"&6&nOnly one in stock!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -393,6 +396,8 @@
 				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>I'm the giant rat that makes all of the rules"
 				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>[All Rats]"
 				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Let's see what kind of trouble we can get ourselves into"
+				""
+				"&6&nOnly one in stock!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -428,7 +433,10 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["<grad from=#A8E6A3 to=#3FA66D hue=true f=0.3 sp=70 uni=true>Something is very wrong with this egg"]
+			description: [
+				"<grad from=#A8E6A3 to=#3FA66D hue=true f=0.3 sp=70 uni=true>Something is very wrong with this egg"
+				"&6&nOnly one in stock!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "mce2lib:chicken_nugget_summon"
@@ -451,7 +459,10 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["<grad from=#FADADD to=#E75480 hue=true f=0.3 sp=70 uni=true>This Porkchop radiates pure joy and love!"]
+			description: [
+				"<grad from=#FADADD to=#E75480 hue=true f=0.3 sp=70 uni=true>This Porkchop radiates pure joy and love!"
+				"&6&nOnly one in stock!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "mce2lib:porkus_summon"
@@ -480,6 +491,8 @@
 				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, mamacita, now you're ringing the bell"
 				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Crispy and juicy, now you're having a snack"
 				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, super spicy, it's a lava attack"
+				""
+				"&6&nOnly one in stock!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -503,6 +516,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -580,6 +594,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -648,7 +663,10 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["Weezer is HUGE in Goblin circles right now... "]
+			description: [
+				"Weezer is HUGE in Goblin circles right now... "
+				"&6&nOnly one in stock!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "iceandfire:weezer_blue_album"
@@ -671,6 +689,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "alexscaves:nuclear_bomb"
@@ -715,6 +734,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -763,6 +783,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -805,7 +826,41 @@
 			x: 9.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"The Mechanical Dragonfly is a true marvel of engineering!"
+				"It can be mounted and is capable of flight using its large brass wings!"
+				""
+				"It can be yours for the &oLOW &oLOW&r price of 1800 coins!!"
+				""
+				"&eHint:&r Upon purchasing this item, the dragonfly will be summoned nearby already tamed!"
+				""
+				"&6&nOnly one in stock!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "clockwork:clockwork_gear"
+			id: "39778CD15BBE1FC5"
+			rewards: [{
+				command: "/execute at {p} run summon clockwork:dragonfly ~1 ~ ~ {PersistenceRequired:1,CustomName:\"\\\"\\\\\\\"Gilbert the Mechanical Dragonfly\\\\\\\"\\\"\"}"
+				console: true
+				icon: "clockwork:crossbow_barrel"
+				id: "7F844D797AA3E20A"
+				title: "&6Summon Gilbert &r&7&o(Make sure you do this in a safe place!)"
+				type: "command"
+			}]
+			subtitle: "Purchase Mechanical Dragonfly"
+			tasks: [{
+				amount: 1800L
+				currency: "eternalcurrencies:coins"
+				id: "165976CC8B85CD82"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Mechanical Dragonfly"
+			x: 6.0d
+			y: 6.0d
+		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }
-
