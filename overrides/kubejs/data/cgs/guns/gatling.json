@@ -3,7 +3,7 @@
     "fireMode": ["ntgl:auto"],
     "gripType": "ntgl:mini_gun",
     "category": "heavy",
-    "rate": 2,
+    "rate": 1.0,
     "fireTimer": 0,
     "fullCharge": true,
     "oneTimeCharge": true,
@@ -12,7 +12,7 @@
     "reloadAmount": 10,
     "recoilAngle": 2.0,
     "recoilKick": 0.8,
-    "damage": 8.0,
+    "damage": 10.0,
     "alwaysSpread": true,
     "spread": 1.5,
     "ammo": [
