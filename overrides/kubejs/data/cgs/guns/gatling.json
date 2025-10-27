@@ -8,11 +8,11 @@
     "fullCharge": true,
     "oneTimeCharge": true,
     "maxAmmo": 100,
-    "reloadTime": 150,
+    "reloadTime": 120,
     "reloadAmount": 10,
     "recoilAngle": 2.0,
     "recoilKick": 0.8,
-    "damage": 11.0,
+    "damage": 8.0,
     "alwaysSpread": true,
     "spread": 1.5,
     "ammo": [
