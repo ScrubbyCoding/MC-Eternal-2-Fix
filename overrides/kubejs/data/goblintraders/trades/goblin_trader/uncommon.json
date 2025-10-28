@@ -52,7 +52,7 @@
   "offer_item": {
     "count": 1,
     "item": "iceandfire:armor_blue_chestplate",
-    "nbt": "{Damage:0,RepairCost:3,display:{Name:'{\"text\":\"Sweater Song\"}',Lore:['{\"text\":\"This bands my favorite man!\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:4},{id:\"minecraft:projectile_protection\",lvl:4}]}"
+    "nbt": "{Damage:0,RepairCost:3,display:{Name:'{\"text\":\"Sweater Song\"}',Lore:['{\"text\":\"This bands my favorite man!\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:7},{id:\"minecraft:projectile_protection\",lvl:4}]}"
   },
   "payment_item": {
     "count": 1,
@@ -71,7 +71,7 @@
         "item": "exposure:camera"
       },
       "payment_item": {
-        "count": 3,
+        "count": 2,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -111,7 +111,7 @@
       "experience": 1,
       "max_trades": 5,
       "offer_item": {
-        "count": 1,
+        "count": 3,
         "item": "brewinandchewin:ham_and_cheese_sandwich"
       },
       "payment_item": {
@@ -125,7 +125,7 @@
       "experience": 1,
       "max_trades": 5,
       "offer_item": {
-        "count": 1,
+        "count": 3,
         "item": "brewinandchewin:apple_jelly"
       },
       "payment_item": {
@@ -139,7 +139,7 @@
       "experience": 1,
       "max_trades": 5,
       "offer_item": {
-        "count": 1,
+        "count": 3,
         "item": "brewinandchewin:glow_berry_marmalade"
       },
       "payment_item": {
@@ -153,7 +153,7 @@
       "experience": 1,
       "max_trades": 5,
       "offer_item": {
-        "count": 1,
+        "count": 3,
         "item": "brewinandchewin:glittering_grenadine"
       },
       "payment_item": {
@@ -167,7 +167,7 @@
       "experience": 1,
       "max_trades": 5,
       "offer_item": {
-        "count": 1,
+        "count": 2,
         "item": "brewinandchewin:egg_grog"
       },
       "payment_item": {
@@ -235,9 +235,9 @@
   {
       "type": "goblintraders:basic",
       "experience": 1,
-      "max_trades": 5,
+      "max_trades": 2,
       "offer_item": {
-        "count": 1,
+        "count": 3,
         "item": "pneumaticcraft:salmon_tempura"
       },
       "payment_item": {
