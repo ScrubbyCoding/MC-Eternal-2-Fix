@@ -787,7 +787,7 @@
 		}
 		{
 			height: 1.0d
-			image: "ftbchunks:textures/faces/alexsmobs/gazelle.png"
+			image: "modpack:textures/gazelle.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -10.0d
@@ -851,14 +851,6 @@
 			x: 24.0d
 			y: 1.0d
 		}
-		{
-			height: 1.5d
-			image: "rats:textures/thaumcraft_rat_icon.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 17.5d
-			y: -7.5d
-		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -876,8 +868,17 @@
 					type: "item"
 				}
 				{
-					id: "519B32ACB27B25EA"
-					type: "custom"
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "46EE806F0A17707C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46FD1A59EF4D5D50"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -896,15 +897,15 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.2.description.1}"]
+			description: [
+				"{chapter.18.quest.2.description.1}"
+				""
+				"Watch out for the prime eagle!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "730AA8FF3B1D5FFF"
 			rewards: [
-				{
-					id: "6A42FEDC6AD98B2A"
-					type: "custom"
-				}
 				{
 					id: "47F35E1E9DA26A12"
 					item: "farmersdelight:vegetable_soup"
@@ -936,6 +937,13 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4E1A4B5D8389F2DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.2.subtitle}"
@@ -963,11 +971,8 @@
 					type: "item"
 				}
 				{
-					id: "6F74E6CC7147CC14"
-					type: "custom"
-				}
-				{
 					command: "/titles add {p} titles:wildlife_photographer"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
 					title: "{chapter.18.quest.3.reward.3.title}"
@@ -1008,13 +1013,22 @@
 			id: "6E43E3720CAD62BD"
 			rewards: [
 				{
-					id: "018FA73EC2416F08"
-					type: "custom"
-				}
-				{
 					id: "7B62F8EFD29B9365"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "74BBEDBB5A899EFA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78C45192EA496204"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1040,13 +1054,16 @@
 			id: "3EF16F008734E0EA"
 			rewards: [
 				{
-					id: "4557CDE34D14FA6D"
-					type: "custom"
-				}
-				{
 					id: "7ACD38512EB32702"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "17CD6B54F1E55C75"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1071,18 +1088,22 @@
 			id: "59C69C0FF435E15E"
 			rewards: [
 				{
-					id: "5849A9416BB981D5"
-					type: "custom"
-				}
-				{
 					id: "7033EEB59012B795"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
+					icon: "uniqueaccessories:accessory_box"
 					id: "15CB2C4EBB02C585"
 					table_id: 7614141430405098414L
 					type: "random"
+				}
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "3BC34FDA3AA0C8AF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1107,17 +1128,32 @@
 			id: "5D80C2726C373333"
 			rewards: [
 				{
-					id: "4ABFDD23A964E1F4"
-					type: "custom"
-				}
-				{
 					id: "39B1D9DFE0C151FE"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
-					id: "10AAD8B1527E00FB"
-					table_id: 7614141430405098414L
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "419881CEE6592887"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4A2DA0DD009CB77F"
+					item: {
+						Count: 1
+						id: "alexsmobs:pupfish_locator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0872A0C3604AC5E1"
+					table_id: 5682295257556819944L
 					type: "random"
 				}
 			]
@@ -1143,13 +1179,27 @@
 			id: "232342855D8AE067"
 			rewards: [
 				{
-					id: "3263E2173CCFAC19"
-					type: "custom"
-				}
-				{
 					id: "0CA80BE83863E580"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "07860D80A472FF19"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "188406953321F958"
+					item: "alexsmobs:maraca"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "178CE5DF5C783B97"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1173,13 +1223,16 @@
 			id: "22E9B4362EEED53D"
 			rewards: [
 				{
-					id: "487CEDC052C97E3E"
-					type: "custom"
-				}
-				{
 					id: "328D35F00F523355"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "22957042073F4D2E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1204,17 +1257,27 @@
 			id: "3870E2F1E8A34005"
 			rewards: [
 				{
-					id: "2789173AF833FCBA"
-					type: "custom"
-				}
-				{
 					id: "6A35C5D0B76ABEF3"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
+					icon: "uniqueaccessories:accessory_box"
 					id: "36AE6CE0C93F5B93"
 					table_id: 7614141430405098414L
+					type: "random"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "14230D6ECA4D4B8D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79400BAB413C8E14"
+					table_id: 5682295257556819944L
 					type: "random"
 				}
 			]
@@ -1240,13 +1303,16 @@
 			id: "388E3887FCC8BDE7"
 			rewards: [
 				{
-					id: "301B19AA584A2CEF"
-					type: "custom"
-				}
-				{
 					id: "52F553CBC968E699"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6B4FD11BD6D8903E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1271,16 +1337,26 @@
 			id: "7300391FE576F1BC"
 			rewards: [
 				{
-					id: "2194D5423FDF7BCF"
-					type: "custom"
-				}
-				{
 					id: "55006ECA17F6E2F4"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "27023DADB2EDE2B1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E7B81F8A1C44416"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
+			subtitle: "Animal Snap"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "32D72FF064DF10CF"
@@ -1301,18 +1377,22 @@
 			id: "0A7356BD545B8804"
 			rewards: [
 				{
-					id: "1080F1CA23FBC8FF"
-					type: "custom"
-				}
-				{
 					id: "47F864735BDADF87"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
+					icon: "uniqueaccessories:accessory_box"
 					id: "791E7CAC86F0AEE2"
 					table_id: 7614141430405098414L
 					type: "random"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1A917DC44CD2E1A9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1338,18 +1418,16 @@
 			id: "5ABA30D635FE45A0"
 			rewards: [
 				{
-					id: "259B0F2528F65C4B"
-					type: "custom"
-				}
-				{
 					id: "162648F4CA1A7701"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
-					id: "7E88E4564502DAC6"
-					table_id: 7614141430405098414L
-					type: "random"
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "544A2CD8250B7636"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1374,13 +1452,16 @@
 			id: "7FA7D1B6CBD832F0"
 			rewards: [
 				{
-					id: "4AAA0F9352A93D85"
-					type: "custom"
-				}
-				{
 					id: "22C9FAF74AC123C9"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4517CA745950D9BF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1405,13 +1486,22 @@
 			id: "13B3866B14C773F2"
 			rewards: [
 				{
-					id: "0D3E797439F919AD"
-					type: "custom"
-				}
-				{
 					id: "689BF0D28F6F282A"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "34D73FCF221D8905"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18974F714BDC7DE6"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1436,13 +1526,22 @@
 			id: "0436475F60226CC8"
 			rewards: [
 				{
-					id: "27528F8CC3B1FE32"
-					type: "custom"
-				}
-				{
 					id: "7072E35AC32ED41E"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3322FDDD982B8548"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77484FF3F98290F7"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1467,13 +1566,22 @@
 			id: "76B71254CBDAB702"
 			rewards: [
 				{
-					id: "21512DF993374940"
-					type: "custom"
-				}
-				{
 					id: "7AC8C9996B85A2F4"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1B0F89A9DCE25640"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70AEC7B43693B01F"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1498,13 +1606,22 @@
 			id: "05599EF83F42E8D6"
 			rewards: [
 				{
-					id: "168B91471BCD7235"
-					type: "custom"
-				}
-				{
 					id: "3174FF68E845EE31"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2E02BED721AECEAA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E2068E8CD28F169"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1529,13 +1646,22 @@
 			id: "59326A796BADA195"
 			rewards: [
 				{
-					id: "21E7B10532DB7D2F"
-					type: "custom"
-				}
-				{
 					id: "5465F0844209F14F"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5AB30985554C1EE2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57EF1DF06E29D3DA"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1560,16 +1686,15 @@
 			id: "6D87086232516F07"
 			rewards: [
 				{
-					id: "568A1CBB44488C86"
-					type: "custom"
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "44E98941973FC3D8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "1F0EEF637CFF2BB6"
-					item: "abnormals_delight:perch_with_mushrooms"
-					type: "item"
-				}
-				{
-					id: "1CB18C1A8243F0D1"
+					icon: "uniqueaccessories:accessory_box"
+					id: "113E44D5C17FBC0A"
 					table_id: 7614141430405098414L
 					type: "random"
 				}
@@ -1596,13 +1721,22 @@
 			id: "2B7240B6990E8874"
 			rewards: [
 				{
-					id: "44239D991FEF89C4"
-					type: "custom"
-				}
-				{
 					id: "0DC86058D7FCEA88"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "1B0D48E97F0D22DF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BA4EAFE091FD2E4"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1627,13 +1761,22 @@
 			id: "33691B511ACF083D"
 			rewards: [
 				{
-					id: "6AA95AB07929BAC4"
-					type: "custom"
-				}
-				{
 					id: "18EB8EAECBFF2DBF"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "4F10FA5325596E34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD74DA281DB1748"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1658,31 +1801,22 @@
 			id: "15582BA5C979FE3C"
 			rewards: [
 				{
-					id: "531037725FC9C077"
-					type: "custom"
-				}
-				{
 					id: "46D83DBE04E79454"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
-					id: "5DFD76528F73D859"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "meetyourfight:spectres_eye"
-					}
-					type: "item"
-				}
-				{
+					icon: "uniqueaccessories:accessory_box"
 					id: "28531919DBF7A127"
 					table_id: 7614141430405098414L
 					type: "random"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "11A0598D027C5097"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "hexagon"
@@ -1707,13 +1841,22 @@
 			id: "56E396A50F7A78C0"
 			rewards: [
 				{
-					id: "1666CFBE14A221DE"
-					type: "custom"
-				}
-				{
 					id: "5144340EC7CDCC0D"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "58B81D38019DE45E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F0207582401B588"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1738,13 +1881,22 @@
 			id: "68F17AADA59CCF04"
 			rewards: [
 				{
-					id: "344C57233C68EC15"
-					type: "custom"
-				}
-				{
 					id: "5E130E3804610AD1"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7FA0B69D698A45ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D8B19309030AF16"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1769,13 +1921,22 @@
 			id: "3B1C64F1AD2B2091"
 			rewards: [
 				{
-					id: "7D42336C9B0F0339"
-					type: "custom"
-				}
-				{
 					id: "5882325095B93E2B"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2156E3BA77E986E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74EA5804402EE43C"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1800,13 +1961,22 @@
 			id: "0982619083F925C3"
 			rewards: [
 				{
-					id: "73C1BBFBA45440C2"
-					type: "custom"
-				}
-				{
 					id: "61DCC339E5D8F4DA"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "39FE85972710D5E6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A5D05766933FA46"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1831,13 +2001,22 @@
 			id: "1213871C91C1FB7B"
 			rewards: [
 				{
-					id: "25E3D7EC87B6344D"
-					type: "custom"
-				}
-				{
 					id: "2F5C2F5515ED2FA7"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7733A5C66ABCFEA1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56B6EC0F7D8924A0"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1862,13 +2041,22 @@
 			id: "3E9FD1EA9E4FD2A2"
 			rewards: [
 				{
-					id: "21DE846418327F9C"
-					type: "custom"
-				}
-				{
 					id: "3EB47A81C58AAD2A"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "50CB2269ABF82E57"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6028A4E809E99B3B"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1893,13 +2081,22 @@
 			id: "5DCE2D084DEC7B4F"
 			rewards: [
 				{
-					id: "12D15453132E265F"
-					type: "custom"
-				}
-				{
 					id: "4816D0B9DB61E03E"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3EE6F41FFD342C50"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0457A4AEDCED00C5"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1924,17 +2121,27 @@
 			id: "63383AEB0455A3C0"
 			rewards: [
 				{
-					id: "356FB7CD66F301B1"
-					type: "custom"
-				}
-				{
 					id: "36373202A9A062D3"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
 				{
+					icon: "uniqueaccessories:accessory_box"
 					id: "090B65E03F6DEB15"
 					table_id: 7614141430405098414L
+					type: "random"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7BBB2E8599170F16"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01123AD3785EF75B"
+					table_id: 5682295257556819944L
 					type: "random"
 				}
 			]
@@ -1960,13 +2167,22 @@
 			id: "1FABE803DFFE00F1"
 			rewards: [
 				{
-					id: "5D4B589949153458"
-					type: "custom"
-				}
-				{
 					id: "1BAFE995F57144B5"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0C7213EEF5604F30"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F4E2E198ABB4CE"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1998,6 +2214,19 @@
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2A1D1E2A3DD4E6EF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C505A630B772A5E"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.34.subtitle}"
@@ -2021,13 +2250,22 @@
 			id: "628E57AF66B08D65"
 			rewards: [
 				{
-					id: "76B8F2EDB1F8C2AB"
-					type: "custom"
-				}
-				{
 					id: "7D1E1A444D1FB7AC"
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "5CD67EFE26A542F5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12BA794AD7E2CC1F"
+					table_id: 5682295257556819944L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -2052,17 +2290,22 @@
 			id: "327CFFB01545E1F2"
 			rewards: [
 				{
-					id: "73141F7B01AB2BBA"
-					type: "custom"
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "01CE4AF3224B6589"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "6FFB8552E78C0100"
-					item: "nethers_delight:grilled_strider"
-					type: "item"
-				}
-				{
-					id: "2AA21D87D70E947A"
+					icon: "uniqueaccessories:accessory_box"
+					id: "5273D1BBF110C50C"
 					table_id: 7614141430405098414L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B064ABA52F0F769"
+					table_id: 5682295257556819944L
 					type: "random"
 				}
 			]
@@ -2151,6 +2394,32 @@
 			description: ["{chapter.18.quest.39.description.1}"]
 			hide_dependency_lines: true
 			id: "410EFB70748D6EE2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "692DB218111CD77D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "63378F25A0084AC0"
+					item: {
+						Count: 1
+						id: "alexsmobs:squid_grapple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0123948EA1CFC7"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.39.subtitle}"
 			tasks: [{
@@ -2170,6 +2439,21 @@
 			description: ["{chapter.18.quest.40.description.1}"]
 			hide_dependency_lines: true
 			id: "7556FC23E3D19EEF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "32372DFA83550A78"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E2395B6003402B"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.40.subtitle}"
 			tasks: [{
@@ -2189,6 +2473,21 @@
 			description: ["{chapter.18.quest.41.description.1}"]
 			hide_dependency_lines: true
 			id: "3A58ADE2E58485C5"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "245E74282CEEA764"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48E492D51D5D36B8"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.41.subtitle}"
 			tasks: [{
@@ -2208,6 +2507,21 @@
 			description: ["{chapter.18.quest.42.description.1}"]
 			hide_dependency_lines: true
 			id: "1D5D605432230DDE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "0B162FF425DB3A3B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53EEBD301024C2E4"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.42.subtitle}"
 			tasks: [{
@@ -2227,6 +2541,21 @@
 			description: ["{chapter.18.quest.43.description.1}"]
 			hide_dependency_lines: true
 			id: "2D0CAAA08451927D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "7A2B85354D73728C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "uniqueaccessories:accessory_box"
+					id: "49A063C3E660969D"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.43.subtitle}"
 			tasks: [{
@@ -2246,6 +2575,13 @@
 			description: ["{chapter.18.quest.44.description.1}"]
 			hide_dependency_lines: true
 			id: "120EB493F7442852"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "7CCCE03AE6FCDEAB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.44.subtitle}"
 			tasks: [{
@@ -2265,17 +2601,43 @@
 			description: ["{chapter.18.quest.45.description.1}"]
 			hide_dependency_lines: true
 			id: "4A1132CCDF1C24A3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "16099B0B7CE7D8CA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E7CF1EBA765B29E"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.45.subtitle}"
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "5C05BBDFA5785466"
-				observe_type: 5
-				timer: 0L
-				title: "{chapter.18.quest.45.task.1.title}"
-				to_observe: "alexsmobs:jerboa"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "5C05BBDFA5785466"
+					observe_type: 5
+					timer: 0L
+					title: "{chapter.18.quest.45.task.1.title}"
+					to_observe: "alexsmobs:jerboa"
+					type: "observation"
+				}
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					id: "5F58B0E2DFC4B0F5"
+					item: "exposure:camera"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+			]
 			x: -10.0d
 			y: -3.0d
 		}
@@ -2284,6 +2646,21 @@
 			description: ["{chapter.18.quest.46.description.1}"]
 			hide_dependency_lines: true
 			id: "077A1A2802DB7F14"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "2A26A242D034DC20"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC6E9CD655E43CB"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.46.subtitle}"
 			tasks: [{
@@ -2303,6 +2680,21 @@
 			description: ["{chapter.18.quest.47.description.1}"]
 			hide_dependency_lines: true
 			id: "31C709AAEF7662DC"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "002A35C2F44376BA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A68AC08AB455E23"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.47.subtitle}"
 			tasks: [{
@@ -2322,6 +2714,21 @@
 			description: ["{chapter.18.quest.48.description.1}"]
 			hide_dependency_lines: true
 			id: "0BE05D606AA93EBE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "27D7233B2F1BF896"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08CB7AB7AFDC3E8F"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.48.subtitle}"
 			tasks: [{
@@ -2341,6 +2748,21 @@
 			description: ["{chapter.18.quest.49.description.1}"]
 			hide_dependency_lines: true
 			id: "14CF6995310A7222"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "20611DB2C562FF99"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					icon: "uniqueaccessories:accessory_box"
+					id: "0F1F142BDACCA964"
+					table_id: 7614141430405098414L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.49.subtitle}"
 			tasks: [{
@@ -2360,6 +2782,13 @@
 			description: ["{chapter.18.quest.50.description.1}"]
 			hide_dependency_lines: true
 			id: "59598533E60BDCF1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "2935CF4432027EEE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.50.subtitle}"
 			tasks: [{
@@ -2379,6 +2808,21 @@
 			description: ["{chapter.18.quest.51.description.1}"]
 			hide_dependency_lines: true
 			id: "08716E92515FF414"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "6882151FF017A80C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C134FA52F5024A8"
+					table_id: 5682295257556819944L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.51.subtitle}"
 			tasks: [{
@@ -2398,6 +2842,13 @@
 			description: ["{chapter.18.quest.52.description.1}"]
 			hide_dependency_lines: true
 			id: "69BB49A6E68BA733"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "674707DD31E48DF7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "hexagon"
 			subtitle: "{chapter.18.quest.52.subtitle}"
 			tasks: [{
@@ -2428,6 +2879,20 @@
 			icon: "exposure:stacked_photographs"
 			id: "7F9988189EB11116"
 			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "49138AAC8B191571"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EFC84F2B2EA85AD"
+					item: "amethyst_tools:amethyst_carrot"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "{chapter.18.quest.53.subtitle}"
@@ -2470,6 +2935,13 @@
 			description: ["{chapter.18.quest.55.description.1}"]
 			hide_dependency_lines: true
 			id: "619352123B0694A4"
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:coins"
+				id: "0195A39F2A923FCA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "{chapter.18.quest.55.subtitle}"
 			tasks: [{
 				id: "7F8CC2087C1DAE4D"
@@ -2484,6 +2956,13 @@
 			dependencies: ["619352123B0694A4"]
 			description: ["{chapter.18.quest.56.description.1}"]
 			id: "2DF4A293350706F3"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "74AB0B19D0F6ED92"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "{chapter.18.quest.56.subtitle}"
 			tasks: [
 				{
@@ -2502,5 +2981,5 @@
 			y: -6.0d
 		}
 	]
-	title: "{chapter.18.title}"
+	title: "&7Animal Snap!"
 }
