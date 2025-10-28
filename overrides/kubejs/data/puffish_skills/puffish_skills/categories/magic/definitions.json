@@ -222,11 +222,17 @@
 		}
 	},
 	"spellpower3": {
-		"title": "+4% Spell Power",
+		"title": "§dBlessing of the Archmage:§r +10% Spell Power",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:electromancer_helmet"
+				"item": "irons_spellbooks:netherite_mage_helmet"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
 			}
 		},
 		"rewards": [
@@ -234,7 +240,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.04,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			}
@@ -244,11 +250,17 @@
 		}
 	},
 	"cooldown10": {
-		"title": "+10% Cooldown Reduction",
+		"title": "§bManastorm:§r +10% Cooldown Reduction",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:concentration_amulet"
+				"item": "irons_spellbooks:permafrost_shard"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
 			}
 		},
 		"rewards": [
@@ -266,11 +278,17 @@
 		}
 	},
 	"casttime10": {
-		"title": "+10% Cast Time Reduction",
+		"title": "§6Timewarp:§r +15% Cast Time Reduction",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:permafrost_shard"
+				"item": "kubejs:pocket_watch"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
 			}
 		},
 		"rewards": [
@@ -288,13 +306,14 @@
 		}
 	},
 	"manaregen10": {
-		"title": "+10% Mana Regen",
+		"title": "§9Arcane Tempest:§r +10% Mana Regen",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "irons_spellbooks:energized_core"
 			}
 		},
+	
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -310,19 +329,20 @@
 		}
 	},
 	"maxmana10": {
-		"title": "+13 Max Mana",
+		"title": "Arcane Affinity: +50 Max Mana",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "irons_spellbooks:mana_ring"
+				"item": "irons_spellbooks:lightning_bottle"
 			}
 		},
+		
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
-					"value": 13,
+					"value": 50,
 					"operation": "addition"
 				}
 			}
