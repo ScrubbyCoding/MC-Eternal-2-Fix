@@ -1680,6 +1680,11 @@
 				}
 			]
 			shape: "diamond"
+			tasks: [{
+				id: "3DADF5811C271BE4"
+				item: "mekanism:advanced_induction_cell"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -0.5d
 		}
