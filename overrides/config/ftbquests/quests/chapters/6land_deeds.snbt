@@ -14,9 +14,11 @@
 				"By default you have 80 Chunks that you can claim as your own. "
 				"You can claim chunks by opening your Xaero's Worldmap and pressing &dM&r and clicking to select chunks to claim. You &lcannot&r claim chunks that someone else has already claimed!"
 				""
+				"Simply hold &dRight-Click&r and drag to highlight a chunk and press &dClaim Selected!"
+				""
 				"&6Hint:&r Claimed chunks are immune to most forms of mob griefing, such as creepers and endermen. Players that aren't in your team will be unable to build, break blocks or open chests!"
 				""
-				"&eLegitimate Business Advice:&r If you are short on cash, why not ask some friends to invest in your enterprise? You will surely make profit and you can simply repay them with the money you earn! Or keep borrowing money to pay back the debt! Everyone wins! &8Ignore the fact that these quests are pyramid shaped. That is unrelated."
+				"&8Ignore the fact that these quests are pyramid shaped. That is unrelated."
 			]
 			icon: "create:schematic_and_quill"
 			id: "27B0575D49AF9423"
@@ -38,10 +40,7 @@
 		}
 		{
 			dependencies: ["27B0575D49AF9423"]
-			description: [
-				"&2Unlock:&r +5 Chunks"
-				""
-			]
+			description: ["&2Unlock:&r +5 Chunks"]
 			icon: "titles:title_scroll_common"
 			id: "13D3D8AF18EEAE6D"
 			rewards: [
@@ -73,7 +72,10 @@
 		}
 		{
 			dependencies: ["13D3D8AF18EEAE6D"]
-			description: ["&2Unlock:&r +10 Chunks"]
+			description: [
+				"&2Unlock:&r +10 Chunks"
+				"&2Unlock:&r +3 Chunk Loaders"
+			]
 			icon: "titles:title_scroll_uncommon"
 			id: "4499592BF9A70EE7"
 			rewards: [
@@ -88,6 +90,11 @@
 				{
 					id: "35E4E39A4682FC46"
 					item: "opacbonusclaims:epic_claim"
+					type: "item"
+				}
+				{
+					id: "03D4C07E889B1D9A"
+					item: "opacbonusclaims:uncommon_forceload"
 					type: "item"
 				}
 			]
@@ -108,7 +115,10 @@
 				"4499592BF9A70EE7"
 				"27B0575D49AF9423"
 			]
-			description: ["&2Unlock:&r +50 Chunks"]
+			description: [
+				"&2Unlock:&r +50 Chunks"
+				"&2Unlock:&r +5 Chunk Loaders"
+			]
 			icon: "titles:title_scroll_rare"
 			id: "0F9C1118D28CABAE"
 			rewards: [
@@ -124,6 +134,11 @@
 					count: 5
 					id: "4CC856959A1DB81F"
 					item: "opacbonusclaims:epic_claim"
+					type: "item"
+				}
+				{
+					id: "4F7DA16226CE0DA6"
+					item: "opacbonusclaims:rare_forceload"
 					type: "item"
 				}
 			]
@@ -150,6 +165,8 @@
 				"&2Unlock:&r +1 Chunk"
 				""
 				"&eNote:&r This Quest is repeatable!"
+				""
+				"&o&7Taking over the world one chunk at a time!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -171,7 +188,7 @@
 			}]
 			title: "&dPurchase Land Deed:&r &7+1 Chunk"
 			x: 0.0d
-			y: 4.0d
+			y: 5.0d
 		}
 	]
 	title: "&7Land Deeds"
