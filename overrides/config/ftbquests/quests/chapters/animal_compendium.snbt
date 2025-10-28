@@ -851,6 +851,14 @@
 			x: 24.0d
 			y: 1.0d
 		}
+		{
+			height: 1.5d
+			image: "rats:textures/thaumcraft_rat_icon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.5d
+			y: -7.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -2406,7 +2414,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["740DD4098893630E"]
+			dependencies: [
+				"740DD4098893630E"
+				"7F3BE05DDE9DB59B"
+			]
 			description: [
 				"{chapter.18.quest.53.description.1}"
 				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
@@ -2459,7 +2470,7 @@
 			description: ["{chapter.18.quest.55.description.1}"]
 			hide_dependency_lines: true
 			id: "619352123B0694A4"
-		    subtitle: "{chapter.18.quest.55.subtitle}"
+			subtitle: "{chapter.18.quest.55.subtitle}"
 			tasks: [{
 				id: "7F8CC2087C1DAE4D"
 				item: "xercapaint:item_palette"
