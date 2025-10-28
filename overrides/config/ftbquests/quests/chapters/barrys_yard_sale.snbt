@@ -16,7 +16,7 @@
 			y: 1.0309523809523853d
 		}
 		{
-			dependency: "13049AEB2F8829E1"
+			dependency: "2CDE940DD434CD08"
 			height: 4.0d
 			hover: ["Spend all of your coins here!! Barry needs a new set of shoes!"]
 			image: "modpack:textures/barry-the-rat-uwu-transparent-no-white.png"
@@ -512,7 +512,7 @@
 			}]
 			title: "&eYard Sale:&r Music Disc - Lava Chicken"
 			x: 6.0d
-			y: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -722,6 +722,7 @@
 				item: "majruszsdifficulty:recall_potion"
 				type: "item"
 			}]
+			subtitle: "Purchase a Recall Potion"
 			tasks: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -860,6 +861,99 @@
 			title: "&eYard Sale:&r Mechanical Dragonfly"
 			x: 6.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Barry has been feeling a little under the weather recently..."
+				"It's up to us to make them smile! "
+				""
+				"Let's bring them all of their FAVOURITE things in the WHOLE WIDE WORLD!!!"
+				""
+				"Here are a series of tasks that I know will for sure make that little critter smile <grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>:)"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "rats:rat"
+					DisplayMobScale: 2
+					display: {
+						Name: "{\"text\":\"Inventory Rat\"}"
+					}
+				}
+			}
+			id: "2CDE940DD434CD08"
+			rewards: [
+				{
+					command: "/titles add {p} titles:friends"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3ADB5C5107CD68D1"
+					title: "&eUnlock Title:&r the Smiling Friend"
+					type: "command"
+				}
+				{
+					id: "4DC2499C77E1C2FA"
+					item: "rats:rat_upgrade_ratinator"
+					type: "item"
+				}
+				{
+					id: "0077424C66B3920C"
+					item: {
+						Count: 1
+						id: "rats:rat_nugget_ore"
+						tag: {
+							OreItem: {
+								Count: 1b
+								id: "rats:cheese"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "<grad from=#55CDFC to=#F7A8B8 hue=true f=0.3 sp=80 uni=true><wave>Make Barry Smile!"
+			tasks: [
+				{
+					consume_items: true
+					id: "7BFD1AE4A746528E"
+					item: "jellyfishing:triple_gooberberry_sunrise"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "44852D9E5D200B50"
+					item: "rats:string_cheese"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "339668558B44DA77"
+					item: "rats:potato_knishes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C7E75BF7F398E64"
+					item: "botania:tiny_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "71B698BB3ED7E783"
+					item: "chipped:smiling_carved_pumpkin"
+					type: "item"
+				}
+			]
+			title: "<grad from=#FFD300 to=#FF6B00 hue uni><grad from=#FF6B00 to=#FF004C hue uni>The Smiling Friends!"
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
