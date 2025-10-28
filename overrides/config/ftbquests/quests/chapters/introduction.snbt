@@ -2546,6 +2546,7 @@
 			rewards: [
 				{
 					command: "/titles add {p} titles:gobby"
+					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "18AB3A63DD2748AC"
 					title: "{chapter.1.quest.37.reward.3.title}"
@@ -4169,6 +4170,7 @@
 				""
 				""
 				"&6Hint:&r You can use /sethome and /home to teleport back!"
+				"&eTip:&r Use /openpac-parties to add friends as a team member or ally!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
