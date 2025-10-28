@@ -337,8 +337,8 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "&eYard Sale: &rHelium Flamingo"
-			x: 6.032142857142858d
-			y: 8.521428571428551d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -859,7 +859,7 @@
 			}]
 			title: "&eYard Sale:&r Mechanical Dragonfly"
 			x: 6.0d
-			y: 6.0d
+			y: 7.0d
 		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
