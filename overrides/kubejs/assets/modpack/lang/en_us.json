@@ -1137,7 +1137,7 @@
   "chapter.33.quest.1.task.1.title": "\u0026eReach Max Level ",
   "chapter.33.quest.2.task.1.title": "\u0026eBecome a Vampire Hunter",
   "chapter.33.title": "\u00266Vampirism - Hunter",
-  "chapter.34.title": "\u00266Ars Nouveau",
+  "chapter.34.title": "&7Ars Nouveau",
   "chapter.35.title": "\u00266Eidolon",
   "chapter.36.title": "\u00266Schools of Magic: Second Semester",
   "chapter.37.title": "\u00266Botania",
@@ -1466,3 +1466,4 @@
   "loot_table.8": "Adventuring Cache",
   "loot_table.9": "Box of Hats"
 }
+
