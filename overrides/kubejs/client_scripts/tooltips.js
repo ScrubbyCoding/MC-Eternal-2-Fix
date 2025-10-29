@@ -1,5 +1,5 @@
 ItemEvents.tooltip(event => {
-	
+	event.add('botania:laputa_shard', Text.of('§4Warning:§7 Use at your own risk! Using near base is not advised!').color('#FFFFFF')); 
 	event.add('%gateways', Text.of('\u00A7oOpens a rift in space-time, beware!').color('#FFFFFF')); 
 	event.add('%pitchperfect', Text.of('Changes note depending on where you look!').color('#FFFFFF')); 
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
