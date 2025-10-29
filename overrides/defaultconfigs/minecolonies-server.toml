@@ -12,7 +12,7 @@
 	allowotherdimcolonies = true
 	#Max citizens in one colony. [Default: 250, min: 30, max: 500]
 	#Range: 30 ~ 500
-	maxcitizenpercolony = 80
+	maxcitizenpercolony = 100
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
@@ -21,7 +21,7 @@
 	workersalwaysworkinrain = true
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
-	luckyblockchance = 1
+	luckyblockchance = 15
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	#Range: 0 ~ 5
 	minthleveltoteleport = 3
@@ -121,7 +121,7 @@
 	shouldraiderbreakdoors = true
 	#Health multiplier for all Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
-	guardhealthmult = 3.5
+	guardhealthmult = 5.0
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 	#minecolonies.config.guarddamagemultiplier.comment [Default: 1.000000, min: 0.100000, max: 15.000000]
@@ -166,4 +166,5 @@
 [debugging]
 	#minecolonies.config.netherworkertakesdamage.comment [Default: true]
 	netherworkertakesdamage = true
+
 
